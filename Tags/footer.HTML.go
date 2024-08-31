@@ -72,3 +72,1451 @@ func (f *FooterTagHtml) supportedChildrenCheck(tags []any) *FooterTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (f *FooterTagHtml) AccessKey(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("accessKey", value)
+	return f
+}
+
+/*
+Aria -
+*/
+func (f *FooterTagHtml) Aria(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria", value)
+	return f
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (f *FooterTagHtml) Autocapitalize(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("autocapitalize", value)
+	return f
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (f *FooterTagHtml) Autofocus(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("autofocus", value)
+	return f
+}
+
+/*
+Class -
+*/
+func (f *FooterTagHtml) Class(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("class", value)
+	return f
+}
+
+/*
+Contenteditable -
+*/
+func (f *FooterTagHtml) Contenteditable(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("contenteditable", value)
+	return f
+}
+
+/*
+Data -
+*/
+func (f *FooterTagHtml) Data(name, value string) *FooterTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	f.registerAttribute(dataName, value)
+	return f
+}
+
+/*
+Dir -
+*/
+func (f *FooterTagHtml) Dir(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("dir", value)
+	return f
+}
+
+/*
+Draggable -
+*/
+func (f *FooterTagHtml) Draggable(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("draggable", value)
+	return f
+}
+
+/*
+EnterKeyHint -
+*/
+func (f *FooterTagHtml) EnterKeyHint(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("enterKeyHint", value)
+	return f
+}
+
+/*
+ExportParts -
+*/
+func (f *FooterTagHtml) ExportParts(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("exportParts", value)
+	return f
+}
+
+/*
+Hidden -
+*/
+func (f *FooterTagHtml) Hidden(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("hidden", value)
+	return f
+}
+
+/*
+Id -
+*/
+func (f *FooterTagHtml) Id(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("id", value)
+	return f
+}
+
+/*
+Inert -
+*/
+func (f *FooterTagHtml) Inert(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("inert", value)
+	return f
+}
+
+/*
+InputMode -
+*/
+func (f *FooterTagHtml) InputMode(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("inputMode", value)
+	return f
+}
+
+/*
+Is -
+*/
+func (f *FooterTagHtml) Is(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("is", value)
+	return f
+}
+
+/*
+ItemId -
+*/
+func (f *FooterTagHtml) ItemId(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("itemId", value)
+	return f
+}
+
+/*
+ItemProp -
+*/
+func (f *FooterTagHtml) ItemProp(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("itemProp", value)
+	return f
+}
+
+/*
+ItemRef -
+*/
+func (f *FooterTagHtml) ItemRef(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("itemRef", value)
+	return f
+}
+
+/*
+ItemScope -
+*/
+func (f *FooterTagHtml) ItemScope(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("itemScope", value)
+	return f
+}
+
+/*
+ItemType -
+*/
+func (f *FooterTagHtml) ItemType(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("itemType", value)
+	return f
+}
+
+/*
+Lang -
+*/
+func (f *FooterTagHtml) Lang(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("lang", value)
+	return f
+}
+
+/*
+Nonce -
+*/
+func (f *FooterTagHtml) Nonce(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("nonce", value)
+	return f
+}
+
+/*
+Part -
+*/
+func (f *FooterTagHtml) Part(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("part", value)
+	return f
+}
+
+/*
+Popover -
+*/
+func (f *FooterTagHtml) Popover() *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("popover", "")
+	return f
+}
+
+/*
+Role -
+*/
+func (f *FooterTagHtml) Role(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("role", value)
+	return f
+}
+
+/*
+Slot -
+*/
+func (f *FooterTagHtml) Slot(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("slot", value)
+	return f
+}
+
+/*
+Spellcheck -
+*/
+func (f *FooterTagHtml) Spellcheck(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("spellcheck", value)
+	return f
+}
+
+/*
+Style -
+*/
+func (f *FooterTagHtml) Style(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("style", value)
+	return f
+}
+
+/*
+Tabindex -
+*/
+func (f *FooterTagHtml) Tabindex(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("tabindex", value)
+	return f
+}
+
+/*
+Title -
+*/
+func (f *FooterTagHtml) Title(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("title", value)
+	return f
+}
+
+/*
+Translate -
+*/
+func (f *FooterTagHtml) Translate(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("translate", value)
+	return f
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (f *FooterTagHtml) VirtualKeyBoardPolicy(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("virtualKeyBoardPolicy", value)
+	return f
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (f *FooterTagHtml) AriaAtomic(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-atomic", value)
+	return f
+}
+
+/*
+AriaBusy -
+*/
+func (f *FooterTagHtml) AriaBusy(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-busy", value)
+	return f
+}
+
+/*
+AriaControls -
+*/
+func (f *FooterTagHtml) AriaControls(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-controls", value)
+	return f
+}
+
+/*
+AriaCurrent -
+*/
+func (f *FooterTagHtml) AriaCurrent(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-current", value)
+	return f
+}
+
+/*
+AriaDescribedby -
+*/
+func (f *FooterTagHtml) AriaDescribedby(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-describedby", value)
+	return f
+}
+
+/*
+AriaDescription -
+*/
+func (f *FooterTagHtml) AriaDescription(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-description", value)
+	return f
+}
+
+/*
+AriaDetails -
+*/
+func (f *FooterTagHtml) AriaDetails(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-details", value)
+	return f
+}
+
+/*
+AriaDisabled -
+*/
+func (f *FooterTagHtml) AriaDisabled(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-disabled", value)
+	return f
+}
+
+/*
+AriaDropeffect -
+*/
+func (f *FooterTagHtml) AriaDropeffect(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-dropeffect", value)
+	return f
+}
+
+/*
+AriaErrormessage -
+*/
+func (f *FooterTagHtml) AriaErrormessage(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-errormessage", value)
+	return f
+}
+
+/*
+AriaFlowto -
+*/
+func (f *FooterTagHtml) AriaFlowto(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-flowto", value)
+	return f
+}
+
+/*
+AriaGrabbed -
+*/
+func (f *FooterTagHtml) AriaGrabbed(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-grabbed", value)
+	return f
+}
+
+/*
+AriaHaspopup -
+*/
+func (f *FooterTagHtml) AriaHaspopup(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-haspopup", value)
+	return f
+}
+
+/*
+AriaHidden -
+*/
+func (f *FooterTagHtml) AriaHidden(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-hidden", value)
+	return f
+}
+
+/*
+AriaInvalid -
+*/
+func (f *FooterTagHtml) AriaInvalid(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-invalid", value)
+	return f
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (f *FooterTagHtml) AriaKeyshortcuts(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-keyshortcuts", value)
+	return f
+}
+
+/*
+AriaLabel -
+*/
+func (f *FooterTagHtml) AriaLabel(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-label", value)
+	return f
+}
+
+/*
+AriaLabelledby -
+*/
+func (f *FooterTagHtml) AriaLabelledby(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-labelledby", value)
+	return f
+}
+
+/*
+AriaLive -
+*/
+func (f *FooterTagHtml) AriaLive(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-live", value)
+	return f
+}
+
+/*
+AriaOwns -
+*/
+func (f *FooterTagHtml) AriaOwns(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-owns", value)
+	return f
+}
+
+/*
+AriaRelevant -
+*/
+func (f *FooterTagHtml) AriaRelevant(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-relevant", value)
+	return f
+}
+
+/*
+AriaRoledescription -
+*/
+func (f *FooterTagHtml) AriaRoledescription(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-roledescription", value)
+	return f
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (f *FooterTagHtml) Onabort(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onabort", value)
+	return f
+}
+
+/*
+Onautocomplete -
+*/
+func (f *FooterTagHtml) Onautocomplete(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onautocomplete", value)
+	return f
+}
+
+/*
+Onautocompleteerror -
+*/
+func (f *FooterTagHtml) Onautocompleteerror(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onautocompleteerror", value)
+	return f
+}
+
+/*
+Onblur -
+*/
+func (f *FooterTagHtml) Onblur(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onblur", value)
+	return f
+}
+
+/*
+Oncancel -
+*/
+func (f *FooterTagHtml) Oncancel(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oncancel", value)
+	return f
+}
+
+/*
+Oncanplay -
+*/
+func (f *FooterTagHtml) Oncanplay(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oncanplay", value)
+	return f
+}
+
+/*
+Oncanplaythrough -
+*/
+func (f *FooterTagHtml) Oncanplaythrough(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oncanplaythrough", value)
+	return f
+}
+
+/*
+Onchange -
+*/
+func (f *FooterTagHtml) Onchange(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onchange", value)
+	return f
+}
+
+/*
+Onclick -
+*/
+func (f *FooterTagHtml) Onclick(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onclick", value)
+	return f
+}
+
+/*
+Onclose -
+*/
+func (f *FooterTagHtml) Onclose(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onclose", value)
+	return f
+}
+
+/*
+Oncontextmenu -
+*/
+func (f *FooterTagHtml) Oncontextmenu(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oncontextmenu", value)
+	return f
+}
+
+/*
+Oncuechange -
+*/
+func (f *FooterTagHtml) Oncuechange(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oncuechange", value)
+	return f
+}
+
+/*
+Ondblclick -
+*/
+func (f *FooterTagHtml) Ondblclick(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondblclick", value)
+	return f
+}
+
+/*
+Ondrag -
+*/
+func (f *FooterTagHtml) Ondrag(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondrag", value)
+	return f
+}
+
+/*
+Ondragend -
+*/
+func (f *FooterTagHtml) Ondragend(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondragend", value)
+	return f
+}
+
+/*
+Ondragenter -
+*/
+func (f *FooterTagHtml) Ondragenter(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondragenter", value)
+	return f
+}
+
+/*
+Ondragleave -
+*/
+func (f *FooterTagHtml) Ondragleave(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondragleave", value)
+	return f
+}
+
+/*
+Ondragover -
+*/
+func (f *FooterTagHtml) Ondragover(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondragover", value)
+	return f
+}
+
+/*
+Ondragstart -
+*/
+func (f *FooterTagHtml) Ondragstart(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondragstart", value)
+	return f
+}
+
+/*
+Ondrop -
+*/
+func (f *FooterTagHtml) Ondrop(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondrop", value)
+	return f
+}
+
+/*
+Ondurationchange -
+*/
+func (f *FooterTagHtml) Ondurationchange(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondurationchange", value)
+	return f
+}
+
+/*
+Onemptied -
+*/
+func (f *FooterTagHtml) Onemptied(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onemptied", value)
+	return f
+}
+
+/*
+Onended -
+*/
+func (f *FooterTagHtml) Onended(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onended", value)
+	return f
+}
+
+/*
+Onfocus -
+*/
+func (f *FooterTagHtml) Onfocus(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onfocus", value)
+	return f
+}
+
+/*
+Oninput -
+*/
+func (f *FooterTagHtml) Oninput(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oninput", value)
+	return f
+}
+
+/*
+Oninvalid -
+*/
+func (f *FooterTagHtml) Oninvalid(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oninvalid", value)
+	return f
+}
+
+/*
+Onkeydown -
+*/
+func (f *FooterTagHtml) Onkeydown(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onkeydown", value)
+	return f
+}
+
+/*
+Onkeypress -
+*/
+func (f *FooterTagHtml) Onkeypress(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onkeypress", value)
+	return f
+}
+
+/*
+Onkeyup -
+*/
+func (f *FooterTagHtml) Onkeyup(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onkeyup", value)
+	return f
+}
+
+/*
+Onloadeddata -
+*/
+func (f *FooterTagHtml) Onloadeddata(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onloadeddata", value)
+	return f
+}
+
+/*
+Onloadedmetadata -
+*/
+func (f *FooterTagHtml) Onloadedmetadata(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onloadedmetadata", value)
+	return f
+}
+
+/*
+Onloadstart -
+*/
+func (f *FooterTagHtml) Onloadstart(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onloadstart", value)
+	return f
+}
+
+/*
+Onmousedown -
+*/
+func (f *FooterTagHtml) Onmousedown(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmousedown", value)
+	return f
+}
+
+/*
+Onmouseenter -
+*/
+func (f *FooterTagHtml) Onmouseenter(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmouseenter", value)
+	return f
+}
+
+/*
+Onmouseleave -
+*/
+func (f *FooterTagHtml) Onmouseleave(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmouseleave", value)
+	return f
+}
+
+/*
+Onmousemove -
+*/
+func (f *FooterTagHtml) Onmousemove(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmousemove", value)
+	return f
+}
+
+/*
+Onmouseout -
+*/
+func (f *FooterTagHtml) Onmouseout(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmouseout", value)
+	return f
+}
+
+/*
+Onmouseover -
+*/
+func (f *FooterTagHtml) Onmouseover(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmouseover", value)
+	return f
+}
+
+/*
+Onmouseup -
+*/
+func (f *FooterTagHtml) Onmouseup(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmouseup", value)
+	return f
+}
+
+/*
+Onmousewheel -
+*/
+func (f *FooterTagHtml) Onmousewheel(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmousewheel", value)
+	return f
+}
+
+/*
+Onpause -
+*/
+func (f *FooterTagHtml) Onpause(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onpause", value)
+	return f
+}
+
+/*
+Onplay -
+*/
+func (f *FooterTagHtml) Onplay(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onplay", value)
+	return f
+}
+
+/*
+Onplaying -
+*/
+func (f *FooterTagHtml) Onplaying(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onplaying", value)
+	return f
+}
+
+/*
+Onprogress -
+*/
+func (f *FooterTagHtml) Onprogress(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onprogress", value)
+	return f
+}
+
+/*
+Onratechange -
+*/
+func (f *FooterTagHtml) Onratechange(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onratechange", value)
+	return f
+}
+
+/*
+Onreset -
+*/
+func (f *FooterTagHtml) Onreset(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onreset", value)
+	return f
+}
+
+/*
+Onscroll -
+*/
+func (f *FooterTagHtml) Onscroll(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onscroll", value)
+	return f
+}
+
+/*
+Onseeked -
+*/
+func (f *FooterTagHtml) Onseeked(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onseeked", value)
+	return f
+}
+
+/*
+Onseeking -
+*/
+func (f *FooterTagHtml) Onseeking(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onseeking", value)
+	return f
+}
+
+/*
+Onselect -
+*/
+func (f *FooterTagHtml) Onselect(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onselect", value)
+	return f
+}
+
+/*
+Onshow -
+*/
+func (f *FooterTagHtml) Onshow(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onshow", value)
+	return f
+}
+
+/*
+Onsort -
+*/
+func (f *FooterTagHtml) Onsort(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onsort", value)
+	return f
+}
+
+/*
+Onstalled -
+*/
+func (f *FooterTagHtml) Onstalled(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onstalled", value)
+	return f
+}
+
+/*
+Onsubmit -
+*/
+func (f *FooterTagHtml) Onsubmit(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onsubmit", value)
+	return f
+}
+
+/*
+Onsuspend -
+*/
+func (f *FooterTagHtml) Onsuspend(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onsuspend", value)
+	return f
+}
+
+/*
+Ontimeupdate -
+*/
+func (f *FooterTagHtml) Ontimeupdate(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ontimeupdate", value)
+	return f
+}
+
+/*
+Ontoggle -
+*/
+func (f *FooterTagHtml) Ontoggle(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ontoggle", value)
+	return f
+}
+
+/*
+Onvolumechange -
+*/
+func (f *FooterTagHtml) Onvolumechange(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onvolumechange", value)
+	return f
+}
+
+/*
+Onwaiting -
+*/
+func (f *FooterTagHtml) Onwaiting(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onwaiting", value)
+	return f
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (f *FooterTagHtml) Onafterprint(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onafterprint", value)
+	return f
+}
+
+/*
+Onbeforeprint -
+*/
+func (f *FooterTagHtml) Onbeforeprint(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onbeforeprint", value)
+	return f
+}
+
+/*
+Onbeforeunload -
+*/
+func (f *FooterTagHtml) Onbeforeunload(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onbeforeunload", value)
+	return f
+}
+
+/*
+Onerror -
+*/
+func (f *FooterTagHtml) Onerror(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onerror", value)
+	return f
+}
+
+/*
+Onhashchange -
+*/
+func (f *FooterTagHtml) Onhashchange(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onhashchange", value)
+	return f
+}
+
+/*
+Onload -
+*/
+func (f *FooterTagHtml) Onload(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onload", value)
+	return f
+}
+
+/*
+Onmessage -
+*/
+func (f *FooterTagHtml) Onmessage(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmessage", value)
+	return f
+}
+
+/*
+Onoffline -
+*/
+func (f *FooterTagHtml) Onoffline(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onoffline", value)
+	return f
+}
+
+/*
+Ononline -
+*/
+func (f *FooterTagHtml) Ononline(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ononline", value)
+	return f
+}
+
+/*
+Onpagehide -
+*/
+func (f *FooterTagHtml) Onpagehide(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onpagehide", value)
+	return f
+}
+
+/*
+Onpageshow -
+*/
+func (f *FooterTagHtml) Onpageshow(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onpageshow", value)
+	return f
+}
+
+/*
+Onpopstate -
+*/
+func (f *FooterTagHtml) Onpopstate(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onpopstate", value)
+	return f
+}
+
+/*
+Onresize -
+*/
+func (f *FooterTagHtml) Onresize(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onresize", value)
+	return f
+}
+
+/*
+Onstorage -
+*/
+func (f *FooterTagHtml) Onstorage(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onstorage", value)
+	return f
+}
+
+/*
+Onunload -
+*/
+func (f *FooterTagHtml) Onunload(value string) *FooterTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onunload", value)
+	return f
+}

@@ -72,3 +72,1451 @@ func (n *NavTagHtml) supportedChildrenCheck(tags []any) *NavTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (n *NavTagHtml) AccessKey(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("accessKey", value)
+	return n
+}
+
+/*
+Aria -
+*/
+func (n *NavTagHtml) Aria(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria", value)
+	return n
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (n *NavTagHtml) Autocapitalize(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("autocapitalize", value)
+	return n
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (n *NavTagHtml) Autofocus(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("autofocus", value)
+	return n
+}
+
+/*
+Class -
+*/
+func (n *NavTagHtml) Class(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("class", value)
+	return n
+}
+
+/*
+Contenteditable -
+*/
+func (n *NavTagHtml) Contenteditable(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("contenteditable", value)
+	return n
+}
+
+/*
+Data -
+*/
+func (n *NavTagHtml) Data(name, value string) *NavTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	n.registerAttribute(dataName, value)
+	return n
+}
+
+/*
+Dir -
+*/
+func (n *NavTagHtml) Dir(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("dir", value)
+	return n
+}
+
+/*
+Draggable -
+*/
+func (n *NavTagHtml) Draggable(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("draggable", value)
+	return n
+}
+
+/*
+EnterKeyHint -
+*/
+func (n *NavTagHtml) EnterKeyHint(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("enterKeyHint", value)
+	return n
+}
+
+/*
+ExportParts -
+*/
+func (n *NavTagHtml) ExportParts(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("exportParts", value)
+	return n
+}
+
+/*
+Hidden -
+*/
+func (n *NavTagHtml) Hidden(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("hidden", value)
+	return n
+}
+
+/*
+Id -
+*/
+func (n *NavTagHtml) Id(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("id", value)
+	return n
+}
+
+/*
+Inert -
+*/
+func (n *NavTagHtml) Inert(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("inert", value)
+	return n
+}
+
+/*
+InputMode -
+*/
+func (n *NavTagHtml) InputMode(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("inputMode", value)
+	return n
+}
+
+/*
+Is -
+*/
+func (n *NavTagHtml) Is(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("is", value)
+	return n
+}
+
+/*
+ItemId -
+*/
+func (n *NavTagHtml) ItemId(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("itemId", value)
+	return n
+}
+
+/*
+ItemProp -
+*/
+func (n *NavTagHtml) ItemProp(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("itemProp", value)
+	return n
+}
+
+/*
+ItemRef -
+*/
+func (n *NavTagHtml) ItemRef(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("itemRef", value)
+	return n
+}
+
+/*
+ItemScope -
+*/
+func (n *NavTagHtml) ItemScope(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("itemScope", value)
+	return n
+}
+
+/*
+ItemType -
+*/
+func (n *NavTagHtml) ItemType(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("itemType", value)
+	return n
+}
+
+/*
+Lang -
+*/
+func (n *NavTagHtml) Lang(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("lang", value)
+	return n
+}
+
+/*
+Nonce -
+*/
+func (n *NavTagHtml) Nonce(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("nonce", value)
+	return n
+}
+
+/*
+Part -
+*/
+func (n *NavTagHtml) Part(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("part", value)
+	return n
+}
+
+/*
+Popover -
+*/
+func (n *NavTagHtml) Popover() *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("popover", "")
+	return n
+}
+
+/*
+Role -
+*/
+func (n *NavTagHtml) Role(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("role", value)
+	return n
+}
+
+/*
+Slot -
+*/
+func (n *NavTagHtml) Slot(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("slot", value)
+	return n
+}
+
+/*
+Spellcheck -
+*/
+func (n *NavTagHtml) Spellcheck(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("spellcheck", value)
+	return n
+}
+
+/*
+Style -
+*/
+func (n *NavTagHtml) Style(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("style", value)
+	return n
+}
+
+/*
+Tabindex -
+*/
+func (n *NavTagHtml) Tabindex(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("tabindex", value)
+	return n
+}
+
+/*
+Title -
+*/
+func (n *NavTagHtml) Title(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("title", value)
+	return n
+}
+
+/*
+Translate -
+*/
+func (n *NavTagHtml) Translate(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("translate", value)
+	return n
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (n *NavTagHtml) VirtualKeyBoardPolicy(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("virtualKeyBoardPolicy", value)
+	return n
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (n *NavTagHtml) AriaAtomic(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-atomic", value)
+	return n
+}
+
+/*
+AriaBusy -
+*/
+func (n *NavTagHtml) AriaBusy(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-busy", value)
+	return n
+}
+
+/*
+AriaControls -
+*/
+func (n *NavTagHtml) AriaControls(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-controls", value)
+	return n
+}
+
+/*
+AriaCurrent -
+*/
+func (n *NavTagHtml) AriaCurrent(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-current", value)
+	return n
+}
+
+/*
+AriaDescribedby -
+*/
+func (n *NavTagHtml) AriaDescribedby(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-describedby", value)
+	return n
+}
+
+/*
+AriaDescription -
+*/
+func (n *NavTagHtml) AriaDescription(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-description", value)
+	return n
+}
+
+/*
+AriaDetails -
+*/
+func (n *NavTagHtml) AriaDetails(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-details", value)
+	return n
+}
+
+/*
+AriaDisabled -
+*/
+func (n *NavTagHtml) AriaDisabled(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-disabled", value)
+	return n
+}
+
+/*
+AriaDropeffect -
+*/
+func (n *NavTagHtml) AriaDropeffect(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-dropeffect", value)
+	return n
+}
+
+/*
+AriaErrormessage -
+*/
+func (n *NavTagHtml) AriaErrormessage(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-errormessage", value)
+	return n
+}
+
+/*
+AriaFlowto -
+*/
+func (n *NavTagHtml) AriaFlowto(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-flowto", value)
+	return n
+}
+
+/*
+AriaGrabbed -
+*/
+func (n *NavTagHtml) AriaGrabbed(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-grabbed", value)
+	return n
+}
+
+/*
+AriaHaspopup -
+*/
+func (n *NavTagHtml) AriaHaspopup(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-haspopup", value)
+	return n
+}
+
+/*
+AriaHidden -
+*/
+func (n *NavTagHtml) AriaHidden(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-hidden", value)
+	return n
+}
+
+/*
+AriaInvalid -
+*/
+func (n *NavTagHtml) AriaInvalid(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-invalid", value)
+	return n
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (n *NavTagHtml) AriaKeyshortcuts(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-keyshortcuts", value)
+	return n
+}
+
+/*
+AriaLabel -
+*/
+func (n *NavTagHtml) AriaLabel(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-label", value)
+	return n
+}
+
+/*
+AriaLabelledby -
+*/
+func (n *NavTagHtml) AriaLabelledby(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-labelledby", value)
+	return n
+}
+
+/*
+AriaLive -
+*/
+func (n *NavTagHtml) AriaLive(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-live", value)
+	return n
+}
+
+/*
+AriaOwns -
+*/
+func (n *NavTagHtml) AriaOwns(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-owns", value)
+	return n
+}
+
+/*
+AriaRelevant -
+*/
+func (n *NavTagHtml) AriaRelevant(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-relevant", value)
+	return n
+}
+
+/*
+AriaRoledescription -
+*/
+func (n *NavTagHtml) AriaRoledescription(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-roledescription", value)
+	return n
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (n *NavTagHtml) Onabort(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onabort", value)
+	return n
+}
+
+/*
+Onautocomplete -
+*/
+func (n *NavTagHtml) Onautocomplete(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onautocomplete", value)
+	return n
+}
+
+/*
+Onautocompleteerror -
+*/
+func (n *NavTagHtml) Onautocompleteerror(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onautocompleteerror", value)
+	return n
+}
+
+/*
+Onblur -
+*/
+func (n *NavTagHtml) Onblur(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onblur", value)
+	return n
+}
+
+/*
+Oncancel -
+*/
+func (n *NavTagHtml) Oncancel(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("oncancel", value)
+	return n
+}
+
+/*
+Oncanplay -
+*/
+func (n *NavTagHtml) Oncanplay(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("oncanplay", value)
+	return n
+}
+
+/*
+Oncanplaythrough -
+*/
+func (n *NavTagHtml) Oncanplaythrough(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("oncanplaythrough", value)
+	return n
+}
+
+/*
+Onchange -
+*/
+func (n *NavTagHtml) Onchange(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onchange", value)
+	return n
+}
+
+/*
+Onclick -
+*/
+func (n *NavTagHtml) Onclick(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onclick", value)
+	return n
+}
+
+/*
+Onclose -
+*/
+func (n *NavTagHtml) Onclose(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onclose", value)
+	return n
+}
+
+/*
+Oncontextmenu -
+*/
+func (n *NavTagHtml) Oncontextmenu(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("oncontextmenu", value)
+	return n
+}
+
+/*
+Oncuechange -
+*/
+func (n *NavTagHtml) Oncuechange(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("oncuechange", value)
+	return n
+}
+
+/*
+Ondblclick -
+*/
+func (n *NavTagHtml) Ondblclick(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondblclick", value)
+	return n
+}
+
+/*
+Ondrag -
+*/
+func (n *NavTagHtml) Ondrag(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondrag", value)
+	return n
+}
+
+/*
+Ondragend -
+*/
+func (n *NavTagHtml) Ondragend(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondragend", value)
+	return n
+}
+
+/*
+Ondragenter -
+*/
+func (n *NavTagHtml) Ondragenter(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondragenter", value)
+	return n
+}
+
+/*
+Ondragleave -
+*/
+func (n *NavTagHtml) Ondragleave(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondragleave", value)
+	return n
+}
+
+/*
+Ondragover -
+*/
+func (n *NavTagHtml) Ondragover(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondragover", value)
+	return n
+}
+
+/*
+Ondragstart -
+*/
+func (n *NavTagHtml) Ondragstart(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondragstart", value)
+	return n
+}
+
+/*
+Ondrop -
+*/
+func (n *NavTagHtml) Ondrop(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondrop", value)
+	return n
+}
+
+/*
+Ondurationchange -
+*/
+func (n *NavTagHtml) Ondurationchange(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondurationchange", value)
+	return n
+}
+
+/*
+Onemptied -
+*/
+func (n *NavTagHtml) Onemptied(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onemptied", value)
+	return n
+}
+
+/*
+Onended -
+*/
+func (n *NavTagHtml) Onended(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onended", value)
+	return n
+}
+
+/*
+Onfocus -
+*/
+func (n *NavTagHtml) Onfocus(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onfocus", value)
+	return n
+}
+
+/*
+Oninput -
+*/
+func (n *NavTagHtml) Oninput(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("oninput", value)
+	return n
+}
+
+/*
+Oninvalid -
+*/
+func (n *NavTagHtml) Oninvalid(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("oninvalid", value)
+	return n
+}
+
+/*
+Onkeydown -
+*/
+func (n *NavTagHtml) Onkeydown(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onkeydown", value)
+	return n
+}
+
+/*
+Onkeypress -
+*/
+func (n *NavTagHtml) Onkeypress(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onkeypress", value)
+	return n
+}
+
+/*
+Onkeyup -
+*/
+func (n *NavTagHtml) Onkeyup(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onkeyup", value)
+	return n
+}
+
+/*
+Onloadeddata -
+*/
+func (n *NavTagHtml) Onloadeddata(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onloadeddata", value)
+	return n
+}
+
+/*
+Onloadedmetadata -
+*/
+func (n *NavTagHtml) Onloadedmetadata(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onloadedmetadata", value)
+	return n
+}
+
+/*
+Onloadstart -
+*/
+func (n *NavTagHtml) Onloadstart(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onloadstart", value)
+	return n
+}
+
+/*
+Onmousedown -
+*/
+func (n *NavTagHtml) Onmousedown(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmousedown", value)
+	return n
+}
+
+/*
+Onmouseenter -
+*/
+func (n *NavTagHtml) Onmouseenter(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmouseenter", value)
+	return n
+}
+
+/*
+Onmouseleave -
+*/
+func (n *NavTagHtml) Onmouseleave(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmouseleave", value)
+	return n
+}
+
+/*
+Onmousemove -
+*/
+func (n *NavTagHtml) Onmousemove(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmousemove", value)
+	return n
+}
+
+/*
+Onmouseout -
+*/
+func (n *NavTagHtml) Onmouseout(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmouseout", value)
+	return n
+}
+
+/*
+Onmouseover -
+*/
+func (n *NavTagHtml) Onmouseover(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmouseover", value)
+	return n
+}
+
+/*
+Onmouseup -
+*/
+func (n *NavTagHtml) Onmouseup(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmouseup", value)
+	return n
+}
+
+/*
+Onmousewheel -
+*/
+func (n *NavTagHtml) Onmousewheel(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmousewheel", value)
+	return n
+}
+
+/*
+Onpause -
+*/
+func (n *NavTagHtml) Onpause(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onpause", value)
+	return n
+}
+
+/*
+Onplay -
+*/
+func (n *NavTagHtml) Onplay(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onplay", value)
+	return n
+}
+
+/*
+Onplaying -
+*/
+func (n *NavTagHtml) Onplaying(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onplaying", value)
+	return n
+}
+
+/*
+Onprogress -
+*/
+func (n *NavTagHtml) Onprogress(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onprogress", value)
+	return n
+}
+
+/*
+Onratechange -
+*/
+func (n *NavTagHtml) Onratechange(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onratechange", value)
+	return n
+}
+
+/*
+Onreset -
+*/
+func (n *NavTagHtml) Onreset(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onreset", value)
+	return n
+}
+
+/*
+Onscroll -
+*/
+func (n *NavTagHtml) Onscroll(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onscroll", value)
+	return n
+}
+
+/*
+Onseeked -
+*/
+func (n *NavTagHtml) Onseeked(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onseeked", value)
+	return n
+}
+
+/*
+Onseeking -
+*/
+func (n *NavTagHtml) Onseeking(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onseeking", value)
+	return n
+}
+
+/*
+Onselect -
+*/
+func (n *NavTagHtml) Onselect(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onselect", value)
+	return n
+}
+
+/*
+Onshow -
+*/
+func (n *NavTagHtml) Onshow(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onshow", value)
+	return n
+}
+
+/*
+Onsort -
+*/
+func (n *NavTagHtml) Onsort(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onsort", value)
+	return n
+}
+
+/*
+Onstalled -
+*/
+func (n *NavTagHtml) Onstalled(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onstalled", value)
+	return n
+}
+
+/*
+Onsubmit -
+*/
+func (n *NavTagHtml) Onsubmit(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onsubmit", value)
+	return n
+}
+
+/*
+Onsuspend -
+*/
+func (n *NavTagHtml) Onsuspend(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onsuspend", value)
+	return n
+}
+
+/*
+Ontimeupdate -
+*/
+func (n *NavTagHtml) Ontimeupdate(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ontimeupdate", value)
+	return n
+}
+
+/*
+Ontoggle -
+*/
+func (n *NavTagHtml) Ontoggle(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ontoggle", value)
+	return n
+}
+
+/*
+Onvolumechange -
+*/
+func (n *NavTagHtml) Onvolumechange(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onvolumechange", value)
+	return n
+}
+
+/*
+Onwaiting -
+*/
+func (n *NavTagHtml) Onwaiting(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onwaiting", value)
+	return n
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (n *NavTagHtml) Onafterprint(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onafterprint", value)
+	return n
+}
+
+/*
+Onbeforeprint -
+*/
+func (n *NavTagHtml) Onbeforeprint(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onbeforeprint", value)
+	return n
+}
+
+/*
+Onbeforeunload -
+*/
+func (n *NavTagHtml) Onbeforeunload(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onbeforeunload", value)
+	return n
+}
+
+/*
+Onerror -
+*/
+func (n *NavTagHtml) Onerror(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onerror", value)
+	return n
+}
+
+/*
+Onhashchange -
+*/
+func (n *NavTagHtml) Onhashchange(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onhashchange", value)
+	return n
+}
+
+/*
+Onload -
+*/
+func (n *NavTagHtml) Onload(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onload", value)
+	return n
+}
+
+/*
+Onmessage -
+*/
+func (n *NavTagHtml) Onmessage(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmessage", value)
+	return n
+}
+
+/*
+Onoffline -
+*/
+func (n *NavTagHtml) Onoffline(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onoffline", value)
+	return n
+}
+
+/*
+Ononline -
+*/
+func (n *NavTagHtml) Ononline(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ononline", value)
+	return n
+}
+
+/*
+Onpagehide -
+*/
+func (n *NavTagHtml) Onpagehide(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onpagehide", value)
+	return n
+}
+
+/*
+Onpageshow -
+*/
+func (n *NavTagHtml) Onpageshow(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onpageshow", value)
+	return n
+}
+
+/*
+Onpopstate -
+*/
+func (n *NavTagHtml) Onpopstate(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onpopstate", value)
+	return n
+}
+
+/*
+Onresize -
+*/
+func (n *NavTagHtml) Onresize(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onresize", value)
+	return n
+}
+
+/*
+Onstorage -
+*/
+func (n *NavTagHtml) Onstorage(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onstorage", value)
+	return n
+}
+
+/*
+Onunload -
+*/
+func (n *NavTagHtml) Onunload(value string) *NavTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onunload", value)
+	return n
+}

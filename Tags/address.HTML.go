@@ -72,3 +72,1451 @@ func (a *AddressTagHtml) supportedChildrenCheck(tags []any) *AddressTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (a *AddressTagHtml) Onafterprint(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onafterprint", value)
+	return a
+}
+
+/*
+Onbeforeprint -
+*/
+func (a *AddressTagHtml) Onbeforeprint(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onbeforeprint", value)
+	return a
+}
+
+/*
+Onbeforeunload -
+*/
+func (a *AddressTagHtml) Onbeforeunload(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onbeforeunload", value)
+	return a
+}
+
+/*
+Onerror -
+*/
+func (a *AddressTagHtml) Onerror(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onerror", value)
+	return a
+}
+
+/*
+Onhashchange -
+*/
+func (a *AddressTagHtml) Onhashchange(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onhashchange", value)
+	return a
+}
+
+/*
+Onload -
+*/
+func (a *AddressTagHtml) Onload(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onload", value)
+	return a
+}
+
+/*
+Onmessage -
+*/
+func (a *AddressTagHtml) Onmessage(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmessage", value)
+	return a
+}
+
+/*
+Onoffline -
+*/
+func (a *AddressTagHtml) Onoffline(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onoffline", value)
+	return a
+}
+
+/*
+Ononline -
+*/
+func (a *AddressTagHtml) Ononline(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ononline", value)
+	return a
+}
+
+/*
+Onpagehide -
+*/
+func (a *AddressTagHtml) Onpagehide(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onpagehide", value)
+	return a
+}
+
+/*
+Onpageshow -
+*/
+func (a *AddressTagHtml) Onpageshow(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onpageshow", value)
+	return a
+}
+
+/*
+Onpopstate -
+*/
+func (a *AddressTagHtml) Onpopstate(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onpopstate", value)
+	return a
+}
+
+/*
+Onresize -
+*/
+func (a *AddressTagHtml) Onresize(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onresize", value)
+	return a
+}
+
+/*
+Onstorage -
+*/
+func (a *AddressTagHtml) Onstorage(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onstorage", value)
+	return a
+}
+
+/*
+Onunload -
+*/
+func (a *AddressTagHtml) Onunload(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onunload", value)
+	return a
+}
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (a *AddressTagHtml) AccessKey(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("accessKey", value)
+	return a
+}
+
+/*
+Aria -
+*/
+func (a *AddressTagHtml) Aria(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria", value)
+	return a
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (a *AddressTagHtml) Autocapitalize(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("autocapitalize", value)
+	return a
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (a *AddressTagHtml) Autofocus(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("autofocus", value)
+	return a
+}
+
+/*
+Class -
+*/
+func (a *AddressTagHtml) Class(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("class", value)
+	return a
+}
+
+/*
+Contenteditable -
+*/
+func (a *AddressTagHtml) Contenteditable(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("contenteditable", value)
+	return a
+}
+
+/*
+Data -
+*/
+func (a *AddressTagHtml) Data(name, value string) *AddressTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	a.registerAttribute(dataName, value)
+	return a
+}
+
+/*
+Dir -
+*/
+func (a *AddressTagHtml) Dir(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("dir", value)
+	return a
+}
+
+/*
+Draggable -
+*/
+func (a *AddressTagHtml) Draggable(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("draggable", value)
+	return a
+}
+
+/*
+EnterKeyHint -
+*/
+func (a *AddressTagHtml) EnterKeyHint(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("enterKeyHint", value)
+	return a
+}
+
+/*
+ExportParts -
+*/
+func (a *AddressTagHtml) ExportParts(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("exportParts", value)
+	return a
+}
+
+/*
+Hidden -
+*/
+func (a *AddressTagHtml) Hidden(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("hidden", value)
+	return a
+}
+
+/*
+Id -
+*/
+func (a *AddressTagHtml) Id(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("id", value)
+	return a
+}
+
+/*
+Inert -
+*/
+func (a *AddressTagHtml) Inert(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("inert", value)
+	return a
+}
+
+/*
+InputMode -
+*/
+func (a *AddressTagHtml) InputMode(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("inputMode", value)
+	return a
+}
+
+/*
+Is -
+*/
+func (a *AddressTagHtml) Is(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("is", value)
+	return a
+}
+
+/*
+ItemId -
+*/
+func (a *AddressTagHtml) ItemId(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("itemId", value)
+	return a
+}
+
+/*
+ItemProp -
+*/
+func (a *AddressTagHtml) ItemProp(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("itemProp", value)
+	return a
+}
+
+/*
+ItemRef -
+*/
+func (a *AddressTagHtml) ItemRef(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("itemRef", value)
+	return a
+}
+
+/*
+ItemScope -
+*/
+func (a *AddressTagHtml) ItemScope(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("itemScope", value)
+	return a
+}
+
+/*
+ItemType -
+*/
+func (a *AddressTagHtml) ItemType(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("itemType", value)
+	return a
+}
+
+/*
+Lang -
+*/
+func (a *AddressTagHtml) Lang(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("lang", value)
+	return a
+}
+
+/*
+Nonce -
+*/
+func (a *AddressTagHtml) Nonce(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("nonce", value)
+	return a
+}
+
+/*
+Part -
+*/
+func (a *AddressTagHtml) Part(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("part", value)
+	return a
+}
+
+/*
+Popover -
+*/
+func (a *AddressTagHtml) Popover() *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("popover", "")
+	return a
+}
+
+/*
+Role -
+*/
+func (a *AddressTagHtml) Role(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("role", value)
+	return a
+}
+
+/*
+Slot -
+*/
+func (a *AddressTagHtml) Slot(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("slot", value)
+	return a
+}
+
+/*
+Spellcheck -
+*/
+func (a *AddressTagHtml) Spellcheck(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("spellcheck", value)
+	return a
+}
+
+/*
+Style -
+*/
+func (a *AddressTagHtml) Style(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("style", value)
+	return a
+}
+
+/*
+Tabindex -
+*/
+func (a *AddressTagHtml) Tabindex(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("tabindex", value)
+	return a
+}
+
+/*
+Title -
+*/
+func (a *AddressTagHtml) Title(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("title", value)
+	return a
+}
+
+/*
+Translate -
+*/
+func (a *AddressTagHtml) Translate(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("translate", value)
+	return a
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (a *AddressTagHtml) VirtualKeyBoardPolicy(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("virtualKeyBoardPolicy", value)
+	return a
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (a *AddressTagHtml) AriaAtomic(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-atomic", value)
+	return a
+}
+
+/*
+AriaBusy -
+*/
+func (a *AddressTagHtml) AriaBusy(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-busy", value)
+	return a
+}
+
+/*
+AriaControls -
+*/
+func (a *AddressTagHtml) AriaControls(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-controls", value)
+	return a
+}
+
+/*
+AriaCurrent -
+*/
+func (a *AddressTagHtml) AriaCurrent(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-current", value)
+	return a
+}
+
+/*
+AriaDescribedby -
+*/
+func (a *AddressTagHtml) AriaDescribedby(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-describedby", value)
+	return a
+}
+
+/*
+AriaDescription -
+*/
+func (a *AddressTagHtml) AriaDescription(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-description", value)
+	return a
+}
+
+/*
+AriaDetails -
+*/
+func (a *AddressTagHtml) AriaDetails(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-details", value)
+	return a
+}
+
+/*
+AriaDisabled -
+*/
+func (a *AddressTagHtml) AriaDisabled(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-disabled", value)
+	return a
+}
+
+/*
+AriaDropeffect -
+*/
+func (a *AddressTagHtml) AriaDropeffect(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-dropeffect", value)
+	return a
+}
+
+/*
+AriaErrormessage -
+*/
+func (a *AddressTagHtml) AriaErrormessage(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-errormessage", value)
+	return a
+}
+
+/*
+AriaFlowto -
+*/
+func (a *AddressTagHtml) AriaFlowto(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-flowto", value)
+	return a
+}
+
+/*
+AriaGrabbed -
+*/
+func (a *AddressTagHtml) AriaGrabbed(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-grabbed", value)
+	return a
+}
+
+/*
+AriaHaspopup -
+*/
+func (a *AddressTagHtml) AriaHaspopup(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-haspopup", value)
+	return a
+}
+
+/*
+AriaHidden -
+*/
+func (a *AddressTagHtml) AriaHidden(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-hidden", value)
+	return a
+}
+
+/*
+AriaInvalid -
+*/
+func (a *AddressTagHtml) AriaInvalid(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-invalid", value)
+	return a
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (a *AddressTagHtml) AriaKeyshortcuts(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-keyshortcuts", value)
+	return a
+}
+
+/*
+AriaLabel -
+*/
+func (a *AddressTagHtml) AriaLabel(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-label", value)
+	return a
+}
+
+/*
+AriaLabelledby -
+*/
+func (a *AddressTagHtml) AriaLabelledby(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-labelledby", value)
+	return a
+}
+
+/*
+AriaLive -
+*/
+func (a *AddressTagHtml) AriaLive(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-live", value)
+	return a
+}
+
+/*
+AriaOwns -
+*/
+func (a *AddressTagHtml) AriaOwns(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-owns", value)
+	return a
+}
+
+/*
+AriaRelevant -
+*/
+func (a *AddressTagHtml) AriaRelevant(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-relevant", value)
+	return a
+}
+
+/*
+AriaRoledescription -
+*/
+func (a *AddressTagHtml) AriaRoledescription(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-roledescription", value)
+	return a
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (a *AddressTagHtml) Onabort(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onabort", value)
+	return a
+}
+
+/*
+Onautocomplete -
+*/
+func (a *AddressTagHtml) Onautocomplete(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onautocomplete", value)
+	return a
+}
+
+/*
+Onautocompleteerror -
+*/
+func (a *AddressTagHtml) Onautocompleteerror(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onautocompleteerror", value)
+	return a
+}
+
+/*
+Onblur -
+*/
+func (a *AddressTagHtml) Onblur(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onblur", value)
+	return a
+}
+
+/*
+Oncancel -
+*/
+func (a *AddressTagHtml) Oncancel(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oncancel", value)
+	return a
+}
+
+/*
+Oncanplay -
+*/
+func (a *AddressTagHtml) Oncanplay(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oncanplay", value)
+	return a
+}
+
+/*
+Oncanplaythrough -
+*/
+func (a *AddressTagHtml) Oncanplaythrough(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oncanplaythrough", value)
+	return a
+}
+
+/*
+Onchange -
+*/
+func (a *AddressTagHtml) Onchange(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onchange", value)
+	return a
+}
+
+/*
+Onclick -
+*/
+func (a *AddressTagHtml) Onclick(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onclick", value)
+	return a
+}
+
+/*
+Onclose -
+*/
+func (a *AddressTagHtml) Onclose(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onclose", value)
+	return a
+}
+
+/*
+Oncontextmenu -
+*/
+func (a *AddressTagHtml) Oncontextmenu(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oncontextmenu", value)
+	return a
+}
+
+/*
+Oncuechange -
+*/
+func (a *AddressTagHtml) Oncuechange(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oncuechange", value)
+	return a
+}
+
+/*
+Ondblclick -
+*/
+func (a *AddressTagHtml) Ondblclick(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondblclick", value)
+	return a
+}
+
+/*
+Ondrag -
+*/
+func (a *AddressTagHtml) Ondrag(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondrag", value)
+	return a
+}
+
+/*
+Ondragend -
+*/
+func (a *AddressTagHtml) Ondragend(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondragend", value)
+	return a
+}
+
+/*
+Ondragenter -
+*/
+func (a *AddressTagHtml) Ondragenter(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondragenter", value)
+	return a
+}
+
+/*
+Ondragleave -
+*/
+func (a *AddressTagHtml) Ondragleave(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondragleave", value)
+	return a
+}
+
+/*
+Ondragover -
+*/
+func (a *AddressTagHtml) Ondragover(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondragover", value)
+	return a
+}
+
+/*
+Ondragstart -
+*/
+func (a *AddressTagHtml) Ondragstart(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondragstart", value)
+	return a
+}
+
+/*
+Ondrop -
+*/
+func (a *AddressTagHtml) Ondrop(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondrop", value)
+	return a
+}
+
+/*
+Ondurationchange -
+*/
+func (a *AddressTagHtml) Ondurationchange(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondurationchange", value)
+	return a
+}
+
+/*
+Onemptied -
+*/
+func (a *AddressTagHtml) Onemptied(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onemptied", value)
+	return a
+}
+
+/*
+Onended -
+*/
+func (a *AddressTagHtml) Onended(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onended", value)
+	return a
+}
+
+/*
+Onfocus -
+*/
+func (a *AddressTagHtml) Onfocus(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onfocus", value)
+	return a
+}
+
+/*
+Oninput -
+*/
+func (a *AddressTagHtml) Oninput(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oninput", value)
+	return a
+}
+
+/*
+Oninvalid -
+*/
+func (a *AddressTagHtml) Oninvalid(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oninvalid", value)
+	return a
+}
+
+/*
+Onkeydown -
+*/
+func (a *AddressTagHtml) Onkeydown(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onkeydown", value)
+	return a
+}
+
+/*
+Onkeypress -
+*/
+func (a *AddressTagHtml) Onkeypress(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onkeypress", value)
+	return a
+}
+
+/*
+Onkeyup -
+*/
+func (a *AddressTagHtml) Onkeyup(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onkeyup", value)
+	return a
+}
+
+/*
+Onloadeddata -
+*/
+func (a *AddressTagHtml) Onloadeddata(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onloadeddata", value)
+	return a
+}
+
+/*
+Onloadedmetadata -
+*/
+func (a *AddressTagHtml) Onloadedmetadata(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onloadedmetadata", value)
+	return a
+}
+
+/*
+Onloadstart -
+*/
+func (a *AddressTagHtml) Onloadstart(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onloadstart", value)
+	return a
+}
+
+/*
+Onmousedown -
+*/
+func (a *AddressTagHtml) Onmousedown(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmousedown", value)
+	return a
+}
+
+/*
+Onmouseenter -
+*/
+func (a *AddressTagHtml) Onmouseenter(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmouseenter", value)
+	return a
+}
+
+/*
+Onmouseleave -
+*/
+func (a *AddressTagHtml) Onmouseleave(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmouseleave", value)
+	return a
+}
+
+/*
+Onmousemove -
+*/
+func (a *AddressTagHtml) Onmousemove(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmousemove", value)
+	return a
+}
+
+/*
+Onmouseout -
+*/
+func (a *AddressTagHtml) Onmouseout(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmouseout", value)
+	return a
+}
+
+/*
+Onmouseover -
+*/
+func (a *AddressTagHtml) Onmouseover(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmouseover", value)
+	return a
+}
+
+/*
+Onmouseup -
+*/
+func (a *AddressTagHtml) Onmouseup(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmouseup", value)
+	return a
+}
+
+/*
+Onmousewheel -
+*/
+func (a *AddressTagHtml) Onmousewheel(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmousewheel", value)
+	return a
+}
+
+/*
+Onpause -
+*/
+func (a *AddressTagHtml) Onpause(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onpause", value)
+	return a
+}
+
+/*
+Onplay -
+*/
+func (a *AddressTagHtml) Onplay(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onplay", value)
+	return a
+}
+
+/*
+Onplaying -
+*/
+func (a *AddressTagHtml) Onplaying(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onplaying", value)
+	return a
+}
+
+/*
+Onprogress -
+*/
+func (a *AddressTagHtml) Onprogress(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onprogress", value)
+	return a
+}
+
+/*
+Onratechange -
+*/
+func (a *AddressTagHtml) Onratechange(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onratechange", value)
+	return a
+}
+
+/*
+Onreset -
+*/
+func (a *AddressTagHtml) Onreset(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onreset", value)
+	return a
+}
+
+/*
+Onscroll -
+*/
+func (a *AddressTagHtml) Onscroll(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onscroll", value)
+	return a
+}
+
+/*
+Onseeked -
+*/
+func (a *AddressTagHtml) Onseeked(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onseeked", value)
+	return a
+}
+
+/*
+Onseeking -
+*/
+func (a *AddressTagHtml) Onseeking(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onseeking", value)
+	return a
+}
+
+/*
+Onselect -
+*/
+func (a *AddressTagHtml) Onselect(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onselect", value)
+	return a
+}
+
+/*
+Onshow -
+*/
+func (a *AddressTagHtml) Onshow(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onshow", value)
+	return a
+}
+
+/*
+Onsort -
+*/
+func (a *AddressTagHtml) Onsort(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onsort", value)
+	return a
+}
+
+/*
+Onstalled -
+*/
+func (a *AddressTagHtml) Onstalled(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onstalled", value)
+	return a
+}
+
+/*
+Onsubmit -
+*/
+func (a *AddressTagHtml) Onsubmit(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onsubmit", value)
+	return a
+}
+
+/*
+Onsuspend -
+*/
+func (a *AddressTagHtml) Onsuspend(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onsuspend", value)
+	return a
+}
+
+/*
+Ontimeupdate -
+*/
+func (a *AddressTagHtml) Ontimeupdate(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ontimeupdate", value)
+	return a
+}
+
+/*
+Ontoggle -
+*/
+func (a *AddressTagHtml) Ontoggle(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ontoggle", value)
+	return a
+}
+
+/*
+Onvolumechange -
+*/
+func (a *AddressTagHtml) Onvolumechange(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onvolumechange", value)
+	return a
+}
+
+/*
+Onwaiting -
+*/
+func (a *AddressTagHtml) Onwaiting(value string) *AddressTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onwaiting", value)
+	return a
+}

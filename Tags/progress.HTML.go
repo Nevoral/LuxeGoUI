@@ -95,3 +95,1451 @@ func (p *ProgressTagHtml) Value(value string) *ProgressTagHtml {
 	p.registerAttribute("value", value)
 	return p
 }
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (p *ProgressTagHtml) Onabort(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onabort", value)
+	return p
+}
+
+/*
+Onautocomplete -
+*/
+func (p *ProgressTagHtml) Onautocomplete(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onautocomplete", value)
+	return p
+}
+
+/*
+Onautocompleteerror -
+*/
+func (p *ProgressTagHtml) Onautocompleteerror(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onautocompleteerror", value)
+	return p
+}
+
+/*
+Onblur -
+*/
+func (p *ProgressTagHtml) Onblur(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onblur", value)
+	return p
+}
+
+/*
+Oncancel -
+*/
+func (p *ProgressTagHtml) Oncancel(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oncancel", value)
+	return p
+}
+
+/*
+Oncanplay -
+*/
+func (p *ProgressTagHtml) Oncanplay(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oncanplay", value)
+	return p
+}
+
+/*
+Oncanplaythrough -
+*/
+func (p *ProgressTagHtml) Oncanplaythrough(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oncanplaythrough", value)
+	return p
+}
+
+/*
+Onchange -
+*/
+func (p *ProgressTagHtml) Onchange(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onchange", value)
+	return p
+}
+
+/*
+Onclick -
+*/
+func (p *ProgressTagHtml) Onclick(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onclick", value)
+	return p
+}
+
+/*
+Onclose -
+*/
+func (p *ProgressTagHtml) Onclose(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onclose", value)
+	return p
+}
+
+/*
+Oncontextmenu -
+*/
+func (p *ProgressTagHtml) Oncontextmenu(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oncontextmenu", value)
+	return p
+}
+
+/*
+Oncuechange -
+*/
+func (p *ProgressTagHtml) Oncuechange(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oncuechange", value)
+	return p
+}
+
+/*
+Ondblclick -
+*/
+func (p *ProgressTagHtml) Ondblclick(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondblclick", value)
+	return p
+}
+
+/*
+Ondrag -
+*/
+func (p *ProgressTagHtml) Ondrag(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondrag", value)
+	return p
+}
+
+/*
+Ondragend -
+*/
+func (p *ProgressTagHtml) Ondragend(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondragend", value)
+	return p
+}
+
+/*
+Ondragenter -
+*/
+func (p *ProgressTagHtml) Ondragenter(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondragenter", value)
+	return p
+}
+
+/*
+Ondragleave -
+*/
+func (p *ProgressTagHtml) Ondragleave(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondragleave", value)
+	return p
+}
+
+/*
+Ondragover -
+*/
+func (p *ProgressTagHtml) Ondragover(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondragover", value)
+	return p
+}
+
+/*
+Ondragstart -
+*/
+func (p *ProgressTagHtml) Ondragstart(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondragstart", value)
+	return p
+}
+
+/*
+Ondrop -
+*/
+func (p *ProgressTagHtml) Ondrop(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondrop", value)
+	return p
+}
+
+/*
+Ondurationchange -
+*/
+func (p *ProgressTagHtml) Ondurationchange(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondurationchange", value)
+	return p
+}
+
+/*
+Onemptied -
+*/
+func (p *ProgressTagHtml) Onemptied(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onemptied", value)
+	return p
+}
+
+/*
+Onended -
+*/
+func (p *ProgressTagHtml) Onended(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onended", value)
+	return p
+}
+
+/*
+Onfocus -
+*/
+func (p *ProgressTagHtml) Onfocus(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onfocus", value)
+	return p
+}
+
+/*
+Oninput -
+*/
+func (p *ProgressTagHtml) Oninput(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oninput", value)
+	return p
+}
+
+/*
+Oninvalid -
+*/
+func (p *ProgressTagHtml) Oninvalid(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oninvalid", value)
+	return p
+}
+
+/*
+Onkeydown -
+*/
+func (p *ProgressTagHtml) Onkeydown(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onkeydown", value)
+	return p
+}
+
+/*
+Onkeypress -
+*/
+func (p *ProgressTagHtml) Onkeypress(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onkeypress", value)
+	return p
+}
+
+/*
+Onkeyup -
+*/
+func (p *ProgressTagHtml) Onkeyup(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onkeyup", value)
+	return p
+}
+
+/*
+Onloadeddata -
+*/
+func (p *ProgressTagHtml) Onloadeddata(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onloadeddata", value)
+	return p
+}
+
+/*
+Onloadedmetadata -
+*/
+func (p *ProgressTagHtml) Onloadedmetadata(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onloadedmetadata", value)
+	return p
+}
+
+/*
+Onloadstart -
+*/
+func (p *ProgressTagHtml) Onloadstart(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onloadstart", value)
+	return p
+}
+
+/*
+Onmousedown -
+*/
+func (p *ProgressTagHtml) Onmousedown(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmousedown", value)
+	return p
+}
+
+/*
+Onmouseenter -
+*/
+func (p *ProgressTagHtml) Onmouseenter(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmouseenter", value)
+	return p
+}
+
+/*
+Onmouseleave -
+*/
+func (p *ProgressTagHtml) Onmouseleave(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmouseleave", value)
+	return p
+}
+
+/*
+Onmousemove -
+*/
+func (p *ProgressTagHtml) Onmousemove(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmousemove", value)
+	return p
+}
+
+/*
+Onmouseout -
+*/
+func (p *ProgressTagHtml) Onmouseout(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmouseout", value)
+	return p
+}
+
+/*
+Onmouseover -
+*/
+func (p *ProgressTagHtml) Onmouseover(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmouseover", value)
+	return p
+}
+
+/*
+Onmouseup -
+*/
+func (p *ProgressTagHtml) Onmouseup(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmouseup", value)
+	return p
+}
+
+/*
+Onmousewheel -
+*/
+func (p *ProgressTagHtml) Onmousewheel(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmousewheel", value)
+	return p
+}
+
+/*
+Onpause -
+*/
+func (p *ProgressTagHtml) Onpause(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onpause", value)
+	return p
+}
+
+/*
+Onplay -
+*/
+func (p *ProgressTagHtml) Onplay(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onplay", value)
+	return p
+}
+
+/*
+Onplaying -
+*/
+func (p *ProgressTagHtml) Onplaying(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onplaying", value)
+	return p
+}
+
+/*
+Onprogress -
+*/
+func (p *ProgressTagHtml) Onprogress(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onprogress", value)
+	return p
+}
+
+/*
+Onratechange -
+*/
+func (p *ProgressTagHtml) Onratechange(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onratechange", value)
+	return p
+}
+
+/*
+Onreset -
+*/
+func (p *ProgressTagHtml) Onreset(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onreset", value)
+	return p
+}
+
+/*
+Onscroll -
+*/
+func (p *ProgressTagHtml) Onscroll(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onscroll", value)
+	return p
+}
+
+/*
+Onseeked -
+*/
+func (p *ProgressTagHtml) Onseeked(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onseeked", value)
+	return p
+}
+
+/*
+Onseeking -
+*/
+func (p *ProgressTagHtml) Onseeking(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onseeking", value)
+	return p
+}
+
+/*
+Onselect -
+*/
+func (p *ProgressTagHtml) Onselect(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onselect", value)
+	return p
+}
+
+/*
+Onshow -
+*/
+func (p *ProgressTagHtml) Onshow(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onshow", value)
+	return p
+}
+
+/*
+Onsort -
+*/
+func (p *ProgressTagHtml) Onsort(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onsort", value)
+	return p
+}
+
+/*
+Onstalled -
+*/
+func (p *ProgressTagHtml) Onstalled(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onstalled", value)
+	return p
+}
+
+/*
+Onsubmit -
+*/
+func (p *ProgressTagHtml) Onsubmit(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onsubmit", value)
+	return p
+}
+
+/*
+Onsuspend -
+*/
+func (p *ProgressTagHtml) Onsuspend(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onsuspend", value)
+	return p
+}
+
+/*
+Ontimeupdate -
+*/
+func (p *ProgressTagHtml) Ontimeupdate(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ontimeupdate", value)
+	return p
+}
+
+/*
+Ontoggle -
+*/
+func (p *ProgressTagHtml) Ontoggle(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ontoggle", value)
+	return p
+}
+
+/*
+Onvolumechange -
+*/
+func (p *ProgressTagHtml) Onvolumechange(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onvolumechange", value)
+	return p
+}
+
+/*
+Onwaiting -
+*/
+func (p *ProgressTagHtml) Onwaiting(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onwaiting", value)
+	return p
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (p *ProgressTagHtml) Onafterprint(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onafterprint", value)
+	return p
+}
+
+/*
+Onbeforeprint -
+*/
+func (p *ProgressTagHtml) Onbeforeprint(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onbeforeprint", value)
+	return p
+}
+
+/*
+Onbeforeunload -
+*/
+func (p *ProgressTagHtml) Onbeforeunload(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onbeforeunload", value)
+	return p
+}
+
+/*
+Onerror -
+*/
+func (p *ProgressTagHtml) Onerror(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onerror", value)
+	return p
+}
+
+/*
+Onhashchange -
+*/
+func (p *ProgressTagHtml) Onhashchange(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onhashchange", value)
+	return p
+}
+
+/*
+Onload -
+*/
+func (p *ProgressTagHtml) Onload(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onload", value)
+	return p
+}
+
+/*
+Onmessage -
+*/
+func (p *ProgressTagHtml) Onmessage(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmessage", value)
+	return p
+}
+
+/*
+Onoffline -
+*/
+func (p *ProgressTagHtml) Onoffline(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onoffline", value)
+	return p
+}
+
+/*
+Ononline -
+*/
+func (p *ProgressTagHtml) Ononline(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ononline", value)
+	return p
+}
+
+/*
+Onpagehide -
+*/
+func (p *ProgressTagHtml) Onpagehide(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onpagehide", value)
+	return p
+}
+
+/*
+Onpageshow -
+*/
+func (p *ProgressTagHtml) Onpageshow(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onpageshow", value)
+	return p
+}
+
+/*
+Onpopstate -
+*/
+func (p *ProgressTagHtml) Onpopstate(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onpopstate", value)
+	return p
+}
+
+/*
+Onresize -
+*/
+func (p *ProgressTagHtml) Onresize(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onresize", value)
+	return p
+}
+
+/*
+Onstorage -
+*/
+func (p *ProgressTagHtml) Onstorage(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onstorage", value)
+	return p
+}
+
+/*
+Onunload -
+*/
+func (p *ProgressTagHtml) Onunload(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onunload", value)
+	return p
+}
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (p *ProgressTagHtml) AccessKey(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("accessKey", value)
+	return p
+}
+
+/*
+Aria -
+*/
+func (p *ProgressTagHtml) Aria(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria", value)
+	return p
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (p *ProgressTagHtml) Autocapitalize(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("autocapitalize", value)
+	return p
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (p *ProgressTagHtml) Autofocus(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("autofocus", value)
+	return p
+}
+
+/*
+Class -
+*/
+func (p *ProgressTagHtml) Class(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("class", value)
+	return p
+}
+
+/*
+Contenteditable -
+*/
+func (p *ProgressTagHtml) Contenteditable(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("contenteditable", value)
+	return p
+}
+
+/*
+Data -
+*/
+func (p *ProgressTagHtml) Data(name, value string) *ProgressTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	p.registerAttribute(dataName, value)
+	return p
+}
+
+/*
+Dir -
+*/
+func (p *ProgressTagHtml) Dir(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("dir", value)
+	return p
+}
+
+/*
+Draggable -
+*/
+func (p *ProgressTagHtml) Draggable(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("draggable", value)
+	return p
+}
+
+/*
+EnterKeyHint -
+*/
+func (p *ProgressTagHtml) EnterKeyHint(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("enterKeyHint", value)
+	return p
+}
+
+/*
+ExportParts -
+*/
+func (p *ProgressTagHtml) ExportParts(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("exportParts", value)
+	return p
+}
+
+/*
+Hidden -
+*/
+func (p *ProgressTagHtml) Hidden(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("hidden", value)
+	return p
+}
+
+/*
+Id -
+*/
+func (p *ProgressTagHtml) Id(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("id", value)
+	return p
+}
+
+/*
+Inert -
+*/
+func (p *ProgressTagHtml) Inert(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("inert", value)
+	return p
+}
+
+/*
+InputMode -
+*/
+func (p *ProgressTagHtml) InputMode(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("inputMode", value)
+	return p
+}
+
+/*
+Is -
+*/
+func (p *ProgressTagHtml) Is(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("is", value)
+	return p
+}
+
+/*
+ItemId -
+*/
+func (p *ProgressTagHtml) ItemId(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("itemId", value)
+	return p
+}
+
+/*
+ItemProp -
+*/
+func (p *ProgressTagHtml) ItemProp(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("itemProp", value)
+	return p
+}
+
+/*
+ItemRef -
+*/
+func (p *ProgressTagHtml) ItemRef(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("itemRef", value)
+	return p
+}
+
+/*
+ItemScope -
+*/
+func (p *ProgressTagHtml) ItemScope(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("itemScope", value)
+	return p
+}
+
+/*
+ItemType -
+*/
+func (p *ProgressTagHtml) ItemType(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("itemType", value)
+	return p
+}
+
+/*
+Lang -
+*/
+func (p *ProgressTagHtml) Lang(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("lang", value)
+	return p
+}
+
+/*
+Nonce -
+*/
+func (p *ProgressTagHtml) Nonce(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("nonce", value)
+	return p
+}
+
+/*
+Part -
+*/
+func (p *ProgressTagHtml) Part(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("part", value)
+	return p
+}
+
+/*
+Popover -
+*/
+func (p *ProgressTagHtml) Popover() *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("popover", "")
+	return p
+}
+
+/*
+Role -
+*/
+func (p *ProgressTagHtml) Role(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("role", value)
+	return p
+}
+
+/*
+Slot -
+*/
+func (p *ProgressTagHtml) Slot(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("slot", value)
+	return p
+}
+
+/*
+Spellcheck -
+*/
+func (p *ProgressTagHtml) Spellcheck(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("spellcheck", value)
+	return p
+}
+
+/*
+Style -
+*/
+func (p *ProgressTagHtml) Style(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("style", value)
+	return p
+}
+
+/*
+Tabindex -
+*/
+func (p *ProgressTagHtml) Tabindex(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("tabindex", value)
+	return p
+}
+
+/*
+Title -
+*/
+func (p *ProgressTagHtml) Title(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("title", value)
+	return p
+}
+
+/*
+Translate -
+*/
+func (p *ProgressTagHtml) Translate(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("translate", value)
+	return p
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (p *ProgressTagHtml) VirtualKeyBoardPolicy(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("virtualKeyBoardPolicy", value)
+	return p
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (p *ProgressTagHtml) AriaAtomic(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-atomic", value)
+	return p
+}
+
+/*
+AriaBusy -
+*/
+func (p *ProgressTagHtml) AriaBusy(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-busy", value)
+	return p
+}
+
+/*
+AriaControls -
+*/
+func (p *ProgressTagHtml) AriaControls(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-controls", value)
+	return p
+}
+
+/*
+AriaCurrent -
+*/
+func (p *ProgressTagHtml) AriaCurrent(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-current", value)
+	return p
+}
+
+/*
+AriaDescribedby -
+*/
+func (p *ProgressTagHtml) AriaDescribedby(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-describedby", value)
+	return p
+}
+
+/*
+AriaDescription -
+*/
+func (p *ProgressTagHtml) AriaDescription(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-description", value)
+	return p
+}
+
+/*
+AriaDetails -
+*/
+func (p *ProgressTagHtml) AriaDetails(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-details", value)
+	return p
+}
+
+/*
+AriaDisabled -
+*/
+func (p *ProgressTagHtml) AriaDisabled(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-disabled", value)
+	return p
+}
+
+/*
+AriaDropeffect -
+*/
+func (p *ProgressTagHtml) AriaDropeffect(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-dropeffect", value)
+	return p
+}
+
+/*
+AriaErrormessage -
+*/
+func (p *ProgressTagHtml) AriaErrormessage(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-errormessage", value)
+	return p
+}
+
+/*
+AriaFlowto -
+*/
+func (p *ProgressTagHtml) AriaFlowto(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-flowto", value)
+	return p
+}
+
+/*
+AriaGrabbed -
+*/
+func (p *ProgressTagHtml) AriaGrabbed(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-grabbed", value)
+	return p
+}
+
+/*
+AriaHaspopup -
+*/
+func (p *ProgressTagHtml) AriaHaspopup(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-haspopup", value)
+	return p
+}
+
+/*
+AriaHidden -
+*/
+func (p *ProgressTagHtml) AriaHidden(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-hidden", value)
+	return p
+}
+
+/*
+AriaInvalid -
+*/
+func (p *ProgressTagHtml) AriaInvalid(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-invalid", value)
+	return p
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (p *ProgressTagHtml) AriaKeyshortcuts(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-keyshortcuts", value)
+	return p
+}
+
+/*
+AriaLabel -
+*/
+func (p *ProgressTagHtml) AriaLabel(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-label", value)
+	return p
+}
+
+/*
+AriaLabelledby -
+*/
+func (p *ProgressTagHtml) AriaLabelledby(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-labelledby", value)
+	return p
+}
+
+/*
+AriaLive -
+*/
+func (p *ProgressTagHtml) AriaLive(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-live", value)
+	return p
+}
+
+/*
+AriaOwns -
+*/
+func (p *ProgressTagHtml) AriaOwns(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-owns", value)
+	return p
+}
+
+/*
+AriaRelevant -
+*/
+func (p *ProgressTagHtml) AriaRelevant(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-relevant", value)
+	return p
+}
+
+/*
+AriaRoledescription -
+*/
+func (p *ProgressTagHtml) AriaRoledescription(value string) *ProgressTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-roledescription", value)
+	return p
+}

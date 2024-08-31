@@ -72,3 +72,1451 @@ func (h *HeadTagHtml) supportedChildrenCheck(tags []any) *HeadTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (h *HeadTagHtml) AccessKey(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("accessKey", value)
+	return h
+}
+
+/*
+Aria -
+*/
+func (h *HeadTagHtml) Aria(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria", value)
+	return h
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (h *HeadTagHtml) Autocapitalize(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("autocapitalize", value)
+	return h
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (h *HeadTagHtml) Autofocus(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("autofocus", value)
+	return h
+}
+
+/*
+Class -
+*/
+func (h *HeadTagHtml) Class(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("class", value)
+	return h
+}
+
+/*
+Contenteditable -
+*/
+func (h *HeadTagHtml) Contenteditable(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("contenteditable", value)
+	return h
+}
+
+/*
+Data -
+*/
+func (h *HeadTagHtml) Data(name, value string) *HeadTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	h.registerAttribute(dataName, value)
+	return h
+}
+
+/*
+Dir -
+*/
+func (h *HeadTagHtml) Dir(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("dir", value)
+	return h
+}
+
+/*
+Draggable -
+*/
+func (h *HeadTagHtml) Draggable(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("draggable", value)
+	return h
+}
+
+/*
+EnterKeyHint -
+*/
+func (h *HeadTagHtml) EnterKeyHint(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("enterKeyHint", value)
+	return h
+}
+
+/*
+ExportParts -
+*/
+func (h *HeadTagHtml) ExportParts(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("exportParts", value)
+	return h
+}
+
+/*
+Hidden -
+*/
+func (h *HeadTagHtml) Hidden(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("hidden", value)
+	return h
+}
+
+/*
+Id -
+*/
+func (h *HeadTagHtml) Id(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("id", value)
+	return h
+}
+
+/*
+Inert -
+*/
+func (h *HeadTagHtml) Inert(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("inert", value)
+	return h
+}
+
+/*
+InputMode -
+*/
+func (h *HeadTagHtml) InputMode(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("inputMode", value)
+	return h
+}
+
+/*
+Is -
+*/
+func (h *HeadTagHtml) Is(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("is", value)
+	return h
+}
+
+/*
+ItemId -
+*/
+func (h *HeadTagHtml) ItemId(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("itemId", value)
+	return h
+}
+
+/*
+ItemProp -
+*/
+func (h *HeadTagHtml) ItemProp(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("itemProp", value)
+	return h
+}
+
+/*
+ItemRef -
+*/
+func (h *HeadTagHtml) ItemRef(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("itemRef", value)
+	return h
+}
+
+/*
+ItemScope -
+*/
+func (h *HeadTagHtml) ItemScope(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("itemScope", value)
+	return h
+}
+
+/*
+ItemType -
+*/
+func (h *HeadTagHtml) ItemType(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("itemType", value)
+	return h
+}
+
+/*
+Lang -
+*/
+func (h *HeadTagHtml) Lang(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("lang", value)
+	return h
+}
+
+/*
+Nonce -
+*/
+func (h *HeadTagHtml) Nonce(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("nonce", value)
+	return h
+}
+
+/*
+Part -
+*/
+func (h *HeadTagHtml) Part(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("part", value)
+	return h
+}
+
+/*
+Popover -
+*/
+func (h *HeadTagHtml) Popover() *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("popover", "")
+	return h
+}
+
+/*
+Role -
+*/
+func (h *HeadTagHtml) Role(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("role", value)
+	return h
+}
+
+/*
+Slot -
+*/
+func (h *HeadTagHtml) Slot(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("slot", value)
+	return h
+}
+
+/*
+Spellcheck -
+*/
+func (h *HeadTagHtml) Spellcheck(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("spellcheck", value)
+	return h
+}
+
+/*
+Style -
+*/
+func (h *HeadTagHtml) Style(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("style", value)
+	return h
+}
+
+/*
+Tabindex -
+*/
+func (h *HeadTagHtml) Tabindex(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("tabindex", value)
+	return h
+}
+
+/*
+Title -
+*/
+func (h *HeadTagHtml) Title(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("title", value)
+	return h
+}
+
+/*
+Translate -
+*/
+func (h *HeadTagHtml) Translate(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("translate", value)
+	return h
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (h *HeadTagHtml) VirtualKeyBoardPolicy(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("virtualKeyBoardPolicy", value)
+	return h
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (h *HeadTagHtml) AriaAtomic(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-atomic", value)
+	return h
+}
+
+/*
+AriaBusy -
+*/
+func (h *HeadTagHtml) AriaBusy(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-busy", value)
+	return h
+}
+
+/*
+AriaControls -
+*/
+func (h *HeadTagHtml) AriaControls(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-controls", value)
+	return h
+}
+
+/*
+AriaCurrent -
+*/
+func (h *HeadTagHtml) AriaCurrent(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-current", value)
+	return h
+}
+
+/*
+AriaDescribedby -
+*/
+func (h *HeadTagHtml) AriaDescribedby(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-describedby", value)
+	return h
+}
+
+/*
+AriaDescription -
+*/
+func (h *HeadTagHtml) AriaDescription(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-description", value)
+	return h
+}
+
+/*
+AriaDetails -
+*/
+func (h *HeadTagHtml) AriaDetails(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-details", value)
+	return h
+}
+
+/*
+AriaDisabled -
+*/
+func (h *HeadTagHtml) AriaDisabled(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-disabled", value)
+	return h
+}
+
+/*
+AriaDropeffect -
+*/
+func (h *HeadTagHtml) AriaDropeffect(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-dropeffect", value)
+	return h
+}
+
+/*
+AriaErrormessage -
+*/
+func (h *HeadTagHtml) AriaErrormessage(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-errormessage", value)
+	return h
+}
+
+/*
+AriaFlowto -
+*/
+func (h *HeadTagHtml) AriaFlowto(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-flowto", value)
+	return h
+}
+
+/*
+AriaGrabbed -
+*/
+func (h *HeadTagHtml) AriaGrabbed(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-grabbed", value)
+	return h
+}
+
+/*
+AriaHaspopup -
+*/
+func (h *HeadTagHtml) AriaHaspopup(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-haspopup", value)
+	return h
+}
+
+/*
+AriaHidden -
+*/
+func (h *HeadTagHtml) AriaHidden(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-hidden", value)
+	return h
+}
+
+/*
+AriaInvalid -
+*/
+func (h *HeadTagHtml) AriaInvalid(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-invalid", value)
+	return h
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (h *HeadTagHtml) AriaKeyshortcuts(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-keyshortcuts", value)
+	return h
+}
+
+/*
+AriaLabel -
+*/
+func (h *HeadTagHtml) AriaLabel(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-label", value)
+	return h
+}
+
+/*
+AriaLabelledby -
+*/
+func (h *HeadTagHtml) AriaLabelledby(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-labelledby", value)
+	return h
+}
+
+/*
+AriaLive -
+*/
+func (h *HeadTagHtml) AriaLive(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-live", value)
+	return h
+}
+
+/*
+AriaOwns -
+*/
+func (h *HeadTagHtml) AriaOwns(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-owns", value)
+	return h
+}
+
+/*
+AriaRelevant -
+*/
+func (h *HeadTagHtml) AriaRelevant(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-relevant", value)
+	return h
+}
+
+/*
+AriaRoledescription -
+*/
+func (h *HeadTagHtml) AriaRoledescription(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-roledescription", value)
+	return h
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (h *HeadTagHtml) Onabort(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onabort", value)
+	return h
+}
+
+/*
+Onautocomplete -
+*/
+func (h *HeadTagHtml) Onautocomplete(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onautocomplete", value)
+	return h
+}
+
+/*
+Onautocompleteerror -
+*/
+func (h *HeadTagHtml) Onautocompleteerror(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onautocompleteerror", value)
+	return h
+}
+
+/*
+Onblur -
+*/
+func (h *HeadTagHtml) Onblur(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onblur", value)
+	return h
+}
+
+/*
+Oncancel -
+*/
+func (h *HeadTagHtml) Oncancel(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("oncancel", value)
+	return h
+}
+
+/*
+Oncanplay -
+*/
+func (h *HeadTagHtml) Oncanplay(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("oncanplay", value)
+	return h
+}
+
+/*
+Oncanplaythrough -
+*/
+func (h *HeadTagHtml) Oncanplaythrough(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("oncanplaythrough", value)
+	return h
+}
+
+/*
+Onchange -
+*/
+func (h *HeadTagHtml) Onchange(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onchange", value)
+	return h
+}
+
+/*
+Onclick -
+*/
+func (h *HeadTagHtml) Onclick(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onclick", value)
+	return h
+}
+
+/*
+Onclose -
+*/
+func (h *HeadTagHtml) Onclose(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onclose", value)
+	return h
+}
+
+/*
+Oncontextmenu -
+*/
+func (h *HeadTagHtml) Oncontextmenu(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("oncontextmenu", value)
+	return h
+}
+
+/*
+Oncuechange -
+*/
+func (h *HeadTagHtml) Oncuechange(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("oncuechange", value)
+	return h
+}
+
+/*
+Ondblclick -
+*/
+func (h *HeadTagHtml) Ondblclick(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondblclick", value)
+	return h
+}
+
+/*
+Ondrag -
+*/
+func (h *HeadTagHtml) Ondrag(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondrag", value)
+	return h
+}
+
+/*
+Ondragend -
+*/
+func (h *HeadTagHtml) Ondragend(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondragend", value)
+	return h
+}
+
+/*
+Ondragenter -
+*/
+func (h *HeadTagHtml) Ondragenter(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondragenter", value)
+	return h
+}
+
+/*
+Ondragleave -
+*/
+func (h *HeadTagHtml) Ondragleave(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondragleave", value)
+	return h
+}
+
+/*
+Ondragover -
+*/
+func (h *HeadTagHtml) Ondragover(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondragover", value)
+	return h
+}
+
+/*
+Ondragstart -
+*/
+func (h *HeadTagHtml) Ondragstart(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondragstart", value)
+	return h
+}
+
+/*
+Ondrop -
+*/
+func (h *HeadTagHtml) Ondrop(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondrop", value)
+	return h
+}
+
+/*
+Ondurationchange -
+*/
+func (h *HeadTagHtml) Ondurationchange(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondurationchange", value)
+	return h
+}
+
+/*
+Onemptied -
+*/
+func (h *HeadTagHtml) Onemptied(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onemptied", value)
+	return h
+}
+
+/*
+Onended -
+*/
+func (h *HeadTagHtml) Onended(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onended", value)
+	return h
+}
+
+/*
+Onfocus -
+*/
+func (h *HeadTagHtml) Onfocus(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onfocus", value)
+	return h
+}
+
+/*
+Oninput -
+*/
+func (h *HeadTagHtml) Oninput(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("oninput", value)
+	return h
+}
+
+/*
+Oninvalid -
+*/
+func (h *HeadTagHtml) Oninvalid(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("oninvalid", value)
+	return h
+}
+
+/*
+Onkeydown -
+*/
+func (h *HeadTagHtml) Onkeydown(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onkeydown", value)
+	return h
+}
+
+/*
+Onkeypress -
+*/
+func (h *HeadTagHtml) Onkeypress(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onkeypress", value)
+	return h
+}
+
+/*
+Onkeyup -
+*/
+func (h *HeadTagHtml) Onkeyup(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onkeyup", value)
+	return h
+}
+
+/*
+Onloadeddata -
+*/
+func (h *HeadTagHtml) Onloadeddata(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onloadeddata", value)
+	return h
+}
+
+/*
+Onloadedmetadata -
+*/
+func (h *HeadTagHtml) Onloadedmetadata(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onloadedmetadata", value)
+	return h
+}
+
+/*
+Onloadstart -
+*/
+func (h *HeadTagHtml) Onloadstart(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onloadstart", value)
+	return h
+}
+
+/*
+Onmousedown -
+*/
+func (h *HeadTagHtml) Onmousedown(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmousedown", value)
+	return h
+}
+
+/*
+Onmouseenter -
+*/
+func (h *HeadTagHtml) Onmouseenter(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmouseenter", value)
+	return h
+}
+
+/*
+Onmouseleave -
+*/
+func (h *HeadTagHtml) Onmouseleave(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmouseleave", value)
+	return h
+}
+
+/*
+Onmousemove -
+*/
+func (h *HeadTagHtml) Onmousemove(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmousemove", value)
+	return h
+}
+
+/*
+Onmouseout -
+*/
+func (h *HeadTagHtml) Onmouseout(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmouseout", value)
+	return h
+}
+
+/*
+Onmouseover -
+*/
+func (h *HeadTagHtml) Onmouseover(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmouseover", value)
+	return h
+}
+
+/*
+Onmouseup -
+*/
+func (h *HeadTagHtml) Onmouseup(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmouseup", value)
+	return h
+}
+
+/*
+Onmousewheel -
+*/
+func (h *HeadTagHtml) Onmousewheel(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmousewheel", value)
+	return h
+}
+
+/*
+Onpause -
+*/
+func (h *HeadTagHtml) Onpause(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onpause", value)
+	return h
+}
+
+/*
+Onplay -
+*/
+func (h *HeadTagHtml) Onplay(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onplay", value)
+	return h
+}
+
+/*
+Onplaying -
+*/
+func (h *HeadTagHtml) Onplaying(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onplaying", value)
+	return h
+}
+
+/*
+Onprogress -
+*/
+func (h *HeadTagHtml) Onprogress(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onprogress", value)
+	return h
+}
+
+/*
+Onratechange -
+*/
+func (h *HeadTagHtml) Onratechange(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onratechange", value)
+	return h
+}
+
+/*
+Onreset -
+*/
+func (h *HeadTagHtml) Onreset(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onreset", value)
+	return h
+}
+
+/*
+Onscroll -
+*/
+func (h *HeadTagHtml) Onscroll(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onscroll", value)
+	return h
+}
+
+/*
+Onseeked -
+*/
+func (h *HeadTagHtml) Onseeked(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onseeked", value)
+	return h
+}
+
+/*
+Onseeking -
+*/
+func (h *HeadTagHtml) Onseeking(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onseeking", value)
+	return h
+}
+
+/*
+Onselect -
+*/
+func (h *HeadTagHtml) Onselect(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onselect", value)
+	return h
+}
+
+/*
+Onshow -
+*/
+func (h *HeadTagHtml) Onshow(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onshow", value)
+	return h
+}
+
+/*
+Onsort -
+*/
+func (h *HeadTagHtml) Onsort(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onsort", value)
+	return h
+}
+
+/*
+Onstalled -
+*/
+func (h *HeadTagHtml) Onstalled(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onstalled", value)
+	return h
+}
+
+/*
+Onsubmit -
+*/
+func (h *HeadTagHtml) Onsubmit(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onsubmit", value)
+	return h
+}
+
+/*
+Onsuspend -
+*/
+func (h *HeadTagHtml) Onsuspend(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onsuspend", value)
+	return h
+}
+
+/*
+Ontimeupdate -
+*/
+func (h *HeadTagHtml) Ontimeupdate(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ontimeupdate", value)
+	return h
+}
+
+/*
+Ontoggle -
+*/
+func (h *HeadTagHtml) Ontoggle(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ontoggle", value)
+	return h
+}
+
+/*
+Onvolumechange -
+*/
+func (h *HeadTagHtml) Onvolumechange(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onvolumechange", value)
+	return h
+}
+
+/*
+Onwaiting -
+*/
+func (h *HeadTagHtml) Onwaiting(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onwaiting", value)
+	return h
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (h *HeadTagHtml) Onafterprint(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onafterprint", value)
+	return h
+}
+
+/*
+Onbeforeprint -
+*/
+func (h *HeadTagHtml) Onbeforeprint(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onbeforeprint", value)
+	return h
+}
+
+/*
+Onbeforeunload -
+*/
+func (h *HeadTagHtml) Onbeforeunload(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onbeforeunload", value)
+	return h
+}
+
+/*
+Onerror -
+*/
+func (h *HeadTagHtml) Onerror(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onerror", value)
+	return h
+}
+
+/*
+Onhashchange -
+*/
+func (h *HeadTagHtml) Onhashchange(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onhashchange", value)
+	return h
+}
+
+/*
+Onload -
+*/
+func (h *HeadTagHtml) Onload(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onload", value)
+	return h
+}
+
+/*
+Onmessage -
+*/
+func (h *HeadTagHtml) Onmessage(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmessage", value)
+	return h
+}
+
+/*
+Onoffline -
+*/
+func (h *HeadTagHtml) Onoffline(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onoffline", value)
+	return h
+}
+
+/*
+Ononline -
+*/
+func (h *HeadTagHtml) Ononline(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ononline", value)
+	return h
+}
+
+/*
+Onpagehide -
+*/
+func (h *HeadTagHtml) Onpagehide(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onpagehide", value)
+	return h
+}
+
+/*
+Onpageshow -
+*/
+func (h *HeadTagHtml) Onpageshow(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onpageshow", value)
+	return h
+}
+
+/*
+Onpopstate -
+*/
+func (h *HeadTagHtml) Onpopstate(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onpopstate", value)
+	return h
+}
+
+/*
+Onresize -
+*/
+func (h *HeadTagHtml) Onresize(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onresize", value)
+	return h
+}
+
+/*
+Onstorage -
+*/
+func (h *HeadTagHtml) Onstorage(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onstorage", value)
+	return h
+}
+
+/*
+Onunload -
+*/
+func (h *HeadTagHtml) Onunload(value string) *HeadTagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onunload", value)
+	return h
+}

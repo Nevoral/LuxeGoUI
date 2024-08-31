@@ -72,3 +72,1451 @@ func (c *CodeTagHtml) supportedChildrenCheck(tags []any) *CodeTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (c *CodeTagHtml) AccessKey(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("accessKey", value)
+	return c
+}
+
+/*
+Aria -
+*/
+func (c *CodeTagHtml) Aria(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria", value)
+	return c
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (c *CodeTagHtml) Autocapitalize(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("autocapitalize", value)
+	return c
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (c *CodeTagHtml) Autofocus(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("autofocus", value)
+	return c
+}
+
+/*
+Class -
+*/
+func (c *CodeTagHtml) Class(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("class", value)
+	return c
+}
+
+/*
+Contenteditable -
+*/
+func (c *CodeTagHtml) Contenteditable(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("contenteditable", value)
+	return c
+}
+
+/*
+Data -
+*/
+func (c *CodeTagHtml) Data(name, value string) *CodeTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	c.registerAttribute(dataName, value)
+	return c
+}
+
+/*
+Dir -
+*/
+func (c *CodeTagHtml) Dir(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("dir", value)
+	return c
+}
+
+/*
+Draggable -
+*/
+func (c *CodeTagHtml) Draggable(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("draggable", value)
+	return c
+}
+
+/*
+EnterKeyHint -
+*/
+func (c *CodeTagHtml) EnterKeyHint(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("enterKeyHint", value)
+	return c
+}
+
+/*
+ExportParts -
+*/
+func (c *CodeTagHtml) ExportParts(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("exportParts", value)
+	return c
+}
+
+/*
+Hidden -
+*/
+func (c *CodeTagHtml) Hidden(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("hidden", value)
+	return c
+}
+
+/*
+Id -
+*/
+func (c *CodeTagHtml) Id(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("id", value)
+	return c
+}
+
+/*
+Inert -
+*/
+func (c *CodeTagHtml) Inert(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("inert", value)
+	return c
+}
+
+/*
+InputMode -
+*/
+func (c *CodeTagHtml) InputMode(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("inputMode", value)
+	return c
+}
+
+/*
+Is -
+*/
+func (c *CodeTagHtml) Is(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("is", value)
+	return c
+}
+
+/*
+ItemId -
+*/
+func (c *CodeTagHtml) ItemId(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("itemId", value)
+	return c
+}
+
+/*
+ItemProp -
+*/
+func (c *CodeTagHtml) ItemProp(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("itemProp", value)
+	return c
+}
+
+/*
+ItemRef -
+*/
+func (c *CodeTagHtml) ItemRef(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("itemRef", value)
+	return c
+}
+
+/*
+ItemScope -
+*/
+func (c *CodeTagHtml) ItemScope(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("itemScope", value)
+	return c
+}
+
+/*
+ItemType -
+*/
+func (c *CodeTagHtml) ItemType(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("itemType", value)
+	return c
+}
+
+/*
+Lang -
+*/
+func (c *CodeTagHtml) Lang(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("lang", value)
+	return c
+}
+
+/*
+Nonce -
+*/
+func (c *CodeTagHtml) Nonce(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("nonce", value)
+	return c
+}
+
+/*
+Part -
+*/
+func (c *CodeTagHtml) Part(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("part", value)
+	return c
+}
+
+/*
+Popover -
+*/
+func (c *CodeTagHtml) Popover() *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("popover", "")
+	return c
+}
+
+/*
+Role -
+*/
+func (c *CodeTagHtml) Role(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("role", value)
+	return c
+}
+
+/*
+Slot -
+*/
+func (c *CodeTagHtml) Slot(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("slot", value)
+	return c
+}
+
+/*
+Spellcheck -
+*/
+func (c *CodeTagHtml) Spellcheck(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("spellcheck", value)
+	return c
+}
+
+/*
+Style -
+*/
+func (c *CodeTagHtml) Style(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("style", value)
+	return c
+}
+
+/*
+Tabindex -
+*/
+func (c *CodeTagHtml) Tabindex(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("tabindex", value)
+	return c
+}
+
+/*
+Title -
+*/
+func (c *CodeTagHtml) Title(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("title", value)
+	return c
+}
+
+/*
+Translate -
+*/
+func (c *CodeTagHtml) Translate(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("translate", value)
+	return c
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (c *CodeTagHtml) VirtualKeyBoardPolicy(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("virtualKeyBoardPolicy", value)
+	return c
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (c *CodeTagHtml) AriaAtomic(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-atomic", value)
+	return c
+}
+
+/*
+AriaBusy -
+*/
+func (c *CodeTagHtml) AriaBusy(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-busy", value)
+	return c
+}
+
+/*
+AriaControls -
+*/
+func (c *CodeTagHtml) AriaControls(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-controls", value)
+	return c
+}
+
+/*
+AriaCurrent -
+*/
+func (c *CodeTagHtml) AriaCurrent(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-current", value)
+	return c
+}
+
+/*
+AriaDescribedby -
+*/
+func (c *CodeTagHtml) AriaDescribedby(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-describedby", value)
+	return c
+}
+
+/*
+AriaDescription -
+*/
+func (c *CodeTagHtml) AriaDescription(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-description", value)
+	return c
+}
+
+/*
+AriaDetails -
+*/
+func (c *CodeTagHtml) AriaDetails(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-details", value)
+	return c
+}
+
+/*
+AriaDisabled -
+*/
+func (c *CodeTagHtml) AriaDisabled(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-disabled", value)
+	return c
+}
+
+/*
+AriaDropeffect -
+*/
+func (c *CodeTagHtml) AriaDropeffect(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-dropeffect", value)
+	return c
+}
+
+/*
+AriaErrormessage -
+*/
+func (c *CodeTagHtml) AriaErrormessage(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-errormessage", value)
+	return c
+}
+
+/*
+AriaFlowto -
+*/
+func (c *CodeTagHtml) AriaFlowto(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-flowto", value)
+	return c
+}
+
+/*
+AriaGrabbed -
+*/
+func (c *CodeTagHtml) AriaGrabbed(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-grabbed", value)
+	return c
+}
+
+/*
+AriaHaspopup -
+*/
+func (c *CodeTagHtml) AriaHaspopup(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-haspopup", value)
+	return c
+}
+
+/*
+AriaHidden -
+*/
+func (c *CodeTagHtml) AriaHidden(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-hidden", value)
+	return c
+}
+
+/*
+AriaInvalid -
+*/
+func (c *CodeTagHtml) AriaInvalid(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-invalid", value)
+	return c
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (c *CodeTagHtml) AriaKeyshortcuts(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-keyshortcuts", value)
+	return c
+}
+
+/*
+AriaLabel -
+*/
+func (c *CodeTagHtml) AriaLabel(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-label", value)
+	return c
+}
+
+/*
+AriaLabelledby -
+*/
+func (c *CodeTagHtml) AriaLabelledby(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-labelledby", value)
+	return c
+}
+
+/*
+AriaLive -
+*/
+func (c *CodeTagHtml) AriaLive(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-live", value)
+	return c
+}
+
+/*
+AriaOwns -
+*/
+func (c *CodeTagHtml) AriaOwns(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-owns", value)
+	return c
+}
+
+/*
+AriaRelevant -
+*/
+func (c *CodeTagHtml) AriaRelevant(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-relevant", value)
+	return c
+}
+
+/*
+AriaRoledescription -
+*/
+func (c *CodeTagHtml) AriaRoledescription(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-roledescription", value)
+	return c
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (c *CodeTagHtml) Onabort(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onabort", value)
+	return c
+}
+
+/*
+Onautocomplete -
+*/
+func (c *CodeTagHtml) Onautocomplete(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onautocomplete", value)
+	return c
+}
+
+/*
+Onautocompleteerror -
+*/
+func (c *CodeTagHtml) Onautocompleteerror(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onautocompleteerror", value)
+	return c
+}
+
+/*
+Onblur -
+*/
+func (c *CodeTagHtml) Onblur(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onblur", value)
+	return c
+}
+
+/*
+Oncancel -
+*/
+func (c *CodeTagHtml) Oncancel(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("oncancel", value)
+	return c
+}
+
+/*
+Oncanplay -
+*/
+func (c *CodeTagHtml) Oncanplay(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("oncanplay", value)
+	return c
+}
+
+/*
+Oncanplaythrough -
+*/
+func (c *CodeTagHtml) Oncanplaythrough(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("oncanplaythrough", value)
+	return c
+}
+
+/*
+Onchange -
+*/
+func (c *CodeTagHtml) Onchange(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onchange", value)
+	return c
+}
+
+/*
+Onclick -
+*/
+func (c *CodeTagHtml) Onclick(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onclick", value)
+	return c
+}
+
+/*
+Onclose -
+*/
+func (c *CodeTagHtml) Onclose(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onclose", value)
+	return c
+}
+
+/*
+Oncontextmenu -
+*/
+func (c *CodeTagHtml) Oncontextmenu(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("oncontextmenu", value)
+	return c
+}
+
+/*
+Oncuechange -
+*/
+func (c *CodeTagHtml) Oncuechange(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("oncuechange", value)
+	return c
+}
+
+/*
+Ondblclick -
+*/
+func (c *CodeTagHtml) Ondblclick(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondblclick", value)
+	return c
+}
+
+/*
+Ondrag -
+*/
+func (c *CodeTagHtml) Ondrag(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondrag", value)
+	return c
+}
+
+/*
+Ondragend -
+*/
+func (c *CodeTagHtml) Ondragend(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondragend", value)
+	return c
+}
+
+/*
+Ondragenter -
+*/
+func (c *CodeTagHtml) Ondragenter(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondragenter", value)
+	return c
+}
+
+/*
+Ondragleave -
+*/
+func (c *CodeTagHtml) Ondragleave(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondragleave", value)
+	return c
+}
+
+/*
+Ondragover -
+*/
+func (c *CodeTagHtml) Ondragover(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondragover", value)
+	return c
+}
+
+/*
+Ondragstart -
+*/
+func (c *CodeTagHtml) Ondragstart(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondragstart", value)
+	return c
+}
+
+/*
+Ondrop -
+*/
+func (c *CodeTagHtml) Ondrop(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondrop", value)
+	return c
+}
+
+/*
+Ondurationchange -
+*/
+func (c *CodeTagHtml) Ondurationchange(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondurationchange", value)
+	return c
+}
+
+/*
+Onemptied -
+*/
+func (c *CodeTagHtml) Onemptied(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onemptied", value)
+	return c
+}
+
+/*
+Onended -
+*/
+func (c *CodeTagHtml) Onended(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onended", value)
+	return c
+}
+
+/*
+Onfocus -
+*/
+func (c *CodeTagHtml) Onfocus(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onfocus", value)
+	return c
+}
+
+/*
+Oninput -
+*/
+func (c *CodeTagHtml) Oninput(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("oninput", value)
+	return c
+}
+
+/*
+Oninvalid -
+*/
+func (c *CodeTagHtml) Oninvalid(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("oninvalid", value)
+	return c
+}
+
+/*
+Onkeydown -
+*/
+func (c *CodeTagHtml) Onkeydown(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onkeydown", value)
+	return c
+}
+
+/*
+Onkeypress -
+*/
+func (c *CodeTagHtml) Onkeypress(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onkeypress", value)
+	return c
+}
+
+/*
+Onkeyup -
+*/
+func (c *CodeTagHtml) Onkeyup(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onkeyup", value)
+	return c
+}
+
+/*
+Onloadeddata -
+*/
+func (c *CodeTagHtml) Onloadeddata(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onloadeddata", value)
+	return c
+}
+
+/*
+Onloadedmetadata -
+*/
+func (c *CodeTagHtml) Onloadedmetadata(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onloadedmetadata", value)
+	return c
+}
+
+/*
+Onloadstart -
+*/
+func (c *CodeTagHtml) Onloadstart(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onloadstart", value)
+	return c
+}
+
+/*
+Onmousedown -
+*/
+func (c *CodeTagHtml) Onmousedown(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmousedown", value)
+	return c
+}
+
+/*
+Onmouseenter -
+*/
+func (c *CodeTagHtml) Onmouseenter(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmouseenter", value)
+	return c
+}
+
+/*
+Onmouseleave -
+*/
+func (c *CodeTagHtml) Onmouseleave(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmouseleave", value)
+	return c
+}
+
+/*
+Onmousemove -
+*/
+func (c *CodeTagHtml) Onmousemove(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmousemove", value)
+	return c
+}
+
+/*
+Onmouseout -
+*/
+func (c *CodeTagHtml) Onmouseout(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmouseout", value)
+	return c
+}
+
+/*
+Onmouseover -
+*/
+func (c *CodeTagHtml) Onmouseover(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmouseover", value)
+	return c
+}
+
+/*
+Onmouseup -
+*/
+func (c *CodeTagHtml) Onmouseup(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmouseup", value)
+	return c
+}
+
+/*
+Onmousewheel -
+*/
+func (c *CodeTagHtml) Onmousewheel(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmousewheel", value)
+	return c
+}
+
+/*
+Onpause -
+*/
+func (c *CodeTagHtml) Onpause(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onpause", value)
+	return c
+}
+
+/*
+Onplay -
+*/
+func (c *CodeTagHtml) Onplay(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onplay", value)
+	return c
+}
+
+/*
+Onplaying -
+*/
+func (c *CodeTagHtml) Onplaying(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onplaying", value)
+	return c
+}
+
+/*
+Onprogress -
+*/
+func (c *CodeTagHtml) Onprogress(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onprogress", value)
+	return c
+}
+
+/*
+Onratechange -
+*/
+func (c *CodeTagHtml) Onratechange(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onratechange", value)
+	return c
+}
+
+/*
+Onreset -
+*/
+func (c *CodeTagHtml) Onreset(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onreset", value)
+	return c
+}
+
+/*
+Onscroll -
+*/
+func (c *CodeTagHtml) Onscroll(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onscroll", value)
+	return c
+}
+
+/*
+Onseeked -
+*/
+func (c *CodeTagHtml) Onseeked(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onseeked", value)
+	return c
+}
+
+/*
+Onseeking -
+*/
+func (c *CodeTagHtml) Onseeking(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onseeking", value)
+	return c
+}
+
+/*
+Onselect -
+*/
+func (c *CodeTagHtml) Onselect(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onselect", value)
+	return c
+}
+
+/*
+Onshow -
+*/
+func (c *CodeTagHtml) Onshow(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onshow", value)
+	return c
+}
+
+/*
+Onsort -
+*/
+func (c *CodeTagHtml) Onsort(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onsort", value)
+	return c
+}
+
+/*
+Onstalled -
+*/
+func (c *CodeTagHtml) Onstalled(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onstalled", value)
+	return c
+}
+
+/*
+Onsubmit -
+*/
+func (c *CodeTagHtml) Onsubmit(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onsubmit", value)
+	return c
+}
+
+/*
+Onsuspend -
+*/
+func (c *CodeTagHtml) Onsuspend(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onsuspend", value)
+	return c
+}
+
+/*
+Ontimeupdate -
+*/
+func (c *CodeTagHtml) Ontimeupdate(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ontimeupdate", value)
+	return c
+}
+
+/*
+Ontoggle -
+*/
+func (c *CodeTagHtml) Ontoggle(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ontoggle", value)
+	return c
+}
+
+/*
+Onvolumechange -
+*/
+func (c *CodeTagHtml) Onvolumechange(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onvolumechange", value)
+	return c
+}
+
+/*
+Onwaiting -
+*/
+func (c *CodeTagHtml) Onwaiting(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onwaiting", value)
+	return c
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (c *CodeTagHtml) Onafterprint(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onafterprint", value)
+	return c
+}
+
+/*
+Onbeforeprint -
+*/
+func (c *CodeTagHtml) Onbeforeprint(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onbeforeprint", value)
+	return c
+}
+
+/*
+Onbeforeunload -
+*/
+func (c *CodeTagHtml) Onbeforeunload(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onbeforeunload", value)
+	return c
+}
+
+/*
+Onerror -
+*/
+func (c *CodeTagHtml) Onerror(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onerror", value)
+	return c
+}
+
+/*
+Onhashchange -
+*/
+func (c *CodeTagHtml) Onhashchange(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onhashchange", value)
+	return c
+}
+
+/*
+Onload -
+*/
+func (c *CodeTagHtml) Onload(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onload", value)
+	return c
+}
+
+/*
+Onmessage -
+*/
+func (c *CodeTagHtml) Onmessage(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmessage", value)
+	return c
+}
+
+/*
+Onoffline -
+*/
+func (c *CodeTagHtml) Onoffline(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onoffline", value)
+	return c
+}
+
+/*
+Ononline -
+*/
+func (c *CodeTagHtml) Ononline(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ononline", value)
+	return c
+}
+
+/*
+Onpagehide -
+*/
+func (c *CodeTagHtml) Onpagehide(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onpagehide", value)
+	return c
+}
+
+/*
+Onpageshow -
+*/
+func (c *CodeTagHtml) Onpageshow(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onpageshow", value)
+	return c
+}
+
+/*
+Onpopstate -
+*/
+func (c *CodeTagHtml) Onpopstate(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onpopstate", value)
+	return c
+}
+
+/*
+Onresize -
+*/
+func (c *CodeTagHtml) Onresize(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onresize", value)
+	return c
+}
+
+/*
+Onstorage -
+*/
+func (c *CodeTagHtml) Onstorage(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onstorage", value)
+	return c
+}
+
+/*
+Onunload -
+*/
+func (c *CodeTagHtml) Onunload(value string) *CodeTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onunload", value)
+	return c
+}

@@ -72,3 +72,1451 @@ func (e *EmTagHtml) supportedChildrenCheck(tags []any) *EmTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (e *EmTagHtml) AccessKey(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("accessKey", value)
+	return e
+}
+
+/*
+Aria -
+*/
+func (e *EmTagHtml) Aria(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria", value)
+	return e
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (e *EmTagHtml) Autocapitalize(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("autocapitalize", value)
+	return e
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (e *EmTagHtml) Autofocus(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("autofocus", value)
+	return e
+}
+
+/*
+Class -
+*/
+func (e *EmTagHtml) Class(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("class", value)
+	return e
+}
+
+/*
+Contenteditable -
+*/
+func (e *EmTagHtml) Contenteditable(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("contenteditable", value)
+	return e
+}
+
+/*
+Data -
+*/
+func (e *EmTagHtml) Data(name, value string) *EmTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	e.registerAttribute(dataName, value)
+	return e
+}
+
+/*
+Dir -
+*/
+func (e *EmTagHtml) Dir(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("dir", value)
+	return e
+}
+
+/*
+Draggable -
+*/
+func (e *EmTagHtml) Draggable(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("draggable", value)
+	return e
+}
+
+/*
+EnterKeyHint -
+*/
+func (e *EmTagHtml) EnterKeyHint(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("enterKeyHint", value)
+	return e
+}
+
+/*
+ExportParts -
+*/
+func (e *EmTagHtml) ExportParts(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("exportParts", value)
+	return e
+}
+
+/*
+Hidden -
+*/
+func (e *EmTagHtml) Hidden(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("hidden", value)
+	return e
+}
+
+/*
+Id -
+*/
+func (e *EmTagHtml) Id(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("id", value)
+	return e
+}
+
+/*
+Inert -
+*/
+func (e *EmTagHtml) Inert(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("inert", value)
+	return e
+}
+
+/*
+InputMode -
+*/
+func (e *EmTagHtml) InputMode(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("inputMode", value)
+	return e
+}
+
+/*
+Is -
+*/
+func (e *EmTagHtml) Is(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("is", value)
+	return e
+}
+
+/*
+ItemId -
+*/
+func (e *EmTagHtml) ItemId(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("itemId", value)
+	return e
+}
+
+/*
+ItemProp -
+*/
+func (e *EmTagHtml) ItemProp(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("itemProp", value)
+	return e
+}
+
+/*
+ItemRef -
+*/
+func (e *EmTagHtml) ItemRef(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("itemRef", value)
+	return e
+}
+
+/*
+ItemScope -
+*/
+func (e *EmTagHtml) ItemScope(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("itemScope", value)
+	return e
+}
+
+/*
+ItemType -
+*/
+func (e *EmTagHtml) ItemType(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("itemType", value)
+	return e
+}
+
+/*
+Lang -
+*/
+func (e *EmTagHtml) Lang(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("lang", value)
+	return e
+}
+
+/*
+Nonce -
+*/
+func (e *EmTagHtml) Nonce(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("nonce", value)
+	return e
+}
+
+/*
+Part -
+*/
+func (e *EmTagHtml) Part(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("part", value)
+	return e
+}
+
+/*
+Popover -
+*/
+func (e *EmTagHtml) Popover() *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("popover", "")
+	return e
+}
+
+/*
+Role -
+*/
+func (e *EmTagHtml) Role(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("role", value)
+	return e
+}
+
+/*
+Slot -
+*/
+func (e *EmTagHtml) Slot(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("slot", value)
+	return e
+}
+
+/*
+Spellcheck -
+*/
+func (e *EmTagHtml) Spellcheck(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("spellcheck", value)
+	return e
+}
+
+/*
+Style -
+*/
+func (e *EmTagHtml) Style(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("style", value)
+	return e
+}
+
+/*
+Tabindex -
+*/
+func (e *EmTagHtml) Tabindex(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("tabindex", value)
+	return e
+}
+
+/*
+Title -
+*/
+func (e *EmTagHtml) Title(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("title", value)
+	return e
+}
+
+/*
+Translate -
+*/
+func (e *EmTagHtml) Translate(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("translate", value)
+	return e
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (e *EmTagHtml) VirtualKeyBoardPolicy(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("virtualKeyBoardPolicy", value)
+	return e
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (e *EmTagHtml) AriaAtomic(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-atomic", value)
+	return e
+}
+
+/*
+AriaBusy -
+*/
+func (e *EmTagHtml) AriaBusy(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-busy", value)
+	return e
+}
+
+/*
+AriaControls -
+*/
+func (e *EmTagHtml) AriaControls(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-controls", value)
+	return e
+}
+
+/*
+AriaCurrent -
+*/
+func (e *EmTagHtml) AriaCurrent(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-current", value)
+	return e
+}
+
+/*
+AriaDescribedby -
+*/
+func (e *EmTagHtml) AriaDescribedby(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-describedby", value)
+	return e
+}
+
+/*
+AriaDescription -
+*/
+func (e *EmTagHtml) AriaDescription(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-description", value)
+	return e
+}
+
+/*
+AriaDetails -
+*/
+func (e *EmTagHtml) AriaDetails(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-details", value)
+	return e
+}
+
+/*
+AriaDisabled -
+*/
+func (e *EmTagHtml) AriaDisabled(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-disabled", value)
+	return e
+}
+
+/*
+AriaDropeffect -
+*/
+func (e *EmTagHtml) AriaDropeffect(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-dropeffect", value)
+	return e
+}
+
+/*
+AriaErrormessage -
+*/
+func (e *EmTagHtml) AriaErrormessage(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-errormessage", value)
+	return e
+}
+
+/*
+AriaFlowto -
+*/
+func (e *EmTagHtml) AriaFlowto(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-flowto", value)
+	return e
+}
+
+/*
+AriaGrabbed -
+*/
+func (e *EmTagHtml) AriaGrabbed(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-grabbed", value)
+	return e
+}
+
+/*
+AriaHaspopup -
+*/
+func (e *EmTagHtml) AriaHaspopup(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-haspopup", value)
+	return e
+}
+
+/*
+AriaHidden -
+*/
+func (e *EmTagHtml) AriaHidden(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-hidden", value)
+	return e
+}
+
+/*
+AriaInvalid -
+*/
+func (e *EmTagHtml) AriaInvalid(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-invalid", value)
+	return e
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (e *EmTagHtml) AriaKeyshortcuts(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-keyshortcuts", value)
+	return e
+}
+
+/*
+AriaLabel -
+*/
+func (e *EmTagHtml) AriaLabel(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-label", value)
+	return e
+}
+
+/*
+AriaLabelledby -
+*/
+func (e *EmTagHtml) AriaLabelledby(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-labelledby", value)
+	return e
+}
+
+/*
+AriaLive -
+*/
+func (e *EmTagHtml) AriaLive(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-live", value)
+	return e
+}
+
+/*
+AriaOwns -
+*/
+func (e *EmTagHtml) AriaOwns(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-owns", value)
+	return e
+}
+
+/*
+AriaRelevant -
+*/
+func (e *EmTagHtml) AriaRelevant(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-relevant", value)
+	return e
+}
+
+/*
+AriaRoledescription -
+*/
+func (e *EmTagHtml) AriaRoledescription(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("aria-roledescription", value)
+	return e
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (e *EmTagHtml) Onabort(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onabort", value)
+	return e
+}
+
+/*
+Onautocomplete -
+*/
+func (e *EmTagHtml) Onautocomplete(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onautocomplete", value)
+	return e
+}
+
+/*
+Onautocompleteerror -
+*/
+func (e *EmTagHtml) Onautocompleteerror(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onautocompleteerror", value)
+	return e
+}
+
+/*
+Onblur -
+*/
+func (e *EmTagHtml) Onblur(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onblur", value)
+	return e
+}
+
+/*
+Oncancel -
+*/
+func (e *EmTagHtml) Oncancel(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("oncancel", value)
+	return e
+}
+
+/*
+Oncanplay -
+*/
+func (e *EmTagHtml) Oncanplay(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("oncanplay", value)
+	return e
+}
+
+/*
+Oncanplaythrough -
+*/
+func (e *EmTagHtml) Oncanplaythrough(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("oncanplaythrough", value)
+	return e
+}
+
+/*
+Onchange -
+*/
+func (e *EmTagHtml) Onchange(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onchange", value)
+	return e
+}
+
+/*
+Onclick -
+*/
+func (e *EmTagHtml) Onclick(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onclick", value)
+	return e
+}
+
+/*
+Onclose -
+*/
+func (e *EmTagHtml) Onclose(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onclose", value)
+	return e
+}
+
+/*
+Oncontextmenu -
+*/
+func (e *EmTagHtml) Oncontextmenu(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("oncontextmenu", value)
+	return e
+}
+
+/*
+Oncuechange -
+*/
+func (e *EmTagHtml) Oncuechange(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("oncuechange", value)
+	return e
+}
+
+/*
+Ondblclick -
+*/
+func (e *EmTagHtml) Ondblclick(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("ondblclick", value)
+	return e
+}
+
+/*
+Ondrag -
+*/
+func (e *EmTagHtml) Ondrag(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("ondrag", value)
+	return e
+}
+
+/*
+Ondragend -
+*/
+func (e *EmTagHtml) Ondragend(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("ondragend", value)
+	return e
+}
+
+/*
+Ondragenter -
+*/
+func (e *EmTagHtml) Ondragenter(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("ondragenter", value)
+	return e
+}
+
+/*
+Ondragleave -
+*/
+func (e *EmTagHtml) Ondragleave(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("ondragleave", value)
+	return e
+}
+
+/*
+Ondragover -
+*/
+func (e *EmTagHtml) Ondragover(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("ondragover", value)
+	return e
+}
+
+/*
+Ondragstart -
+*/
+func (e *EmTagHtml) Ondragstart(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("ondragstart", value)
+	return e
+}
+
+/*
+Ondrop -
+*/
+func (e *EmTagHtml) Ondrop(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("ondrop", value)
+	return e
+}
+
+/*
+Ondurationchange -
+*/
+func (e *EmTagHtml) Ondurationchange(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("ondurationchange", value)
+	return e
+}
+
+/*
+Onemptied -
+*/
+func (e *EmTagHtml) Onemptied(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onemptied", value)
+	return e
+}
+
+/*
+Onended -
+*/
+func (e *EmTagHtml) Onended(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onended", value)
+	return e
+}
+
+/*
+Onfocus -
+*/
+func (e *EmTagHtml) Onfocus(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onfocus", value)
+	return e
+}
+
+/*
+Oninput -
+*/
+func (e *EmTagHtml) Oninput(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("oninput", value)
+	return e
+}
+
+/*
+Oninvalid -
+*/
+func (e *EmTagHtml) Oninvalid(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("oninvalid", value)
+	return e
+}
+
+/*
+Onkeydown -
+*/
+func (e *EmTagHtml) Onkeydown(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onkeydown", value)
+	return e
+}
+
+/*
+Onkeypress -
+*/
+func (e *EmTagHtml) Onkeypress(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onkeypress", value)
+	return e
+}
+
+/*
+Onkeyup -
+*/
+func (e *EmTagHtml) Onkeyup(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onkeyup", value)
+	return e
+}
+
+/*
+Onloadeddata -
+*/
+func (e *EmTagHtml) Onloadeddata(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onloadeddata", value)
+	return e
+}
+
+/*
+Onloadedmetadata -
+*/
+func (e *EmTagHtml) Onloadedmetadata(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onloadedmetadata", value)
+	return e
+}
+
+/*
+Onloadstart -
+*/
+func (e *EmTagHtml) Onloadstart(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onloadstart", value)
+	return e
+}
+
+/*
+Onmousedown -
+*/
+func (e *EmTagHtml) Onmousedown(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onmousedown", value)
+	return e
+}
+
+/*
+Onmouseenter -
+*/
+func (e *EmTagHtml) Onmouseenter(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onmouseenter", value)
+	return e
+}
+
+/*
+Onmouseleave -
+*/
+func (e *EmTagHtml) Onmouseleave(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onmouseleave", value)
+	return e
+}
+
+/*
+Onmousemove -
+*/
+func (e *EmTagHtml) Onmousemove(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onmousemove", value)
+	return e
+}
+
+/*
+Onmouseout -
+*/
+func (e *EmTagHtml) Onmouseout(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onmouseout", value)
+	return e
+}
+
+/*
+Onmouseover -
+*/
+func (e *EmTagHtml) Onmouseover(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onmouseover", value)
+	return e
+}
+
+/*
+Onmouseup -
+*/
+func (e *EmTagHtml) Onmouseup(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onmouseup", value)
+	return e
+}
+
+/*
+Onmousewheel -
+*/
+func (e *EmTagHtml) Onmousewheel(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onmousewheel", value)
+	return e
+}
+
+/*
+Onpause -
+*/
+func (e *EmTagHtml) Onpause(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onpause", value)
+	return e
+}
+
+/*
+Onplay -
+*/
+func (e *EmTagHtml) Onplay(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onplay", value)
+	return e
+}
+
+/*
+Onplaying -
+*/
+func (e *EmTagHtml) Onplaying(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onplaying", value)
+	return e
+}
+
+/*
+Onprogress -
+*/
+func (e *EmTagHtml) Onprogress(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onprogress", value)
+	return e
+}
+
+/*
+Onratechange -
+*/
+func (e *EmTagHtml) Onratechange(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onratechange", value)
+	return e
+}
+
+/*
+Onreset -
+*/
+func (e *EmTagHtml) Onreset(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onreset", value)
+	return e
+}
+
+/*
+Onscroll -
+*/
+func (e *EmTagHtml) Onscroll(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onscroll", value)
+	return e
+}
+
+/*
+Onseeked -
+*/
+func (e *EmTagHtml) Onseeked(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onseeked", value)
+	return e
+}
+
+/*
+Onseeking -
+*/
+func (e *EmTagHtml) Onseeking(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onseeking", value)
+	return e
+}
+
+/*
+Onselect -
+*/
+func (e *EmTagHtml) Onselect(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onselect", value)
+	return e
+}
+
+/*
+Onshow -
+*/
+func (e *EmTagHtml) Onshow(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onshow", value)
+	return e
+}
+
+/*
+Onsort -
+*/
+func (e *EmTagHtml) Onsort(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onsort", value)
+	return e
+}
+
+/*
+Onstalled -
+*/
+func (e *EmTagHtml) Onstalled(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onstalled", value)
+	return e
+}
+
+/*
+Onsubmit -
+*/
+func (e *EmTagHtml) Onsubmit(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onsubmit", value)
+	return e
+}
+
+/*
+Onsuspend -
+*/
+func (e *EmTagHtml) Onsuspend(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onsuspend", value)
+	return e
+}
+
+/*
+Ontimeupdate -
+*/
+func (e *EmTagHtml) Ontimeupdate(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("ontimeupdate", value)
+	return e
+}
+
+/*
+Ontoggle -
+*/
+func (e *EmTagHtml) Ontoggle(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("ontoggle", value)
+	return e
+}
+
+/*
+Onvolumechange -
+*/
+func (e *EmTagHtml) Onvolumechange(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onvolumechange", value)
+	return e
+}
+
+/*
+Onwaiting -
+*/
+func (e *EmTagHtml) Onwaiting(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onwaiting", value)
+	return e
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (e *EmTagHtml) Onafterprint(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onafterprint", value)
+	return e
+}
+
+/*
+Onbeforeprint -
+*/
+func (e *EmTagHtml) Onbeforeprint(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onbeforeprint", value)
+	return e
+}
+
+/*
+Onbeforeunload -
+*/
+func (e *EmTagHtml) Onbeforeunload(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onbeforeunload", value)
+	return e
+}
+
+/*
+Onerror -
+*/
+func (e *EmTagHtml) Onerror(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onerror", value)
+	return e
+}
+
+/*
+Onhashchange -
+*/
+func (e *EmTagHtml) Onhashchange(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onhashchange", value)
+	return e
+}
+
+/*
+Onload -
+*/
+func (e *EmTagHtml) Onload(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onload", value)
+	return e
+}
+
+/*
+Onmessage -
+*/
+func (e *EmTagHtml) Onmessage(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onmessage", value)
+	return e
+}
+
+/*
+Onoffline -
+*/
+func (e *EmTagHtml) Onoffline(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onoffline", value)
+	return e
+}
+
+/*
+Ononline -
+*/
+func (e *EmTagHtml) Ononline(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("ononline", value)
+	return e
+}
+
+/*
+Onpagehide -
+*/
+func (e *EmTagHtml) Onpagehide(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onpagehide", value)
+	return e
+}
+
+/*
+Onpageshow -
+*/
+func (e *EmTagHtml) Onpageshow(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onpageshow", value)
+	return e
+}
+
+/*
+Onpopstate -
+*/
+func (e *EmTagHtml) Onpopstate(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onpopstate", value)
+	return e
+}
+
+/*
+Onresize -
+*/
+func (e *EmTagHtml) Onresize(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onresize", value)
+	return e
+}
+
+/*
+Onstorage -
+*/
+func (e *EmTagHtml) Onstorage(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onstorage", value)
+	return e
+}
+
+/*
+Onunload -
+*/
+func (e *EmTagHtml) Onunload(value string) *EmTagHtml {
+	if e.attributes == nil {
+		e.attributes = []*Attribute{}
+	}
+	e.registerAttribute("onunload", value)
+	return e
+}

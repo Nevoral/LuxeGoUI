@@ -72,3 +72,1451 @@ func (n *NoscriptTagHtml) supportedChildrenCheck(tags []any) *NoscriptTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (n *NoscriptTagHtml) AriaAtomic(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-atomic", value)
+	return n
+}
+
+/*
+AriaBusy -
+*/
+func (n *NoscriptTagHtml) AriaBusy(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-busy", value)
+	return n
+}
+
+/*
+AriaControls -
+*/
+func (n *NoscriptTagHtml) AriaControls(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-controls", value)
+	return n
+}
+
+/*
+AriaCurrent -
+*/
+func (n *NoscriptTagHtml) AriaCurrent(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-current", value)
+	return n
+}
+
+/*
+AriaDescribedby -
+*/
+func (n *NoscriptTagHtml) AriaDescribedby(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-describedby", value)
+	return n
+}
+
+/*
+AriaDescription -
+*/
+func (n *NoscriptTagHtml) AriaDescription(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-description", value)
+	return n
+}
+
+/*
+AriaDetails -
+*/
+func (n *NoscriptTagHtml) AriaDetails(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-details", value)
+	return n
+}
+
+/*
+AriaDisabled -
+*/
+func (n *NoscriptTagHtml) AriaDisabled(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-disabled", value)
+	return n
+}
+
+/*
+AriaDropeffect -
+*/
+func (n *NoscriptTagHtml) AriaDropeffect(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-dropeffect", value)
+	return n
+}
+
+/*
+AriaErrormessage -
+*/
+func (n *NoscriptTagHtml) AriaErrormessage(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-errormessage", value)
+	return n
+}
+
+/*
+AriaFlowto -
+*/
+func (n *NoscriptTagHtml) AriaFlowto(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-flowto", value)
+	return n
+}
+
+/*
+AriaGrabbed -
+*/
+func (n *NoscriptTagHtml) AriaGrabbed(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-grabbed", value)
+	return n
+}
+
+/*
+AriaHaspopup -
+*/
+func (n *NoscriptTagHtml) AriaHaspopup(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-haspopup", value)
+	return n
+}
+
+/*
+AriaHidden -
+*/
+func (n *NoscriptTagHtml) AriaHidden(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-hidden", value)
+	return n
+}
+
+/*
+AriaInvalid -
+*/
+func (n *NoscriptTagHtml) AriaInvalid(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-invalid", value)
+	return n
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (n *NoscriptTagHtml) AriaKeyshortcuts(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-keyshortcuts", value)
+	return n
+}
+
+/*
+AriaLabel -
+*/
+func (n *NoscriptTagHtml) AriaLabel(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-label", value)
+	return n
+}
+
+/*
+AriaLabelledby -
+*/
+func (n *NoscriptTagHtml) AriaLabelledby(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-labelledby", value)
+	return n
+}
+
+/*
+AriaLive -
+*/
+func (n *NoscriptTagHtml) AriaLive(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-live", value)
+	return n
+}
+
+/*
+AriaOwns -
+*/
+func (n *NoscriptTagHtml) AriaOwns(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-owns", value)
+	return n
+}
+
+/*
+AriaRelevant -
+*/
+func (n *NoscriptTagHtml) AriaRelevant(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-relevant", value)
+	return n
+}
+
+/*
+AriaRoledescription -
+*/
+func (n *NoscriptTagHtml) AriaRoledescription(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria-roledescription", value)
+	return n
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (n *NoscriptTagHtml) Onabort(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onabort", value)
+	return n
+}
+
+/*
+Onautocomplete -
+*/
+func (n *NoscriptTagHtml) Onautocomplete(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onautocomplete", value)
+	return n
+}
+
+/*
+Onautocompleteerror -
+*/
+func (n *NoscriptTagHtml) Onautocompleteerror(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onautocompleteerror", value)
+	return n
+}
+
+/*
+Onblur -
+*/
+func (n *NoscriptTagHtml) Onblur(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onblur", value)
+	return n
+}
+
+/*
+Oncancel -
+*/
+func (n *NoscriptTagHtml) Oncancel(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("oncancel", value)
+	return n
+}
+
+/*
+Oncanplay -
+*/
+func (n *NoscriptTagHtml) Oncanplay(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("oncanplay", value)
+	return n
+}
+
+/*
+Oncanplaythrough -
+*/
+func (n *NoscriptTagHtml) Oncanplaythrough(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("oncanplaythrough", value)
+	return n
+}
+
+/*
+Onchange -
+*/
+func (n *NoscriptTagHtml) Onchange(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onchange", value)
+	return n
+}
+
+/*
+Onclick -
+*/
+func (n *NoscriptTagHtml) Onclick(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onclick", value)
+	return n
+}
+
+/*
+Onclose -
+*/
+func (n *NoscriptTagHtml) Onclose(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onclose", value)
+	return n
+}
+
+/*
+Oncontextmenu -
+*/
+func (n *NoscriptTagHtml) Oncontextmenu(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("oncontextmenu", value)
+	return n
+}
+
+/*
+Oncuechange -
+*/
+func (n *NoscriptTagHtml) Oncuechange(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("oncuechange", value)
+	return n
+}
+
+/*
+Ondblclick -
+*/
+func (n *NoscriptTagHtml) Ondblclick(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondblclick", value)
+	return n
+}
+
+/*
+Ondrag -
+*/
+func (n *NoscriptTagHtml) Ondrag(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondrag", value)
+	return n
+}
+
+/*
+Ondragend -
+*/
+func (n *NoscriptTagHtml) Ondragend(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondragend", value)
+	return n
+}
+
+/*
+Ondragenter -
+*/
+func (n *NoscriptTagHtml) Ondragenter(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondragenter", value)
+	return n
+}
+
+/*
+Ondragleave -
+*/
+func (n *NoscriptTagHtml) Ondragleave(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondragleave", value)
+	return n
+}
+
+/*
+Ondragover -
+*/
+func (n *NoscriptTagHtml) Ondragover(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondragover", value)
+	return n
+}
+
+/*
+Ondragstart -
+*/
+func (n *NoscriptTagHtml) Ondragstart(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondragstart", value)
+	return n
+}
+
+/*
+Ondrop -
+*/
+func (n *NoscriptTagHtml) Ondrop(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondrop", value)
+	return n
+}
+
+/*
+Ondurationchange -
+*/
+func (n *NoscriptTagHtml) Ondurationchange(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ondurationchange", value)
+	return n
+}
+
+/*
+Onemptied -
+*/
+func (n *NoscriptTagHtml) Onemptied(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onemptied", value)
+	return n
+}
+
+/*
+Onended -
+*/
+func (n *NoscriptTagHtml) Onended(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onended", value)
+	return n
+}
+
+/*
+Onfocus -
+*/
+func (n *NoscriptTagHtml) Onfocus(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onfocus", value)
+	return n
+}
+
+/*
+Oninput -
+*/
+func (n *NoscriptTagHtml) Oninput(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("oninput", value)
+	return n
+}
+
+/*
+Oninvalid -
+*/
+func (n *NoscriptTagHtml) Oninvalid(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("oninvalid", value)
+	return n
+}
+
+/*
+Onkeydown -
+*/
+func (n *NoscriptTagHtml) Onkeydown(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onkeydown", value)
+	return n
+}
+
+/*
+Onkeypress -
+*/
+func (n *NoscriptTagHtml) Onkeypress(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onkeypress", value)
+	return n
+}
+
+/*
+Onkeyup -
+*/
+func (n *NoscriptTagHtml) Onkeyup(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onkeyup", value)
+	return n
+}
+
+/*
+Onloadeddata -
+*/
+func (n *NoscriptTagHtml) Onloadeddata(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onloadeddata", value)
+	return n
+}
+
+/*
+Onloadedmetadata -
+*/
+func (n *NoscriptTagHtml) Onloadedmetadata(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onloadedmetadata", value)
+	return n
+}
+
+/*
+Onloadstart -
+*/
+func (n *NoscriptTagHtml) Onloadstart(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onloadstart", value)
+	return n
+}
+
+/*
+Onmousedown -
+*/
+func (n *NoscriptTagHtml) Onmousedown(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmousedown", value)
+	return n
+}
+
+/*
+Onmouseenter -
+*/
+func (n *NoscriptTagHtml) Onmouseenter(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmouseenter", value)
+	return n
+}
+
+/*
+Onmouseleave -
+*/
+func (n *NoscriptTagHtml) Onmouseleave(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmouseleave", value)
+	return n
+}
+
+/*
+Onmousemove -
+*/
+func (n *NoscriptTagHtml) Onmousemove(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmousemove", value)
+	return n
+}
+
+/*
+Onmouseout -
+*/
+func (n *NoscriptTagHtml) Onmouseout(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmouseout", value)
+	return n
+}
+
+/*
+Onmouseover -
+*/
+func (n *NoscriptTagHtml) Onmouseover(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmouseover", value)
+	return n
+}
+
+/*
+Onmouseup -
+*/
+func (n *NoscriptTagHtml) Onmouseup(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmouseup", value)
+	return n
+}
+
+/*
+Onmousewheel -
+*/
+func (n *NoscriptTagHtml) Onmousewheel(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmousewheel", value)
+	return n
+}
+
+/*
+Onpause -
+*/
+func (n *NoscriptTagHtml) Onpause(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onpause", value)
+	return n
+}
+
+/*
+Onplay -
+*/
+func (n *NoscriptTagHtml) Onplay(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onplay", value)
+	return n
+}
+
+/*
+Onplaying -
+*/
+func (n *NoscriptTagHtml) Onplaying(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onplaying", value)
+	return n
+}
+
+/*
+Onprogress -
+*/
+func (n *NoscriptTagHtml) Onprogress(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onprogress", value)
+	return n
+}
+
+/*
+Onratechange -
+*/
+func (n *NoscriptTagHtml) Onratechange(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onratechange", value)
+	return n
+}
+
+/*
+Onreset -
+*/
+func (n *NoscriptTagHtml) Onreset(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onreset", value)
+	return n
+}
+
+/*
+Onscroll -
+*/
+func (n *NoscriptTagHtml) Onscroll(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onscroll", value)
+	return n
+}
+
+/*
+Onseeked -
+*/
+func (n *NoscriptTagHtml) Onseeked(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onseeked", value)
+	return n
+}
+
+/*
+Onseeking -
+*/
+func (n *NoscriptTagHtml) Onseeking(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onseeking", value)
+	return n
+}
+
+/*
+Onselect -
+*/
+func (n *NoscriptTagHtml) Onselect(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onselect", value)
+	return n
+}
+
+/*
+Onshow -
+*/
+func (n *NoscriptTagHtml) Onshow(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onshow", value)
+	return n
+}
+
+/*
+Onsort -
+*/
+func (n *NoscriptTagHtml) Onsort(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onsort", value)
+	return n
+}
+
+/*
+Onstalled -
+*/
+func (n *NoscriptTagHtml) Onstalled(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onstalled", value)
+	return n
+}
+
+/*
+Onsubmit -
+*/
+func (n *NoscriptTagHtml) Onsubmit(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onsubmit", value)
+	return n
+}
+
+/*
+Onsuspend -
+*/
+func (n *NoscriptTagHtml) Onsuspend(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onsuspend", value)
+	return n
+}
+
+/*
+Ontimeupdate -
+*/
+func (n *NoscriptTagHtml) Ontimeupdate(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ontimeupdate", value)
+	return n
+}
+
+/*
+Ontoggle -
+*/
+func (n *NoscriptTagHtml) Ontoggle(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ontoggle", value)
+	return n
+}
+
+/*
+Onvolumechange -
+*/
+func (n *NoscriptTagHtml) Onvolumechange(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onvolumechange", value)
+	return n
+}
+
+/*
+Onwaiting -
+*/
+func (n *NoscriptTagHtml) Onwaiting(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onwaiting", value)
+	return n
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (n *NoscriptTagHtml) Onafterprint(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onafterprint", value)
+	return n
+}
+
+/*
+Onbeforeprint -
+*/
+func (n *NoscriptTagHtml) Onbeforeprint(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onbeforeprint", value)
+	return n
+}
+
+/*
+Onbeforeunload -
+*/
+func (n *NoscriptTagHtml) Onbeforeunload(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onbeforeunload", value)
+	return n
+}
+
+/*
+Onerror -
+*/
+func (n *NoscriptTagHtml) Onerror(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onerror", value)
+	return n
+}
+
+/*
+Onhashchange -
+*/
+func (n *NoscriptTagHtml) Onhashchange(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onhashchange", value)
+	return n
+}
+
+/*
+Onload -
+*/
+func (n *NoscriptTagHtml) Onload(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onload", value)
+	return n
+}
+
+/*
+Onmessage -
+*/
+func (n *NoscriptTagHtml) Onmessage(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onmessage", value)
+	return n
+}
+
+/*
+Onoffline -
+*/
+func (n *NoscriptTagHtml) Onoffline(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onoffline", value)
+	return n
+}
+
+/*
+Ononline -
+*/
+func (n *NoscriptTagHtml) Ononline(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("ononline", value)
+	return n
+}
+
+/*
+Onpagehide -
+*/
+func (n *NoscriptTagHtml) Onpagehide(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onpagehide", value)
+	return n
+}
+
+/*
+Onpageshow -
+*/
+func (n *NoscriptTagHtml) Onpageshow(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onpageshow", value)
+	return n
+}
+
+/*
+Onpopstate -
+*/
+func (n *NoscriptTagHtml) Onpopstate(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onpopstate", value)
+	return n
+}
+
+/*
+Onresize -
+*/
+func (n *NoscriptTagHtml) Onresize(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onresize", value)
+	return n
+}
+
+/*
+Onstorage -
+*/
+func (n *NoscriptTagHtml) Onstorage(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onstorage", value)
+	return n
+}
+
+/*
+Onunload -
+*/
+func (n *NoscriptTagHtml) Onunload(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("onunload", value)
+	return n
+}
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (n *NoscriptTagHtml) AccessKey(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("accessKey", value)
+	return n
+}
+
+/*
+Aria -
+*/
+func (n *NoscriptTagHtml) Aria(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("aria", value)
+	return n
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (n *NoscriptTagHtml) Autocapitalize(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("autocapitalize", value)
+	return n
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (n *NoscriptTagHtml) Autofocus(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("autofocus", value)
+	return n
+}
+
+/*
+Class -
+*/
+func (n *NoscriptTagHtml) Class(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("class", value)
+	return n
+}
+
+/*
+Contenteditable -
+*/
+func (n *NoscriptTagHtml) Contenteditable(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("contenteditable", value)
+	return n
+}
+
+/*
+Data -
+*/
+func (n *NoscriptTagHtml) Data(name, value string) *NoscriptTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	n.registerAttribute(dataName, value)
+	return n
+}
+
+/*
+Dir -
+*/
+func (n *NoscriptTagHtml) Dir(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("dir", value)
+	return n
+}
+
+/*
+Draggable -
+*/
+func (n *NoscriptTagHtml) Draggable(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("draggable", value)
+	return n
+}
+
+/*
+EnterKeyHint -
+*/
+func (n *NoscriptTagHtml) EnterKeyHint(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("enterKeyHint", value)
+	return n
+}
+
+/*
+ExportParts -
+*/
+func (n *NoscriptTagHtml) ExportParts(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("exportParts", value)
+	return n
+}
+
+/*
+Hidden -
+*/
+func (n *NoscriptTagHtml) Hidden(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("hidden", value)
+	return n
+}
+
+/*
+Id -
+*/
+func (n *NoscriptTagHtml) Id(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("id", value)
+	return n
+}
+
+/*
+Inert -
+*/
+func (n *NoscriptTagHtml) Inert(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("inert", value)
+	return n
+}
+
+/*
+InputMode -
+*/
+func (n *NoscriptTagHtml) InputMode(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("inputMode", value)
+	return n
+}
+
+/*
+Is -
+*/
+func (n *NoscriptTagHtml) Is(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("is", value)
+	return n
+}
+
+/*
+ItemId -
+*/
+func (n *NoscriptTagHtml) ItemId(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("itemId", value)
+	return n
+}
+
+/*
+ItemProp -
+*/
+func (n *NoscriptTagHtml) ItemProp(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("itemProp", value)
+	return n
+}
+
+/*
+ItemRef -
+*/
+func (n *NoscriptTagHtml) ItemRef(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("itemRef", value)
+	return n
+}
+
+/*
+ItemScope -
+*/
+func (n *NoscriptTagHtml) ItemScope(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("itemScope", value)
+	return n
+}
+
+/*
+ItemType -
+*/
+func (n *NoscriptTagHtml) ItemType(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("itemType", value)
+	return n
+}
+
+/*
+Lang -
+*/
+func (n *NoscriptTagHtml) Lang(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("lang", value)
+	return n
+}
+
+/*
+Nonce -
+*/
+func (n *NoscriptTagHtml) Nonce(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("nonce", value)
+	return n
+}
+
+/*
+Part -
+*/
+func (n *NoscriptTagHtml) Part(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("part", value)
+	return n
+}
+
+/*
+Popover -
+*/
+func (n *NoscriptTagHtml) Popover() *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("popover", "")
+	return n
+}
+
+/*
+Role -
+*/
+func (n *NoscriptTagHtml) Role(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("role", value)
+	return n
+}
+
+/*
+Slot -
+*/
+func (n *NoscriptTagHtml) Slot(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("slot", value)
+	return n
+}
+
+/*
+Spellcheck -
+*/
+func (n *NoscriptTagHtml) Spellcheck(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("spellcheck", value)
+	return n
+}
+
+/*
+Style -
+*/
+func (n *NoscriptTagHtml) Style(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("style", value)
+	return n
+}
+
+/*
+Tabindex -
+*/
+func (n *NoscriptTagHtml) Tabindex(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("tabindex", value)
+	return n
+}
+
+/*
+Title -
+*/
+func (n *NoscriptTagHtml) Title(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("title", value)
+	return n
+}
+
+/*
+Translate -
+*/
+func (n *NoscriptTagHtml) Translate(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("translate", value)
+	return n
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (n *NoscriptTagHtml) VirtualKeyBoardPolicy(value string) *NoscriptTagHtml {
+	if n.attributes == nil {
+		n.attributes = []*Attribute{}
+	}
+	n.registerAttribute("virtualKeyBoardPolicy", value)
+	return n
+}

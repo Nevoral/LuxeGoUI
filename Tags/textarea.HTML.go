@@ -226,3 +226,1451 @@ func (t *TextareaTagHtml) Wrap(value string) *TextareaTagHtml {
 	t.registerAttribute("wrap", value)
 	return t
 }
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (t *TextareaTagHtml) Onabort(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onabort", value)
+	return t
+}
+
+/*
+Onautocomplete -
+*/
+func (t *TextareaTagHtml) Onautocomplete(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onautocomplete", value)
+	return t
+}
+
+/*
+Onautocompleteerror -
+*/
+func (t *TextareaTagHtml) Onautocompleteerror(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onautocompleteerror", value)
+	return t
+}
+
+/*
+Onblur -
+*/
+func (t *TextareaTagHtml) Onblur(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onblur", value)
+	return t
+}
+
+/*
+Oncancel -
+*/
+func (t *TextareaTagHtml) Oncancel(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oncancel", value)
+	return t
+}
+
+/*
+Oncanplay -
+*/
+func (t *TextareaTagHtml) Oncanplay(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oncanplay", value)
+	return t
+}
+
+/*
+Oncanplaythrough -
+*/
+func (t *TextareaTagHtml) Oncanplaythrough(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oncanplaythrough", value)
+	return t
+}
+
+/*
+Onchange -
+*/
+func (t *TextareaTagHtml) Onchange(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onchange", value)
+	return t
+}
+
+/*
+Onclick -
+*/
+func (t *TextareaTagHtml) Onclick(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onclick", value)
+	return t
+}
+
+/*
+Onclose -
+*/
+func (t *TextareaTagHtml) Onclose(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onclose", value)
+	return t
+}
+
+/*
+Oncontextmenu -
+*/
+func (t *TextareaTagHtml) Oncontextmenu(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oncontextmenu", value)
+	return t
+}
+
+/*
+Oncuechange -
+*/
+func (t *TextareaTagHtml) Oncuechange(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oncuechange", value)
+	return t
+}
+
+/*
+Ondblclick -
+*/
+func (t *TextareaTagHtml) Ondblclick(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondblclick", value)
+	return t
+}
+
+/*
+Ondrag -
+*/
+func (t *TextareaTagHtml) Ondrag(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondrag", value)
+	return t
+}
+
+/*
+Ondragend -
+*/
+func (t *TextareaTagHtml) Ondragend(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondragend", value)
+	return t
+}
+
+/*
+Ondragenter -
+*/
+func (t *TextareaTagHtml) Ondragenter(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondragenter", value)
+	return t
+}
+
+/*
+Ondragleave -
+*/
+func (t *TextareaTagHtml) Ondragleave(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondragleave", value)
+	return t
+}
+
+/*
+Ondragover -
+*/
+func (t *TextareaTagHtml) Ondragover(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondragover", value)
+	return t
+}
+
+/*
+Ondragstart -
+*/
+func (t *TextareaTagHtml) Ondragstart(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondragstart", value)
+	return t
+}
+
+/*
+Ondrop -
+*/
+func (t *TextareaTagHtml) Ondrop(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondrop", value)
+	return t
+}
+
+/*
+Ondurationchange -
+*/
+func (t *TextareaTagHtml) Ondurationchange(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondurationchange", value)
+	return t
+}
+
+/*
+Onemptied -
+*/
+func (t *TextareaTagHtml) Onemptied(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onemptied", value)
+	return t
+}
+
+/*
+Onended -
+*/
+func (t *TextareaTagHtml) Onended(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onended", value)
+	return t
+}
+
+/*
+Onfocus -
+*/
+func (t *TextareaTagHtml) Onfocus(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onfocus", value)
+	return t
+}
+
+/*
+Oninput -
+*/
+func (t *TextareaTagHtml) Oninput(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oninput", value)
+	return t
+}
+
+/*
+Oninvalid -
+*/
+func (t *TextareaTagHtml) Oninvalid(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oninvalid", value)
+	return t
+}
+
+/*
+Onkeydown -
+*/
+func (t *TextareaTagHtml) Onkeydown(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onkeydown", value)
+	return t
+}
+
+/*
+Onkeypress -
+*/
+func (t *TextareaTagHtml) Onkeypress(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onkeypress", value)
+	return t
+}
+
+/*
+Onkeyup -
+*/
+func (t *TextareaTagHtml) Onkeyup(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onkeyup", value)
+	return t
+}
+
+/*
+Onloadeddata -
+*/
+func (t *TextareaTagHtml) Onloadeddata(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onloadeddata", value)
+	return t
+}
+
+/*
+Onloadedmetadata -
+*/
+func (t *TextareaTagHtml) Onloadedmetadata(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onloadedmetadata", value)
+	return t
+}
+
+/*
+Onloadstart -
+*/
+func (t *TextareaTagHtml) Onloadstart(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onloadstart", value)
+	return t
+}
+
+/*
+Onmousedown -
+*/
+func (t *TextareaTagHtml) Onmousedown(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmousedown", value)
+	return t
+}
+
+/*
+Onmouseenter -
+*/
+func (t *TextareaTagHtml) Onmouseenter(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmouseenter", value)
+	return t
+}
+
+/*
+Onmouseleave -
+*/
+func (t *TextareaTagHtml) Onmouseleave(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmouseleave", value)
+	return t
+}
+
+/*
+Onmousemove -
+*/
+func (t *TextareaTagHtml) Onmousemove(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmousemove", value)
+	return t
+}
+
+/*
+Onmouseout -
+*/
+func (t *TextareaTagHtml) Onmouseout(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmouseout", value)
+	return t
+}
+
+/*
+Onmouseover -
+*/
+func (t *TextareaTagHtml) Onmouseover(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmouseover", value)
+	return t
+}
+
+/*
+Onmouseup -
+*/
+func (t *TextareaTagHtml) Onmouseup(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmouseup", value)
+	return t
+}
+
+/*
+Onmousewheel -
+*/
+func (t *TextareaTagHtml) Onmousewheel(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmousewheel", value)
+	return t
+}
+
+/*
+Onpause -
+*/
+func (t *TextareaTagHtml) Onpause(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onpause", value)
+	return t
+}
+
+/*
+Onplay -
+*/
+func (t *TextareaTagHtml) Onplay(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onplay", value)
+	return t
+}
+
+/*
+Onplaying -
+*/
+func (t *TextareaTagHtml) Onplaying(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onplaying", value)
+	return t
+}
+
+/*
+Onprogress -
+*/
+func (t *TextareaTagHtml) Onprogress(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onprogress", value)
+	return t
+}
+
+/*
+Onratechange -
+*/
+func (t *TextareaTagHtml) Onratechange(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onratechange", value)
+	return t
+}
+
+/*
+Onreset -
+*/
+func (t *TextareaTagHtml) Onreset(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onreset", value)
+	return t
+}
+
+/*
+Onscroll -
+*/
+func (t *TextareaTagHtml) Onscroll(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onscroll", value)
+	return t
+}
+
+/*
+Onseeked -
+*/
+func (t *TextareaTagHtml) Onseeked(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onseeked", value)
+	return t
+}
+
+/*
+Onseeking -
+*/
+func (t *TextareaTagHtml) Onseeking(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onseeking", value)
+	return t
+}
+
+/*
+Onselect -
+*/
+func (t *TextareaTagHtml) Onselect(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onselect", value)
+	return t
+}
+
+/*
+Onshow -
+*/
+func (t *TextareaTagHtml) Onshow(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onshow", value)
+	return t
+}
+
+/*
+Onsort -
+*/
+func (t *TextareaTagHtml) Onsort(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onsort", value)
+	return t
+}
+
+/*
+Onstalled -
+*/
+func (t *TextareaTagHtml) Onstalled(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onstalled", value)
+	return t
+}
+
+/*
+Onsubmit -
+*/
+func (t *TextareaTagHtml) Onsubmit(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onsubmit", value)
+	return t
+}
+
+/*
+Onsuspend -
+*/
+func (t *TextareaTagHtml) Onsuspend(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onsuspend", value)
+	return t
+}
+
+/*
+Ontimeupdate -
+*/
+func (t *TextareaTagHtml) Ontimeupdate(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ontimeupdate", value)
+	return t
+}
+
+/*
+Ontoggle -
+*/
+func (t *TextareaTagHtml) Ontoggle(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ontoggle", value)
+	return t
+}
+
+/*
+Onvolumechange -
+*/
+func (t *TextareaTagHtml) Onvolumechange(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onvolumechange", value)
+	return t
+}
+
+/*
+Onwaiting -
+*/
+func (t *TextareaTagHtml) Onwaiting(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onwaiting", value)
+	return t
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (t *TextareaTagHtml) Onafterprint(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onafterprint", value)
+	return t
+}
+
+/*
+Onbeforeprint -
+*/
+func (t *TextareaTagHtml) Onbeforeprint(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onbeforeprint", value)
+	return t
+}
+
+/*
+Onbeforeunload -
+*/
+func (t *TextareaTagHtml) Onbeforeunload(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onbeforeunload", value)
+	return t
+}
+
+/*
+Onerror -
+*/
+func (t *TextareaTagHtml) Onerror(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onerror", value)
+	return t
+}
+
+/*
+Onhashchange -
+*/
+func (t *TextareaTagHtml) Onhashchange(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onhashchange", value)
+	return t
+}
+
+/*
+Onload -
+*/
+func (t *TextareaTagHtml) Onload(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onload", value)
+	return t
+}
+
+/*
+Onmessage -
+*/
+func (t *TextareaTagHtml) Onmessage(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmessage", value)
+	return t
+}
+
+/*
+Onoffline -
+*/
+func (t *TextareaTagHtml) Onoffline(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onoffline", value)
+	return t
+}
+
+/*
+Ononline -
+*/
+func (t *TextareaTagHtml) Ononline(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ononline", value)
+	return t
+}
+
+/*
+Onpagehide -
+*/
+func (t *TextareaTagHtml) Onpagehide(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onpagehide", value)
+	return t
+}
+
+/*
+Onpageshow -
+*/
+func (t *TextareaTagHtml) Onpageshow(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onpageshow", value)
+	return t
+}
+
+/*
+Onpopstate -
+*/
+func (t *TextareaTagHtml) Onpopstate(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onpopstate", value)
+	return t
+}
+
+/*
+Onresize -
+*/
+func (t *TextareaTagHtml) Onresize(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onresize", value)
+	return t
+}
+
+/*
+Onstorage -
+*/
+func (t *TextareaTagHtml) Onstorage(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onstorage", value)
+	return t
+}
+
+/*
+Onunload -
+*/
+func (t *TextareaTagHtml) Onunload(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onunload", value)
+	return t
+}
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (t *TextareaTagHtml) AccessKey(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("accessKey", value)
+	return t
+}
+
+/*
+Aria -
+*/
+func (t *TextareaTagHtml) Aria(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria", value)
+	return t
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (t *TextareaTagHtml) Autocapitalize(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("autocapitalize", value)
+	return t
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (t *TextareaTagHtml) Autofocus(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("autofocus", value)
+	return t
+}
+
+/*
+Class -
+*/
+func (t *TextareaTagHtml) Class(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("class", value)
+	return t
+}
+
+/*
+Contenteditable -
+*/
+func (t *TextareaTagHtml) Contenteditable(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("contenteditable", value)
+	return t
+}
+
+/*
+Data -
+*/
+func (t *TextareaTagHtml) Data(name, value string) *TextareaTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	t.registerAttribute(dataName, value)
+	return t
+}
+
+/*
+Dir -
+*/
+func (t *TextareaTagHtml) Dir(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("dir", value)
+	return t
+}
+
+/*
+Draggable -
+*/
+func (t *TextareaTagHtml) Draggable(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("draggable", value)
+	return t
+}
+
+/*
+EnterKeyHint -
+*/
+func (t *TextareaTagHtml) EnterKeyHint(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("enterKeyHint", value)
+	return t
+}
+
+/*
+ExportParts -
+*/
+func (t *TextareaTagHtml) ExportParts(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("exportParts", value)
+	return t
+}
+
+/*
+Hidden -
+*/
+func (t *TextareaTagHtml) Hidden(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("hidden", value)
+	return t
+}
+
+/*
+Id -
+*/
+func (t *TextareaTagHtml) Id(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("id", value)
+	return t
+}
+
+/*
+Inert -
+*/
+func (t *TextareaTagHtml) Inert(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("inert", value)
+	return t
+}
+
+/*
+InputMode -
+*/
+func (t *TextareaTagHtml) InputMode(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("inputMode", value)
+	return t
+}
+
+/*
+Is -
+*/
+func (t *TextareaTagHtml) Is(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("is", value)
+	return t
+}
+
+/*
+ItemId -
+*/
+func (t *TextareaTagHtml) ItemId(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("itemId", value)
+	return t
+}
+
+/*
+ItemProp -
+*/
+func (t *TextareaTagHtml) ItemProp(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("itemProp", value)
+	return t
+}
+
+/*
+ItemRef -
+*/
+func (t *TextareaTagHtml) ItemRef(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("itemRef", value)
+	return t
+}
+
+/*
+ItemScope -
+*/
+func (t *TextareaTagHtml) ItemScope(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("itemScope", value)
+	return t
+}
+
+/*
+ItemType -
+*/
+func (t *TextareaTagHtml) ItemType(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("itemType", value)
+	return t
+}
+
+/*
+Lang -
+*/
+func (t *TextareaTagHtml) Lang(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("lang", value)
+	return t
+}
+
+/*
+Nonce -
+*/
+func (t *TextareaTagHtml) Nonce(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("nonce", value)
+	return t
+}
+
+/*
+Part -
+*/
+func (t *TextareaTagHtml) Part(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("part", value)
+	return t
+}
+
+/*
+Popover -
+*/
+func (t *TextareaTagHtml) Popover() *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("popover", "")
+	return t
+}
+
+/*
+Role -
+*/
+func (t *TextareaTagHtml) Role(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("role", value)
+	return t
+}
+
+/*
+Slot -
+*/
+func (t *TextareaTagHtml) Slot(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("slot", value)
+	return t
+}
+
+/*
+Spellcheck -
+*/
+func (t *TextareaTagHtml) Spellcheck(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("spellcheck", value)
+	return t
+}
+
+/*
+Style -
+*/
+func (t *TextareaTagHtml) Style(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("style", value)
+	return t
+}
+
+/*
+Tabindex -
+*/
+func (t *TextareaTagHtml) Tabindex(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("tabindex", value)
+	return t
+}
+
+/*
+Title -
+*/
+func (t *TextareaTagHtml) Title(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("title", value)
+	return t
+}
+
+/*
+Translate -
+*/
+func (t *TextareaTagHtml) Translate(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("translate", value)
+	return t
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (t *TextareaTagHtml) VirtualKeyBoardPolicy(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("virtualKeyBoardPolicy", value)
+	return t
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (t *TextareaTagHtml) AriaAtomic(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-atomic", value)
+	return t
+}
+
+/*
+AriaBusy -
+*/
+func (t *TextareaTagHtml) AriaBusy(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-busy", value)
+	return t
+}
+
+/*
+AriaControls -
+*/
+func (t *TextareaTagHtml) AriaControls(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-controls", value)
+	return t
+}
+
+/*
+AriaCurrent -
+*/
+func (t *TextareaTagHtml) AriaCurrent(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-current", value)
+	return t
+}
+
+/*
+AriaDescribedby -
+*/
+func (t *TextareaTagHtml) AriaDescribedby(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-describedby", value)
+	return t
+}
+
+/*
+AriaDescription -
+*/
+func (t *TextareaTagHtml) AriaDescription(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-description", value)
+	return t
+}
+
+/*
+AriaDetails -
+*/
+func (t *TextareaTagHtml) AriaDetails(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-details", value)
+	return t
+}
+
+/*
+AriaDisabled -
+*/
+func (t *TextareaTagHtml) AriaDisabled(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-disabled", value)
+	return t
+}
+
+/*
+AriaDropeffect -
+*/
+func (t *TextareaTagHtml) AriaDropeffect(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-dropeffect", value)
+	return t
+}
+
+/*
+AriaErrormessage -
+*/
+func (t *TextareaTagHtml) AriaErrormessage(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-errormessage", value)
+	return t
+}
+
+/*
+AriaFlowto -
+*/
+func (t *TextareaTagHtml) AriaFlowto(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-flowto", value)
+	return t
+}
+
+/*
+AriaGrabbed -
+*/
+func (t *TextareaTagHtml) AriaGrabbed(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-grabbed", value)
+	return t
+}
+
+/*
+AriaHaspopup -
+*/
+func (t *TextareaTagHtml) AriaHaspopup(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-haspopup", value)
+	return t
+}
+
+/*
+AriaHidden -
+*/
+func (t *TextareaTagHtml) AriaHidden(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-hidden", value)
+	return t
+}
+
+/*
+AriaInvalid -
+*/
+func (t *TextareaTagHtml) AriaInvalid(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-invalid", value)
+	return t
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (t *TextareaTagHtml) AriaKeyshortcuts(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-keyshortcuts", value)
+	return t
+}
+
+/*
+AriaLabel -
+*/
+func (t *TextareaTagHtml) AriaLabel(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-label", value)
+	return t
+}
+
+/*
+AriaLabelledby -
+*/
+func (t *TextareaTagHtml) AriaLabelledby(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-labelledby", value)
+	return t
+}
+
+/*
+AriaLive -
+*/
+func (t *TextareaTagHtml) AriaLive(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-live", value)
+	return t
+}
+
+/*
+AriaOwns -
+*/
+func (t *TextareaTagHtml) AriaOwns(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-owns", value)
+	return t
+}
+
+/*
+AriaRelevant -
+*/
+func (t *TextareaTagHtml) AriaRelevant(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-relevant", value)
+	return t
+}
+
+/*
+AriaRoledescription -
+*/
+func (t *TextareaTagHtml) AriaRoledescription(value string) *TextareaTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-roledescription", value)
+	return t
+}

@@ -117,3 +117,1451 @@ func (o *OptionTagHtml) Value(value string) *OptionTagHtml {
 	o.registerAttribute("value", value)
 	return o
 }
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (o *OptionTagHtml) AccessKey(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("accessKey", value)
+	return o
+}
+
+/*
+Aria -
+*/
+func (o *OptionTagHtml) Aria(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria", value)
+	return o
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (o *OptionTagHtml) Autocapitalize(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("autocapitalize", value)
+	return o
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (o *OptionTagHtml) Autofocus(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("autofocus", value)
+	return o
+}
+
+/*
+Class -
+*/
+func (o *OptionTagHtml) Class(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("class", value)
+	return o
+}
+
+/*
+Contenteditable -
+*/
+func (o *OptionTagHtml) Contenteditable(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("contenteditable", value)
+	return o
+}
+
+/*
+Data -
+*/
+func (o *OptionTagHtml) Data(name, value string) *OptionTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	o.registerAttribute(dataName, value)
+	return o
+}
+
+/*
+Dir -
+*/
+func (o *OptionTagHtml) Dir(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("dir", value)
+	return o
+}
+
+/*
+Draggable -
+*/
+func (o *OptionTagHtml) Draggable(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("draggable", value)
+	return o
+}
+
+/*
+EnterKeyHint -
+*/
+func (o *OptionTagHtml) EnterKeyHint(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("enterKeyHint", value)
+	return o
+}
+
+/*
+ExportParts -
+*/
+func (o *OptionTagHtml) ExportParts(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("exportParts", value)
+	return o
+}
+
+/*
+Hidden -
+*/
+func (o *OptionTagHtml) Hidden(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("hidden", value)
+	return o
+}
+
+/*
+Id -
+*/
+func (o *OptionTagHtml) Id(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("id", value)
+	return o
+}
+
+/*
+Inert -
+*/
+func (o *OptionTagHtml) Inert(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("inert", value)
+	return o
+}
+
+/*
+InputMode -
+*/
+func (o *OptionTagHtml) InputMode(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("inputMode", value)
+	return o
+}
+
+/*
+Is -
+*/
+func (o *OptionTagHtml) Is(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("is", value)
+	return o
+}
+
+/*
+ItemId -
+*/
+func (o *OptionTagHtml) ItemId(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("itemId", value)
+	return o
+}
+
+/*
+ItemProp -
+*/
+func (o *OptionTagHtml) ItemProp(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("itemProp", value)
+	return o
+}
+
+/*
+ItemRef -
+*/
+func (o *OptionTagHtml) ItemRef(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("itemRef", value)
+	return o
+}
+
+/*
+ItemScope -
+*/
+func (o *OptionTagHtml) ItemScope(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("itemScope", value)
+	return o
+}
+
+/*
+ItemType -
+*/
+func (o *OptionTagHtml) ItemType(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("itemType", value)
+	return o
+}
+
+/*
+Lang -
+*/
+func (o *OptionTagHtml) Lang(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("lang", value)
+	return o
+}
+
+/*
+Nonce -
+*/
+func (o *OptionTagHtml) Nonce(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("nonce", value)
+	return o
+}
+
+/*
+Part -
+*/
+func (o *OptionTagHtml) Part(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("part", value)
+	return o
+}
+
+/*
+Popover -
+*/
+func (o *OptionTagHtml) Popover() *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("popover", "")
+	return o
+}
+
+/*
+Role -
+*/
+func (o *OptionTagHtml) Role(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("role", value)
+	return o
+}
+
+/*
+Slot -
+*/
+func (o *OptionTagHtml) Slot(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("slot", value)
+	return o
+}
+
+/*
+Spellcheck -
+*/
+func (o *OptionTagHtml) Spellcheck(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("spellcheck", value)
+	return o
+}
+
+/*
+Style -
+*/
+func (o *OptionTagHtml) Style(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("style", value)
+	return o
+}
+
+/*
+Tabindex -
+*/
+func (o *OptionTagHtml) Tabindex(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("tabindex", value)
+	return o
+}
+
+/*
+Title -
+*/
+func (o *OptionTagHtml) Title(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("title", value)
+	return o
+}
+
+/*
+Translate -
+*/
+func (o *OptionTagHtml) Translate(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("translate", value)
+	return o
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (o *OptionTagHtml) VirtualKeyBoardPolicy(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("virtualKeyBoardPolicy", value)
+	return o
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (o *OptionTagHtml) AriaAtomic(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-atomic", value)
+	return o
+}
+
+/*
+AriaBusy -
+*/
+func (o *OptionTagHtml) AriaBusy(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-busy", value)
+	return o
+}
+
+/*
+AriaControls -
+*/
+func (o *OptionTagHtml) AriaControls(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-controls", value)
+	return o
+}
+
+/*
+AriaCurrent -
+*/
+func (o *OptionTagHtml) AriaCurrent(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-current", value)
+	return o
+}
+
+/*
+AriaDescribedby -
+*/
+func (o *OptionTagHtml) AriaDescribedby(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-describedby", value)
+	return o
+}
+
+/*
+AriaDescription -
+*/
+func (o *OptionTagHtml) AriaDescription(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-description", value)
+	return o
+}
+
+/*
+AriaDetails -
+*/
+func (o *OptionTagHtml) AriaDetails(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-details", value)
+	return o
+}
+
+/*
+AriaDisabled -
+*/
+func (o *OptionTagHtml) AriaDisabled(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-disabled", value)
+	return o
+}
+
+/*
+AriaDropeffect -
+*/
+func (o *OptionTagHtml) AriaDropeffect(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-dropeffect", value)
+	return o
+}
+
+/*
+AriaErrormessage -
+*/
+func (o *OptionTagHtml) AriaErrormessage(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-errormessage", value)
+	return o
+}
+
+/*
+AriaFlowto -
+*/
+func (o *OptionTagHtml) AriaFlowto(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-flowto", value)
+	return o
+}
+
+/*
+AriaGrabbed -
+*/
+func (o *OptionTagHtml) AriaGrabbed(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-grabbed", value)
+	return o
+}
+
+/*
+AriaHaspopup -
+*/
+func (o *OptionTagHtml) AriaHaspopup(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-haspopup", value)
+	return o
+}
+
+/*
+AriaHidden -
+*/
+func (o *OptionTagHtml) AriaHidden(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-hidden", value)
+	return o
+}
+
+/*
+AriaInvalid -
+*/
+func (o *OptionTagHtml) AriaInvalid(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-invalid", value)
+	return o
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (o *OptionTagHtml) AriaKeyshortcuts(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-keyshortcuts", value)
+	return o
+}
+
+/*
+AriaLabel -
+*/
+func (o *OptionTagHtml) AriaLabel(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-label", value)
+	return o
+}
+
+/*
+AriaLabelledby -
+*/
+func (o *OptionTagHtml) AriaLabelledby(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-labelledby", value)
+	return o
+}
+
+/*
+AriaLive -
+*/
+func (o *OptionTagHtml) AriaLive(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-live", value)
+	return o
+}
+
+/*
+AriaOwns -
+*/
+func (o *OptionTagHtml) AriaOwns(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-owns", value)
+	return o
+}
+
+/*
+AriaRelevant -
+*/
+func (o *OptionTagHtml) AriaRelevant(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-relevant", value)
+	return o
+}
+
+/*
+AriaRoledescription -
+*/
+func (o *OptionTagHtml) AriaRoledescription(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("aria-roledescription", value)
+	return o
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (o *OptionTagHtml) Onabort(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onabort", value)
+	return o
+}
+
+/*
+Onautocomplete -
+*/
+func (o *OptionTagHtml) Onautocomplete(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onautocomplete", value)
+	return o
+}
+
+/*
+Onautocompleteerror -
+*/
+func (o *OptionTagHtml) Onautocompleteerror(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onautocompleteerror", value)
+	return o
+}
+
+/*
+Onblur -
+*/
+func (o *OptionTagHtml) Onblur(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onblur", value)
+	return o
+}
+
+/*
+Oncancel -
+*/
+func (o *OptionTagHtml) Oncancel(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("oncancel", value)
+	return o
+}
+
+/*
+Oncanplay -
+*/
+func (o *OptionTagHtml) Oncanplay(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("oncanplay", value)
+	return o
+}
+
+/*
+Oncanplaythrough -
+*/
+func (o *OptionTagHtml) Oncanplaythrough(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("oncanplaythrough", value)
+	return o
+}
+
+/*
+Onchange -
+*/
+func (o *OptionTagHtml) Onchange(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onchange", value)
+	return o
+}
+
+/*
+Onclick -
+*/
+func (o *OptionTagHtml) Onclick(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onclick", value)
+	return o
+}
+
+/*
+Onclose -
+*/
+func (o *OptionTagHtml) Onclose(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onclose", value)
+	return o
+}
+
+/*
+Oncontextmenu -
+*/
+func (o *OptionTagHtml) Oncontextmenu(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("oncontextmenu", value)
+	return o
+}
+
+/*
+Oncuechange -
+*/
+func (o *OptionTagHtml) Oncuechange(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("oncuechange", value)
+	return o
+}
+
+/*
+Ondblclick -
+*/
+func (o *OptionTagHtml) Ondblclick(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("ondblclick", value)
+	return o
+}
+
+/*
+Ondrag -
+*/
+func (o *OptionTagHtml) Ondrag(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("ondrag", value)
+	return o
+}
+
+/*
+Ondragend -
+*/
+func (o *OptionTagHtml) Ondragend(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("ondragend", value)
+	return o
+}
+
+/*
+Ondragenter -
+*/
+func (o *OptionTagHtml) Ondragenter(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("ondragenter", value)
+	return o
+}
+
+/*
+Ondragleave -
+*/
+func (o *OptionTagHtml) Ondragleave(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("ondragleave", value)
+	return o
+}
+
+/*
+Ondragover -
+*/
+func (o *OptionTagHtml) Ondragover(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("ondragover", value)
+	return o
+}
+
+/*
+Ondragstart -
+*/
+func (o *OptionTagHtml) Ondragstart(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("ondragstart", value)
+	return o
+}
+
+/*
+Ondrop -
+*/
+func (o *OptionTagHtml) Ondrop(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("ondrop", value)
+	return o
+}
+
+/*
+Ondurationchange -
+*/
+func (o *OptionTagHtml) Ondurationchange(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("ondurationchange", value)
+	return o
+}
+
+/*
+Onemptied -
+*/
+func (o *OptionTagHtml) Onemptied(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onemptied", value)
+	return o
+}
+
+/*
+Onended -
+*/
+func (o *OptionTagHtml) Onended(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onended", value)
+	return o
+}
+
+/*
+Onfocus -
+*/
+func (o *OptionTagHtml) Onfocus(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onfocus", value)
+	return o
+}
+
+/*
+Oninput -
+*/
+func (o *OptionTagHtml) Oninput(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("oninput", value)
+	return o
+}
+
+/*
+Oninvalid -
+*/
+func (o *OptionTagHtml) Oninvalid(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("oninvalid", value)
+	return o
+}
+
+/*
+Onkeydown -
+*/
+func (o *OptionTagHtml) Onkeydown(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onkeydown", value)
+	return o
+}
+
+/*
+Onkeypress -
+*/
+func (o *OptionTagHtml) Onkeypress(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onkeypress", value)
+	return o
+}
+
+/*
+Onkeyup -
+*/
+func (o *OptionTagHtml) Onkeyup(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onkeyup", value)
+	return o
+}
+
+/*
+Onloadeddata -
+*/
+func (o *OptionTagHtml) Onloadeddata(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onloadeddata", value)
+	return o
+}
+
+/*
+Onloadedmetadata -
+*/
+func (o *OptionTagHtml) Onloadedmetadata(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onloadedmetadata", value)
+	return o
+}
+
+/*
+Onloadstart -
+*/
+func (o *OptionTagHtml) Onloadstart(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onloadstart", value)
+	return o
+}
+
+/*
+Onmousedown -
+*/
+func (o *OptionTagHtml) Onmousedown(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onmousedown", value)
+	return o
+}
+
+/*
+Onmouseenter -
+*/
+func (o *OptionTagHtml) Onmouseenter(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onmouseenter", value)
+	return o
+}
+
+/*
+Onmouseleave -
+*/
+func (o *OptionTagHtml) Onmouseleave(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onmouseleave", value)
+	return o
+}
+
+/*
+Onmousemove -
+*/
+func (o *OptionTagHtml) Onmousemove(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onmousemove", value)
+	return o
+}
+
+/*
+Onmouseout -
+*/
+func (o *OptionTagHtml) Onmouseout(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onmouseout", value)
+	return o
+}
+
+/*
+Onmouseover -
+*/
+func (o *OptionTagHtml) Onmouseover(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onmouseover", value)
+	return o
+}
+
+/*
+Onmouseup -
+*/
+func (o *OptionTagHtml) Onmouseup(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onmouseup", value)
+	return o
+}
+
+/*
+Onmousewheel -
+*/
+func (o *OptionTagHtml) Onmousewheel(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onmousewheel", value)
+	return o
+}
+
+/*
+Onpause -
+*/
+func (o *OptionTagHtml) Onpause(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onpause", value)
+	return o
+}
+
+/*
+Onplay -
+*/
+func (o *OptionTagHtml) Onplay(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onplay", value)
+	return o
+}
+
+/*
+Onplaying -
+*/
+func (o *OptionTagHtml) Onplaying(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onplaying", value)
+	return o
+}
+
+/*
+Onprogress -
+*/
+func (o *OptionTagHtml) Onprogress(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onprogress", value)
+	return o
+}
+
+/*
+Onratechange -
+*/
+func (o *OptionTagHtml) Onratechange(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onratechange", value)
+	return o
+}
+
+/*
+Onreset -
+*/
+func (o *OptionTagHtml) Onreset(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onreset", value)
+	return o
+}
+
+/*
+Onscroll -
+*/
+func (o *OptionTagHtml) Onscroll(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onscroll", value)
+	return o
+}
+
+/*
+Onseeked -
+*/
+func (o *OptionTagHtml) Onseeked(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onseeked", value)
+	return o
+}
+
+/*
+Onseeking -
+*/
+func (o *OptionTagHtml) Onseeking(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onseeking", value)
+	return o
+}
+
+/*
+Onselect -
+*/
+func (o *OptionTagHtml) Onselect(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onselect", value)
+	return o
+}
+
+/*
+Onshow -
+*/
+func (o *OptionTagHtml) Onshow(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onshow", value)
+	return o
+}
+
+/*
+Onsort -
+*/
+func (o *OptionTagHtml) Onsort(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onsort", value)
+	return o
+}
+
+/*
+Onstalled -
+*/
+func (o *OptionTagHtml) Onstalled(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onstalled", value)
+	return o
+}
+
+/*
+Onsubmit -
+*/
+func (o *OptionTagHtml) Onsubmit(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onsubmit", value)
+	return o
+}
+
+/*
+Onsuspend -
+*/
+func (o *OptionTagHtml) Onsuspend(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onsuspend", value)
+	return o
+}
+
+/*
+Ontimeupdate -
+*/
+func (o *OptionTagHtml) Ontimeupdate(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("ontimeupdate", value)
+	return o
+}
+
+/*
+Ontoggle -
+*/
+func (o *OptionTagHtml) Ontoggle(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("ontoggle", value)
+	return o
+}
+
+/*
+Onvolumechange -
+*/
+func (o *OptionTagHtml) Onvolumechange(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onvolumechange", value)
+	return o
+}
+
+/*
+Onwaiting -
+*/
+func (o *OptionTagHtml) Onwaiting(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onwaiting", value)
+	return o
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (o *OptionTagHtml) Onafterprint(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onafterprint", value)
+	return o
+}
+
+/*
+Onbeforeprint -
+*/
+func (o *OptionTagHtml) Onbeforeprint(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onbeforeprint", value)
+	return o
+}
+
+/*
+Onbeforeunload -
+*/
+func (o *OptionTagHtml) Onbeforeunload(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onbeforeunload", value)
+	return o
+}
+
+/*
+Onerror -
+*/
+func (o *OptionTagHtml) Onerror(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onerror", value)
+	return o
+}
+
+/*
+Onhashchange -
+*/
+func (o *OptionTagHtml) Onhashchange(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onhashchange", value)
+	return o
+}
+
+/*
+Onload -
+*/
+func (o *OptionTagHtml) Onload(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onload", value)
+	return o
+}
+
+/*
+Onmessage -
+*/
+func (o *OptionTagHtml) Onmessage(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onmessage", value)
+	return o
+}
+
+/*
+Onoffline -
+*/
+func (o *OptionTagHtml) Onoffline(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onoffline", value)
+	return o
+}
+
+/*
+Ononline -
+*/
+func (o *OptionTagHtml) Ononline(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("ononline", value)
+	return o
+}
+
+/*
+Onpagehide -
+*/
+func (o *OptionTagHtml) Onpagehide(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onpagehide", value)
+	return o
+}
+
+/*
+Onpageshow -
+*/
+func (o *OptionTagHtml) Onpageshow(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onpageshow", value)
+	return o
+}
+
+/*
+Onpopstate -
+*/
+func (o *OptionTagHtml) Onpopstate(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onpopstate", value)
+	return o
+}
+
+/*
+Onresize -
+*/
+func (o *OptionTagHtml) Onresize(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onresize", value)
+	return o
+}
+
+/*
+Onstorage -
+*/
+func (o *OptionTagHtml) Onstorage(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onstorage", value)
+	return o
+}
+
+/*
+Onunload -
+*/
+func (o *OptionTagHtml) Onunload(value string) *OptionTagHtml {
+	if o.attributes == nil {
+		o.attributes = []*Attribute{}
+	}
+	o.registerAttribute("onunload", value)
+	return o
+}

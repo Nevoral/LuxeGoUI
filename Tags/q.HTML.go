@@ -83,3 +83,1451 @@ func (q *QTagHtml) Cite(value string) *QTagHtml {
 	q.registerAttribute("cite", value)
 	return q
 }
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (q *QTagHtml) AccessKey(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("accessKey", value)
+	return q
+}
+
+/*
+Aria -
+*/
+func (q *QTagHtml) Aria(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria", value)
+	return q
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (q *QTagHtml) Autocapitalize(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("autocapitalize", value)
+	return q
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (q *QTagHtml) Autofocus(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("autofocus", value)
+	return q
+}
+
+/*
+Class -
+*/
+func (q *QTagHtml) Class(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("class", value)
+	return q
+}
+
+/*
+Contenteditable -
+*/
+func (q *QTagHtml) Contenteditable(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("contenteditable", value)
+	return q
+}
+
+/*
+Data -
+*/
+func (q *QTagHtml) Data(name, value string) *QTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	q.registerAttribute(dataName, value)
+	return q
+}
+
+/*
+Dir -
+*/
+func (q *QTagHtml) Dir(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("dir", value)
+	return q
+}
+
+/*
+Draggable -
+*/
+func (q *QTagHtml) Draggable(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("draggable", value)
+	return q
+}
+
+/*
+EnterKeyHint -
+*/
+func (q *QTagHtml) EnterKeyHint(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("enterKeyHint", value)
+	return q
+}
+
+/*
+ExportParts -
+*/
+func (q *QTagHtml) ExportParts(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("exportParts", value)
+	return q
+}
+
+/*
+Hidden -
+*/
+func (q *QTagHtml) Hidden(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("hidden", value)
+	return q
+}
+
+/*
+Id -
+*/
+func (q *QTagHtml) Id(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("id", value)
+	return q
+}
+
+/*
+Inert -
+*/
+func (q *QTagHtml) Inert(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("inert", value)
+	return q
+}
+
+/*
+InputMode -
+*/
+func (q *QTagHtml) InputMode(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("inputMode", value)
+	return q
+}
+
+/*
+Is -
+*/
+func (q *QTagHtml) Is(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("is", value)
+	return q
+}
+
+/*
+ItemId -
+*/
+func (q *QTagHtml) ItemId(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("itemId", value)
+	return q
+}
+
+/*
+ItemProp -
+*/
+func (q *QTagHtml) ItemProp(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("itemProp", value)
+	return q
+}
+
+/*
+ItemRef -
+*/
+func (q *QTagHtml) ItemRef(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("itemRef", value)
+	return q
+}
+
+/*
+ItemScope -
+*/
+func (q *QTagHtml) ItemScope(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("itemScope", value)
+	return q
+}
+
+/*
+ItemType -
+*/
+func (q *QTagHtml) ItemType(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("itemType", value)
+	return q
+}
+
+/*
+Lang -
+*/
+func (q *QTagHtml) Lang(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("lang", value)
+	return q
+}
+
+/*
+Nonce -
+*/
+func (q *QTagHtml) Nonce(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("nonce", value)
+	return q
+}
+
+/*
+Part -
+*/
+func (q *QTagHtml) Part(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("part", value)
+	return q
+}
+
+/*
+Popover -
+*/
+func (q *QTagHtml) Popover() *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("popover", "")
+	return q
+}
+
+/*
+Role -
+*/
+func (q *QTagHtml) Role(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("role", value)
+	return q
+}
+
+/*
+Slot -
+*/
+func (q *QTagHtml) Slot(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("slot", value)
+	return q
+}
+
+/*
+Spellcheck -
+*/
+func (q *QTagHtml) Spellcheck(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("spellcheck", value)
+	return q
+}
+
+/*
+Style -
+*/
+func (q *QTagHtml) Style(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("style", value)
+	return q
+}
+
+/*
+Tabindex -
+*/
+func (q *QTagHtml) Tabindex(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("tabindex", value)
+	return q
+}
+
+/*
+Title -
+*/
+func (q *QTagHtml) Title(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("title", value)
+	return q
+}
+
+/*
+Translate -
+*/
+func (q *QTagHtml) Translate(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("translate", value)
+	return q
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (q *QTagHtml) VirtualKeyBoardPolicy(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("virtualKeyBoardPolicy", value)
+	return q
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (q *QTagHtml) AriaAtomic(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-atomic", value)
+	return q
+}
+
+/*
+AriaBusy -
+*/
+func (q *QTagHtml) AriaBusy(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-busy", value)
+	return q
+}
+
+/*
+AriaControls -
+*/
+func (q *QTagHtml) AriaControls(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-controls", value)
+	return q
+}
+
+/*
+AriaCurrent -
+*/
+func (q *QTagHtml) AriaCurrent(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-current", value)
+	return q
+}
+
+/*
+AriaDescribedby -
+*/
+func (q *QTagHtml) AriaDescribedby(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-describedby", value)
+	return q
+}
+
+/*
+AriaDescription -
+*/
+func (q *QTagHtml) AriaDescription(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-description", value)
+	return q
+}
+
+/*
+AriaDetails -
+*/
+func (q *QTagHtml) AriaDetails(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-details", value)
+	return q
+}
+
+/*
+AriaDisabled -
+*/
+func (q *QTagHtml) AriaDisabled(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-disabled", value)
+	return q
+}
+
+/*
+AriaDropeffect -
+*/
+func (q *QTagHtml) AriaDropeffect(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-dropeffect", value)
+	return q
+}
+
+/*
+AriaErrormessage -
+*/
+func (q *QTagHtml) AriaErrormessage(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-errormessage", value)
+	return q
+}
+
+/*
+AriaFlowto -
+*/
+func (q *QTagHtml) AriaFlowto(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-flowto", value)
+	return q
+}
+
+/*
+AriaGrabbed -
+*/
+func (q *QTagHtml) AriaGrabbed(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-grabbed", value)
+	return q
+}
+
+/*
+AriaHaspopup -
+*/
+func (q *QTagHtml) AriaHaspopup(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-haspopup", value)
+	return q
+}
+
+/*
+AriaHidden -
+*/
+func (q *QTagHtml) AriaHidden(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-hidden", value)
+	return q
+}
+
+/*
+AriaInvalid -
+*/
+func (q *QTagHtml) AriaInvalid(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-invalid", value)
+	return q
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (q *QTagHtml) AriaKeyshortcuts(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-keyshortcuts", value)
+	return q
+}
+
+/*
+AriaLabel -
+*/
+func (q *QTagHtml) AriaLabel(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-label", value)
+	return q
+}
+
+/*
+AriaLabelledby -
+*/
+func (q *QTagHtml) AriaLabelledby(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-labelledby", value)
+	return q
+}
+
+/*
+AriaLive -
+*/
+func (q *QTagHtml) AriaLive(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-live", value)
+	return q
+}
+
+/*
+AriaOwns -
+*/
+func (q *QTagHtml) AriaOwns(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-owns", value)
+	return q
+}
+
+/*
+AriaRelevant -
+*/
+func (q *QTagHtml) AriaRelevant(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-relevant", value)
+	return q
+}
+
+/*
+AriaRoledescription -
+*/
+func (q *QTagHtml) AriaRoledescription(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("aria-roledescription", value)
+	return q
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (q *QTagHtml) Onabort(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onabort", value)
+	return q
+}
+
+/*
+Onautocomplete -
+*/
+func (q *QTagHtml) Onautocomplete(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onautocomplete", value)
+	return q
+}
+
+/*
+Onautocompleteerror -
+*/
+func (q *QTagHtml) Onautocompleteerror(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onautocompleteerror", value)
+	return q
+}
+
+/*
+Onblur -
+*/
+func (q *QTagHtml) Onblur(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onblur", value)
+	return q
+}
+
+/*
+Oncancel -
+*/
+func (q *QTagHtml) Oncancel(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("oncancel", value)
+	return q
+}
+
+/*
+Oncanplay -
+*/
+func (q *QTagHtml) Oncanplay(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("oncanplay", value)
+	return q
+}
+
+/*
+Oncanplaythrough -
+*/
+func (q *QTagHtml) Oncanplaythrough(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("oncanplaythrough", value)
+	return q
+}
+
+/*
+Onchange -
+*/
+func (q *QTagHtml) Onchange(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onchange", value)
+	return q
+}
+
+/*
+Onclick -
+*/
+func (q *QTagHtml) Onclick(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onclick", value)
+	return q
+}
+
+/*
+Onclose -
+*/
+func (q *QTagHtml) Onclose(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onclose", value)
+	return q
+}
+
+/*
+Oncontextmenu -
+*/
+func (q *QTagHtml) Oncontextmenu(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("oncontextmenu", value)
+	return q
+}
+
+/*
+Oncuechange -
+*/
+func (q *QTagHtml) Oncuechange(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("oncuechange", value)
+	return q
+}
+
+/*
+Ondblclick -
+*/
+func (q *QTagHtml) Ondblclick(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("ondblclick", value)
+	return q
+}
+
+/*
+Ondrag -
+*/
+func (q *QTagHtml) Ondrag(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("ondrag", value)
+	return q
+}
+
+/*
+Ondragend -
+*/
+func (q *QTagHtml) Ondragend(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("ondragend", value)
+	return q
+}
+
+/*
+Ondragenter -
+*/
+func (q *QTagHtml) Ondragenter(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("ondragenter", value)
+	return q
+}
+
+/*
+Ondragleave -
+*/
+func (q *QTagHtml) Ondragleave(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("ondragleave", value)
+	return q
+}
+
+/*
+Ondragover -
+*/
+func (q *QTagHtml) Ondragover(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("ondragover", value)
+	return q
+}
+
+/*
+Ondragstart -
+*/
+func (q *QTagHtml) Ondragstart(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("ondragstart", value)
+	return q
+}
+
+/*
+Ondrop -
+*/
+func (q *QTagHtml) Ondrop(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("ondrop", value)
+	return q
+}
+
+/*
+Ondurationchange -
+*/
+func (q *QTagHtml) Ondurationchange(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("ondurationchange", value)
+	return q
+}
+
+/*
+Onemptied -
+*/
+func (q *QTagHtml) Onemptied(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onemptied", value)
+	return q
+}
+
+/*
+Onended -
+*/
+func (q *QTagHtml) Onended(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onended", value)
+	return q
+}
+
+/*
+Onfocus -
+*/
+func (q *QTagHtml) Onfocus(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onfocus", value)
+	return q
+}
+
+/*
+Oninput -
+*/
+func (q *QTagHtml) Oninput(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("oninput", value)
+	return q
+}
+
+/*
+Oninvalid -
+*/
+func (q *QTagHtml) Oninvalid(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("oninvalid", value)
+	return q
+}
+
+/*
+Onkeydown -
+*/
+func (q *QTagHtml) Onkeydown(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onkeydown", value)
+	return q
+}
+
+/*
+Onkeypress -
+*/
+func (q *QTagHtml) Onkeypress(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onkeypress", value)
+	return q
+}
+
+/*
+Onkeyup -
+*/
+func (q *QTagHtml) Onkeyup(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onkeyup", value)
+	return q
+}
+
+/*
+Onloadeddata -
+*/
+func (q *QTagHtml) Onloadeddata(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onloadeddata", value)
+	return q
+}
+
+/*
+Onloadedmetadata -
+*/
+func (q *QTagHtml) Onloadedmetadata(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onloadedmetadata", value)
+	return q
+}
+
+/*
+Onloadstart -
+*/
+func (q *QTagHtml) Onloadstart(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onloadstart", value)
+	return q
+}
+
+/*
+Onmousedown -
+*/
+func (q *QTagHtml) Onmousedown(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onmousedown", value)
+	return q
+}
+
+/*
+Onmouseenter -
+*/
+func (q *QTagHtml) Onmouseenter(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onmouseenter", value)
+	return q
+}
+
+/*
+Onmouseleave -
+*/
+func (q *QTagHtml) Onmouseleave(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onmouseleave", value)
+	return q
+}
+
+/*
+Onmousemove -
+*/
+func (q *QTagHtml) Onmousemove(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onmousemove", value)
+	return q
+}
+
+/*
+Onmouseout -
+*/
+func (q *QTagHtml) Onmouseout(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onmouseout", value)
+	return q
+}
+
+/*
+Onmouseover -
+*/
+func (q *QTagHtml) Onmouseover(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onmouseover", value)
+	return q
+}
+
+/*
+Onmouseup -
+*/
+func (q *QTagHtml) Onmouseup(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onmouseup", value)
+	return q
+}
+
+/*
+Onmousewheel -
+*/
+func (q *QTagHtml) Onmousewheel(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onmousewheel", value)
+	return q
+}
+
+/*
+Onpause -
+*/
+func (q *QTagHtml) Onpause(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onpause", value)
+	return q
+}
+
+/*
+Onplay -
+*/
+func (q *QTagHtml) Onplay(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onplay", value)
+	return q
+}
+
+/*
+Onplaying -
+*/
+func (q *QTagHtml) Onplaying(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onplaying", value)
+	return q
+}
+
+/*
+Onprogress -
+*/
+func (q *QTagHtml) Onprogress(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onprogress", value)
+	return q
+}
+
+/*
+Onratechange -
+*/
+func (q *QTagHtml) Onratechange(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onratechange", value)
+	return q
+}
+
+/*
+Onreset -
+*/
+func (q *QTagHtml) Onreset(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onreset", value)
+	return q
+}
+
+/*
+Onscroll -
+*/
+func (q *QTagHtml) Onscroll(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onscroll", value)
+	return q
+}
+
+/*
+Onseeked -
+*/
+func (q *QTagHtml) Onseeked(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onseeked", value)
+	return q
+}
+
+/*
+Onseeking -
+*/
+func (q *QTagHtml) Onseeking(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onseeking", value)
+	return q
+}
+
+/*
+Onselect -
+*/
+func (q *QTagHtml) Onselect(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onselect", value)
+	return q
+}
+
+/*
+Onshow -
+*/
+func (q *QTagHtml) Onshow(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onshow", value)
+	return q
+}
+
+/*
+Onsort -
+*/
+func (q *QTagHtml) Onsort(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onsort", value)
+	return q
+}
+
+/*
+Onstalled -
+*/
+func (q *QTagHtml) Onstalled(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onstalled", value)
+	return q
+}
+
+/*
+Onsubmit -
+*/
+func (q *QTagHtml) Onsubmit(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onsubmit", value)
+	return q
+}
+
+/*
+Onsuspend -
+*/
+func (q *QTagHtml) Onsuspend(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onsuspend", value)
+	return q
+}
+
+/*
+Ontimeupdate -
+*/
+func (q *QTagHtml) Ontimeupdate(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("ontimeupdate", value)
+	return q
+}
+
+/*
+Ontoggle -
+*/
+func (q *QTagHtml) Ontoggle(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("ontoggle", value)
+	return q
+}
+
+/*
+Onvolumechange -
+*/
+func (q *QTagHtml) Onvolumechange(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onvolumechange", value)
+	return q
+}
+
+/*
+Onwaiting -
+*/
+func (q *QTagHtml) Onwaiting(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onwaiting", value)
+	return q
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (q *QTagHtml) Onafterprint(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onafterprint", value)
+	return q
+}
+
+/*
+Onbeforeprint -
+*/
+func (q *QTagHtml) Onbeforeprint(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onbeforeprint", value)
+	return q
+}
+
+/*
+Onbeforeunload -
+*/
+func (q *QTagHtml) Onbeforeunload(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onbeforeunload", value)
+	return q
+}
+
+/*
+Onerror -
+*/
+func (q *QTagHtml) Onerror(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onerror", value)
+	return q
+}
+
+/*
+Onhashchange -
+*/
+func (q *QTagHtml) Onhashchange(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onhashchange", value)
+	return q
+}
+
+/*
+Onload -
+*/
+func (q *QTagHtml) Onload(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onload", value)
+	return q
+}
+
+/*
+Onmessage -
+*/
+func (q *QTagHtml) Onmessage(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onmessage", value)
+	return q
+}
+
+/*
+Onoffline -
+*/
+func (q *QTagHtml) Onoffline(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onoffline", value)
+	return q
+}
+
+/*
+Ononline -
+*/
+func (q *QTagHtml) Ononline(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("ononline", value)
+	return q
+}
+
+/*
+Onpagehide -
+*/
+func (q *QTagHtml) Onpagehide(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onpagehide", value)
+	return q
+}
+
+/*
+Onpageshow -
+*/
+func (q *QTagHtml) Onpageshow(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onpageshow", value)
+	return q
+}
+
+/*
+Onpopstate -
+*/
+func (q *QTagHtml) Onpopstate(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onpopstate", value)
+	return q
+}
+
+/*
+Onresize -
+*/
+func (q *QTagHtml) Onresize(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onresize", value)
+	return q
+}
+
+/*
+Onstorage -
+*/
+func (q *QTagHtml) Onstorage(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onstorage", value)
+	return q
+}
+
+/*
+Onunload -
+*/
+func (q *QTagHtml) Onunload(value string) *QTagHtml {
+	if q.attributes == nil {
+		q.attributes = []*Attribute{}
+	}
+	q.registerAttribute("onunload", value)
+	return q
+}

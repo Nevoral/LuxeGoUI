@@ -216,3 +216,1451 @@ func (i *IframeTagHtml) Width(value string) *IframeTagHtml {
 	i.registerAttribute("width", value)
 	return i
 }
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (i *IframeTagHtml) AccessKey(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("accessKey", value)
+	return i
+}
+
+/*
+Aria -
+*/
+func (i *IframeTagHtml) Aria(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria", value)
+	return i
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (i *IframeTagHtml) Autocapitalize(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("autocapitalize", value)
+	return i
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (i *IframeTagHtml) Autofocus(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("autofocus", value)
+	return i
+}
+
+/*
+Class -
+*/
+func (i *IframeTagHtml) Class(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("class", value)
+	return i
+}
+
+/*
+Contenteditable -
+*/
+func (i *IframeTagHtml) Contenteditable(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("contenteditable", value)
+	return i
+}
+
+/*
+Data -
+*/
+func (i *IframeTagHtml) Data(name, value string) *IframeTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	i.registerAttribute(dataName, value)
+	return i
+}
+
+/*
+Dir -
+*/
+func (i *IframeTagHtml) Dir(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("dir", value)
+	return i
+}
+
+/*
+Draggable -
+*/
+func (i *IframeTagHtml) Draggable(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("draggable", value)
+	return i
+}
+
+/*
+EnterKeyHint -
+*/
+func (i *IframeTagHtml) EnterKeyHint(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("enterKeyHint", value)
+	return i
+}
+
+/*
+ExportParts -
+*/
+func (i *IframeTagHtml) ExportParts(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("exportParts", value)
+	return i
+}
+
+/*
+Hidden -
+*/
+func (i *IframeTagHtml) Hidden(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("hidden", value)
+	return i
+}
+
+/*
+Id -
+*/
+func (i *IframeTagHtml) Id(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("id", value)
+	return i
+}
+
+/*
+Inert -
+*/
+func (i *IframeTagHtml) Inert(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("inert", value)
+	return i
+}
+
+/*
+InputMode -
+*/
+func (i *IframeTagHtml) InputMode(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("inputMode", value)
+	return i
+}
+
+/*
+Is -
+*/
+func (i *IframeTagHtml) Is(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("is", value)
+	return i
+}
+
+/*
+ItemId -
+*/
+func (i *IframeTagHtml) ItemId(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("itemId", value)
+	return i
+}
+
+/*
+ItemProp -
+*/
+func (i *IframeTagHtml) ItemProp(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("itemProp", value)
+	return i
+}
+
+/*
+ItemRef -
+*/
+func (i *IframeTagHtml) ItemRef(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("itemRef", value)
+	return i
+}
+
+/*
+ItemScope -
+*/
+func (i *IframeTagHtml) ItemScope(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("itemScope", value)
+	return i
+}
+
+/*
+ItemType -
+*/
+func (i *IframeTagHtml) ItemType(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("itemType", value)
+	return i
+}
+
+/*
+Lang -
+*/
+func (i *IframeTagHtml) Lang(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("lang", value)
+	return i
+}
+
+/*
+Nonce -
+*/
+func (i *IframeTagHtml) Nonce(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("nonce", value)
+	return i
+}
+
+/*
+Part -
+*/
+func (i *IframeTagHtml) Part(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("part", value)
+	return i
+}
+
+/*
+Popover -
+*/
+func (i *IframeTagHtml) Popover() *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("popover", "")
+	return i
+}
+
+/*
+Role -
+*/
+func (i *IframeTagHtml) Role(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("role", value)
+	return i
+}
+
+/*
+Slot -
+*/
+func (i *IframeTagHtml) Slot(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("slot", value)
+	return i
+}
+
+/*
+Spellcheck -
+*/
+func (i *IframeTagHtml) Spellcheck(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("spellcheck", value)
+	return i
+}
+
+/*
+Style -
+*/
+func (i *IframeTagHtml) Style(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("style", value)
+	return i
+}
+
+/*
+Tabindex -
+*/
+func (i *IframeTagHtml) Tabindex(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("tabindex", value)
+	return i
+}
+
+/*
+Title -
+*/
+func (i *IframeTagHtml) Title(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("title", value)
+	return i
+}
+
+/*
+Translate -
+*/
+func (i *IframeTagHtml) Translate(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("translate", value)
+	return i
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (i *IframeTagHtml) VirtualKeyBoardPolicy(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("virtualKeyBoardPolicy", value)
+	return i
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (i *IframeTagHtml) AriaAtomic(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-atomic", value)
+	return i
+}
+
+/*
+AriaBusy -
+*/
+func (i *IframeTagHtml) AriaBusy(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-busy", value)
+	return i
+}
+
+/*
+AriaControls -
+*/
+func (i *IframeTagHtml) AriaControls(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-controls", value)
+	return i
+}
+
+/*
+AriaCurrent -
+*/
+func (i *IframeTagHtml) AriaCurrent(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-current", value)
+	return i
+}
+
+/*
+AriaDescribedby -
+*/
+func (i *IframeTagHtml) AriaDescribedby(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-describedby", value)
+	return i
+}
+
+/*
+AriaDescription -
+*/
+func (i *IframeTagHtml) AriaDescription(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-description", value)
+	return i
+}
+
+/*
+AriaDetails -
+*/
+func (i *IframeTagHtml) AriaDetails(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-details", value)
+	return i
+}
+
+/*
+AriaDisabled -
+*/
+func (i *IframeTagHtml) AriaDisabled(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-disabled", value)
+	return i
+}
+
+/*
+AriaDropeffect -
+*/
+func (i *IframeTagHtml) AriaDropeffect(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-dropeffect", value)
+	return i
+}
+
+/*
+AriaErrormessage -
+*/
+func (i *IframeTagHtml) AriaErrormessage(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-errormessage", value)
+	return i
+}
+
+/*
+AriaFlowto -
+*/
+func (i *IframeTagHtml) AriaFlowto(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-flowto", value)
+	return i
+}
+
+/*
+AriaGrabbed -
+*/
+func (i *IframeTagHtml) AriaGrabbed(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-grabbed", value)
+	return i
+}
+
+/*
+AriaHaspopup -
+*/
+func (i *IframeTagHtml) AriaHaspopup(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-haspopup", value)
+	return i
+}
+
+/*
+AriaHidden -
+*/
+func (i *IframeTagHtml) AriaHidden(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-hidden", value)
+	return i
+}
+
+/*
+AriaInvalid -
+*/
+func (i *IframeTagHtml) AriaInvalid(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-invalid", value)
+	return i
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (i *IframeTagHtml) AriaKeyshortcuts(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-keyshortcuts", value)
+	return i
+}
+
+/*
+AriaLabel -
+*/
+func (i *IframeTagHtml) AriaLabel(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-label", value)
+	return i
+}
+
+/*
+AriaLabelledby -
+*/
+func (i *IframeTagHtml) AriaLabelledby(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-labelledby", value)
+	return i
+}
+
+/*
+AriaLive -
+*/
+func (i *IframeTagHtml) AriaLive(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-live", value)
+	return i
+}
+
+/*
+AriaOwns -
+*/
+func (i *IframeTagHtml) AriaOwns(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-owns", value)
+	return i
+}
+
+/*
+AriaRelevant -
+*/
+func (i *IframeTagHtml) AriaRelevant(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-relevant", value)
+	return i
+}
+
+/*
+AriaRoledescription -
+*/
+func (i *IframeTagHtml) AriaRoledescription(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("aria-roledescription", value)
+	return i
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (i *IframeTagHtml) Onabort(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onabort", value)
+	return i
+}
+
+/*
+Onautocomplete -
+*/
+func (i *IframeTagHtml) Onautocomplete(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onautocomplete", value)
+	return i
+}
+
+/*
+Onautocompleteerror -
+*/
+func (i *IframeTagHtml) Onautocompleteerror(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onautocompleteerror", value)
+	return i
+}
+
+/*
+Onblur -
+*/
+func (i *IframeTagHtml) Onblur(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onblur", value)
+	return i
+}
+
+/*
+Oncancel -
+*/
+func (i *IframeTagHtml) Oncancel(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("oncancel", value)
+	return i
+}
+
+/*
+Oncanplay -
+*/
+func (i *IframeTagHtml) Oncanplay(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("oncanplay", value)
+	return i
+}
+
+/*
+Oncanplaythrough -
+*/
+func (i *IframeTagHtml) Oncanplaythrough(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("oncanplaythrough", value)
+	return i
+}
+
+/*
+Onchange -
+*/
+func (i *IframeTagHtml) Onchange(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onchange", value)
+	return i
+}
+
+/*
+Onclick -
+*/
+func (i *IframeTagHtml) Onclick(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onclick", value)
+	return i
+}
+
+/*
+Onclose -
+*/
+func (i *IframeTagHtml) Onclose(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onclose", value)
+	return i
+}
+
+/*
+Oncontextmenu -
+*/
+func (i *IframeTagHtml) Oncontextmenu(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("oncontextmenu", value)
+	return i
+}
+
+/*
+Oncuechange -
+*/
+func (i *IframeTagHtml) Oncuechange(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("oncuechange", value)
+	return i
+}
+
+/*
+Ondblclick -
+*/
+func (i *IframeTagHtml) Ondblclick(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("ondblclick", value)
+	return i
+}
+
+/*
+Ondrag -
+*/
+func (i *IframeTagHtml) Ondrag(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("ondrag", value)
+	return i
+}
+
+/*
+Ondragend -
+*/
+func (i *IframeTagHtml) Ondragend(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("ondragend", value)
+	return i
+}
+
+/*
+Ondragenter -
+*/
+func (i *IframeTagHtml) Ondragenter(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("ondragenter", value)
+	return i
+}
+
+/*
+Ondragleave -
+*/
+func (i *IframeTagHtml) Ondragleave(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("ondragleave", value)
+	return i
+}
+
+/*
+Ondragover -
+*/
+func (i *IframeTagHtml) Ondragover(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("ondragover", value)
+	return i
+}
+
+/*
+Ondragstart -
+*/
+func (i *IframeTagHtml) Ondragstart(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("ondragstart", value)
+	return i
+}
+
+/*
+Ondrop -
+*/
+func (i *IframeTagHtml) Ondrop(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("ondrop", value)
+	return i
+}
+
+/*
+Ondurationchange -
+*/
+func (i *IframeTagHtml) Ondurationchange(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("ondurationchange", value)
+	return i
+}
+
+/*
+Onemptied -
+*/
+func (i *IframeTagHtml) Onemptied(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onemptied", value)
+	return i
+}
+
+/*
+Onended -
+*/
+func (i *IframeTagHtml) Onended(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onended", value)
+	return i
+}
+
+/*
+Onfocus -
+*/
+func (i *IframeTagHtml) Onfocus(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onfocus", value)
+	return i
+}
+
+/*
+Oninput -
+*/
+func (i *IframeTagHtml) Oninput(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("oninput", value)
+	return i
+}
+
+/*
+Oninvalid -
+*/
+func (i *IframeTagHtml) Oninvalid(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("oninvalid", value)
+	return i
+}
+
+/*
+Onkeydown -
+*/
+func (i *IframeTagHtml) Onkeydown(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onkeydown", value)
+	return i
+}
+
+/*
+Onkeypress -
+*/
+func (i *IframeTagHtml) Onkeypress(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onkeypress", value)
+	return i
+}
+
+/*
+Onkeyup -
+*/
+func (i *IframeTagHtml) Onkeyup(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onkeyup", value)
+	return i
+}
+
+/*
+Onloadeddata -
+*/
+func (i *IframeTagHtml) Onloadeddata(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onloadeddata", value)
+	return i
+}
+
+/*
+Onloadedmetadata -
+*/
+func (i *IframeTagHtml) Onloadedmetadata(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onloadedmetadata", value)
+	return i
+}
+
+/*
+Onloadstart -
+*/
+func (i *IframeTagHtml) Onloadstart(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onloadstart", value)
+	return i
+}
+
+/*
+Onmousedown -
+*/
+func (i *IframeTagHtml) Onmousedown(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onmousedown", value)
+	return i
+}
+
+/*
+Onmouseenter -
+*/
+func (i *IframeTagHtml) Onmouseenter(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onmouseenter", value)
+	return i
+}
+
+/*
+Onmouseleave -
+*/
+func (i *IframeTagHtml) Onmouseleave(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onmouseleave", value)
+	return i
+}
+
+/*
+Onmousemove -
+*/
+func (i *IframeTagHtml) Onmousemove(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onmousemove", value)
+	return i
+}
+
+/*
+Onmouseout -
+*/
+func (i *IframeTagHtml) Onmouseout(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onmouseout", value)
+	return i
+}
+
+/*
+Onmouseover -
+*/
+func (i *IframeTagHtml) Onmouseover(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onmouseover", value)
+	return i
+}
+
+/*
+Onmouseup -
+*/
+func (i *IframeTagHtml) Onmouseup(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onmouseup", value)
+	return i
+}
+
+/*
+Onmousewheel -
+*/
+func (i *IframeTagHtml) Onmousewheel(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onmousewheel", value)
+	return i
+}
+
+/*
+Onpause -
+*/
+func (i *IframeTagHtml) Onpause(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onpause", value)
+	return i
+}
+
+/*
+Onplay -
+*/
+func (i *IframeTagHtml) Onplay(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onplay", value)
+	return i
+}
+
+/*
+Onplaying -
+*/
+func (i *IframeTagHtml) Onplaying(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onplaying", value)
+	return i
+}
+
+/*
+Onprogress -
+*/
+func (i *IframeTagHtml) Onprogress(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onprogress", value)
+	return i
+}
+
+/*
+Onratechange -
+*/
+func (i *IframeTagHtml) Onratechange(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onratechange", value)
+	return i
+}
+
+/*
+Onreset -
+*/
+func (i *IframeTagHtml) Onreset(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onreset", value)
+	return i
+}
+
+/*
+Onscroll -
+*/
+func (i *IframeTagHtml) Onscroll(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onscroll", value)
+	return i
+}
+
+/*
+Onseeked -
+*/
+func (i *IframeTagHtml) Onseeked(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onseeked", value)
+	return i
+}
+
+/*
+Onseeking -
+*/
+func (i *IframeTagHtml) Onseeking(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onseeking", value)
+	return i
+}
+
+/*
+Onselect -
+*/
+func (i *IframeTagHtml) Onselect(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onselect", value)
+	return i
+}
+
+/*
+Onshow -
+*/
+func (i *IframeTagHtml) Onshow(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onshow", value)
+	return i
+}
+
+/*
+Onsort -
+*/
+func (i *IframeTagHtml) Onsort(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onsort", value)
+	return i
+}
+
+/*
+Onstalled -
+*/
+func (i *IframeTagHtml) Onstalled(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onstalled", value)
+	return i
+}
+
+/*
+Onsubmit -
+*/
+func (i *IframeTagHtml) Onsubmit(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onsubmit", value)
+	return i
+}
+
+/*
+Onsuspend -
+*/
+func (i *IframeTagHtml) Onsuspend(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onsuspend", value)
+	return i
+}
+
+/*
+Ontimeupdate -
+*/
+func (i *IframeTagHtml) Ontimeupdate(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("ontimeupdate", value)
+	return i
+}
+
+/*
+Ontoggle -
+*/
+func (i *IframeTagHtml) Ontoggle(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("ontoggle", value)
+	return i
+}
+
+/*
+Onvolumechange -
+*/
+func (i *IframeTagHtml) Onvolumechange(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onvolumechange", value)
+	return i
+}
+
+/*
+Onwaiting -
+*/
+func (i *IframeTagHtml) Onwaiting(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onwaiting", value)
+	return i
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (i *IframeTagHtml) Onafterprint(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onafterprint", value)
+	return i
+}
+
+/*
+Onbeforeprint -
+*/
+func (i *IframeTagHtml) Onbeforeprint(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onbeforeprint", value)
+	return i
+}
+
+/*
+Onbeforeunload -
+*/
+func (i *IframeTagHtml) Onbeforeunload(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onbeforeunload", value)
+	return i
+}
+
+/*
+Onerror -
+*/
+func (i *IframeTagHtml) Onerror(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onerror", value)
+	return i
+}
+
+/*
+Onhashchange -
+*/
+func (i *IframeTagHtml) Onhashchange(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onhashchange", value)
+	return i
+}
+
+/*
+Onload -
+*/
+func (i *IframeTagHtml) Onload(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onload", value)
+	return i
+}
+
+/*
+Onmessage -
+*/
+func (i *IframeTagHtml) Onmessage(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onmessage", value)
+	return i
+}
+
+/*
+Onoffline -
+*/
+func (i *IframeTagHtml) Onoffline(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onoffline", value)
+	return i
+}
+
+/*
+Ononline -
+*/
+func (i *IframeTagHtml) Ononline(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("ononline", value)
+	return i
+}
+
+/*
+Onpagehide -
+*/
+func (i *IframeTagHtml) Onpagehide(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onpagehide", value)
+	return i
+}
+
+/*
+Onpageshow -
+*/
+func (i *IframeTagHtml) Onpageshow(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onpageshow", value)
+	return i
+}
+
+/*
+Onpopstate -
+*/
+func (i *IframeTagHtml) Onpopstate(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onpopstate", value)
+	return i
+}
+
+/*
+Onresize -
+*/
+func (i *IframeTagHtml) Onresize(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onresize", value)
+	return i
+}
+
+/*
+Onstorage -
+*/
+func (i *IframeTagHtml) Onstorage(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onstorage", value)
+	return i
+}
+
+/*
+Onunload -
+*/
+func (i *IframeTagHtml) Onunload(value string) *IframeTagHtml {
+	if i.attributes == nil {
+		i.attributes = []*Attribute{}
+	}
+	i.registerAttribute("onunload", value)
+	return i
+}

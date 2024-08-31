@@ -72,3 +72,1451 @@ func (s *SummaryTagHtml) supportedChildrenCheck(tags []any) *SummaryTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (s *SummaryTagHtml) Onafterprint(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onafterprint", value)
+	return s
+}
+
+/*
+Onbeforeprint -
+*/
+func (s *SummaryTagHtml) Onbeforeprint(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onbeforeprint", value)
+	return s
+}
+
+/*
+Onbeforeunload -
+*/
+func (s *SummaryTagHtml) Onbeforeunload(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onbeforeunload", value)
+	return s
+}
+
+/*
+Onerror -
+*/
+func (s *SummaryTagHtml) Onerror(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onerror", value)
+	return s
+}
+
+/*
+Onhashchange -
+*/
+func (s *SummaryTagHtml) Onhashchange(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onhashchange", value)
+	return s
+}
+
+/*
+Onload -
+*/
+func (s *SummaryTagHtml) Onload(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onload", value)
+	return s
+}
+
+/*
+Onmessage -
+*/
+func (s *SummaryTagHtml) Onmessage(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmessage", value)
+	return s
+}
+
+/*
+Onoffline -
+*/
+func (s *SummaryTagHtml) Onoffline(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onoffline", value)
+	return s
+}
+
+/*
+Ononline -
+*/
+func (s *SummaryTagHtml) Ononline(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ononline", value)
+	return s
+}
+
+/*
+Onpagehide -
+*/
+func (s *SummaryTagHtml) Onpagehide(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onpagehide", value)
+	return s
+}
+
+/*
+Onpageshow -
+*/
+func (s *SummaryTagHtml) Onpageshow(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onpageshow", value)
+	return s
+}
+
+/*
+Onpopstate -
+*/
+func (s *SummaryTagHtml) Onpopstate(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onpopstate", value)
+	return s
+}
+
+/*
+Onresize -
+*/
+func (s *SummaryTagHtml) Onresize(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onresize", value)
+	return s
+}
+
+/*
+Onstorage -
+*/
+func (s *SummaryTagHtml) Onstorage(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onstorage", value)
+	return s
+}
+
+/*
+Onunload -
+*/
+func (s *SummaryTagHtml) Onunload(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onunload", value)
+	return s
+}
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (s *SummaryTagHtml) AccessKey(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("accessKey", value)
+	return s
+}
+
+/*
+Aria -
+*/
+func (s *SummaryTagHtml) Aria(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria", value)
+	return s
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (s *SummaryTagHtml) Autocapitalize(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("autocapitalize", value)
+	return s
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (s *SummaryTagHtml) Autofocus(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("autofocus", value)
+	return s
+}
+
+/*
+Class -
+*/
+func (s *SummaryTagHtml) Class(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("class", value)
+	return s
+}
+
+/*
+Contenteditable -
+*/
+func (s *SummaryTagHtml) Contenteditable(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("contenteditable", value)
+	return s
+}
+
+/*
+Data -
+*/
+func (s *SummaryTagHtml) Data(name, value string) *SummaryTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	s.registerAttribute(dataName, value)
+	return s
+}
+
+/*
+Dir -
+*/
+func (s *SummaryTagHtml) Dir(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("dir", value)
+	return s
+}
+
+/*
+Draggable -
+*/
+func (s *SummaryTagHtml) Draggable(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("draggable", value)
+	return s
+}
+
+/*
+EnterKeyHint -
+*/
+func (s *SummaryTagHtml) EnterKeyHint(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("enterKeyHint", value)
+	return s
+}
+
+/*
+ExportParts -
+*/
+func (s *SummaryTagHtml) ExportParts(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("exportParts", value)
+	return s
+}
+
+/*
+Hidden -
+*/
+func (s *SummaryTagHtml) Hidden(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("hidden", value)
+	return s
+}
+
+/*
+Id -
+*/
+func (s *SummaryTagHtml) Id(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("id", value)
+	return s
+}
+
+/*
+Inert -
+*/
+func (s *SummaryTagHtml) Inert(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("inert", value)
+	return s
+}
+
+/*
+InputMode -
+*/
+func (s *SummaryTagHtml) InputMode(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("inputMode", value)
+	return s
+}
+
+/*
+Is -
+*/
+func (s *SummaryTagHtml) Is(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("is", value)
+	return s
+}
+
+/*
+ItemId -
+*/
+func (s *SummaryTagHtml) ItemId(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("itemId", value)
+	return s
+}
+
+/*
+ItemProp -
+*/
+func (s *SummaryTagHtml) ItemProp(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("itemProp", value)
+	return s
+}
+
+/*
+ItemRef -
+*/
+func (s *SummaryTagHtml) ItemRef(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("itemRef", value)
+	return s
+}
+
+/*
+ItemScope -
+*/
+func (s *SummaryTagHtml) ItemScope(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("itemScope", value)
+	return s
+}
+
+/*
+ItemType -
+*/
+func (s *SummaryTagHtml) ItemType(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("itemType", value)
+	return s
+}
+
+/*
+Lang -
+*/
+func (s *SummaryTagHtml) Lang(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("lang", value)
+	return s
+}
+
+/*
+Nonce -
+*/
+func (s *SummaryTagHtml) Nonce(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("nonce", value)
+	return s
+}
+
+/*
+Part -
+*/
+func (s *SummaryTagHtml) Part(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("part", value)
+	return s
+}
+
+/*
+Popover -
+*/
+func (s *SummaryTagHtml) Popover() *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("popover", "")
+	return s
+}
+
+/*
+Role -
+*/
+func (s *SummaryTagHtml) Role(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("role", value)
+	return s
+}
+
+/*
+Slot -
+*/
+func (s *SummaryTagHtml) Slot(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("slot", value)
+	return s
+}
+
+/*
+Spellcheck -
+*/
+func (s *SummaryTagHtml) Spellcheck(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("spellcheck", value)
+	return s
+}
+
+/*
+Style -
+*/
+func (s *SummaryTagHtml) Style(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("style", value)
+	return s
+}
+
+/*
+Tabindex -
+*/
+func (s *SummaryTagHtml) Tabindex(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("tabindex", value)
+	return s
+}
+
+/*
+Title -
+*/
+func (s *SummaryTagHtml) Title(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("title", value)
+	return s
+}
+
+/*
+Translate -
+*/
+func (s *SummaryTagHtml) Translate(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("translate", value)
+	return s
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (s *SummaryTagHtml) VirtualKeyBoardPolicy(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("virtualKeyBoardPolicy", value)
+	return s
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (s *SummaryTagHtml) AriaAtomic(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-atomic", value)
+	return s
+}
+
+/*
+AriaBusy -
+*/
+func (s *SummaryTagHtml) AriaBusy(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-busy", value)
+	return s
+}
+
+/*
+AriaControls -
+*/
+func (s *SummaryTagHtml) AriaControls(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-controls", value)
+	return s
+}
+
+/*
+AriaCurrent -
+*/
+func (s *SummaryTagHtml) AriaCurrent(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-current", value)
+	return s
+}
+
+/*
+AriaDescribedby -
+*/
+func (s *SummaryTagHtml) AriaDescribedby(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-describedby", value)
+	return s
+}
+
+/*
+AriaDescription -
+*/
+func (s *SummaryTagHtml) AriaDescription(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-description", value)
+	return s
+}
+
+/*
+AriaDetails -
+*/
+func (s *SummaryTagHtml) AriaDetails(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-details", value)
+	return s
+}
+
+/*
+AriaDisabled -
+*/
+func (s *SummaryTagHtml) AriaDisabled(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-disabled", value)
+	return s
+}
+
+/*
+AriaDropeffect -
+*/
+func (s *SummaryTagHtml) AriaDropeffect(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-dropeffect", value)
+	return s
+}
+
+/*
+AriaErrormessage -
+*/
+func (s *SummaryTagHtml) AriaErrormessage(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-errormessage", value)
+	return s
+}
+
+/*
+AriaFlowto -
+*/
+func (s *SummaryTagHtml) AriaFlowto(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-flowto", value)
+	return s
+}
+
+/*
+AriaGrabbed -
+*/
+func (s *SummaryTagHtml) AriaGrabbed(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-grabbed", value)
+	return s
+}
+
+/*
+AriaHaspopup -
+*/
+func (s *SummaryTagHtml) AriaHaspopup(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-haspopup", value)
+	return s
+}
+
+/*
+AriaHidden -
+*/
+func (s *SummaryTagHtml) AriaHidden(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-hidden", value)
+	return s
+}
+
+/*
+AriaInvalid -
+*/
+func (s *SummaryTagHtml) AriaInvalid(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-invalid", value)
+	return s
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (s *SummaryTagHtml) AriaKeyshortcuts(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-keyshortcuts", value)
+	return s
+}
+
+/*
+AriaLabel -
+*/
+func (s *SummaryTagHtml) AriaLabel(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-label", value)
+	return s
+}
+
+/*
+AriaLabelledby -
+*/
+func (s *SummaryTagHtml) AriaLabelledby(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-labelledby", value)
+	return s
+}
+
+/*
+AriaLive -
+*/
+func (s *SummaryTagHtml) AriaLive(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-live", value)
+	return s
+}
+
+/*
+AriaOwns -
+*/
+func (s *SummaryTagHtml) AriaOwns(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-owns", value)
+	return s
+}
+
+/*
+AriaRelevant -
+*/
+func (s *SummaryTagHtml) AriaRelevant(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-relevant", value)
+	return s
+}
+
+/*
+AriaRoledescription -
+*/
+func (s *SummaryTagHtml) AriaRoledescription(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-roledescription", value)
+	return s
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (s *SummaryTagHtml) Onabort(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onabort", value)
+	return s
+}
+
+/*
+Onautocomplete -
+*/
+func (s *SummaryTagHtml) Onautocomplete(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onautocomplete", value)
+	return s
+}
+
+/*
+Onautocompleteerror -
+*/
+func (s *SummaryTagHtml) Onautocompleteerror(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onautocompleteerror", value)
+	return s
+}
+
+/*
+Onblur -
+*/
+func (s *SummaryTagHtml) Onblur(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onblur", value)
+	return s
+}
+
+/*
+Oncancel -
+*/
+func (s *SummaryTagHtml) Oncancel(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("oncancel", value)
+	return s
+}
+
+/*
+Oncanplay -
+*/
+func (s *SummaryTagHtml) Oncanplay(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("oncanplay", value)
+	return s
+}
+
+/*
+Oncanplaythrough -
+*/
+func (s *SummaryTagHtml) Oncanplaythrough(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("oncanplaythrough", value)
+	return s
+}
+
+/*
+Onchange -
+*/
+func (s *SummaryTagHtml) Onchange(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onchange", value)
+	return s
+}
+
+/*
+Onclick -
+*/
+func (s *SummaryTagHtml) Onclick(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onclick", value)
+	return s
+}
+
+/*
+Onclose -
+*/
+func (s *SummaryTagHtml) Onclose(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onclose", value)
+	return s
+}
+
+/*
+Oncontextmenu -
+*/
+func (s *SummaryTagHtml) Oncontextmenu(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("oncontextmenu", value)
+	return s
+}
+
+/*
+Oncuechange -
+*/
+func (s *SummaryTagHtml) Oncuechange(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("oncuechange", value)
+	return s
+}
+
+/*
+Ondblclick -
+*/
+func (s *SummaryTagHtml) Ondblclick(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondblclick", value)
+	return s
+}
+
+/*
+Ondrag -
+*/
+func (s *SummaryTagHtml) Ondrag(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondrag", value)
+	return s
+}
+
+/*
+Ondragend -
+*/
+func (s *SummaryTagHtml) Ondragend(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondragend", value)
+	return s
+}
+
+/*
+Ondragenter -
+*/
+func (s *SummaryTagHtml) Ondragenter(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondragenter", value)
+	return s
+}
+
+/*
+Ondragleave -
+*/
+func (s *SummaryTagHtml) Ondragleave(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondragleave", value)
+	return s
+}
+
+/*
+Ondragover -
+*/
+func (s *SummaryTagHtml) Ondragover(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondragover", value)
+	return s
+}
+
+/*
+Ondragstart -
+*/
+func (s *SummaryTagHtml) Ondragstart(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondragstart", value)
+	return s
+}
+
+/*
+Ondrop -
+*/
+func (s *SummaryTagHtml) Ondrop(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondrop", value)
+	return s
+}
+
+/*
+Ondurationchange -
+*/
+func (s *SummaryTagHtml) Ondurationchange(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondurationchange", value)
+	return s
+}
+
+/*
+Onemptied -
+*/
+func (s *SummaryTagHtml) Onemptied(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onemptied", value)
+	return s
+}
+
+/*
+Onended -
+*/
+func (s *SummaryTagHtml) Onended(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onended", value)
+	return s
+}
+
+/*
+Onfocus -
+*/
+func (s *SummaryTagHtml) Onfocus(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onfocus", value)
+	return s
+}
+
+/*
+Oninput -
+*/
+func (s *SummaryTagHtml) Oninput(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("oninput", value)
+	return s
+}
+
+/*
+Oninvalid -
+*/
+func (s *SummaryTagHtml) Oninvalid(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("oninvalid", value)
+	return s
+}
+
+/*
+Onkeydown -
+*/
+func (s *SummaryTagHtml) Onkeydown(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onkeydown", value)
+	return s
+}
+
+/*
+Onkeypress -
+*/
+func (s *SummaryTagHtml) Onkeypress(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onkeypress", value)
+	return s
+}
+
+/*
+Onkeyup -
+*/
+func (s *SummaryTagHtml) Onkeyup(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onkeyup", value)
+	return s
+}
+
+/*
+Onloadeddata -
+*/
+func (s *SummaryTagHtml) Onloadeddata(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onloadeddata", value)
+	return s
+}
+
+/*
+Onloadedmetadata -
+*/
+func (s *SummaryTagHtml) Onloadedmetadata(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onloadedmetadata", value)
+	return s
+}
+
+/*
+Onloadstart -
+*/
+func (s *SummaryTagHtml) Onloadstart(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onloadstart", value)
+	return s
+}
+
+/*
+Onmousedown -
+*/
+func (s *SummaryTagHtml) Onmousedown(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmousedown", value)
+	return s
+}
+
+/*
+Onmouseenter -
+*/
+func (s *SummaryTagHtml) Onmouseenter(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmouseenter", value)
+	return s
+}
+
+/*
+Onmouseleave -
+*/
+func (s *SummaryTagHtml) Onmouseleave(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmouseleave", value)
+	return s
+}
+
+/*
+Onmousemove -
+*/
+func (s *SummaryTagHtml) Onmousemove(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmousemove", value)
+	return s
+}
+
+/*
+Onmouseout -
+*/
+func (s *SummaryTagHtml) Onmouseout(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmouseout", value)
+	return s
+}
+
+/*
+Onmouseover -
+*/
+func (s *SummaryTagHtml) Onmouseover(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmouseover", value)
+	return s
+}
+
+/*
+Onmouseup -
+*/
+func (s *SummaryTagHtml) Onmouseup(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmouseup", value)
+	return s
+}
+
+/*
+Onmousewheel -
+*/
+func (s *SummaryTagHtml) Onmousewheel(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmousewheel", value)
+	return s
+}
+
+/*
+Onpause -
+*/
+func (s *SummaryTagHtml) Onpause(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onpause", value)
+	return s
+}
+
+/*
+Onplay -
+*/
+func (s *SummaryTagHtml) Onplay(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onplay", value)
+	return s
+}
+
+/*
+Onplaying -
+*/
+func (s *SummaryTagHtml) Onplaying(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onplaying", value)
+	return s
+}
+
+/*
+Onprogress -
+*/
+func (s *SummaryTagHtml) Onprogress(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onprogress", value)
+	return s
+}
+
+/*
+Onratechange -
+*/
+func (s *SummaryTagHtml) Onratechange(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onratechange", value)
+	return s
+}
+
+/*
+Onreset -
+*/
+func (s *SummaryTagHtml) Onreset(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onreset", value)
+	return s
+}
+
+/*
+Onscroll -
+*/
+func (s *SummaryTagHtml) Onscroll(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onscroll", value)
+	return s
+}
+
+/*
+Onseeked -
+*/
+func (s *SummaryTagHtml) Onseeked(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onseeked", value)
+	return s
+}
+
+/*
+Onseeking -
+*/
+func (s *SummaryTagHtml) Onseeking(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onseeking", value)
+	return s
+}
+
+/*
+Onselect -
+*/
+func (s *SummaryTagHtml) Onselect(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onselect", value)
+	return s
+}
+
+/*
+Onshow -
+*/
+func (s *SummaryTagHtml) Onshow(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onshow", value)
+	return s
+}
+
+/*
+Onsort -
+*/
+func (s *SummaryTagHtml) Onsort(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onsort", value)
+	return s
+}
+
+/*
+Onstalled -
+*/
+func (s *SummaryTagHtml) Onstalled(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onstalled", value)
+	return s
+}
+
+/*
+Onsubmit -
+*/
+func (s *SummaryTagHtml) Onsubmit(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onsubmit", value)
+	return s
+}
+
+/*
+Onsuspend -
+*/
+func (s *SummaryTagHtml) Onsuspend(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onsuspend", value)
+	return s
+}
+
+/*
+Ontimeupdate -
+*/
+func (s *SummaryTagHtml) Ontimeupdate(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ontimeupdate", value)
+	return s
+}
+
+/*
+Ontoggle -
+*/
+func (s *SummaryTagHtml) Ontoggle(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ontoggle", value)
+	return s
+}
+
+/*
+Onvolumechange -
+*/
+func (s *SummaryTagHtml) Onvolumechange(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onvolumechange", value)
+	return s
+}
+
+/*
+Onwaiting -
+*/
+func (s *SummaryTagHtml) Onwaiting(value string) *SummaryTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onwaiting", value)
+	return s
+}

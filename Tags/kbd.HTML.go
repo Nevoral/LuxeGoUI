@@ -72,3 +72,1451 @@ func (k *KbdTagHtml) supportedChildrenCheck(tags []any) *KbdTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (k *KbdTagHtml) Onafterprint(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onafterprint", value)
+	return k
+}
+
+/*
+Onbeforeprint -
+*/
+func (k *KbdTagHtml) Onbeforeprint(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onbeforeprint", value)
+	return k
+}
+
+/*
+Onbeforeunload -
+*/
+func (k *KbdTagHtml) Onbeforeunload(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onbeforeunload", value)
+	return k
+}
+
+/*
+Onerror -
+*/
+func (k *KbdTagHtml) Onerror(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onerror", value)
+	return k
+}
+
+/*
+Onhashchange -
+*/
+func (k *KbdTagHtml) Onhashchange(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onhashchange", value)
+	return k
+}
+
+/*
+Onload -
+*/
+func (k *KbdTagHtml) Onload(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onload", value)
+	return k
+}
+
+/*
+Onmessage -
+*/
+func (k *KbdTagHtml) Onmessage(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onmessage", value)
+	return k
+}
+
+/*
+Onoffline -
+*/
+func (k *KbdTagHtml) Onoffline(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onoffline", value)
+	return k
+}
+
+/*
+Ononline -
+*/
+func (k *KbdTagHtml) Ononline(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("ononline", value)
+	return k
+}
+
+/*
+Onpagehide -
+*/
+func (k *KbdTagHtml) Onpagehide(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onpagehide", value)
+	return k
+}
+
+/*
+Onpageshow -
+*/
+func (k *KbdTagHtml) Onpageshow(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onpageshow", value)
+	return k
+}
+
+/*
+Onpopstate -
+*/
+func (k *KbdTagHtml) Onpopstate(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onpopstate", value)
+	return k
+}
+
+/*
+Onresize -
+*/
+func (k *KbdTagHtml) Onresize(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onresize", value)
+	return k
+}
+
+/*
+Onstorage -
+*/
+func (k *KbdTagHtml) Onstorage(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onstorage", value)
+	return k
+}
+
+/*
+Onunload -
+*/
+func (k *KbdTagHtml) Onunload(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onunload", value)
+	return k
+}
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (k *KbdTagHtml) AccessKey(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("accessKey", value)
+	return k
+}
+
+/*
+Aria -
+*/
+func (k *KbdTagHtml) Aria(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria", value)
+	return k
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (k *KbdTagHtml) Autocapitalize(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("autocapitalize", value)
+	return k
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (k *KbdTagHtml) Autofocus(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("autofocus", value)
+	return k
+}
+
+/*
+Class -
+*/
+func (k *KbdTagHtml) Class(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("class", value)
+	return k
+}
+
+/*
+Contenteditable -
+*/
+func (k *KbdTagHtml) Contenteditable(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("contenteditable", value)
+	return k
+}
+
+/*
+Data -
+*/
+func (k *KbdTagHtml) Data(name, value string) *KbdTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	k.registerAttribute(dataName, value)
+	return k
+}
+
+/*
+Dir -
+*/
+func (k *KbdTagHtml) Dir(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("dir", value)
+	return k
+}
+
+/*
+Draggable -
+*/
+func (k *KbdTagHtml) Draggable(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("draggable", value)
+	return k
+}
+
+/*
+EnterKeyHint -
+*/
+func (k *KbdTagHtml) EnterKeyHint(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("enterKeyHint", value)
+	return k
+}
+
+/*
+ExportParts -
+*/
+func (k *KbdTagHtml) ExportParts(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("exportParts", value)
+	return k
+}
+
+/*
+Hidden -
+*/
+func (k *KbdTagHtml) Hidden(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("hidden", value)
+	return k
+}
+
+/*
+Id -
+*/
+func (k *KbdTagHtml) Id(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("id", value)
+	return k
+}
+
+/*
+Inert -
+*/
+func (k *KbdTagHtml) Inert(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("inert", value)
+	return k
+}
+
+/*
+InputMode -
+*/
+func (k *KbdTagHtml) InputMode(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("inputMode", value)
+	return k
+}
+
+/*
+Is -
+*/
+func (k *KbdTagHtml) Is(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("is", value)
+	return k
+}
+
+/*
+ItemId -
+*/
+func (k *KbdTagHtml) ItemId(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("itemId", value)
+	return k
+}
+
+/*
+ItemProp -
+*/
+func (k *KbdTagHtml) ItemProp(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("itemProp", value)
+	return k
+}
+
+/*
+ItemRef -
+*/
+func (k *KbdTagHtml) ItemRef(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("itemRef", value)
+	return k
+}
+
+/*
+ItemScope -
+*/
+func (k *KbdTagHtml) ItemScope(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("itemScope", value)
+	return k
+}
+
+/*
+ItemType -
+*/
+func (k *KbdTagHtml) ItemType(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("itemType", value)
+	return k
+}
+
+/*
+Lang -
+*/
+func (k *KbdTagHtml) Lang(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("lang", value)
+	return k
+}
+
+/*
+Nonce -
+*/
+func (k *KbdTagHtml) Nonce(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("nonce", value)
+	return k
+}
+
+/*
+Part -
+*/
+func (k *KbdTagHtml) Part(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("part", value)
+	return k
+}
+
+/*
+Popover -
+*/
+func (k *KbdTagHtml) Popover() *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("popover", "")
+	return k
+}
+
+/*
+Role -
+*/
+func (k *KbdTagHtml) Role(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("role", value)
+	return k
+}
+
+/*
+Slot -
+*/
+func (k *KbdTagHtml) Slot(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("slot", value)
+	return k
+}
+
+/*
+Spellcheck -
+*/
+func (k *KbdTagHtml) Spellcheck(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("spellcheck", value)
+	return k
+}
+
+/*
+Style -
+*/
+func (k *KbdTagHtml) Style(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("style", value)
+	return k
+}
+
+/*
+Tabindex -
+*/
+func (k *KbdTagHtml) Tabindex(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("tabindex", value)
+	return k
+}
+
+/*
+Title -
+*/
+func (k *KbdTagHtml) Title(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("title", value)
+	return k
+}
+
+/*
+Translate -
+*/
+func (k *KbdTagHtml) Translate(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("translate", value)
+	return k
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (k *KbdTagHtml) VirtualKeyBoardPolicy(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("virtualKeyBoardPolicy", value)
+	return k
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (k *KbdTagHtml) AriaAtomic(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-atomic", value)
+	return k
+}
+
+/*
+AriaBusy -
+*/
+func (k *KbdTagHtml) AriaBusy(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-busy", value)
+	return k
+}
+
+/*
+AriaControls -
+*/
+func (k *KbdTagHtml) AriaControls(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-controls", value)
+	return k
+}
+
+/*
+AriaCurrent -
+*/
+func (k *KbdTagHtml) AriaCurrent(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-current", value)
+	return k
+}
+
+/*
+AriaDescribedby -
+*/
+func (k *KbdTagHtml) AriaDescribedby(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-describedby", value)
+	return k
+}
+
+/*
+AriaDescription -
+*/
+func (k *KbdTagHtml) AriaDescription(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-description", value)
+	return k
+}
+
+/*
+AriaDetails -
+*/
+func (k *KbdTagHtml) AriaDetails(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-details", value)
+	return k
+}
+
+/*
+AriaDisabled -
+*/
+func (k *KbdTagHtml) AriaDisabled(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-disabled", value)
+	return k
+}
+
+/*
+AriaDropeffect -
+*/
+func (k *KbdTagHtml) AriaDropeffect(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-dropeffect", value)
+	return k
+}
+
+/*
+AriaErrormessage -
+*/
+func (k *KbdTagHtml) AriaErrormessage(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-errormessage", value)
+	return k
+}
+
+/*
+AriaFlowto -
+*/
+func (k *KbdTagHtml) AriaFlowto(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-flowto", value)
+	return k
+}
+
+/*
+AriaGrabbed -
+*/
+func (k *KbdTagHtml) AriaGrabbed(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-grabbed", value)
+	return k
+}
+
+/*
+AriaHaspopup -
+*/
+func (k *KbdTagHtml) AriaHaspopup(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-haspopup", value)
+	return k
+}
+
+/*
+AriaHidden -
+*/
+func (k *KbdTagHtml) AriaHidden(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-hidden", value)
+	return k
+}
+
+/*
+AriaInvalid -
+*/
+func (k *KbdTagHtml) AriaInvalid(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-invalid", value)
+	return k
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (k *KbdTagHtml) AriaKeyshortcuts(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-keyshortcuts", value)
+	return k
+}
+
+/*
+AriaLabel -
+*/
+func (k *KbdTagHtml) AriaLabel(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-label", value)
+	return k
+}
+
+/*
+AriaLabelledby -
+*/
+func (k *KbdTagHtml) AriaLabelledby(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-labelledby", value)
+	return k
+}
+
+/*
+AriaLive -
+*/
+func (k *KbdTagHtml) AriaLive(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-live", value)
+	return k
+}
+
+/*
+AriaOwns -
+*/
+func (k *KbdTagHtml) AriaOwns(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-owns", value)
+	return k
+}
+
+/*
+AriaRelevant -
+*/
+func (k *KbdTagHtml) AriaRelevant(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-relevant", value)
+	return k
+}
+
+/*
+AriaRoledescription -
+*/
+func (k *KbdTagHtml) AriaRoledescription(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("aria-roledescription", value)
+	return k
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (k *KbdTagHtml) Onabort(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onabort", value)
+	return k
+}
+
+/*
+Onautocomplete -
+*/
+func (k *KbdTagHtml) Onautocomplete(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onautocomplete", value)
+	return k
+}
+
+/*
+Onautocompleteerror -
+*/
+func (k *KbdTagHtml) Onautocompleteerror(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onautocompleteerror", value)
+	return k
+}
+
+/*
+Onblur -
+*/
+func (k *KbdTagHtml) Onblur(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onblur", value)
+	return k
+}
+
+/*
+Oncancel -
+*/
+func (k *KbdTagHtml) Oncancel(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("oncancel", value)
+	return k
+}
+
+/*
+Oncanplay -
+*/
+func (k *KbdTagHtml) Oncanplay(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("oncanplay", value)
+	return k
+}
+
+/*
+Oncanplaythrough -
+*/
+func (k *KbdTagHtml) Oncanplaythrough(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("oncanplaythrough", value)
+	return k
+}
+
+/*
+Onchange -
+*/
+func (k *KbdTagHtml) Onchange(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onchange", value)
+	return k
+}
+
+/*
+Onclick -
+*/
+func (k *KbdTagHtml) Onclick(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onclick", value)
+	return k
+}
+
+/*
+Onclose -
+*/
+func (k *KbdTagHtml) Onclose(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onclose", value)
+	return k
+}
+
+/*
+Oncontextmenu -
+*/
+func (k *KbdTagHtml) Oncontextmenu(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("oncontextmenu", value)
+	return k
+}
+
+/*
+Oncuechange -
+*/
+func (k *KbdTagHtml) Oncuechange(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("oncuechange", value)
+	return k
+}
+
+/*
+Ondblclick -
+*/
+func (k *KbdTagHtml) Ondblclick(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("ondblclick", value)
+	return k
+}
+
+/*
+Ondrag -
+*/
+func (k *KbdTagHtml) Ondrag(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("ondrag", value)
+	return k
+}
+
+/*
+Ondragend -
+*/
+func (k *KbdTagHtml) Ondragend(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("ondragend", value)
+	return k
+}
+
+/*
+Ondragenter -
+*/
+func (k *KbdTagHtml) Ondragenter(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("ondragenter", value)
+	return k
+}
+
+/*
+Ondragleave -
+*/
+func (k *KbdTagHtml) Ondragleave(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("ondragleave", value)
+	return k
+}
+
+/*
+Ondragover -
+*/
+func (k *KbdTagHtml) Ondragover(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("ondragover", value)
+	return k
+}
+
+/*
+Ondragstart -
+*/
+func (k *KbdTagHtml) Ondragstart(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("ondragstart", value)
+	return k
+}
+
+/*
+Ondrop -
+*/
+func (k *KbdTagHtml) Ondrop(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("ondrop", value)
+	return k
+}
+
+/*
+Ondurationchange -
+*/
+func (k *KbdTagHtml) Ondurationchange(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("ondurationchange", value)
+	return k
+}
+
+/*
+Onemptied -
+*/
+func (k *KbdTagHtml) Onemptied(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onemptied", value)
+	return k
+}
+
+/*
+Onended -
+*/
+func (k *KbdTagHtml) Onended(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onended", value)
+	return k
+}
+
+/*
+Onfocus -
+*/
+func (k *KbdTagHtml) Onfocus(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onfocus", value)
+	return k
+}
+
+/*
+Oninput -
+*/
+func (k *KbdTagHtml) Oninput(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("oninput", value)
+	return k
+}
+
+/*
+Oninvalid -
+*/
+func (k *KbdTagHtml) Oninvalid(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("oninvalid", value)
+	return k
+}
+
+/*
+Onkeydown -
+*/
+func (k *KbdTagHtml) Onkeydown(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onkeydown", value)
+	return k
+}
+
+/*
+Onkeypress -
+*/
+func (k *KbdTagHtml) Onkeypress(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onkeypress", value)
+	return k
+}
+
+/*
+Onkeyup -
+*/
+func (k *KbdTagHtml) Onkeyup(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onkeyup", value)
+	return k
+}
+
+/*
+Onloadeddata -
+*/
+func (k *KbdTagHtml) Onloadeddata(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onloadeddata", value)
+	return k
+}
+
+/*
+Onloadedmetadata -
+*/
+func (k *KbdTagHtml) Onloadedmetadata(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onloadedmetadata", value)
+	return k
+}
+
+/*
+Onloadstart -
+*/
+func (k *KbdTagHtml) Onloadstart(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onloadstart", value)
+	return k
+}
+
+/*
+Onmousedown -
+*/
+func (k *KbdTagHtml) Onmousedown(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onmousedown", value)
+	return k
+}
+
+/*
+Onmouseenter -
+*/
+func (k *KbdTagHtml) Onmouseenter(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onmouseenter", value)
+	return k
+}
+
+/*
+Onmouseleave -
+*/
+func (k *KbdTagHtml) Onmouseleave(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onmouseleave", value)
+	return k
+}
+
+/*
+Onmousemove -
+*/
+func (k *KbdTagHtml) Onmousemove(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onmousemove", value)
+	return k
+}
+
+/*
+Onmouseout -
+*/
+func (k *KbdTagHtml) Onmouseout(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onmouseout", value)
+	return k
+}
+
+/*
+Onmouseover -
+*/
+func (k *KbdTagHtml) Onmouseover(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onmouseover", value)
+	return k
+}
+
+/*
+Onmouseup -
+*/
+func (k *KbdTagHtml) Onmouseup(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onmouseup", value)
+	return k
+}
+
+/*
+Onmousewheel -
+*/
+func (k *KbdTagHtml) Onmousewheel(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onmousewheel", value)
+	return k
+}
+
+/*
+Onpause -
+*/
+func (k *KbdTagHtml) Onpause(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onpause", value)
+	return k
+}
+
+/*
+Onplay -
+*/
+func (k *KbdTagHtml) Onplay(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onplay", value)
+	return k
+}
+
+/*
+Onplaying -
+*/
+func (k *KbdTagHtml) Onplaying(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onplaying", value)
+	return k
+}
+
+/*
+Onprogress -
+*/
+func (k *KbdTagHtml) Onprogress(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onprogress", value)
+	return k
+}
+
+/*
+Onratechange -
+*/
+func (k *KbdTagHtml) Onratechange(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onratechange", value)
+	return k
+}
+
+/*
+Onreset -
+*/
+func (k *KbdTagHtml) Onreset(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onreset", value)
+	return k
+}
+
+/*
+Onscroll -
+*/
+func (k *KbdTagHtml) Onscroll(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onscroll", value)
+	return k
+}
+
+/*
+Onseeked -
+*/
+func (k *KbdTagHtml) Onseeked(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onseeked", value)
+	return k
+}
+
+/*
+Onseeking -
+*/
+func (k *KbdTagHtml) Onseeking(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onseeking", value)
+	return k
+}
+
+/*
+Onselect -
+*/
+func (k *KbdTagHtml) Onselect(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onselect", value)
+	return k
+}
+
+/*
+Onshow -
+*/
+func (k *KbdTagHtml) Onshow(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onshow", value)
+	return k
+}
+
+/*
+Onsort -
+*/
+func (k *KbdTagHtml) Onsort(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onsort", value)
+	return k
+}
+
+/*
+Onstalled -
+*/
+func (k *KbdTagHtml) Onstalled(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onstalled", value)
+	return k
+}
+
+/*
+Onsubmit -
+*/
+func (k *KbdTagHtml) Onsubmit(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onsubmit", value)
+	return k
+}
+
+/*
+Onsuspend -
+*/
+func (k *KbdTagHtml) Onsuspend(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onsuspend", value)
+	return k
+}
+
+/*
+Ontimeupdate -
+*/
+func (k *KbdTagHtml) Ontimeupdate(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("ontimeupdate", value)
+	return k
+}
+
+/*
+Ontoggle -
+*/
+func (k *KbdTagHtml) Ontoggle(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("ontoggle", value)
+	return k
+}
+
+/*
+Onvolumechange -
+*/
+func (k *KbdTagHtml) Onvolumechange(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onvolumechange", value)
+	return k
+}
+
+/*
+Onwaiting -
+*/
+func (k *KbdTagHtml) Onwaiting(value string) *KbdTagHtml {
+	if k.attributes == nil {
+		k.attributes = []*Attribute{}
+	}
+	k.registerAttribute("onwaiting", value)
+	return k
+}

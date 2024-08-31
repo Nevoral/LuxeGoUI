@@ -83,3 +83,1451 @@ func (t *TimeTagHtml) Datetime(value string) *TimeTagHtml {
 	t.registerAttribute("datetime", value)
 	return t
 }
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (t *TimeTagHtml) Onafterprint(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onafterprint", value)
+	return t
+}
+
+/*
+Onbeforeprint -
+*/
+func (t *TimeTagHtml) Onbeforeprint(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onbeforeprint", value)
+	return t
+}
+
+/*
+Onbeforeunload -
+*/
+func (t *TimeTagHtml) Onbeforeunload(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onbeforeunload", value)
+	return t
+}
+
+/*
+Onerror -
+*/
+func (t *TimeTagHtml) Onerror(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onerror", value)
+	return t
+}
+
+/*
+Onhashchange -
+*/
+func (t *TimeTagHtml) Onhashchange(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onhashchange", value)
+	return t
+}
+
+/*
+Onload -
+*/
+func (t *TimeTagHtml) Onload(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onload", value)
+	return t
+}
+
+/*
+Onmessage -
+*/
+func (t *TimeTagHtml) Onmessage(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmessage", value)
+	return t
+}
+
+/*
+Onoffline -
+*/
+func (t *TimeTagHtml) Onoffline(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onoffline", value)
+	return t
+}
+
+/*
+Ononline -
+*/
+func (t *TimeTagHtml) Ononline(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ononline", value)
+	return t
+}
+
+/*
+Onpagehide -
+*/
+func (t *TimeTagHtml) Onpagehide(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onpagehide", value)
+	return t
+}
+
+/*
+Onpageshow -
+*/
+func (t *TimeTagHtml) Onpageshow(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onpageshow", value)
+	return t
+}
+
+/*
+Onpopstate -
+*/
+func (t *TimeTagHtml) Onpopstate(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onpopstate", value)
+	return t
+}
+
+/*
+Onresize -
+*/
+func (t *TimeTagHtml) Onresize(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onresize", value)
+	return t
+}
+
+/*
+Onstorage -
+*/
+func (t *TimeTagHtml) Onstorage(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onstorage", value)
+	return t
+}
+
+/*
+Onunload -
+*/
+func (t *TimeTagHtml) Onunload(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onunload", value)
+	return t
+}
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (t *TimeTagHtml) AccessKey(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("accessKey", value)
+	return t
+}
+
+/*
+Aria -
+*/
+func (t *TimeTagHtml) Aria(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria", value)
+	return t
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (t *TimeTagHtml) Autocapitalize(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("autocapitalize", value)
+	return t
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (t *TimeTagHtml) Autofocus(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("autofocus", value)
+	return t
+}
+
+/*
+Class -
+*/
+func (t *TimeTagHtml) Class(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("class", value)
+	return t
+}
+
+/*
+Contenteditable -
+*/
+func (t *TimeTagHtml) Contenteditable(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("contenteditable", value)
+	return t
+}
+
+/*
+Data -
+*/
+func (t *TimeTagHtml) Data(name, value string) *TimeTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	t.registerAttribute(dataName, value)
+	return t
+}
+
+/*
+Dir -
+*/
+func (t *TimeTagHtml) Dir(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("dir", value)
+	return t
+}
+
+/*
+Draggable -
+*/
+func (t *TimeTagHtml) Draggable(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("draggable", value)
+	return t
+}
+
+/*
+EnterKeyHint -
+*/
+func (t *TimeTagHtml) EnterKeyHint(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("enterKeyHint", value)
+	return t
+}
+
+/*
+ExportParts -
+*/
+func (t *TimeTagHtml) ExportParts(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("exportParts", value)
+	return t
+}
+
+/*
+Hidden -
+*/
+func (t *TimeTagHtml) Hidden(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("hidden", value)
+	return t
+}
+
+/*
+Id -
+*/
+func (t *TimeTagHtml) Id(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("id", value)
+	return t
+}
+
+/*
+Inert -
+*/
+func (t *TimeTagHtml) Inert(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("inert", value)
+	return t
+}
+
+/*
+InputMode -
+*/
+func (t *TimeTagHtml) InputMode(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("inputMode", value)
+	return t
+}
+
+/*
+Is -
+*/
+func (t *TimeTagHtml) Is(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("is", value)
+	return t
+}
+
+/*
+ItemId -
+*/
+func (t *TimeTagHtml) ItemId(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("itemId", value)
+	return t
+}
+
+/*
+ItemProp -
+*/
+func (t *TimeTagHtml) ItemProp(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("itemProp", value)
+	return t
+}
+
+/*
+ItemRef -
+*/
+func (t *TimeTagHtml) ItemRef(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("itemRef", value)
+	return t
+}
+
+/*
+ItemScope -
+*/
+func (t *TimeTagHtml) ItemScope(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("itemScope", value)
+	return t
+}
+
+/*
+ItemType -
+*/
+func (t *TimeTagHtml) ItemType(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("itemType", value)
+	return t
+}
+
+/*
+Lang -
+*/
+func (t *TimeTagHtml) Lang(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("lang", value)
+	return t
+}
+
+/*
+Nonce -
+*/
+func (t *TimeTagHtml) Nonce(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("nonce", value)
+	return t
+}
+
+/*
+Part -
+*/
+func (t *TimeTagHtml) Part(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("part", value)
+	return t
+}
+
+/*
+Popover -
+*/
+func (t *TimeTagHtml) Popover() *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("popover", "")
+	return t
+}
+
+/*
+Role -
+*/
+func (t *TimeTagHtml) Role(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("role", value)
+	return t
+}
+
+/*
+Slot -
+*/
+func (t *TimeTagHtml) Slot(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("slot", value)
+	return t
+}
+
+/*
+Spellcheck -
+*/
+func (t *TimeTagHtml) Spellcheck(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("spellcheck", value)
+	return t
+}
+
+/*
+Style -
+*/
+func (t *TimeTagHtml) Style(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("style", value)
+	return t
+}
+
+/*
+Tabindex -
+*/
+func (t *TimeTagHtml) Tabindex(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("tabindex", value)
+	return t
+}
+
+/*
+Title -
+*/
+func (t *TimeTagHtml) Title(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("title", value)
+	return t
+}
+
+/*
+Translate -
+*/
+func (t *TimeTagHtml) Translate(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("translate", value)
+	return t
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (t *TimeTagHtml) VirtualKeyBoardPolicy(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("virtualKeyBoardPolicy", value)
+	return t
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (t *TimeTagHtml) AriaAtomic(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-atomic", value)
+	return t
+}
+
+/*
+AriaBusy -
+*/
+func (t *TimeTagHtml) AriaBusy(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-busy", value)
+	return t
+}
+
+/*
+AriaControls -
+*/
+func (t *TimeTagHtml) AriaControls(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-controls", value)
+	return t
+}
+
+/*
+AriaCurrent -
+*/
+func (t *TimeTagHtml) AriaCurrent(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-current", value)
+	return t
+}
+
+/*
+AriaDescribedby -
+*/
+func (t *TimeTagHtml) AriaDescribedby(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-describedby", value)
+	return t
+}
+
+/*
+AriaDescription -
+*/
+func (t *TimeTagHtml) AriaDescription(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-description", value)
+	return t
+}
+
+/*
+AriaDetails -
+*/
+func (t *TimeTagHtml) AriaDetails(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-details", value)
+	return t
+}
+
+/*
+AriaDisabled -
+*/
+func (t *TimeTagHtml) AriaDisabled(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-disabled", value)
+	return t
+}
+
+/*
+AriaDropeffect -
+*/
+func (t *TimeTagHtml) AriaDropeffect(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-dropeffect", value)
+	return t
+}
+
+/*
+AriaErrormessage -
+*/
+func (t *TimeTagHtml) AriaErrormessage(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-errormessage", value)
+	return t
+}
+
+/*
+AriaFlowto -
+*/
+func (t *TimeTagHtml) AriaFlowto(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-flowto", value)
+	return t
+}
+
+/*
+AriaGrabbed -
+*/
+func (t *TimeTagHtml) AriaGrabbed(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-grabbed", value)
+	return t
+}
+
+/*
+AriaHaspopup -
+*/
+func (t *TimeTagHtml) AriaHaspopup(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-haspopup", value)
+	return t
+}
+
+/*
+AriaHidden -
+*/
+func (t *TimeTagHtml) AriaHidden(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-hidden", value)
+	return t
+}
+
+/*
+AriaInvalid -
+*/
+func (t *TimeTagHtml) AriaInvalid(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-invalid", value)
+	return t
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (t *TimeTagHtml) AriaKeyshortcuts(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-keyshortcuts", value)
+	return t
+}
+
+/*
+AriaLabel -
+*/
+func (t *TimeTagHtml) AriaLabel(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-label", value)
+	return t
+}
+
+/*
+AriaLabelledby -
+*/
+func (t *TimeTagHtml) AriaLabelledby(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-labelledby", value)
+	return t
+}
+
+/*
+AriaLive -
+*/
+func (t *TimeTagHtml) AriaLive(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-live", value)
+	return t
+}
+
+/*
+AriaOwns -
+*/
+func (t *TimeTagHtml) AriaOwns(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-owns", value)
+	return t
+}
+
+/*
+AriaRelevant -
+*/
+func (t *TimeTagHtml) AriaRelevant(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-relevant", value)
+	return t
+}
+
+/*
+AriaRoledescription -
+*/
+func (t *TimeTagHtml) AriaRoledescription(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-roledescription", value)
+	return t
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (t *TimeTagHtml) Onabort(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onabort", value)
+	return t
+}
+
+/*
+Onautocomplete -
+*/
+func (t *TimeTagHtml) Onautocomplete(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onautocomplete", value)
+	return t
+}
+
+/*
+Onautocompleteerror -
+*/
+func (t *TimeTagHtml) Onautocompleteerror(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onautocompleteerror", value)
+	return t
+}
+
+/*
+Onblur -
+*/
+func (t *TimeTagHtml) Onblur(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onblur", value)
+	return t
+}
+
+/*
+Oncancel -
+*/
+func (t *TimeTagHtml) Oncancel(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oncancel", value)
+	return t
+}
+
+/*
+Oncanplay -
+*/
+func (t *TimeTagHtml) Oncanplay(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oncanplay", value)
+	return t
+}
+
+/*
+Oncanplaythrough -
+*/
+func (t *TimeTagHtml) Oncanplaythrough(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oncanplaythrough", value)
+	return t
+}
+
+/*
+Onchange -
+*/
+func (t *TimeTagHtml) Onchange(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onchange", value)
+	return t
+}
+
+/*
+Onclick -
+*/
+func (t *TimeTagHtml) Onclick(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onclick", value)
+	return t
+}
+
+/*
+Onclose -
+*/
+func (t *TimeTagHtml) Onclose(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onclose", value)
+	return t
+}
+
+/*
+Oncontextmenu -
+*/
+func (t *TimeTagHtml) Oncontextmenu(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oncontextmenu", value)
+	return t
+}
+
+/*
+Oncuechange -
+*/
+func (t *TimeTagHtml) Oncuechange(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oncuechange", value)
+	return t
+}
+
+/*
+Ondblclick -
+*/
+func (t *TimeTagHtml) Ondblclick(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondblclick", value)
+	return t
+}
+
+/*
+Ondrag -
+*/
+func (t *TimeTagHtml) Ondrag(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondrag", value)
+	return t
+}
+
+/*
+Ondragend -
+*/
+func (t *TimeTagHtml) Ondragend(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondragend", value)
+	return t
+}
+
+/*
+Ondragenter -
+*/
+func (t *TimeTagHtml) Ondragenter(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondragenter", value)
+	return t
+}
+
+/*
+Ondragleave -
+*/
+func (t *TimeTagHtml) Ondragleave(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondragleave", value)
+	return t
+}
+
+/*
+Ondragover -
+*/
+func (t *TimeTagHtml) Ondragover(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondragover", value)
+	return t
+}
+
+/*
+Ondragstart -
+*/
+func (t *TimeTagHtml) Ondragstart(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondragstart", value)
+	return t
+}
+
+/*
+Ondrop -
+*/
+func (t *TimeTagHtml) Ondrop(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondrop", value)
+	return t
+}
+
+/*
+Ondurationchange -
+*/
+func (t *TimeTagHtml) Ondurationchange(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondurationchange", value)
+	return t
+}
+
+/*
+Onemptied -
+*/
+func (t *TimeTagHtml) Onemptied(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onemptied", value)
+	return t
+}
+
+/*
+Onended -
+*/
+func (t *TimeTagHtml) Onended(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onended", value)
+	return t
+}
+
+/*
+Onfocus -
+*/
+func (t *TimeTagHtml) Onfocus(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onfocus", value)
+	return t
+}
+
+/*
+Oninput -
+*/
+func (t *TimeTagHtml) Oninput(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oninput", value)
+	return t
+}
+
+/*
+Oninvalid -
+*/
+func (t *TimeTagHtml) Oninvalid(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oninvalid", value)
+	return t
+}
+
+/*
+Onkeydown -
+*/
+func (t *TimeTagHtml) Onkeydown(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onkeydown", value)
+	return t
+}
+
+/*
+Onkeypress -
+*/
+func (t *TimeTagHtml) Onkeypress(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onkeypress", value)
+	return t
+}
+
+/*
+Onkeyup -
+*/
+func (t *TimeTagHtml) Onkeyup(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onkeyup", value)
+	return t
+}
+
+/*
+Onloadeddata -
+*/
+func (t *TimeTagHtml) Onloadeddata(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onloadeddata", value)
+	return t
+}
+
+/*
+Onloadedmetadata -
+*/
+func (t *TimeTagHtml) Onloadedmetadata(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onloadedmetadata", value)
+	return t
+}
+
+/*
+Onloadstart -
+*/
+func (t *TimeTagHtml) Onloadstart(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onloadstart", value)
+	return t
+}
+
+/*
+Onmousedown -
+*/
+func (t *TimeTagHtml) Onmousedown(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmousedown", value)
+	return t
+}
+
+/*
+Onmouseenter -
+*/
+func (t *TimeTagHtml) Onmouseenter(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmouseenter", value)
+	return t
+}
+
+/*
+Onmouseleave -
+*/
+func (t *TimeTagHtml) Onmouseleave(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmouseleave", value)
+	return t
+}
+
+/*
+Onmousemove -
+*/
+func (t *TimeTagHtml) Onmousemove(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmousemove", value)
+	return t
+}
+
+/*
+Onmouseout -
+*/
+func (t *TimeTagHtml) Onmouseout(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmouseout", value)
+	return t
+}
+
+/*
+Onmouseover -
+*/
+func (t *TimeTagHtml) Onmouseover(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmouseover", value)
+	return t
+}
+
+/*
+Onmouseup -
+*/
+func (t *TimeTagHtml) Onmouseup(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmouseup", value)
+	return t
+}
+
+/*
+Onmousewheel -
+*/
+func (t *TimeTagHtml) Onmousewheel(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmousewheel", value)
+	return t
+}
+
+/*
+Onpause -
+*/
+func (t *TimeTagHtml) Onpause(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onpause", value)
+	return t
+}
+
+/*
+Onplay -
+*/
+func (t *TimeTagHtml) Onplay(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onplay", value)
+	return t
+}
+
+/*
+Onplaying -
+*/
+func (t *TimeTagHtml) Onplaying(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onplaying", value)
+	return t
+}
+
+/*
+Onprogress -
+*/
+func (t *TimeTagHtml) Onprogress(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onprogress", value)
+	return t
+}
+
+/*
+Onratechange -
+*/
+func (t *TimeTagHtml) Onratechange(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onratechange", value)
+	return t
+}
+
+/*
+Onreset -
+*/
+func (t *TimeTagHtml) Onreset(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onreset", value)
+	return t
+}
+
+/*
+Onscroll -
+*/
+func (t *TimeTagHtml) Onscroll(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onscroll", value)
+	return t
+}
+
+/*
+Onseeked -
+*/
+func (t *TimeTagHtml) Onseeked(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onseeked", value)
+	return t
+}
+
+/*
+Onseeking -
+*/
+func (t *TimeTagHtml) Onseeking(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onseeking", value)
+	return t
+}
+
+/*
+Onselect -
+*/
+func (t *TimeTagHtml) Onselect(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onselect", value)
+	return t
+}
+
+/*
+Onshow -
+*/
+func (t *TimeTagHtml) Onshow(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onshow", value)
+	return t
+}
+
+/*
+Onsort -
+*/
+func (t *TimeTagHtml) Onsort(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onsort", value)
+	return t
+}
+
+/*
+Onstalled -
+*/
+func (t *TimeTagHtml) Onstalled(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onstalled", value)
+	return t
+}
+
+/*
+Onsubmit -
+*/
+func (t *TimeTagHtml) Onsubmit(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onsubmit", value)
+	return t
+}
+
+/*
+Onsuspend -
+*/
+func (t *TimeTagHtml) Onsuspend(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onsuspend", value)
+	return t
+}
+
+/*
+Ontimeupdate -
+*/
+func (t *TimeTagHtml) Ontimeupdate(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ontimeupdate", value)
+	return t
+}
+
+/*
+Ontoggle -
+*/
+func (t *TimeTagHtml) Ontoggle(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ontoggle", value)
+	return t
+}
+
+/*
+Onvolumechange -
+*/
+func (t *TimeTagHtml) Onvolumechange(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onvolumechange", value)
+	return t
+}
+
+/*
+Onwaiting -
+*/
+func (t *TimeTagHtml) Onwaiting(value string) *TimeTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onwaiting", value)
+	return t
+}

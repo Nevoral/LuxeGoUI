@@ -217,3 +217,1451 @@ func (b *ButtonTagHtml) Value(value string) *ButtonTagHtml {
 	b.registerAttribute("value", value)
 	return b
 }
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (b *ButtonTagHtml) Onafterprint(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onafterprint", value)
+	return b
+}
+
+/*
+Onbeforeprint -
+*/
+func (b *ButtonTagHtml) Onbeforeprint(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onbeforeprint", value)
+	return b
+}
+
+/*
+Onbeforeunload -
+*/
+func (b *ButtonTagHtml) Onbeforeunload(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onbeforeunload", value)
+	return b
+}
+
+/*
+Onerror -
+*/
+func (b *ButtonTagHtml) Onerror(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onerror", value)
+	return b
+}
+
+/*
+Onhashchange -
+*/
+func (b *ButtonTagHtml) Onhashchange(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onhashchange", value)
+	return b
+}
+
+/*
+Onload -
+*/
+func (b *ButtonTagHtml) Onload(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onload", value)
+	return b
+}
+
+/*
+Onmessage -
+*/
+func (b *ButtonTagHtml) Onmessage(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmessage", value)
+	return b
+}
+
+/*
+Onoffline -
+*/
+func (b *ButtonTagHtml) Onoffline(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onoffline", value)
+	return b
+}
+
+/*
+Ononline -
+*/
+func (b *ButtonTagHtml) Ononline(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ononline", value)
+	return b
+}
+
+/*
+Onpagehide -
+*/
+func (b *ButtonTagHtml) Onpagehide(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onpagehide", value)
+	return b
+}
+
+/*
+Onpageshow -
+*/
+func (b *ButtonTagHtml) Onpageshow(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onpageshow", value)
+	return b
+}
+
+/*
+Onpopstate -
+*/
+func (b *ButtonTagHtml) Onpopstate(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onpopstate", value)
+	return b
+}
+
+/*
+Onresize -
+*/
+func (b *ButtonTagHtml) Onresize(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onresize", value)
+	return b
+}
+
+/*
+Onstorage -
+*/
+func (b *ButtonTagHtml) Onstorage(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onstorage", value)
+	return b
+}
+
+/*
+Onunload -
+*/
+func (b *ButtonTagHtml) Onunload(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onunload", value)
+	return b
+}
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (b *ButtonTagHtml) AccessKey(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("accessKey", value)
+	return b
+}
+
+/*
+Aria -
+*/
+func (b *ButtonTagHtml) Aria(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria", value)
+	return b
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (b *ButtonTagHtml) Autocapitalize(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("autocapitalize", value)
+	return b
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (b *ButtonTagHtml) Autofocus(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("autofocus", value)
+	return b
+}
+
+/*
+Class -
+*/
+func (b *ButtonTagHtml) Class(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("class", value)
+	return b
+}
+
+/*
+Contenteditable -
+*/
+func (b *ButtonTagHtml) Contenteditable(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("contenteditable", value)
+	return b
+}
+
+/*
+Data -
+*/
+func (b *ButtonTagHtml) Data(name, value string) *ButtonTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	b.registerAttribute(dataName, value)
+	return b
+}
+
+/*
+Dir -
+*/
+func (b *ButtonTagHtml) Dir(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("dir", value)
+	return b
+}
+
+/*
+Draggable -
+*/
+func (b *ButtonTagHtml) Draggable(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("draggable", value)
+	return b
+}
+
+/*
+EnterKeyHint -
+*/
+func (b *ButtonTagHtml) EnterKeyHint(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("enterKeyHint", value)
+	return b
+}
+
+/*
+ExportParts -
+*/
+func (b *ButtonTagHtml) ExportParts(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("exportParts", value)
+	return b
+}
+
+/*
+Hidden -
+*/
+func (b *ButtonTagHtml) Hidden(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("hidden", value)
+	return b
+}
+
+/*
+Id -
+*/
+func (b *ButtonTagHtml) Id(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("id", value)
+	return b
+}
+
+/*
+Inert -
+*/
+func (b *ButtonTagHtml) Inert(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("inert", value)
+	return b
+}
+
+/*
+InputMode -
+*/
+func (b *ButtonTagHtml) InputMode(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("inputMode", value)
+	return b
+}
+
+/*
+Is -
+*/
+func (b *ButtonTagHtml) Is(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("is", value)
+	return b
+}
+
+/*
+ItemId -
+*/
+func (b *ButtonTagHtml) ItemId(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemId", value)
+	return b
+}
+
+/*
+ItemProp -
+*/
+func (b *ButtonTagHtml) ItemProp(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemProp", value)
+	return b
+}
+
+/*
+ItemRef -
+*/
+func (b *ButtonTagHtml) ItemRef(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemRef", value)
+	return b
+}
+
+/*
+ItemScope -
+*/
+func (b *ButtonTagHtml) ItemScope(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemScope", value)
+	return b
+}
+
+/*
+ItemType -
+*/
+func (b *ButtonTagHtml) ItemType(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemType", value)
+	return b
+}
+
+/*
+Lang -
+*/
+func (b *ButtonTagHtml) Lang(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("lang", value)
+	return b
+}
+
+/*
+Nonce -
+*/
+func (b *ButtonTagHtml) Nonce(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("nonce", value)
+	return b
+}
+
+/*
+Part -
+*/
+func (b *ButtonTagHtml) Part(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("part", value)
+	return b
+}
+
+/*
+Popover -
+*/
+func (b *ButtonTagHtml) Popover() *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("popover", "")
+	return b
+}
+
+/*
+Role -
+*/
+func (b *ButtonTagHtml) Role(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("role", value)
+	return b
+}
+
+/*
+Slot -
+*/
+func (b *ButtonTagHtml) Slot(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("slot", value)
+	return b
+}
+
+/*
+Spellcheck -
+*/
+func (b *ButtonTagHtml) Spellcheck(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("spellcheck", value)
+	return b
+}
+
+/*
+Style -
+*/
+func (b *ButtonTagHtml) Style(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("style", value)
+	return b
+}
+
+/*
+Tabindex -
+*/
+func (b *ButtonTagHtml) Tabindex(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("tabindex", value)
+	return b
+}
+
+/*
+Title -
+*/
+func (b *ButtonTagHtml) Title(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("title", value)
+	return b
+}
+
+/*
+Translate -
+*/
+func (b *ButtonTagHtml) Translate(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("translate", value)
+	return b
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (b *ButtonTagHtml) VirtualKeyBoardPolicy(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("virtualKeyBoardPolicy", value)
+	return b
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (b *ButtonTagHtml) AriaAtomic(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-atomic", value)
+	return b
+}
+
+/*
+AriaBusy -
+*/
+func (b *ButtonTagHtml) AriaBusy(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-busy", value)
+	return b
+}
+
+/*
+AriaControls -
+*/
+func (b *ButtonTagHtml) AriaControls(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-controls", value)
+	return b
+}
+
+/*
+AriaCurrent -
+*/
+func (b *ButtonTagHtml) AriaCurrent(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-current", value)
+	return b
+}
+
+/*
+AriaDescribedby -
+*/
+func (b *ButtonTagHtml) AriaDescribedby(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-describedby", value)
+	return b
+}
+
+/*
+AriaDescription -
+*/
+func (b *ButtonTagHtml) AriaDescription(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-description", value)
+	return b
+}
+
+/*
+AriaDetails -
+*/
+func (b *ButtonTagHtml) AriaDetails(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-details", value)
+	return b
+}
+
+/*
+AriaDisabled -
+*/
+func (b *ButtonTagHtml) AriaDisabled(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-disabled", value)
+	return b
+}
+
+/*
+AriaDropeffect -
+*/
+func (b *ButtonTagHtml) AriaDropeffect(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-dropeffect", value)
+	return b
+}
+
+/*
+AriaErrormessage -
+*/
+func (b *ButtonTagHtml) AriaErrormessage(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-errormessage", value)
+	return b
+}
+
+/*
+AriaFlowto -
+*/
+func (b *ButtonTagHtml) AriaFlowto(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-flowto", value)
+	return b
+}
+
+/*
+AriaGrabbed -
+*/
+func (b *ButtonTagHtml) AriaGrabbed(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-grabbed", value)
+	return b
+}
+
+/*
+AriaHaspopup -
+*/
+func (b *ButtonTagHtml) AriaHaspopup(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-haspopup", value)
+	return b
+}
+
+/*
+AriaHidden -
+*/
+func (b *ButtonTagHtml) AriaHidden(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-hidden", value)
+	return b
+}
+
+/*
+AriaInvalid -
+*/
+func (b *ButtonTagHtml) AriaInvalid(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-invalid", value)
+	return b
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (b *ButtonTagHtml) AriaKeyshortcuts(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-keyshortcuts", value)
+	return b
+}
+
+/*
+AriaLabel -
+*/
+func (b *ButtonTagHtml) AriaLabel(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-label", value)
+	return b
+}
+
+/*
+AriaLabelledby -
+*/
+func (b *ButtonTagHtml) AriaLabelledby(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-labelledby", value)
+	return b
+}
+
+/*
+AriaLive -
+*/
+func (b *ButtonTagHtml) AriaLive(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-live", value)
+	return b
+}
+
+/*
+AriaOwns -
+*/
+func (b *ButtonTagHtml) AriaOwns(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-owns", value)
+	return b
+}
+
+/*
+AriaRelevant -
+*/
+func (b *ButtonTagHtml) AriaRelevant(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-relevant", value)
+	return b
+}
+
+/*
+AriaRoledescription -
+*/
+func (b *ButtonTagHtml) AriaRoledescription(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-roledescription", value)
+	return b
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (b *ButtonTagHtml) Onabort(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onabort", value)
+	return b
+}
+
+/*
+Onautocomplete -
+*/
+func (b *ButtonTagHtml) Onautocomplete(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onautocomplete", value)
+	return b
+}
+
+/*
+Onautocompleteerror -
+*/
+func (b *ButtonTagHtml) Onautocompleteerror(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onautocompleteerror", value)
+	return b
+}
+
+/*
+Onblur -
+*/
+func (b *ButtonTagHtml) Onblur(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onblur", value)
+	return b
+}
+
+/*
+Oncancel -
+*/
+func (b *ButtonTagHtml) Oncancel(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncancel", value)
+	return b
+}
+
+/*
+Oncanplay -
+*/
+func (b *ButtonTagHtml) Oncanplay(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncanplay", value)
+	return b
+}
+
+/*
+Oncanplaythrough -
+*/
+func (b *ButtonTagHtml) Oncanplaythrough(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncanplaythrough", value)
+	return b
+}
+
+/*
+Onchange -
+*/
+func (b *ButtonTagHtml) Onchange(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onchange", value)
+	return b
+}
+
+/*
+Onclick -
+*/
+func (b *ButtonTagHtml) Onclick(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onclick", value)
+	return b
+}
+
+/*
+Onclose -
+*/
+func (b *ButtonTagHtml) Onclose(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onclose", value)
+	return b
+}
+
+/*
+Oncontextmenu -
+*/
+func (b *ButtonTagHtml) Oncontextmenu(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncontextmenu", value)
+	return b
+}
+
+/*
+Oncuechange -
+*/
+func (b *ButtonTagHtml) Oncuechange(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncuechange", value)
+	return b
+}
+
+/*
+Ondblclick -
+*/
+func (b *ButtonTagHtml) Ondblclick(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondblclick", value)
+	return b
+}
+
+/*
+Ondrag -
+*/
+func (b *ButtonTagHtml) Ondrag(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondrag", value)
+	return b
+}
+
+/*
+Ondragend -
+*/
+func (b *ButtonTagHtml) Ondragend(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragend", value)
+	return b
+}
+
+/*
+Ondragenter -
+*/
+func (b *ButtonTagHtml) Ondragenter(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragenter", value)
+	return b
+}
+
+/*
+Ondragleave -
+*/
+func (b *ButtonTagHtml) Ondragleave(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragleave", value)
+	return b
+}
+
+/*
+Ondragover -
+*/
+func (b *ButtonTagHtml) Ondragover(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragover", value)
+	return b
+}
+
+/*
+Ondragstart -
+*/
+func (b *ButtonTagHtml) Ondragstart(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragstart", value)
+	return b
+}
+
+/*
+Ondrop -
+*/
+func (b *ButtonTagHtml) Ondrop(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondrop", value)
+	return b
+}
+
+/*
+Ondurationchange -
+*/
+func (b *ButtonTagHtml) Ondurationchange(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondurationchange", value)
+	return b
+}
+
+/*
+Onemptied -
+*/
+func (b *ButtonTagHtml) Onemptied(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onemptied", value)
+	return b
+}
+
+/*
+Onended -
+*/
+func (b *ButtonTagHtml) Onended(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onended", value)
+	return b
+}
+
+/*
+Onfocus -
+*/
+func (b *ButtonTagHtml) Onfocus(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onfocus", value)
+	return b
+}
+
+/*
+Oninput -
+*/
+func (b *ButtonTagHtml) Oninput(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oninput", value)
+	return b
+}
+
+/*
+Oninvalid -
+*/
+func (b *ButtonTagHtml) Oninvalid(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oninvalid", value)
+	return b
+}
+
+/*
+Onkeydown -
+*/
+func (b *ButtonTagHtml) Onkeydown(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onkeydown", value)
+	return b
+}
+
+/*
+Onkeypress -
+*/
+func (b *ButtonTagHtml) Onkeypress(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onkeypress", value)
+	return b
+}
+
+/*
+Onkeyup -
+*/
+func (b *ButtonTagHtml) Onkeyup(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onkeyup", value)
+	return b
+}
+
+/*
+Onloadeddata -
+*/
+func (b *ButtonTagHtml) Onloadeddata(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onloadeddata", value)
+	return b
+}
+
+/*
+Onloadedmetadata -
+*/
+func (b *ButtonTagHtml) Onloadedmetadata(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onloadedmetadata", value)
+	return b
+}
+
+/*
+Onloadstart -
+*/
+func (b *ButtonTagHtml) Onloadstart(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onloadstart", value)
+	return b
+}
+
+/*
+Onmousedown -
+*/
+func (b *ButtonTagHtml) Onmousedown(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmousedown", value)
+	return b
+}
+
+/*
+Onmouseenter -
+*/
+func (b *ButtonTagHtml) Onmouseenter(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseenter", value)
+	return b
+}
+
+/*
+Onmouseleave -
+*/
+func (b *ButtonTagHtml) Onmouseleave(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseleave", value)
+	return b
+}
+
+/*
+Onmousemove -
+*/
+func (b *ButtonTagHtml) Onmousemove(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmousemove", value)
+	return b
+}
+
+/*
+Onmouseout -
+*/
+func (b *ButtonTagHtml) Onmouseout(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseout", value)
+	return b
+}
+
+/*
+Onmouseover -
+*/
+func (b *ButtonTagHtml) Onmouseover(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseover", value)
+	return b
+}
+
+/*
+Onmouseup -
+*/
+func (b *ButtonTagHtml) Onmouseup(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseup", value)
+	return b
+}
+
+/*
+Onmousewheel -
+*/
+func (b *ButtonTagHtml) Onmousewheel(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmousewheel", value)
+	return b
+}
+
+/*
+Onpause -
+*/
+func (b *ButtonTagHtml) Onpause(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onpause", value)
+	return b
+}
+
+/*
+Onplay -
+*/
+func (b *ButtonTagHtml) Onplay(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onplay", value)
+	return b
+}
+
+/*
+Onplaying -
+*/
+func (b *ButtonTagHtml) Onplaying(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onplaying", value)
+	return b
+}
+
+/*
+Onprogress -
+*/
+func (b *ButtonTagHtml) Onprogress(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onprogress", value)
+	return b
+}
+
+/*
+Onratechange -
+*/
+func (b *ButtonTagHtml) Onratechange(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onratechange", value)
+	return b
+}
+
+/*
+Onreset -
+*/
+func (b *ButtonTagHtml) Onreset(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onreset", value)
+	return b
+}
+
+/*
+Onscroll -
+*/
+func (b *ButtonTagHtml) Onscroll(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onscroll", value)
+	return b
+}
+
+/*
+Onseeked -
+*/
+func (b *ButtonTagHtml) Onseeked(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onseeked", value)
+	return b
+}
+
+/*
+Onseeking -
+*/
+func (b *ButtonTagHtml) Onseeking(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onseeking", value)
+	return b
+}
+
+/*
+Onselect -
+*/
+func (b *ButtonTagHtml) Onselect(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onselect", value)
+	return b
+}
+
+/*
+Onshow -
+*/
+func (b *ButtonTagHtml) Onshow(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onshow", value)
+	return b
+}
+
+/*
+Onsort -
+*/
+func (b *ButtonTagHtml) Onsort(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onsort", value)
+	return b
+}
+
+/*
+Onstalled -
+*/
+func (b *ButtonTagHtml) Onstalled(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onstalled", value)
+	return b
+}
+
+/*
+Onsubmit -
+*/
+func (b *ButtonTagHtml) Onsubmit(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onsubmit", value)
+	return b
+}
+
+/*
+Onsuspend -
+*/
+func (b *ButtonTagHtml) Onsuspend(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onsuspend", value)
+	return b
+}
+
+/*
+Ontimeupdate -
+*/
+func (b *ButtonTagHtml) Ontimeupdate(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ontimeupdate", value)
+	return b
+}
+
+/*
+Ontoggle -
+*/
+func (b *ButtonTagHtml) Ontoggle(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ontoggle", value)
+	return b
+}
+
+/*
+Onvolumechange -
+*/
+func (b *ButtonTagHtml) Onvolumechange(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onvolumechange", value)
+	return b
+}
+
+/*
+Onwaiting -
+*/
+func (b *ButtonTagHtml) Onwaiting(value string) *ButtonTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onwaiting", value)
+	return b
+}

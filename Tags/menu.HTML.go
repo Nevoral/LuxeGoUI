@@ -72,3 +72,1451 @@ func (m *MenuTagHtml) supportedChildrenCheck(tags []any) *MenuTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (m *MenuTagHtml) AccessKey(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("accessKey", value)
+	return m
+}
+
+/*
+Aria -
+*/
+func (m *MenuTagHtml) Aria(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria", value)
+	return m
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (m *MenuTagHtml) Autocapitalize(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("autocapitalize", value)
+	return m
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (m *MenuTagHtml) Autofocus(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("autofocus", value)
+	return m
+}
+
+/*
+Class -
+*/
+func (m *MenuTagHtml) Class(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("class", value)
+	return m
+}
+
+/*
+Contenteditable -
+*/
+func (m *MenuTagHtml) Contenteditable(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("contenteditable", value)
+	return m
+}
+
+/*
+Data -
+*/
+func (m *MenuTagHtml) Data(name, value string) *MenuTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	m.registerAttribute(dataName, value)
+	return m
+}
+
+/*
+Dir -
+*/
+func (m *MenuTagHtml) Dir(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("dir", value)
+	return m
+}
+
+/*
+Draggable -
+*/
+func (m *MenuTagHtml) Draggable(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("draggable", value)
+	return m
+}
+
+/*
+EnterKeyHint -
+*/
+func (m *MenuTagHtml) EnterKeyHint(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("enterKeyHint", value)
+	return m
+}
+
+/*
+ExportParts -
+*/
+func (m *MenuTagHtml) ExportParts(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("exportParts", value)
+	return m
+}
+
+/*
+Hidden -
+*/
+func (m *MenuTagHtml) Hidden(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("hidden", value)
+	return m
+}
+
+/*
+Id -
+*/
+func (m *MenuTagHtml) Id(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("id", value)
+	return m
+}
+
+/*
+Inert -
+*/
+func (m *MenuTagHtml) Inert(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("inert", value)
+	return m
+}
+
+/*
+InputMode -
+*/
+func (m *MenuTagHtml) InputMode(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("inputMode", value)
+	return m
+}
+
+/*
+Is -
+*/
+func (m *MenuTagHtml) Is(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("is", value)
+	return m
+}
+
+/*
+ItemId -
+*/
+func (m *MenuTagHtml) ItemId(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("itemId", value)
+	return m
+}
+
+/*
+ItemProp -
+*/
+func (m *MenuTagHtml) ItemProp(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("itemProp", value)
+	return m
+}
+
+/*
+ItemRef -
+*/
+func (m *MenuTagHtml) ItemRef(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("itemRef", value)
+	return m
+}
+
+/*
+ItemScope -
+*/
+func (m *MenuTagHtml) ItemScope(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("itemScope", value)
+	return m
+}
+
+/*
+ItemType -
+*/
+func (m *MenuTagHtml) ItemType(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("itemType", value)
+	return m
+}
+
+/*
+Lang -
+*/
+func (m *MenuTagHtml) Lang(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("lang", value)
+	return m
+}
+
+/*
+Nonce -
+*/
+func (m *MenuTagHtml) Nonce(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("nonce", value)
+	return m
+}
+
+/*
+Part -
+*/
+func (m *MenuTagHtml) Part(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("part", value)
+	return m
+}
+
+/*
+Popover -
+*/
+func (m *MenuTagHtml) Popover() *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("popover", "")
+	return m
+}
+
+/*
+Role -
+*/
+func (m *MenuTagHtml) Role(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("role", value)
+	return m
+}
+
+/*
+Slot -
+*/
+func (m *MenuTagHtml) Slot(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("slot", value)
+	return m
+}
+
+/*
+Spellcheck -
+*/
+func (m *MenuTagHtml) Spellcheck(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("spellcheck", value)
+	return m
+}
+
+/*
+Style -
+*/
+func (m *MenuTagHtml) Style(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("style", value)
+	return m
+}
+
+/*
+Tabindex -
+*/
+func (m *MenuTagHtml) Tabindex(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("tabindex", value)
+	return m
+}
+
+/*
+Title -
+*/
+func (m *MenuTagHtml) Title(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("title", value)
+	return m
+}
+
+/*
+Translate -
+*/
+func (m *MenuTagHtml) Translate(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("translate", value)
+	return m
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (m *MenuTagHtml) VirtualKeyBoardPolicy(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("virtualKeyBoardPolicy", value)
+	return m
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (m *MenuTagHtml) AriaAtomic(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-atomic", value)
+	return m
+}
+
+/*
+AriaBusy -
+*/
+func (m *MenuTagHtml) AriaBusy(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-busy", value)
+	return m
+}
+
+/*
+AriaControls -
+*/
+func (m *MenuTagHtml) AriaControls(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-controls", value)
+	return m
+}
+
+/*
+AriaCurrent -
+*/
+func (m *MenuTagHtml) AriaCurrent(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-current", value)
+	return m
+}
+
+/*
+AriaDescribedby -
+*/
+func (m *MenuTagHtml) AriaDescribedby(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-describedby", value)
+	return m
+}
+
+/*
+AriaDescription -
+*/
+func (m *MenuTagHtml) AriaDescription(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-description", value)
+	return m
+}
+
+/*
+AriaDetails -
+*/
+func (m *MenuTagHtml) AriaDetails(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-details", value)
+	return m
+}
+
+/*
+AriaDisabled -
+*/
+func (m *MenuTagHtml) AriaDisabled(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-disabled", value)
+	return m
+}
+
+/*
+AriaDropeffect -
+*/
+func (m *MenuTagHtml) AriaDropeffect(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-dropeffect", value)
+	return m
+}
+
+/*
+AriaErrormessage -
+*/
+func (m *MenuTagHtml) AriaErrormessage(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-errormessage", value)
+	return m
+}
+
+/*
+AriaFlowto -
+*/
+func (m *MenuTagHtml) AriaFlowto(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-flowto", value)
+	return m
+}
+
+/*
+AriaGrabbed -
+*/
+func (m *MenuTagHtml) AriaGrabbed(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-grabbed", value)
+	return m
+}
+
+/*
+AriaHaspopup -
+*/
+func (m *MenuTagHtml) AriaHaspopup(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-haspopup", value)
+	return m
+}
+
+/*
+AriaHidden -
+*/
+func (m *MenuTagHtml) AriaHidden(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-hidden", value)
+	return m
+}
+
+/*
+AriaInvalid -
+*/
+func (m *MenuTagHtml) AriaInvalid(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-invalid", value)
+	return m
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (m *MenuTagHtml) AriaKeyshortcuts(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-keyshortcuts", value)
+	return m
+}
+
+/*
+AriaLabel -
+*/
+func (m *MenuTagHtml) AriaLabel(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-label", value)
+	return m
+}
+
+/*
+AriaLabelledby -
+*/
+func (m *MenuTagHtml) AriaLabelledby(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-labelledby", value)
+	return m
+}
+
+/*
+AriaLive -
+*/
+func (m *MenuTagHtml) AriaLive(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-live", value)
+	return m
+}
+
+/*
+AriaOwns -
+*/
+func (m *MenuTagHtml) AriaOwns(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-owns", value)
+	return m
+}
+
+/*
+AriaRelevant -
+*/
+func (m *MenuTagHtml) AriaRelevant(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-relevant", value)
+	return m
+}
+
+/*
+AriaRoledescription -
+*/
+func (m *MenuTagHtml) AriaRoledescription(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-roledescription", value)
+	return m
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (m *MenuTagHtml) Onabort(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onabort", value)
+	return m
+}
+
+/*
+Onautocomplete -
+*/
+func (m *MenuTagHtml) Onautocomplete(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onautocomplete", value)
+	return m
+}
+
+/*
+Onautocompleteerror -
+*/
+func (m *MenuTagHtml) Onautocompleteerror(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onautocompleteerror", value)
+	return m
+}
+
+/*
+Onblur -
+*/
+func (m *MenuTagHtml) Onblur(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onblur", value)
+	return m
+}
+
+/*
+Oncancel -
+*/
+func (m *MenuTagHtml) Oncancel(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oncancel", value)
+	return m
+}
+
+/*
+Oncanplay -
+*/
+func (m *MenuTagHtml) Oncanplay(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oncanplay", value)
+	return m
+}
+
+/*
+Oncanplaythrough -
+*/
+func (m *MenuTagHtml) Oncanplaythrough(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oncanplaythrough", value)
+	return m
+}
+
+/*
+Onchange -
+*/
+func (m *MenuTagHtml) Onchange(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onchange", value)
+	return m
+}
+
+/*
+Onclick -
+*/
+func (m *MenuTagHtml) Onclick(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onclick", value)
+	return m
+}
+
+/*
+Onclose -
+*/
+func (m *MenuTagHtml) Onclose(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onclose", value)
+	return m
+}
+
+/*
+Oncontextmenu -
+*/
+func (m *MenuTagHtml) Oncontextmenu(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oncontextmenu", value)
+	return m
+}
+
+/*
+Oncuechange -
+*/
+func (m *MenuTagHtml) Oncuechange(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oncuechange", value)
+	return m
+}
+
+/*
+Ondblclick -
+*/
+func (m *MenuTagHtml) Ondblclick(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondblclick", value)
+	return m
+}
+
+/*
+Ondrag -
+*/
+func (m *MenuTagHtml) Ondrag(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondrag", value)
+	return m
+}
+
+/*
+Ondragend -
+*/
+func (m *MenuTagHtml) Ondragend(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondragend", value)
+	return m
+}
+
+/*
+Ondragenter -
+*/
+func (m *MenuTagHtml) Ondragenter(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondragenter", value)
+	return m
+}
+
+/*
+Ondragleave -
+*/
+func (m *MenuTagHtml) Ondragleave(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondragleave", value)
+	return m
+}
+
+/*
+Ondragover -
+*/
+func (m *MenuTagHtml) Ondragover(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondragover", value)
+	return m
+}
+
+/*
+Ondragstart -
+*/
+func (m *MenuTagHtml) Ondragstart(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondragstart", value)
+	return m
+}
+
+/*
+Ondrop -
+*/
+func (m *MenuTagHtml) Ondrop(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondrop", value)
+	return m
+}
+
+/*
+Ondurationchange -
+*/
+func (m *MenuTagHtml) Ondurationchange(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondurationchange", value)
+	return m
+}
+
+/*
+Onemptied -
+*/
+func (m *MenuTagHtml) Onemptied(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onemptied", value)
+	return m
+}
+
+/*
+Onended -
+*/
+func (m *MenuTagHtml) Onended(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onended", value)
+	return m
+}
+
+/*
+Onfocus -
+*/
+func (m *MenuTagHtml) Onfocus(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onfocus", value)
+	return m
+}
+
+/*
+Oninput -
+*/
+func (m *MenuTagHtml) Oninput(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oninput", value)
+	return m
+}
+
+/*
+Oninvalid -
+*/
+func (m *MenuTagHtml) Oninvalid(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oninvalid", value)
+	return m
+}
+
+/*
+Onkeydown -
+*/
+func (m *MenuTagHtml) Onkeydown(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onkeydown", value)
+	return m
+}
+
+/*
+Onkeypress -
+*/
+func (m *MenuTagHtml) Onkeypress(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onkeypress", value)
+	return m
+}
+
+/*
+Onkeyup -
+*/
+func (m *MenuTagHtml) Onkeyup(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onkeyup", value)
+	return m
+}
+
+/*
+Onloadeddata -
+*/
+func (m *MenuTagHtml) Onloadeddata(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onloadeddata", value)
+	return m
+}
+
+/*
+Onloadedmetadata -
+*/
+func (m *MenuTagHtml) Onloadedmetadata(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onloadedmetadata", value)
+	return m
+}
+
+/*
+Onloadstart -
+*/
+func (m *MenuTagHtml) Onloadstart(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onloadstart", value)
+	return m
+}
+
+/*
+Onmousedown -
+*/
+func (m *MenuTagHtml) Onmousedown(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmousedown", value)
+	return m
+}
+
+/*
+Onmouseenter -
+*/
+func (m *MenuTagHtml) Onmouseenter(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmouseenter", value)
+	return m
+}
+
+/*
+Onmouseleave -
+*/
+func (m *MenuTagHtml) Onmouseleave(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmouseleave", value)
+	return m
+}
+
+/*
+Onmousemove -
+*/
+func (m *MenuTagHtml) Onmousemove(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmousemove", value)
+	return m
+}
+
+/*
+Onmouseout -
+*/
+func (m *MenuTagHtml) Onmouseout(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmouseout", value)
+	return m
+}
+
+/*
+Onmouseover -
+*/
+func (m *MenuTagHtml) Onmouseover(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmouseover", value)
+	return m
+}
+
+/*
+Onmouseup -
+*/
+func (m *MenuTagHtml) Onmouseup(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmouseup", value)
+	return m
+}
+
+/*
+Onmousewheel -
+*/
+func (m *MenuTagHtml) Onmousewheel(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmousewheel", value)
+	return m
+}
+
+/*
+Onpause -
+*/
+func (m *MenuTagHtml) Onpause(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onpause", value)
+	return m
+}
+
+/*
+Onplay -
+*/
+func (m *MenuTagHtml) Onplay(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onplay", value)
+	return m
+}
+
+/*
+Onplaying -
+*/
+func (m *MenuTagHtml) Onplaying(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onplaying", value)
+	return m
+}
+
+/*
+Onprogress -
+*/
+func (m *MenuTagHtml) Onprogress(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onprogress", value)
+	return m
+}
+
+/*
+Onratechange -
+*/
+func (m *MenuTagHtml) Onratechange(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onratechange", value)
+	return m
+}
+
+/*
+Onreset -
+*/
+func (m *MenuTagHtml) Onreset(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onreset", value)
+	return m
+}
+
+/*
+Onscroll -
+*/
+func (m *MenuTagHtml) Onscroll(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onscroll", value)
+	return m
+}
+
+/*
+Onseeked -
+*/
+func (m *MenuTagHtml) Onseeked(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onseeked", value)
+	return m
+}
+
+/*
+Onseeking -
+*/
+func (m *MenuTagHtml) Onseeking(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onseeking", value)
+	return m
+}
+
+/*
+Onselect -
+*/
+func (m *MenuTagHtml) Onselect(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onselect", value)
+	return m
+}
+
+/*
+Onshow -
+*/
+func (m *MenuTagHtml) Onshow(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onshow", value)
+	return m
+}
+
+/*
+Onsort -
+*/
+func (m *MenuTagHtml) Onsort(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onsort", value)
+	return m
+}
+
+/*
+Onstalled -
+*/
+func (m *MenuTagHtml) Onstalled(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onstalled", value)
+	return m
+}
+
+/*
+Onsubmit -
+*/
+func (m *MenuTagHtml) Onsubmit(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onsubmit", value)
+	return m
+}
+
+/*
+Onsuspend -
+*/
+func (m *MenuTagHtml) Onsuspend(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onsuspend", value)
+	return m
+}
+
+/*
+Ontimeupdate -
+*/
+func (m *MenuTagHtml) Ontimeupdate(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ontimeupdate", value)
+	return m
+}
+
+/*
+Ontoggle -
+*/
+func (m *MenuTagHtml) Ontoggle(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ontoggle", value)
+	return m
+}
+
+/*
+Onvolumechange -
+*/
+func (m *MenuTagHtml) Onvolumechange(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onvolumechange", value)
+	return m
+}
+
+/*
+Onwaiting -
+*/
+func (m *MenuTagHtml) Onwaiting(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onwaiting", value)
+	return m
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (m *MenuTagHtml) Onafterprint(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onafterprint", value)
+	return m
+}
+
+/*
+Onbeforeprint -
+*/
+func (m *MenuTagHtml) Onbeforeprint(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onbeforeprint", value)
+	return m
+}
+
+/*
+Onbeforeunload -
+*/
+func (m *MenuTagHtml) Onbeforeunload(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onbeforeunload", value)
+	return m
+}
+
+/*
+Onerror -
+*/
+func (m *MenuTagHtml) Onerror(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onerror", value)
+	return m
+}
+
+/*
+Onhashchange -
+*/
+func (m *MenuTagHtml) Onhashchange(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onhashchange", value)
+	return m
+}
+
+/*
+Onload -
+*/
+func (m *MenuTagHtml) Onload(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onload", value)
+	return m
+}
+
+/*
+Onmessage -
+*/
+func (m *MenuTagHtml) Onmessage(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmessage", value)
+	return m
+}
+
+/*
+Onoffline -
+*/
+func (m *MenuTagHtml) Onoffline(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onoffline", value)
+	return m
+}
+
+/*
+Ononline -
+*/
+func (m *MenuTagHtml) Ononline(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ononline", value)
+	return m
+}
+
+/*
+Onpagehide -
+*/
+func (m *MenuTagHtml) Onpagehide(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onpagehide", value)
+	return m
+}
+
+/*
+Onpageshow -
+*/
+func (m *MenuTagHtml) Onpageshow(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onpageshow", value)
+	return m
+}
+
+/*
+Onpopstate -
+*/
+func (m *MenuTagHtml) Onpopstate(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onpopstate", value)
+	return m
+}
+
+/*
+Onresize -
+*/
+func (m *MenuTagHtml) Onresize(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onresize", value)
+	return m
+}
+
+/*
+Onstorage -
+*/
+func (m *MenuTagHtml) Onstorage(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onstorage", value)
+	return m
+}
+
+/*
+Onunload -
+*/
+func (m *MenuTagHtml) Onunload(value string) *MenuTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onunload", value)
+	return m
+}

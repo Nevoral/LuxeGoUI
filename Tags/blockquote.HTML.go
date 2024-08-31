@@ -83,3 +83,1451 @@ func (b *BlockquoteTagHtml) Cite(value string) *BlockquoteTagHtml {
 	b.registerAttribute("cite", value)
 	return b
 }
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (b *BlockquoteTagHtml) AccessKey(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("accessKey", value)
+	return b
+}
+
+/*
+Aria -
+*/
+func (b *BlockquoteTagHtml) Aria(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria", value)
+	return b
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (b *BlockquoteTagHtml) Autocapitalize(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("autocapitalize", value)
+	return b
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (b *BlockquoteTagHtml) Autofocus(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("autofocus", value)
+	return b
+}
+
+/*
+Class -
+*/
+func (b *BlockquoteTagHtml) Class(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("class", value)
+	return b
+}
+
+/*
+Contenteditable -
+*/
+func (b *BlockquoteTagHtml) Contenteditable(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("contenteditable", value)
+	return b
+}
+
+/*
+Data -
+*/
+func (b *BlockquoteTagHtml) Data(name, value string) *BlockquoteTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	b.registerAttribute(dataName, value)
+	return b
+}
+
+/*
+Dir -
+*/
+func (b *BlockquoteTagHtml) Dir(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("dir", value)
+	return b
+}
+
+/*
+Draggable -
+*/
+func (b *BlockquoteTagHtml) Draggable(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("draggable", value)
+	return b
+}
+
+/*
+EnterKeyHint -
+*/
+func (b *BlockquoteTagHtml) EnterKeyHint(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("enterKeyHint", value)
+	return b
+}
+
+/*
+ExportParts -
+*/
+func (b *BlockquoteTagHtml) ExportParts(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("exportParts", value)
+	return b
+}
+
+/*
+Hidden -
+*/
+func (b *BlockquoteTagHtml) Hidden(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("hidden", value)
+	return b
+}
+
+/*
+Id -
+*/
+func (b *BlockquoteTagHtml) Id(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("id", value)
+	return b
+}
+
+/*
+Inert -
+*/
+func (b *BlockquoteTagHtml) Inert(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("inert", value)
+	return b
+}
+
+/*
+InputMode -
+*/
+func (b *BlockquoteTagHtml) InputMode(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("inputMode", value)
+	return b
+}
+
+/*
+Is -
+*/
+func (b *BlockquoteTagHtml) Is(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("is", value)
+	return b
+}
+
+/*
+ItemId -
+*/
+func (b *BlockquoteTagHtml) ItemId(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemId", value)
+	return b
+}
+
+/*
+ItemProp -
+*/
+func (b *BlockquoteTagHtml) ItemProp(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemProp", value)
+	return b
+}
+
+/*
+ItemRef -
+*/
+func (b *BlockquoteTagHtml) ItemRef(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemRef", value)
+	return b
+}
+
+/*
+ItemScope -
+*/
+func (b *BlockquoteTagHtml) ItemScope(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemScope", value)
+	return b
+}
+
+/*
+ItemType -
+*/
+func (b *BlockquoteTagHtml) ItemType(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemType", value)
+	return b
+}
+
+/*
+Lang -
+*/
+func (b *BlockquoteTagHtml) Lang(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("lang", value)
+	return b
+}
+
+/*
+Nonce -
+*/
+func (b *BlockquoteTagHtml) Nonce(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("nonce", value)
+	return b
+}
+
+/*
+Part -
+*/
+func (b *BlockquoteTagHtml) Part(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("part", value)
+	return b
+}
+
+/*
+Popover -
+*/
+func (b *BlockquoteTagHtml) Popover() *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("popover", "")
+	return b
+}
+
+/*
+Role -
+*/
+func (b *BlockquoteTagHtml) Role(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("role", value)
+	return b
+}
+
+/*
+Slot -
+*/
+func (b *BlockquoteTagHtml) Slot(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("slot", value)
+	return b
+}
+
+/*
+Spellcheck -
+*/
+func (b *BlockquoteTagHtml) Spellcheck(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("spellcheck", value)
+	return b
+}
+
+/*
+Style -
+*/
+func (b *BlockquoteTagHtml) Style(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("style", value)
+	return b
+}
+
+/*
+Tabindex -
+*/
+func (b *BlockquoteTagHtml) Tabindex(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("tabindex", value)
+	return b
+}
+
+/*
+Title -
+*/
+func (b *BlockquoteTagHtml) Title(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("title", value)
+	return b
+}
+
+/*
+Translate -
+*/
+func (b *BlockquoteTagHtml) Translate(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("translate", value)
+	return b
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (b *BlockquoteTagHtml) VirtualKeyBoardPolicy(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("virtualKeyBoardPolicy", value)
+	return b
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (b *BlockquoteTagHtml) AriaAtomic(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-atomic", value)
+	return b
+}
+
+/*
+AriaBusy -
+*/
+func (b *BlockquoteTagHtml) AriaBusy(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-busy", value)
+	return b
+}
+
+/*
+AriaControls -
+*/
+func (b *BlockquoteTagHtml) AriaControls(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-controls", value)
+	return b
+}
+
+/*
+AriaCurrent -
+*/
+func (b *BlockquoteTagHtml) AriaCurrent(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-current", value)
+	return b
+}
+
+/*
+AriaDescribedby -
+*/
+func (b *BlockquoteTagHtml) AriaDescribedby(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-describedby", value)
+	return b
+}
+
+/*
+AriaDescription -
+*/
+func (b *BlockquoteTagHtml) AriaDescription(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-description", value)
+	return b
+}
+
+/*
+AriaDetails -
+*/
+func (b *BlockquoteTagHtml) AriaDetails(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-details", value)
+	return b
+}
+
+/*
+AriaDisabled -
+*/
+func (b *BlockquoteTagHtml) AriaDisabled(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-disabled", value)
+	return b
+}
+
+/*
+AriaDropeffect -
+*/
+func (b *BlockquoteTagHtml) AriaDropeffect(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-dropeffect", value)
+	return b
+}
+
+/*
+AriaErrormessage -
+*/
+func (b *BlockquoteTagHtml) AriaErrormessage(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-errormessage", value)
+	return b
+}
+
+/*
+AriaFlowto -
+*/
+func (b *BlockquoteTagHtml) AriaFlowto(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-flowto", value)
+	return b
+}
+
+/*
+AriaGrabbed -
+*/
+func (b *BlockquoteTagHtml) AriaGrabbed(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-grabbed", value)
+	return b
+}
+
+/*
+AriaHaspopup -
+*/
+func (b *BlockquoteTagHtml) AriaHaspopup(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-haspopup", value)
+	return b
+}
+
+/*
+AriaHidden -
+*/
+func (b *BlockquoteTagHtml) AriaHidden(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-hidden", value)
+	return b
+}
+
+/*
+AriaInvalid -
+*/
+func (b *BlockquoteTagHtml) AriaInvalid(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-invalid", value)
+	return b
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (b *BlockquoteTagHtml) AriaKeyshortcuts(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-keyshortcuts", value)
+	return b
+}
+
+/*
+AriaLabel -
+*/
+func (b *BlockquoteTagHtml) AriaLabel(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-label", value)
+	return b
+}
+
+/*
+AriaLabelledby -
+*/
+func (b *BlockquoteTagHtml) AriaLabelledby(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-labelledby", value)
+	return b
+}
+
+/*
+AriaLive -
+*/
+func (b *BlockquoteTagHtml) AriaLive(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-live", value)
+	return b
+}
+
+/*
+AriaOwns -
+*/
+func (b *BlockquoteTagHtml) AriaOwns(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-owns", value)
+	return b
+}
+
+/*
+AriaRelevant -
+*/
+func (b *BlockquoteTagHtml) AriaRelevant(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-relevant", value)
+	return b
+}
+
+/*
+AriaRoledescription -
+*/
+func (b *BlockquoteTagHtml) AriaRoledescription(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-roledescription", value)
+	return b
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (b *BlockquoteTagHtml) Onabort(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onabort", value)
+	return b
+}
+
+/*
+Onautocomplete -
+*/
+func (b *BlockquoteTagHtml) Onautocomplete(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onautocomplete", value)
+	return b
+}
+
+/*
+Onautocompleteerror -
+*/
+func (b *BlockquoteTagHtml) Onautocompleteerror(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onautocompleteerror", value)
+	return b
+}
+
+/*
+Onblur -
+*/
+func (b *BlockquoteTagHtml) Onblur(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onblur", value)
+	return b
+}
+
+/*
+Oncancel -
+*/
+func (b *BlockquoteTagHtml) Oncancel(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncancel", value)
+	return b
+}
+
+/*
+Oncanplay -
+*/
+func (b *BlockquoteTagHtml) Oncanplay(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncanplay", value)
+	return b
+}
+
+/*
+Oncanplaythrough -
+*/
+func (b *BlockquoteTagHtml) Oncanplaythrough(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncanplaythrough", value)
+	return b
+}
+
+/*
+Onchange -
+*/
+func (b *BlockquoteTagHtml) Onchange(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onchange", value)
+	return b
+}
+
+/*
+Onclick -
+*/
+func (b *BlockquoteTagHtml) Onclick(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onclick", value)
+	return b
+}
+
+/*
+Onclose -
+*/
+func (b *BlockquoteTagHtml) Onclose(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onclose", value)
+	return b
+}
+
+/*
+Oncontextmenu -
+*/
+func (b *BlockquoteTagHtml) Oncontextmenu(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncontextmenu", value)
+	return b
+}
+
+/*
+Oncuechange -
+*/
+func (b *BlockquoteTagHtml) Oncuechange(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncuechange", value)
+	return b
+}
+
+/*
+Ondblclick -
+*/
+func (b *BlockquoteTagHtml) Ondblclick(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondblclick", value)
+	return b
+}
+
+/*
+Ondrag -
+*/
+func (b *BlockquoteTagHtml) Ondrag(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondrag", value)
+	return b
+}
+
+/*
+Ondragend -
+*/
+func (b *BlockquoteTagHtml) Ondragend(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragend", value)
+	return b
+}
+
+/*
+Ondragenter -
+*/
+func (b *BlockquoteTagHtml) Ondragenter(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragenter", value)
+	return b
+}
+
+/*
+Ondragleave -
+*/
+func (b *BlockquoteTagHtml) Ondragleave(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragleave", value)
+	return b
+}
+
+/*
+Ondragover -
+*/
+func (b *BlockquoteTagHtml) Ondragover(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragover", value)
+	return b
+}
+
+/*
+Ondragstart -
+*/
+func (b *BlockquoteTagHtml) Ondragstart(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragstart", value)
+	return b
+}
+
+/*
+Ondrop -
+*/
+func (b *BlockquoteTagHtml) Ondrop(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondrop", value)
+	return b
+}
+
+/*
+Ondurationchange -
+*/
+func (b *BlockquoteTagHtml) Ondurationchange(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondurationchange", value)
+	return b
+}
+
+/*
+Onemptied -
+*/
+func (b *BlockquoteTagHtml) Onemptied(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onemptied", value)
+	return b
+}
+
+/*
+Onended -
+*/
+func (b *BlockquoteTagHtml) Onended(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onended", value)
+	return b
+}
+
+/*
+Onfocus -
+*/
+func (b *BlockquoteTagHtml) Onfocus(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onfocus", value)
+	return b
+}
+
+/*
+Oninput -
+*/
+func (b *BlockquoteTagHtml) Oninput(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oninput", value)
+	return b
+}
+
+/*
+Oninvalid -
+*/
+func (b *BlockquoteTagHtml) Oninvalid(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oninvalid", value)
+	return b
+}
+
+/*
+Onkeydown -
+*/
+func (b *BlockquoteTagHtml) Onkeydown(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onkeydown", value)
+	return b
+}
+
+/*
+Onkeypress -
+*/
+func (b *BlockquoteTagHtml) Onkeypress(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onkeypress", value)
+	return b
+}
+
+/*
+Onkeyup -
+*/
+func (b *BlockquoteTagHtml) Onkeyup(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onkeyup", value)
+	return b
+}
+
+/*
+Onloadeddata -
+*/
+func (b *BlockquoteTagHtml) Onloadeddata(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onloadeddata", value)
+	return b
+}
+
+/*
+Onloadedmetadata -
+*/
+func (b *BlockquoteTagHtml) Onloadedmetadata(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onloadedmetadata", value)
+	return b
+}
+
+/*
+Onloadstart -
+*/
+func (b *BlockquoteTagHtml) Onloadstart(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onloadstart", value)
+	return b
+}
+
+/*
+Onmousedown -
+*/
+func (b *BlockquoteTagHtml) Onmousedown(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmousedown", value)
+	return b
+}
+
+/*
+Onmouseenter -
+*/
+func (b *BlockquoteTagHtml) Onmouseenter(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseenter", value)
+	return b
+}
+
+/*
+Onmouseleave -
+*/
+func (b *BlockquoteTagHtml) Onmouseleave(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseleave", value)
+	return b
+}
+
+/*
+Onmousemove -
+*/
+func (b *BlockquoteTagHtml) Onmousemove(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmousemove", value)
+	return b
+}
+
+/*
+Onmouseout -
+*/
+func (b *BlockquoteTagHtml) Onmouseout(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseout", value)
+	return b
+}
+
+/*
+Onmouseover -
+*/
+func (b *BlockquoteTagHtml) Onmouseover(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseover", value)
+	return b
+}
+
+/*
+Onmouseup -
+*/
+func (b *BlockquoteTagHtml) Onmouseup(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseup", value)
+	return b
+}
+
+/*
+Onmousewheel -
+*/
+func (b *BlockquoteTagHtml) Onmousewheel(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmousewheel", value)
+	return b
+}
+
+/*
+Onpause -
+*/
+func (b *BlockquoteTagHtml) Onpause(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onpause", value)
+	return b
+}
+
+/*
+Onplay -
+*/
+func (b *BlockquoteTagHtml) Onplay(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onplay", value)
+	return b
+}
+
+/*
+Onplaying -
+*/
+func (b *BlockquoteTagHtml) Onplaying(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onplaying", value)
+	return b
+}
+
+/*
+Onprogress -
+*/
+func (b *BlockquoteTagHtml) Onprogress(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onprogress", value)
+	return b
+}
+
+/*
+Onratechange -
+*/
+func (b *BlockquoteTagHtml) Onratechange(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onratechange", value)
+	return b
+}
+
+/*
+Onreset -
+*/
+func (b *BlockquoteTagHtml) Onreset(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onreset", value)
+	return b
+}
+
+/*
+Onscroll -
+*/
+func (b *BlockquoteTagHtml) Onscroll(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onscroll", value)
+	return b
+}
+
+/*
+Onseeked -
+*/
+func (b *BlockquoteTagHtml) Onseeked(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onseeked", value)
+	return b
+}
+
+/*
+Onseeking -
+*/
+func (b *BlockquoteTagHtml) Onseeking(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onseeking", value)
+	return b
+}
+
+/*
+Onselect -
+*/
+func (b *BlockquoteTagHtml) Onselect(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onselect", value)
+	return b
+}
+
+/*
+Onshow -
+*/
+func (b *BlockquoteTagHtml) Onshow(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onshow", value)
+	return b
+}
+
+/*
+Onsort -
+*/
+func (b *BlockquoteTagHtml) Onsort(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onsort", value)
+	return b
+}
+
+/*
+Onstalled -
+*/
+func (b *BlockquoteTagHtml) Onstalled(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onstalled", value)
+	return b
+}
+
+/*
+Onsubmit -
+*/
+func (b *BlockquoteTagHtml) Onsubmit(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onsubmit", value)
+	return b
+}
+
+/*
+Onsuspend -
+*/
+func (b *BlockquoteTagHtml) Onsuspend(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onsuspend", value)
+	return b
+}
+
+/*
+Ontimeupdate -
+*/
+func (b *BlockquoteTagHtml) Ontimeupdate(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ontimeupdate", value)
+	return b
+}
+
+/*
+Ontoggle -
+*/
+func (b *BlockquoteTagHtml) Ontoggle(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ontoggle", value)
+	return b
+}
+
+/*
+Onvolumechange -
+*/
+func (b *BlockquoteTagHtml) Onvolumechange(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onvolumechange", value)
+	return b
+}
+
+/*
+Onwaiting -
+*/
+func (b *BlockquoteTagHtml) Onwaiting(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onwaiting", value)
+	return b
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (b *BlockquoteTagHtml) Onafterprint(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onafterprint", value)
+	return b
+}
+
+/*
+Onbeforeprint -
+*/
+func (b *BlockquoteTagHtml) Onbeforeprint(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onbeforeprint", value)
+	return b
+}
+
+/*
+Onbeforeunload -
+*/
+func (b *BlockquoteTagHtml) Onbeforeunload(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onbeforeunload", value)
+	return b
+}
+
+/*
+Onerror -
+*/
+func (b *BlockquoteTagHtml) Onerror(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onerror", value)
+	return b
+}
+
+/*
+Onhashchange -
+*/
+func (b *BlockquoteTagHtml) Onhashchange(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onhashchange", value)
+	return b
+}
+
+/*
+Onload -
+*/
+func (b *BlockquoteTagHtml) Onload(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onload", value)
+	return b
+}
+
+/*
+Onmessage -
+*/
+func (b *BlockquoteTagHtml) Onmessage(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmessage", value)
+	return b
+}
+
+/*
+Onoffline -
+*/
+func (b *BlockquoteTagHtml) Onoffline(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onoffline", value)
+	return b
+}
+
+/*
+Ononline -
+*/
+func (b *BlockquoteTagHtml) Ononline(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ononline", value)
+	return b
+}
+
+/*
+Onpagehide -
+*/
+func (b *BlockquoteTagHtml) Onpagehide(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onpagehide", value)
+	return b
+}
+
+/*
+Onpageshow -
+*/
+func (b *BlockquoteTagHtml) Onpageshow(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onpageshow", value)
+	return b
+}
+
+/*
+Onpopstate -
+*/
+func (b *BlockquoteTagHtml) Onpopstate(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onpopstate", value)
+	return b
+}
+
+/*
+Onresize -
+*/
+func (b *BlockquoteTagHtml) Onresize(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onresize", value)
+	return b
+}
+
+/*
+Onstorage -
+*/
+func (b *BlockquoteTagHtml) Onstorage(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onstorage", value)
+	return b
+}
+
+/*
+Onunload -
+*/
+func (b *BlockquoteTagHtml) Onunload(value string) *BlockquoteTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onunload", value)
+	return b
+}

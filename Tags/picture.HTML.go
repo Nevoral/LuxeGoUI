@@ -72,3 +72,1451 @@ func (p *PictureTagHtml) supportedChildrenCheck(tags []any) *PictureTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (p *PictureTagHtml) AriaAtomic(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-atomic", value)
+	return p
+}
+
+/*
+AriaBusy -
+*/
+func (p *PictureTagHtml) AriaBusy(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-busy", value)
+	return p
+}
+
+/*
+AriaControls -
+*/
+func (p *PictureTagHtml) AriaControls(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-controls", value)
+	return p
+}
+
+/*
+AriaCurrent -
+*/
+func (p *PictureTagHtml) AriaCurrent(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-current", value)
+	return p
+}
+
+/*
+AriaDescribedby -
+*/
+func (p *PictureTagHtml) AriaDescribedby(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-describedby", value)
+	return p
+}
+
+/*
+AriaDescription -
+*/
+func (p *PictureTagHtml) AriaDescription(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-description", value)
+	return p
+}
+
+/*
+AriaDetails -
+*/
+func (p *PictureTagHtml) AriaDetails(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-details", value)
+	return p
+}
+
+/*
+AriaDisabled -
+*/
+func (p *PictureTagHtml) AriaDisabled(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-disabled", value)
+	return p
+}
+
+/*
+AriaDropeffect -
+*/
+func (p *PictureTagHtml) AriaDropeffect(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-dropeffect", value)
+	return p
+}
+
+/*
+AriaErrormessage -
+*/
+func (p *PictureTagHtml) AriaErrormessage(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-errormessage", value)
+	return p
+}
+
+/*
+AriaFlowto -
+*/
+func (p *PictureTagHtml) AriaFlowto(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-flowto", value)
+	return p
+}
+
+/*
+AriaGrabbed -
+*/
+func (p *PictureTagHtml) AriaGrabbed(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-grabbed", value)
+	return p
+}
+
+/*
+AriaHaspopup -
+*/
+func (p *PictureTagHtml) AriaHaspopup(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-haspopup", value)
+	return p
+}
+
+/*
+AriaHidden -
+*/
+func (p *PictureTagHtml) AriaHidden(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-hidden", value)
+	return p
+}
+
+/*
+AriaInvalid -
+*/
+func (p *PictureTagHtml) AriaInvalid(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-invalid", value)
+	return p
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (p *PictureTagHtml) AriaKeyshortcuts(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-keyshortcuts", value)
+	return p
+}
+
+/*
+AriaLabel -
+*/
+func (p *PictureTagHtml) AriaLabel(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-label", value)
+	return p
+}
+
+/*
+AriaLabelledby -
+*/
+func (p *PictureTagHtml) AriaLabelledby(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-labelledby", value)
+	return p
+}
+
+/*
+AriaLive -
+*/
+func (p *PictureTagHtml) AriaLive(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-live", value)
+	return p
+}
+
+/*
+AriaOwns -
+*/
+func (p *PictureTagHtml) AriaOwns(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-owns", value)
+	return p
+}
+
+/*
+AriaRelevant -
+*/
+func (p *PictureTagHtml) AriaRelevant(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-relevant", value)
+	return p
+}
+
+/*
+AriaRoledescription -
+*/
+func (p *PictureTagHtml) AriaRoledescription(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-roledescription", value)
+	return p
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (p *PictureTagHtml) Onabort(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onabort", value)
+	return p
+}
+
+/*
+Onautocomplete -
+*/
+func (p *PictureTagHtml) Onautocomplete(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onautocomplete", value)
+	return p
+}
+
+/*
+Onautocompleteerror -
+*/
+func (p *PictureTagHtml) Onautocompleteerror(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onautocompleteerror", value)
+	return p
+}
+
+/*
+Onblur -
+*/
+func (p *PictureTagHtml) Onblur(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onblur", value)
+	return p
+}
+
+/*
+Oncancel -
+*/
+func (p *PictureTagHtml) Oncancel(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oncancel", value)
+	return p
+}
+
+/*
+Oncanplay -
+*/
+func (p *PictureTagHtml) Oncanplay(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oncanplay", value)
+	return p
+}
+
+/*
+Oncanplaythrough -
+*/
+func (p *PictureTagHtml) Oncanplaythrough(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oncanplaythrough", value)
+	return p
+}
+
+/*
+Onchange -
+*/
+func (p *PictureTagHtml) Onchange(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onchange", value)
+	return p
+}
+
+/*
+Onclick -
+*/
+func (p *PictureTagHtml) Onclick(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onclick", value)
+	return p
+}
+
+/*
+Onclose -
+*/
+func (p *PictureTagHtml) Onclose(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onclose", value)
+	return p
+}
+
+/*
+Oncontextmenu -
+*/
+func (p *PictureTagHtml) Oncontextmenu(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oncontextmenu", value)
+	return p
+}
+
+/*
+Oncuechange -
+*/
+func (p *PictureTagHtml) Oncuechange(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oncuechange", value)
+	return p
+}
+
+/*
+Ondblclick -
+*/
+func (p *PictureTagHtml) Ondblclick(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondblclick", value)
+	return p
+}
+
+/*
+Ondrag -
+*/
+func (p *PictureTagHtml) Ondrag(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondrag", value)
+	return p
+}
+
+/*
+Ondragend -
+*/
+func (p *PictureTagHtml) Ondragend(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondragend", value)
+	return p
+}
+
+/*
+Ondragenter -
+*/
+func (p *PictureTagHtml) Ondragenter(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondragenter", value)
+	return p
+}
+
+/*
+Ondragleave -
+*/
+func (p *PictureTagHtml) Ondragleave(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondragleave", value)
+	return p
+}
+
+/*
+Ondragover -
+*/
+func (p *PictureTagHtml) Ondragover(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondragover", value)
+	return p
+}
+
+/*
+Ondragstart -
+*/
+func (p *PictureTagHtml) Ondragstart(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondragstart", value)
+	return p
+}
+
+/*
+Ondrop -
+*/
+func (p *PictureTagHtml) Ondrop(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondrop", value)
+	return p
+}
+
+/*
+Ondurationchange -
+*/
+func (p *PictureTagHtml) Ondurationchange(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondurationchange", value)
+	return p
+}
+
+/*
+Onemptied -
+*/
+func (p *PictureTagHtml) Onemptied(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onemptied", value)
+	return p
+}
+
+/*
+Onended -
+*/
+func (p *PictureTagHtml) Onended(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onended", value)
+	return p
+}
+
+/*
+Onfocus -
+*/
+func (p *PictureTagHtml) Onfocus(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onfocus", value)
+	return p
+}
+
+/*
+Oninput -
+*/
+func (p *PictureTagHtml) Oninput(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oninput", value)
+	return p
+}
+
+/*
+Oninvalid -
+*/
+func (p *PictureTagHtml) Oninvalid(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oninvalid", value)
+	return p
+}
+
+/*
+Onkeydown -
+*/
+func (p *PictureTagHtml) Onkeydown(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onkeydown", value)
+	return p
+}
+
+/*
+Onkeypress -
+*/
+func (p *PictureTagHtml) Onkeypress(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onkeypress", value)
+	return p
+}
+
+/*
+Onkeyup -
+*/
+func (p *PictureTagHtml) Onkeyup(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onkeyup", value)
+	return p
+}
+
+/*
+Onloadeddata -
+*/
+func (p *PictureTagHtml) Onloadeddata(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onloadeddata", value)
+	return p
+}
+
+/*
+Onloadedmetadata -
+*/
+func (p *PictureTagHtml) Onloadedmetadata(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onloadedmetadata", value)
+	return p
+}
+
+/*
+Onloadstart -
+*/
+func (p *PictureTagHtml) Onloadstart(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onloadstart", value)
+	return p
+}
+
+/*
+Onmousedown -
+*/
+func (p *PictureTagHtml) Onmousedown(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmousedown", value)
+	return p
+}
+
+/*
+Onmouseenter -
+*/
+func (p *PictureTagHtml) Onmouseenter(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmouseenter", value)
+	return p
+}
+
+/*
+Onmouseleave -
+*/
+func (p *PictureTagHtml) Onmouseleave(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmouseleave", value)
+	return p
+}
+
+/*
+Onmousemove -
+*/
+func (p *PictureTagHtml) Onmousemove(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmousemove", value)
+	return p
+}
+
+/*
+Onmouseout -
+*/
+func (p *PictureTagHtml) Onmouseout(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmouseout", value)
+	return p
+}
+
+/*
+Onmouseover -
+*/
+func (p *PictureTagHtml) Onmouseover(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmouseover", value)
+	return p
+}
+
+/*
+Onmouseup -
+*/
+func (p *PictureTagHtml) Onmouseup(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmouseup", value)
+	return p
+}
+
+/*
+Onmousewheel -
+*/
+func (p *PictureTagHtml) Onmousewheel(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmousewheel", value)
+	return p
+}
+
+/*
+Onpause -
+*/
+func (p *PictureTagHtml) Onpause(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onpause", value)
+	return p
+}
+
+/*
+Onplay -
+*/
+func (p *PictureTagHtml) Onplay(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onplay", value)
+	return p
+}
+
+/*
+Onplaying -
+*/
+func (p *PictureTagHtml) Onplaying(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onplaying", value)
+	return p
+}
+
+/*
+Onprogress -
+*/
+func (p *PictureTagHtml) Onprogress(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onprogress", value)
+	return p
+}
+
+/*
+Onratechange -
+*/
+func (p *PictureTagHtml) Onratechange(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onratechange", value)
+	return p
+}
+
+/*
+Onreset -
+*/
+func (p *PictureTagHtml) Onreset(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onreset", value)
+	return p
+}
+
+/*
+Onscroll -
+*/
+func (p *PictureTagHtml) Onscroll(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onscroll", value)
+	return p
+}
+
+/*
+Onseeked -
+*/
+func (p *PictureTagHtml) Onseeked(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onseeked", value)
+	return p
+}
+
+/*
+Onseeking -
+*/
+func (p *PictureTagHtml) Onseeking(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onseeking", value)
+	return p
+}
+
+/*
+Onselect -
+*/
+func (p *PictureTagHtml) Onselect(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onselect", value)
+	return p
+}
+
+/*
+Onshow -
+*/
+func (p *PictureTagHtml) Onshow(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onshow", value)
+	return p
+}
+
+/*
+Onsort -
+*/
+func (p *PictureTagHtml) Onsort(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onsort", value)
+	return p
+}
+
+/*
+Onstalled -
+*/
+func (p *PictureTagHtml) Onstalled(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onstalled", value)
+	return p
+}
+
+/*
+Onsubmit -
+*/
+func (p *PictureTagHtml) Onsubmit(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onsubmit", value)
+	return p
+}
+
+/*
+Onsuspend -
+*/
+func (p *PictureTagHtml) Onsuspend(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onsuspend", value)
+	return p
+}
+
+/*
+Ontimeupdate -
+*/
+func (p *PictureTagHtml) Ontimeupdate(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ontimeupdate", value)
+	return p
+}
+
+/*
+Ontoggle -
+*/
+func (p *PictureTagHtml) Ontoggle(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ontoggle", value)
+	return p
+}
+
+/*
+Onvolumechange -
+*/
+func (p *PictureTagHtml) Onvolumechange(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onvolumechange", value)
+	return p
+}
+
+/*
+Onwaiting -
+*/
+func (p *PictureTagHtml) Onwaiting(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onwaiting", value)
+	return p
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (p *PictureTagHtml) Onafterprint(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onafterprint", value)
+	return p
+}
+
+/*
+Onbeforeprint -
+*/
+func (p *PictureTagHtml) Onbeforeprint(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onbeforeprint", value)
+	return p
+}
+
+/*
+Onbeforeunload -
+*/
+func (p *PictureTagHtml) Onbeforeunload(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onbeforeunload", value)
+	return p
+}
+
+/*
+Onerror -
+*/
+func (p *PictureTagHtml) Onerror(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onerror", value)
+	return p
+}
+
+/*
+Onhashchange -
+*/
+func (p *PictureTagHtml) Onhashchange(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onhashchange", value)
+	return p
+}
+
+/*
+Onload -
+*/
+func (p *PictureTagHtml) Onload(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onload", value)
+	return p
+}
+
+/*
+Onmessage -
+*/
+func (p *PictureTagHtml) Onmessage(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmessage", value)
+	return p
+}
+
+/*
+Onoffline -
+*/
+func (p *PictureTagHtml) Onoffline(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onoffline", value)
+	return p
+}
+
+/*
+Ononline -
+*/
+func (p *PictureTagHtml) Ononline(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ononline", value)
+	return p
+}
+
+/*
+Onpagehide -
+*/
+func (p *PictureTagHtml) Onpagehide(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onpagehide", value)
+	return p
+}
+
+/*
+Onpageshow -
+*/
+func (p *PictureTagHtml) Onpageshow(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onpageshow", value)
+	return p
+}
+
+/*
+Onpopstate -
+*/
+func (p *PictureTagHtml) Onpopstate(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onpopstate", value)
+	return p
+}
+
+/*
+Onresize -
+*/
+func (p *PictureTagHtml) Onresize(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onresize", value)
+	return p
+}
+
+/*
+Onstorage -
+*/
+func (p *PictureTagHtml) Onstorage(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onstorage", value)
+	return p
+}
+
+/*
+Onunload -
+*/
+func (p *PictureTagHtml) Onunload(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onunload", value)
+	return p
+}
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (p *PictureTagHtml) AccessKey(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("accessKey", value)
+	return p
+}
+
+/*
+Aria -
+*/
+func (p *PictureTagHtml) Aria(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria", value)
+	return p
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (p *PictureTagHtml) Autocapitalize(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("autocapitalize", value)
+	return p
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (p *PictureTagHtml) Autofocus(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("autofocus", value)
+	return p
+}
+
+/*
+Class -
+*/
+func (p *PictureTagHtml) Class(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("class", value)
+	return p
+}
+
+/*
+Contenteditable -
+*/
+func (p *PictureTagHtml) Contenteditable(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("contenteditable", value)
+	return p
+}
+
+/*
+Data -
+*/
+func (p *PictureTagHtml) Data(name, value string) *PictureTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	p.registerAttribute(dataName, value)
+	return p
+}
+
+/*
+Dir -
+*/
+func (p *PictureTagHtml) Dir(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("dir", value)
+	return p
+}
+
+/*
+Draggable -
+*/
+func (p *PictureTagHtml) Draggable(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("draggable", value)
+	return p
+}
+
+/*
+EnterKeyHint -
+*/
+func (p *PictureTagHtml) EnterKeyHint(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("enterKeyHint", value)
+	return p
+}
+
+/*
+ExportParts -
+*/
+func (p *PictureTagHtml) ExportParts(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("exportParts", value)
+	return p
+}
+
+/*
+Hidden -
+*/
+func (p *PictureTagHtml) Hidden(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("hidden", value)
+	return p
+}
+
+/*
+Id -
+*/
+func (p *PictureTagHtml) Id(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("id", value)
+	return p
+}
+
+/*
+Inert -
+*/
+func (p *PictureTagHtml) Inert(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("inert", value)
+	return p
+}
+
+/*
+InputMode -
+*/
+func (p *PictureTagHtml) InputMode(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("inputMode", value)
+	return p
+}
+
+/*
+Is -
+*/
+func (p *PictureTagHtml) Is(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("is", value)
+	return p
+}
+
+/*
+ItemId -
+*/
+func (p *PictureTagHtml) ItemId(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("itemId", value)
+	return p
+}
+
+/*
+ItemProp -
+*/
+func (p *PictureTagHtml) ItemProp(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("itemProp", value)
+	return p
+}
+
+/*
+ItemRef -
+*/
+func (p *PictureTagHtml) ItemRef(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("itemRef", value)
+	return p
+}
+
+/*
+ItemScope -
+*/
+func (p *PictureTagHtml) ItemScope(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("itemScope", value)
+	return p
+}
+
+/*
+ItemType -
+*/
+func (p *PictureTagHtml) ItemType(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("itemType", value)
+	return p
+}
+
+/*
+Lang -
+*/
+func (p *PictureTagHtml) Lang(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("lang", value)
+	return p
+}
+
+/*
+Nonce -
+*/
+func (p *PictureTagHtml) Nonce(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("nonce", value)
+	return p
+}
+
+/*
+Part -
+*/
+func (p *PictureTagHtml) Part(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("part", value)
+	return p
+}
+
+/*
+Popover -
+*/
+func (p *PictureTagHtml) Popover() *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("popover", "")
+	return p
+}
+
+/*
+Role -
+*/
+func (p *PictureTagHtml) Role(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("role", value)
+	return p
+}
+
+/*
+Slot -
+*/
+func (p *PictureTagHtml) Slot(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("slot", value)
+	return p
+}
+
+/*
+Spellcheck -
+*/
+func (p *PictureTagHtml) Spellcheck(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("spellcheck", value)
+	return p
+}
+
+/*
+Style -
+*/
+func (p *PictureTagHtml) Style(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("style", value)
+	return p
+}
+
+/*
+Tabindex -
+*/
+func (p *PictureTagHtml) Tabindex(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("tabindex", value)
+	return p
+}
+
+/*
+Title -
+*/
+func (p *PictureTagHtml) Title(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("title", value)
+	return p
+}
+
+/*
+Translate -
+*/
+func (p *PictureTagHtml) Translate(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("translate", value)
+	return p
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (p *PictureTagHtml) VirtualKeyBoardPolicy(value string) *PictureTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("virtualKeyBoardPolicy", value)
+	return p
+}

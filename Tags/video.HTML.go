@@ -227,3 +227,1451 @@ func (v *VideoTagHtml) Width(value string) *VideoTagHtml {
 	v.registerAttribute("width", value)
 	return v
 }
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (v *VideoTagHtml) Onafterprint(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onafterprint", value)
+	return v
+}
+
+/*
+Onbeforeprint -
+*/
+func (v *VideoTagHtml) Onbeforeprint(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onbeforeprint", value)
+	return v
+}
+
+/*
+Onbeforeunload -
+*/
+func (v *VideoTagHtml) Onbeforeunload(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onbeforeunload", value)
+	return v
+}
+
+/*
+Onerror -
+*/
+func (v *VideoTagHtml) Onerror(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onerror", value)
+	return v
+}
+
+/*
+Onhashchange -
+*/
+func (v *VideoTagHtml) Onhashchange(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onhashchange", value)
+	return v
+}
+
+/*
+Onload -
+*/
+func (v *VideoTagHtml) Onload(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onload", value)
+	return v
+}
+
+/*
+Onmessage -
+*/
+func (v *VideoTagHtml) Onmessage(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmessage", value)
+	return v
+}
+
+/*
+Onoffline -
+*/
+func (v *VideoTagHtml) Onoffline(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onoffline", value)
+	return v
+}
+
+/*
+Ononline -
+*/
+func (v *VideoTagHtml) Ononline(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ononline", value)
+	return v
+}
+
+/*
+Onpagehide -
+*/
+func (v *VideoTagHtml) Onpagehide(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onpagehide", value)
+	return v
+}
+
+/*
+Onpageshow -
+*/
+func (v *VideoTagHtml) Onpageshow(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onpageshow", value)
+	return v
+}
+
+/*
+Onpopstate -
+*/
+func (v *VideoTagHtml) Onpopstate(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onpopstate", value)
+	return v
+}
+
+/*
+Onresize -
+*/
+func (v *VideoTagHtml) Onresize(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onresize", value)
+	return v
+}
+
+/*
+Onstorage -
+*/
+func (v *VideoTagHtml) Onstorage(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onstorage", value)
+	return v
+}
+
+/*
+Onunload -
+*/
+func (v *VideoTagHtml) Onunload(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onunload", value)
+	return v
+}
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (v *VideoTagHtml) AccessKey(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("accessKey", value)
+	return v
+}
+
+/*
+Aria -
+*/
+func (v *VideoTagHtml) Aria(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria", value)
+	return v
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (v *VideoTagHtml) Autocapitalize(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("autocapitalize", value)
+	return v
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (v *VideoTagHtml) Autofocus(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("autofocus", value)
+	return v
+}
+
+/*
+Class -
+*/
+func (v *VideoTagHtml) Class(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("class", value)
+	return v
+}
+
+/*
+Contenteditable -
+*/
+func (v *VideoTagHtml) Contenteditable(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("contenteditable", value)
+	return v
+}
+
+/*
+Data -
+*/
+func (v *VideoTagHtml) Data(name, value string) *VideoTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	v.registerAttribute(dataName, value)
+	return v
+}
+
+/*
+Dir -
+*/
+func (v *VideoTagHtml) Dir(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("dir", value)
+	return v
+}
+
+/*
+Draggable -
+*/
+func (v *VideoTagHtml) Draggable(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("draggable", value)
+	return v
+}
+
+/*
+EnterKeyHint -
+*/
+func (v *VideoTagHtml) EnterKeyHint(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("enterKeyHint", value)
+	return v
+}
+
+/*
+ExportParts -
+*/
+func (v *VideoTagHtml) ExportParts(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("exportParts", value)
+	return v
+}
+
+/*
+Hidden -
+*/
+func (v *VideoTagHtml) Hidden(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("hidden", value)
+	return v
+}
+
+/*
+Id -
+*/
+func (v *VideoTagHtml) Id(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("id", value)
+	return v
+}
+
+/*
+Inert -
+*/
+func (v *VideoTagHtml) Inert(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("inert", value)
+	return v
+}
+
+/*
+InputMode -
+*/
+func (v *VideoTagHtml) InputMode(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("inputMode", value)
+	return v
+}
+
+/*
+Is -
+*/
+func (v *VideoTagHtml) Is(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("is", value)
+	return v
+}
+
+/*
+ItemId -
+*/
+func (v *VideoTagHtml) ItemId(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("itemId", value)
+	return v
+}
+
+/*
+ItemProp -
+*/
+func (v *VideoTagHtml) ItemProp(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("itemProp", value)
+	return v
+}
+
+/*
+ItemRef -
+*/
+func (v *VideoTagHtml) ItemRef(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("itemRef", value)
+	return v
+}
+
+/*
+ItemScope -
+*/
+func (v *VideoTagHtml) ItemScope(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("itemScope", value)
+	return v
+}
+
+/*
+ItemType -
+*/
+func (v *VideoTagHtml) ItemType(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("itemType", value)
+	return v
+}
+
+/*
+Lang -
+*/
+func (v *VideoTagHtml) Lang(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("lang", value)
+	return v
+}
+
+/*
+Nonce -
+*/
+func (v *VideoTagHtml) Nonce(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("nonce", value)
+	return v
+}
+
+/*
+Part -
+*/
+func (v *VideoTagHtml) Part(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("part", value)
+	return v
+}
+
+/*
+Popover -
+*/
+func (v *VideoTagHtml) Popover() *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("popover", "")
+	return v
+}
+
+/*
+Role -
+*/
+func (v *VideoTagHtml) Role(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("role", value)
+	return v
+}
+
+/*
+Slot -
+*/
+func (v *VideoTagHtml) Slot(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("slot", value)
+	return v
+}
+
+/*
+Spellcheck -
+*/
+func (v *VideoTagHtml) Spellcheck(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("spellcheck", value)
+	return v
+}
+
+/*
+Style -
+*/
+func (v *VideoTagHtml) Style(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("style", value)
+	return v
+}
+
+/*
+Tabindex -
+*/
+func (v *VideoTagHtml) Tabindex(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("tabindex", value)
+	return v
+}
+
+/*
+Title -
+*/
+func (v *VideoTagHtml) Title(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("title", value)
+	return v
+}
+
+/*
+Translate -
+*/
+func (v *VideoTagHtml) Translate(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("translate", value)
+	return v
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (v *VideoTagHtml) VirtualKeyBoardPolicy(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("virtualKeyBoardPolicy", value)
+	return v
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (v *VideoTagHtml) AriaAtomic(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-atomic", value)
+	return v
+}
+
+/*
+AriaBusy -
+*/
+func (v *VideoTagHtml) AriaBusy(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-busy", value)
+	return v
+}
+
+/*
+AriaControls -
+*/
+func (v *VideoTagHtml) AriaControls(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-controls", value)
+	return v
+}
+
+/*
+AriaCurrent -
+*/
+func (v *VideoTagHtml) AriaCurrent(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-current", value)
+	return v
+}
+
+/*
+AriaDescribedby -
+*/
+func (v *VideoTagHtml) AriaDescribedby(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-describedby", value)
+	return v
+}
+
+/*
+AriaDescription -
+*/
+func (v *VideoTagHtml) AriaDescription(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-description", value)
+	return v
+}
+
+/*
+AriaDetails -
+*/
+func (v *VideoTagHtml) AriaDetails(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-details", value)
+	return v
+}
+
+/*
+AriaDisabled -
+*/
+func (v *VideoTagHtml) AriaDisabled(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-disabled", value)
+	return v
+}
+
+/*
+AriaDropeffect -
+*/
+func (v *VideoTagHtml) AriaDropeffect(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-dropeffect", value)
+	return v
+}
+
+/*
+AriaErrormessage -
+*/
+func (v *VideoTagHtml) AriaErrormessage(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-errormessage", value)
+	return v
+}
+
+/*
+AriaFlowto -
+*/
+func (v *VideoTagHtml) AriaFlowto(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-flowto", value)
+	return v
+}
+
+/*
+AriaGrabbed -
+*/
+func (v *VideoTagHtml) AriaGrabbed(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-grabbed", value)
+	return v
+}
+
+/*
+AriaHaspopup -
+*/
+func (v *VideoTagHtml) AriaHaspopup(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-haspopup", value)
+	return v
+}
+
+/*
+AriaHidden -
+*/
+func (v *VideoTagHtml) AriaHidden(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-hidden", value)
+	return v
+}
+
+/*
+AriaInvalid -
+*/
+func (v *VideoTagHtml) AriaInvalid(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-invalid", value)
+	return v
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (v *VideoTagHtml) AriaKeyshortcuts(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-keyshortcuts", value)
+	return v
+}
+
+/*
+AriaLabel -
+*/
+func (v *VideoTagHtml) AriaLabel(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-label", value)
+	return v
+}
+
+/*
+AriaLabelledby -
+*/
+func (v *VideoTagHtml) AriaLabelledby(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-labelledby", value)
+	return v
+}
+
+/*
+AriaLive -
+*/
+func (v *VideoTagHtml) AriaLive(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-live", value)
+	return v
+}
+
+/*
+AriaOwns -
+*/
+func (v *VideoTagHtml) AriaOwns(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-owns", value)
+	return v
+}
+
+/*
+AriaRelevant -
+*/
+func (v *VideoTagHtml) AriaRelevant(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-relevant", value)
+	return v
+}
+
+/*
+AriaRoledescription -
+*/
+func (v *VideoTagHtml) AriaRoledescription(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-roledescription", value)
+	return v
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (v *VideoTagHtml) Onabort(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onabort", value)
+	return v
+}
+
+/*
+Onautocomplete -
+*/
+func (v *VideoTagHtml) Onautocomplete(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onautocomplete", value)
+	return v
+}
+
+/*
+Onautocompleteerror -
+*/
+func (v *VideoTagHtml) Onautocompleteerror(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onautocompleteerror", value)
+	return v
+}
+
+/*
+Onblur -
+*/
+func (v *VideoTagHtml) Onblur(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onblur", value)
+	return v
+}
+
+/*
+Oncancel -
+*/
+func (v *VideoTagHtml) Oncancel(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("oncancel", value)
+	return v
+}
+
+/*
+Oncanplay -
+*/
+func (v *VideoTagHtml) Oncanplay(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("oncanplay", value)
+	return v
+}
+
+/*
+Oncanplaythrough -
+*/
+func (v *VideoTagHtml) Oncanplaythrough(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("oncanplaythrough", value)
+	return v
+}
+
+/*
+Onchange -
+*/
+func (v *VideoTagHtml) Onchange(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onchange", value)
+	return v
+}
+
+/*
+Onclick -
+*/
+func (v *VideoTagHtml) Onclick(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onclick", value)
+	return v
+}
+
+/*
+Onclose -
+*/
+func (v *VideoTagHtml) Onclose(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onclose", value)
+	return v
+}
+
+/*
+Oncontextmenu -
+*/
+func (v *VideoTagHtml) Oncontextmenu(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("oncontextmenu", value)
+	return v
+}
+
+/*
+Oncuechange -
+*/
+func (v *VideoTagHtml) Oncuechange(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("oncuechange", value)
+	return v
+}
+
+/*
+Ondblclick -
+*/
+func (v *VideoTagHtml) Ondblclick(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondblclick", value)
+	return v
+}
+
+/*
+Ondrag -
+*/
+func (v *VideoTagHtml) Ondrag(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondrag", value)
+	return v
+}
+
+/*
+Ondragend -
+*/
+func (v *VideoTagHtml) Ondragend(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondragend", value)
+	return v
+}
+
+/*
+Ondragenter -
+*/
+func (v *VideoTagHtml) Ondragenter(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondragenter", value)
+	return v
+}
+
+/*
+Ondragleave -
+*/
+func (v *VideoTagHtml) Ondragleave(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondragleave", value)
+	return v
+}
+
+/*
+Ondragover -
+*/
+func (v *VideoTagHtml) Ondragover(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondragover", value)
+	return v
+}
+
+/*
+Ondragstart -
+*/
+func (v *VideoTagHtml) Ondragstart(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondragstart", value)
+	return v
+}
+
+/*
+Ondrop -
+*/
+func (v *VideoTagHtml) Ondrop(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondrop", value)
+	return v
+}
+
+/*
+Ondurationchange -
+*/
+func (v *VideoTagHtml) Ondurationchange(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondurationchange", value)
+	return v
+}
+
+/*
+Onemptied -
+*/
+func (v *VideoTagHtml) Onemptied(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onemptied", value)
+	return v
+}
+
+/*
+Onended -
+*/
+func (v *VideoTagHtml) Onended(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onended", value)
+	return v
+}
+
+/*
+Onfocus -
+*/
+func (v *VideoTagHtml) Onfocus(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onfocus", value)
+	return v
+}
+
+/*
+Oninput -
+*/
+func (v *VideoTagHtml) Oninput(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("oninput", value)
+	return v
+}
+
+/*
+Oninvalid -
+*/
+func (v *VideoTagHtml) Oninvalid(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("oninvalid", value)
+	return v
+}
+
+/*
+Onkeydown -
+*/
+func (v *VideoTagHtml) Onkeydown(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onkeydown", value)
+	return v
+}
+
+/*
+Onkeypress -
+*/
+func (v *VideoTagHtml) Onkeypress(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onkeypress", value)
+	return v
+}
+
+/*
+Onkeyup -
+*/
+func (v *VideoTagHtml) Onkeyup(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onkeyup", value)
+	return v
+}
+
+/*
+Onloadeddata -
+*/
+func (v *VideoTagHtml) Onloadeddata(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onloadeddata", value)
+	return v
+}
+
+/*
+Onloadedmetadata -
+*/
+func (v *VideoTagHtml) Onloadedmetadata(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onloadedmetadata", value)
+	return v
+}
+
+/*
+Onloadstart -
+*/
+func (v *VideoTagHtml) Onloadstart(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onloadstart", value)
+	return v
+}
+
+/*
+Onmousedown -
+*/
+func (v *VideoTagHtml) Onmousedown(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmousedown", value)
+	return v
+}
+
+/*
+Onmouseenter -
+*/
+func (v *VideoTagHtml) Onmouseenter(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmouseenter", value)
+	return v
+}
+
+/*
+Onmouseleave -
+*/
+func (v *VideoTagHtml) Onmouseleave(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmouseleave", value)
+	return v
+}
+
+/*
+Onmousemove -
+*/
+func (v *VideoTagHtml) Onmousemove(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmousemove", value)
+	return v
+}
+
+/*
+Onmouseout -
+*/
+func (v *VideoTagHtml) Onmouseout(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmouseout", value)
+	return v
+}
+
+/*
+Onmouseover -
+*/
+func (v *VideoTagHtml) Onmouseover(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmouseover", value)
+	return v
+}
+
+/*
+Onmouseup -
+*/
+func (v *VideoTagHtml) Onmouseup(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmouseup", value)
+	return v
+}
+
+/*
+Onmousewheel -
+*/
+func (v *VideoTagHtml) Onmousewheel(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmousewheel", value)
+	return v
+}
+
+/*
+Onpause -
+*/
+func (v *VideoTagHtml) Onpause(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onpause", value)
+	return v
+}
+
+/*
+Onplay -
+*/
+func (v *VideoTagHtml) Onplay(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onplay", value)
+	return v
+}
+
+/*
+Onplaying -
+*/
+func (v *VideoTagHtml) Onplaying(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onplaying", value)
+	return v
+}
+
+/*
+Onprogress -
+*/
+func (v *VideoTagHtml) Onprogress(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onprogress", value)
+	return v
+}
+
+/*
+Onratechange -
+*/
+func (v *VideoTagHtml) Onratechange(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onratechange", value)
+	return v
+}
+
+/*
+Onreset -
+*/
+func (v *VideoTagHtml) Onreset(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onreset", value)
+	return v
+}
+
+/*
+Onscroll -
+*/
+func (v *VideoTagHtml) Onscroll(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onscroll", value)
+	return v
+}
+
+/*
+Onseeked -
+*/
+func (v *VideoTagHtml) Onseeked(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onseeked", value)
+	return v
+}
+
+/*
+Onseeking -
+*/
+func (v *VideoTagHtml) Onseeking(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onseeking", value)
+	return v
+}
+
+/*
+Onselect -
+*/
+func (v *VideoTagHtml) Onselect(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onselect", value)
+	return v
+}
+
+/*
+Onshow -
+*/
+func (v *VideoTagHtml) Onshow(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onshow", value)
+	return v
+}
+
+/*
+Onsort -
+*/
+func (v *VideoTagHtml) Onsort(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onsort", value)
+	return v
+}
+
+/*
+Onstalled -
+*/
+func (v *VideoTagHtml) Onstalled(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onstalled", value)
+	return v
+}
+
+/*
+Onsubmit -
+*/
+func (v *VideoTagHtml) Onsubmit(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onsubmit", value)
+	return v
+}
+
+/*
+Onsuspend -
+*/
+func (v *VideoTagHtml) Onsuspend(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onsuspend", value)
+	return v
+}
+
+/*
+Ontimeupdate -
+*/
+func (v *VideoTagHtml) Ontimeupdate(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ontimeupdate", value)
+	return v
+}
+
+/*
+Ontoggle -
+*/
+func (v *VideoTagHtml) Ontoggle(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ontoggle", value)
+	return v
+}
+
+/*
+Onvolumechange -
+*/
+func (v *VideoTagHtml) Onvolumechange(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onvolumechange", value)
+	return v
+}
+
+/*
+Onwaiting -
+*/
+func (v *VideoTagHtml) Onwaiting(value string) *VideoTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onwaiting", value)
+	return v
+}

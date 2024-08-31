@@ -182,3 +182,1451 @@ func (b *BodyTagHtml) Vlink(value string) *BodyTagHtml {
 	b.registerAttribute("vlink", value)
 	return b
 }
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (b *BodyTagHtml) AccessKey(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("accessKey", value)
+	return b
+}
+
+/*
+Aria -
+*/
+func (b *BodyTagHtml) Aria(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria", value)
+	return b
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (b *BodyTagHtml) Autocapitalize(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("autocapitalize", value)
+	return b
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (b *BodyTagHtml) Autofocus(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("autofocus", value)
+	return b
+}
+
+/*
+Class -
+*/
+func (b *BodyTagHtml) Class(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("class", value)
+	return b
+}
+
+/*
+Contenteditable -
+*/
+func (b *BodyTagHtml) Contenteditable(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("contenteditable", value)
+	return b
+}
+
+/*
+Data -
+*/
+func (b *BodyTagHtml) Data(name, value string) *BodyTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	b.registerAttribute(dataName, value)
+	return b
+}
+
+/*
+Dir -
+*/
+func (b *BodyTagHtml) Dir(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("dir", value)
+	return b
+}
+
+/*
+Draggable -
+*/
+func (b *BodyTagHtml) Draggable(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("draggable", value)
+	return b
+}
+
+/*
+EnterKeyHint -
+*/
+func (b *BodyTagHtml) EnterKeyHint(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("enterKeyHint", value)
+	return b
+}
+
+/*
+ExportParts -
+*/
+func (b *BodyTagHtml) ExportParts(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("exportParts", value)
+	return b
+}
+
+/*
+Hidden -
+*/
+func (b *BodyTagHtml) Hidden(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("hidden", value)
+	return b
+}
+
+/*
+Id -
+*/
+func (b *BodyTagHtml) Id(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("id", value)
+	return b
+}
+
+/*
+Inert -
+*/
+func (b *BodyTagHtml) Inert(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("inert", value)
+	return b
+}
+
+/*
+InputMode -
+*/
+func (b *BodyTagHtml) InputMode(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("inputMode", value)
+	return b
+}
+
+/*
+Is -
+*/
+func (b *BodyTagHtml) Is(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("is", value)
+	return b
+}
+
+/*
+ItemId -
+*/
+func (b *BodyTagHtml) ItemId(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemId", value)
+	return b
+}
+
+/*
+ItemProp -
+*/
+func (b *BodyTagHtml) ItemProp(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemProp", value)
+	return b
+}
+
+/*
+ItemRef -
+*/
+func (b *BodyTagHtml) ItemRef(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemRef", value)
+	return b
+}
+
+/*
+ItemScope -
+*/
+func (b *BodyTagHtml) ItemScope(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemScope", value)
+	return b
+}
+
+/*
+ItemType -
+*/
+func (b *BodyTagHtml) ItemType(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemType", value)
+	return b
+}
+
+/*
+Lang -
+*/
+func (b *BodyTagHtml) Lang(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("lang", value)
+	return b
+}
+
+/*
+Nonce -
+*/
+func (b *BodyTagHtml) Nonce(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("nonce", value)
+	return b
+}
+
+/*
+Part -
+*/
+func (b *BodyTagHtml) Part(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("part", value)
+	return b
+}
+
+/*
+Popover -
+*/
+func (b *BodyTagHtml) Popover() *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("popover", "")
+	return b
+}
+
+/*
+Role -
+*/
+func (b *BodyTagHtml) Role(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("role", value)
+	return b
+}
+
+/*
+Slot -
+*/
+func (b *BodyTagHtml) Slot(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("slot", value)
+	return b
+}
+
+/*
+Spellcheck -
+*/
+func (b *BodyTagHtml) Spellcheck(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("spellcheck", value)
+	return b
+}
+
+/*
+Style -
+*/
+func (b *BodyTagHtml) Style(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("style", value)
+	return b
+}
+
+/*
+Tabindex -
+*/
+func (b *BodyTagHtml) Tabindex(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("tabindex", value)
+	return b
+}
+
+/*
+Title -
+*/
+func (b *BodyTagHtml) Title(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("title", value)
+	return b
+}
+
+/*
+Translate -
+*/
+func (b *BodyTagHtml) Translate(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("translate", value)
+	return b
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (b *BodyTagHtml) VirtualKeyBoardPolicy(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("virtualKeyBoardPolicy", value)
+	return b
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (b *BodyTagHtml) AriaAtomic(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-atomic", value)
+	return b
+}
+
+/*
+AriaBusy -
+*/
+func (b *BodyTagHtml) AriaBusy(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-busy", value)
+	return b
+}
+
+/*
+AriaControls -
+*/
+func (b *BodyTagHtml) AriaControls(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-controls", value)
+	return b
+}
+
+/*
+AriaCurrent -
+*/
+func (b *BodyTagHtml) AriaCurrent(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-current", value)
+	return b
+}
+
+/*
+AriaDescribedby -
+*/
+func (b *BodyTagHtml) AriaDescribedby(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-describedby", value)
+	return b
+}
+
+/*
+AriaDescription -
+*/
+func (b *BodyTagHtml) AriaDescription(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-description", value)
+	return b
+}
+
+/*
+AriaDetails -
+*/
+func (b *BodyTagHtml) AriaDetails(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-details", value)
+	return b
+}
+
+/*
+AriaDisabled -
+*/
+func (b *BodyTagHtml) AriaDisabled(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-disabled", value)
+	return b
+}
+
+/*
+AriaDropeffect -
+*/
+func (b *BodyTagHtml) AriaDropeffect(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-dropeffect", value)
+	return b
+}
+
+/*
+AriaErrormessage -
+*/
+func (b *BodyTagHtml) AriaErrormessage(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-errormessage", value)
+	return b
+}
+
+/*
+AriaFlowto -
+*/
+func (b *BodyTagHtml) AriaFlowto(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-flowto", value)
+	return b
+}
+
+/*
+AriaGrabbed -
+*/
+func (b *BodyTagHtml) AriaGrabbed(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-grabbed", value)
+	return b
+}
+
+/*
+AriaHaspopup -
+*/
+func (b *BodyTagHtml) AriaHaspopup(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-haspopup", value)
+	return b
+}
+
+/*
+AriaHidden -
+*/
+func (b *BodyTagHtml) AriaHidden(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-hidden", value)
+	return b
+}
+
+/*
+AriaInvalid -
+*/
+func (b *BodyTagHtml) AriaInvalid(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-invalid", value)
+	return b
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (b *BodyTagHtml) AriaKeyshortcuts(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-keyshortcuts", value)
+	return b
+}
+
+/*
+AriaLabel -
+*/
+func (b *BodyTagHtml) AriaLabel(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-label", value)
+	return b
+}
+
+/*
+AriaLabelledby -
+*/
+func (b *BodyTagHtml) AriaLabelledby(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-labelledby", value)
+	return b
+}
+
+/*
+AriaLive -
+*/
+func (b *BodyTagHtml) AriaLive(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-live", value)
+	return b
+}
+
+/*
+AriaOwns -
+*/
+func (b *BodyTagHtml) AriaOwns(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-owns", value)
+	return b
+}
+
+/*
+AriaRelevant -
+*/
+func (b *BodyTagHtml) AriaRelevant(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-relevant", value)
+	return b
+}
+
+/*
+AriaRoledescription -
+*/
+func (b *BodyTagHtml) AriaRoledescription(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-roledescription", value)
+	return b
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (b *BodyTagHtml) Onabort(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onabort", value)
+	return b
+}
+
+/*
+Onautocomplete -
+*/
+func (b *BodyTagHtml) Onautocomplete(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onautocomplete", value)
+	return b
+}
+
+/*
+Onautocompleteerror -
+*/
+func (b *BodyTagHtml) Onautocompleteerror(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onautocompleteerror", value)
+	return b
+}
+
+/*
+Onblur -
+*/
+func (b *BodyTagHtml) Onblur(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onblur", value)
+	return b
+}
+
+/*
+Oncancel -
+*/
+func (b *BodyTagHtml) Oncancel(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncancel", value)
+	return b
+}
+
+/*
+Oncanplay -
+*/
+func (b *BodyTagHtml) Oncanplay(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncanplay", value)
+	return b
+}
+
+/*
+Oncanplaythrough -
+*/
+func (b *BodyTagHtml) Oncanplaythrough(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncanplaythrough", value)
+	return b
+}
+
+/*
+Onchange -
+*/
+func (b *BodyTagHtml) Onchange(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onchange", value)
+	return b
+}
+
+/*
+Onclick -
+*/
+func (b *BodyTagHtml) Onclick(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onclick", value)
+	return b
+}
+
+/*
+Onclose -
+*/
+func (b *BodyTagHtml) Onclose(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onclose", value)
+	return b
+}
+
+/*
+Oncontextmenu -
+*/
+func (b *BodyTagHtml) Oncontextmenu(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncontextmenu", value)
+	return b
+}
+
+/*
+Oncuechange -
+*/
+func (b *BodyTagHtml) Oncuechange(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncuechange", value)
+	return b
+}
+
+/*
+Ondblclick -
+*/
+func (b *BodyTagHtml) Ondblclick(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondblclick", value)
+	return b
+}
+
+/*
+Ondrag -
+*/
+func (b *BodyTagHtml) Ondrag(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondrag", value)
+	return b
+}
+
+/*
+Ondragend -
+*/
+func (b *BodyTagHtml) Ondragend(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragend", value)
+	return b
+}
+
+/*
+Ondragenter -
+*/
+func (b *BodyTagHtml) Ondragenter(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragenter", value)
+	return b
+}
+
+/*
+Ondragleave -
+*/
+func (b *BodyTagHtml) Ondragleave(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragleave", value)
+	return b
+}
+
+/*
+Ondragover -
+*/
+func (b *BodyTagHtml) Ondragover(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragover", value)
+	return b
+}
+
+/*
+Ondragstart -
+*/
+func (b *BodyTagHtml) Ondragstart(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragstart", value)
+	return b
+}
+
+/*
+Ondrop -
+*/
+func (b *BodyTagHtml) Ondrop(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondrop", value)
+	return b
+}
+
+/*
+Ondurationchange -
+*/
+func (b *BodyTagHtml) Ondurationchange(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondurationchange", value)
+	return b
+}
+
+/*
+Onemptied -
+*/
+func (b *BodyTagHtml) Onemptied(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onemptied", value)
+	return b
+}
+
+/*
+Onended -
+*/
+func (b *BodyTagHtml) Onended(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onended", value)
+	return b
+}
+
+/*
+Onfocus -
+*/
+func (b *BodyTagHtml) Onfocus(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onfocus", value)
+	return b
+}
+
+/*
+Oninput -
+*/
+func (b *BodyTagHtml) Oninput(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oninput", value)
+	return b
+}
+
+/*
+Oninvalid -
+*/
+func (b *BodyTagHtml) Oninvalid(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oninvalid", value)
+	return b
+}
+
+/*
+Onkeydown -
+*/
+func (b *BodyTagHtml) Onkeydown(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onkeydown", value)
+	return b
+}
+
+/*
+Onkeypress -
+*/
+func (b *BodyTagHtml) Onkeypress(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onkeypress", value)
+	return b
+}
+
+/*
+Onkeyup -
+*/
+func (b *BodyTagHtml) Onkeyup(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onkeyup", value)
+	return b
+}
+
+/*
+Onloadeddata -
+*/
+func (b *BodyTagHtml) Onloadeddata(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onloadeddata", value)
+	return b
+}
+
+/*
+Onloadedmetadata -
+*/
+func (b *BodyTagHtml) Onloadedmetadata(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onloadedmetadata", value)
+	return b
+}
+
+/*
+Onloadstart -
+*/
+func (b *BodyTagHtml) Onloadstart(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onloadstart", value)
+	return b
+}
+
+/*
+Onmousedown -
+*/
+func (b *BodyTagHtml) Onmousedown(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmousedown", value)
+	return b
+}
+
+/*
+Onmouseenter -
+*/
+func (b *BodyTagHtml) Onmouseenter(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseenter", value)
+	return b
+}
+
+/*
+Onmouseleave -
+*/
+func (b *BodyTagHtml) Onmouseleave(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseleave", value)
+	return b
+}
+
+/*
+Onmousemove -
+*/
+func (b *BodyTagHtml) Onmousemove(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmousemove", value)
+	return b
+}
+
+/*
+Onmouseout -
+*/
+func (b *BodyTagHtml) Onmouseout(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseout", value)
+	return b
+}
+
+/*
+Onmouseover -
+*/
+func (b *BodyTagHtml) Onmouseover(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseover", value)
+	return b
+}
+
+/*
+Onmouseup -
+*/
+func (b *BodyTagHtml) Onmouseup(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseup", value)
+	return b
+}
+
+/*
+Onmousewheel -
+*/
+func (b *BodyTagHtml) Onmousewheel(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmousewheel", value)
+	return b
+}
+
+/*
+Onpause -
+*/
+func (b *BodyTagHtml) Onpause(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onpause", value)
+	return b
+}
+
+/*
+Onplay -
+*/
+func (b *BodyTagHtml) Onplay(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onplay", value)
+	return b
+}
+
+/*
+Onplaying -
+*/
+func (b *BodyTagHtml) Onplaying(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onplaying", value)
+	return b
+}
+
+/*
+Onprogress -
+*/
+func (b *BodyTagHtml) Onprogress(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onprogress", value)
+	return b
+}
+
+/*
+Onratechange -
+*/
+func (b *BodyTagHtml) Onratechange(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onratechange", value)
+	return b
+}
+
+/*
+Onreset -
+*/
+func (b *BodyTagHtml) Onreset(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onreset", value)
+	return b
+}
+
+/*
+Onscroll -
+*/
+func (b *BodyTagHtml) Onscroll(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onscroll", value)
+	return b
+}
+
+/*
+Onseeked -
+*/
+func (b *BodyTagHtml) Onseeked(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onseeked", value)
+	return b
+}
+
+/*
+Onseeking -
+*/
+func (b *BodyTagHtml) Onseeking(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onseeking", value)
+	return b
+}
+
+/*
+Onselect -
+*/
+func (b *BodyTagHtml) Onselect(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onselect", value)
+	return b
+}
+
+/*
+Onshow -
+*/
+func (b *BodyTagHtml) Onshow(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onshow", value)
+	return b
+}
+
+/*
+Onsort -
+*/
+func (b *BodyTagHtml) Onsort(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onsort", value)
+	return b
+}
+
+/*
+Onstalled -
+*/
+func (b *BodyTagHtml) Onstalled(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onstalled", value)
+	return b
+}
+
+/*
+Onsubmit -
+*/
+func (b *BodyTagHtml) Onsubmit(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onsubmit", value)
+	return b
+}
+
+/*
+Onsuspend -
+*/
+func (b *BodyTagHtml) Onsuspend(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onsuspend", value)
+	return b
+}
+
+/*
+Ontimeupdate -
+*/
+func (b *BodyTagHtml) Ontimeupdate(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ontimeupdate", value)
+	return b
+}
+
+/*
+Ontoggle -
+*/
+func (b *BodyTagHtml) Ontoggle(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ontoggle", value)
+	return b
+}
+
+/*
+Onvolumechange -
+*/
+func (b *BodyTagHtml) Onvolumechange(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onvolumechange", value)
+	return b
+}
+
+/*
+Onwaiting -
+*/
+func (b *BodyTagHtml) Onwaiting(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onwaiting", value)
+	return b
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (b *BodyTagHtml) Onafterprint(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onafterprint", value)
+	return b
+}
+
+/*
+Onbeforeprint -
+*/
+func (b *BodyTagHtml) Onbeforeprint(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onbeforeprint", value)
+	return b
+}
+
+/*
+Onbeforeunload -
+*/
+func (b *BodyTagHtml) Onbeforeunload(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onbeforeunload", value)
+	return b
+}
+
+/*
+Onerror -
+*/
+func (b *BodyTagHtml) Onerror(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onerror", value)
+	return b
+}
+
+/*
+Onhashchange -
+*/
+func (b *BodyTagHtml) Onhashchange(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onhashchange", value)
+	return b
+}
+
+/*
+Onload -
+*/
+func (b *BodyTagHtml) Onload(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onload", value)
+	return b
+}
+
+/*
+Onmessage -
+*/
+func (b *BodyTagHtml) Onmessage(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmessage", value)
+	return b
+}
+
+/*
+Onoffline -
+*/
+func (b *BodyTagHtml) Onoffline(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onoffline", value)
+	return b
+}
+
+/*
+Ononline -
+*/
+func (b *BodyTagHtml) Ononline(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ononline", value)
+	return b
+}
+
+/*
+Onpagehide -
+*/
+func (b *BodyTagHtml) Onpagehide(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onpagehide", value)
+	return b
+}
+
+/*
+Onpageshow -
+*/
+func (b *BodyTagHtml) Onpageshow(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onpageshow", value)
+	return b
+}
+
+/*
+Onpopstate -
+*/
+func (b *BodyTagHtml) Onpopstate(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onpopstate", value)
+	return b
+}
+
+/*
+Onresize -
+*/
+func (b *BodyTagHtml) Onresize(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onresize", value)
+	return b
+}
+
+/*
+Onstorage -
+*/
+func (b *BodyTagHtml) Onstorage(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onstorage", value)
+	return b
+}
+
+/*
+Onunload -
+*/
+func (b *BodyTagHtml) Onunload(value string) *BodyTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onunload", value)
+	return b
+}

@@ -72,3 +72,1451 @@ func (h *H3TagHtml) supportedChildrenCheck(tags []any) *H3TagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (h *H3TagHtml) AccessKey(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("accessKey", value)
+	return h
+}
+
+/*
+Aria -
+*/
+func (h *H3TagHtml) Aria(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria", value)
+	return h
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (h *H3TagHtml) Autocapitalize(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("autocapitalize", value)
+	return h
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (h *H3TagHtml) Autofocus(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("autofocus", value)
+	return h
+}
+
+/*
+Class -
+*/
+func (h *H3TagHtml) Class(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("class", value)
+	return h
+}
+
+/*
+Contenteditable -
+*/
+func (h *H3TagHtml) Contenteditable(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("contenteditable", value)
+	return h
+}
+
+/*
+Data -
+*/
+func (h *H3TagHtml) Data(name, value string) *H3TagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	h.registerAttribute(dataName, value)
+	return h
+}
+
+/*
+Dir -
+*/
+func (h *H3TagHtml) Dir(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("dir", value)
+	return h
+}
+
+/*
+Draggable -
+*/
+func (h *H3TagHtml) Draggable(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("draggable", value)
+	return h
+}
+
+/*
+EnterKeyHint -
+*/
+func (h *H3TagHtml) EnterKeyHint(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("enterKeyHint", value)
+	return h
+}
+
+/*
+ExportParts -
+*/
+func (h *H3TagHtml) ExportParts(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("exportParts", value)
+	return h
+}
+
+/*
+Hidden -
+*/
+func (h *H3TagHtml) Hidden(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("hidden", value)
+	return h
+}
+
+/*
+Id -
+*/
+func (h *H3TagHtml) Id(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("id", value)
+	return h
+}
+
+/*
+Inert -
+*/
+func (h *H3TagHtml) Inert(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("inert", value)
+	return h
+}
+
+/*
+InputMode -
+*/
+func (h *H3TagHtml) InputMode(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("inputMode", value)
+	return h
+}
+
+/*
+Is -
+*/
+func (h *H3TagHtml) Is(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("is", value)
+	return h
+}
+
+/*
+ItemId -
+*/
+func (h *H3TagHtml) ItemId(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("itemId", value)
+	return h
+}
+
+/*
+ItemProp -
+*/
+func (h *H3TagHtml) ItemProp(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("itemProp", value)
+	return h
+}
+
+/*
+ItemRef -
+*/
+func (h *H3TagHtml) ItemRef(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("itemRef", value)
+	return h
+}
+
+/*
+ItemScope -
+*/
+func (h *H3TagHtml) ItemScope(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("itemScope", value)
+	return h
+}
+
+/*
+ItemType -
+*/
+func (h *H3TagHtml) ItemType(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("itemType", value)
+	return h
+}
+
+/*
+Lang -
+*/
+func (h *H3TagHtml) Lang(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("lang", value)
+	return h
+}
+
+/*
+Nonce -
+*/
+func (h *H3TagHtml) Nonce(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("nonce", value)
+	return h
+}
+
+/*
+Part -
+*/
+func (h *H3TagHtml) Part(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("part", value)
+	return h
+}
+
+/*
+Popover -
+*/
+func (h *H3TagHtml) Popover() *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("popover", "")
+	return h
+}
+
+/*
+Role -
+*/
+func (h *H3TagHtml) Role(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("role", value)
+	return h
+}
+
+/*
+Slot -
+*/
+func (h *H3TagHtml) Slot(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("slot", value)
+	return h
+}
+
+/*
+Spellcheck -
+*/
+func (h *H3TagHtml) Spellcheck(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("spellcheck", value)
+	return h
+}
+
+/*
+Style -
+*/
+func (h *H3TagHtml) Style(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("style", value)
+	return h
+}
+
+/*
+Tabindex -
+*/
+func (h *H3TagHtml) Tabindex(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("tabindex", value)
+	return h
+}
+
+/*
+Title -
+*/
+func (h *H3TagHtml) Title(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("title", value)
+	return h
+}
+
+/*
+Translate -
+*/
+func (h *H3TagHtml) Translate(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("translate", value)
+	return h
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (h *H3TagHtml) VirtualKeyBoardPolicy(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("virtualKeyBoardPolicy", value)
+	return h
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (h *H3TagHtml) AriaAtomic(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-atomic", value)
+	return h
+}
+
+/*
+AriaBusy -
+*/
+func (h *H3TagHtml) AriaBusy(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-busy", value)
+	return h
+}
+
+/*
+AriaControls -
+*/
+func (h *H3TagHtml) AriaControls(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-controls", value)
+	return h
+}
+
+/*
+AriaCurrent -
+*/
+func (h *H3TagHtml) AriaCurrent(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-current", value)
+	return h
+}
+
+/*
+AriaDescribedby -
+*/
+func (h *H3TagHtml) AriaDescribedby(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-describedby", value)
+	return h
+}
+
+/*
+AriaDescription -
+*/
+func (h *H3TagHtml) AriaDescription(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-description", value)
+	return h
+}
+
+/*
+AriaDetails -
+*/
+func (h *H3TagHtml) AriaDetails(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-details", value)
+	return h
+}
+
+/*
+AriaDisabled -
+*/
+func (h *H3TagHtml) AriaDisabled(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-disabled", value)
+	return h
+}
+
+/*
+AriaDropeffect -
+*/
+func (h *H3TagHtml) AriaDropeffect(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-dropeffect", value)
+	return h
+}
+
+/*
+AriaErrormessage -
+*/
+func (h *H3TagHtml) AriaErrormessage(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-errormessage", value)
+	return h
+}
+
+/*
+AriaFlowto -
+*/
+func (h *H3TagHtml) AriaFlowto(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-flowto", value)
+	return h
+}
+
+/*
+AriaGrabbed -
+*/
+func (h *H3TagHtml) AriaGrabbed(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-grabbed", value)
+	return h
+}
+
+/*
+AriaHaspopup -
+*/
+func (h *H3TagHtml) AriaHaspopup(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-haspopup", value)
+	return h
+}
+
+/*
+AriaHidden -
+*/
+func (h *H3TagHtml) AriaHidden(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-hidden", value)
+	return h
+}
+
+/*
+AriaInvalid -
+*/
+func (h *H3TagHtml) AriaInvalid(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-invalid", value)
+	return h
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (h *H3TagHtml) AriaKeyshortcuts(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-keyshortcuts", value)
+	return h
+}
+
+/*
+AriaLabel -
+*/
+func (h *H3TagHtml) AriaLabel(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-label", value)
+	return h
+}
+
+/*
+AriaLabelledby -
+*/
+func (h *H3TagHtml) AriaLabelledby(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-labelledby", value)
+	return h
+}
+
+/*
+AriaLive -
+*/
+func (h *H3TagHtml) AriaLive(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-live", value)
+	return h
+}
+
+/*
+AriaOwns -
+*/
+func (h *H3TagHtml) AriaOwns(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-owns", value)
+	return h
+}
+
+/*
+AriaRelevant -
+*/
+func (h *H3TagHtml) AriaRelevant(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-relevant", value)
+	return h
+}
+
+/*
+AriaRoledescription -
+*/
+func (h *H3TagHtml) AriaRoledescription(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("aria-roledescription", value)
+	return h
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (h *H3TagHtml) Onabort(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onabort", value)
+	return h
+}
+
+/*
+Onautocomplete -
+*/
+func (h *H3TagHtml) Onautocomplete(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onautocomplete", value)
+	return h
+}
+
+/*
+Onautocompleteerror -
+*/
+func (h *H3TagHtml) Onautocompleteerror(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onautocompleteerror", value)
+	return h
+}
+
+/*
+Onblur -
+*/
+func (h *H3TagHtml) Onblur(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onblur", value)
+	return h
+}
+
+/*
+Oncancel -
+*/
+func (h *H3TagHtml) Oncancel(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("oncancel", value)
+	return h
+}
+
+/*
+Oncanplay -
+*/
+func (h *H3TagHtml) Oncanplay(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("oncanplay", value)
+	return h
+}
+
+/*
+Oncanplaythrough -
+*/
+func (h *H3TagHtml) Oncanplaythrough(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("oncanplaythrough", value)
+	return h
+}
+
+/*
+Onchange -
+*/
+func (h *H3TagHtml) Onchange(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onchange", value)
+	return h
+}
+
+/*
+Onclick -
+*/
+func (h *H3TagHtml) Onclick(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onclick", value)
+	return h
+}
+
+/*
+Onclose -
+*/
+func (h *H3TagHtml) Onclose(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onclose", value)
+	return h
+}
+
+/*
+Oncontextmenu -
+*/
+func (h *H3TagHtml) Oncontextmenu(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("oncontextmenu", value)
+	return h
+}
+
+/*
+Oncuechange -
+*/
+func (h *H3TagHtml) Oncuechange(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("oncuechange", value)
+	return h
+}
+
+/*
+Ondblclick -
+*/
+func (h *H3TagHtml) Ondblclick(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondblclick", value)
+	return h
+}
+
+/*
+Ondrag -
+*/
+func (h *H3TagHtml) Ondrag(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondrag", value)
+	return h
+}
+
+/*
+Ondragend -
+*/
+func (h *H3TagHtml) Ondragend(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondragend", value)
+	return h
+}
+
+/*
+Ondragenter -
+*/
+func (h *H3TagHtml) Ondragenter(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondragenter", value)
+	return h
+}
+
+/*
+Ondragleave -
+*/
+func (h *H3TagHtml) Ondragleave(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondragleave", value)
+	return h
+}
+
+/*
+Ondragover -
+*/
+func (h *H3TagHtml) Ondragover(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondragover", value)
+	return h
+}
+
+/*
+Ondragstart -
+*/
+func (h *H3TagHtml) Ondragstart(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondragstart", value)
+	return h
+}
+
+/*
+Ondrop -
+*/
+func (h *H3TagHtml) Ondrop(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondrop", value)
+	return h
+}
+
+/*
+Ondurationchange -
+*/
+func (h *H3TagHtml) Ondurationchange(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ondurationchange", value)
+	return h
+}
+
+/*
+Onemptied -
+*/
+func (h *H3TagHtml) Onemptied(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onemptied", value)
+	return h
+}
+
+/*
+Onended -
+*/
+func (h *H3TagHtml) Onended(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onended", value)
+	return h
+}
+
+/*
+Onfocus -
+*/
+func (h *H3TagHtml) Onfocus(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onfocus", value)
+	return h
+}
+
+/*
+Oninput -
+*/
+func (h *H3TagHtml) Oninput(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("oninput", value)
+	return h
+}
+
+/*
+Oninvalid -
+*/
+func (h *H3TagHtml) Oninvalid(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("oninvalid", value)
+	return h
+}
+
+/*
+Onkeydown -
+*/
+func (h *H3TagHtml) Onkeydown(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onkeydown", value)
+	return h
+}
+
+/*
+Onkeypress -
+*/
+func (h *H3TagHtml) Onkeypress(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onkeypress", value)
+	return h
+}
+
+/*
+Onkeyup -
+*/
+func (h *H3TagHtml) Onkeyup(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onkeyup", value)
+	return h
+}
+
+/*
+Onloadeddata -
+*/
+func (h *H3TagHtml) Onloadeddata(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onloadeddata", value)
+	return h
+}
+
+/*
+Onloadedmetadata -
+*/
+func (h *H3TagHtml) Onloadedmetadata(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onloadedmetadata", value)
+	return h
+}
+
+/*
+Onloadstart -
+*/
+func (h *H3TagHtml) Onloadstart(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onloadstart", value)
+	return h
+}
+
+/*
+Onmousedown -
+*/
+func (h *H3TagHtml) Onmousedown(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmousedown", value)
+	return h
+}
+
+/*
+Onmouseenter -
+*/
+func (h *H3TagHtml) Onmouseenter(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmouseenter", value)
+	return h
+}
+
+/*
+Onmouseleave -
+*/
+func (h *H3TagHtml) Onmouseleave(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmouseleave", value)
+	return h
+}
+
+/*
+Onmousemove -
+*/
+func (h *H3TagHtml) Onmousemove(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmousemove", value)
+	return h
+}
+
+/*
+Onmouseout -
+*/
+func (h *H3TagHtml) Onmouseout(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmouseout", value)
+	return h
+}
+
+/*
+Onmouseover -
+*/
+func (h *H3TagHtml) Onmouseover(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmouseover", value)
+	return h
+}
+
+/*
+Onmouseup -
+*/
+func (h *H3TagHtml) Onmouseup(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmouseup", value)
+	return h
+}
+
+/*
+Onmousewheel -
+*/
+func (h *H3TagHtml) Onmousewheel(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmousewheel", value)
+	return h
+}
+
+/*
+Onpause -
+*/
+func (h *H3TagHtml) Onpause(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onpause", value)
+	return h
+}
+
+/*
+Onplay -
+*/
+func (h *H3TagHtml) Onplay(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onplay", value)
+	return h
+}
+
+/*
+Onplaying -
+*/
+func (h *H3TagHtml) Onplaying(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onplaying", value)
+	return h
+}
+
+/*
+Onprogress -
+*/
+func (h *H3TagHtml) Onprogress(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onprogress", value)
+	return h
+}
+
+/*
+Onratechange -
+*/
+func (h *H3TagHtml) Onratechange(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onratechange", value)
+	return h
+}
+
+/*
+Onreset -
+*/
+func (h *H3TagHtml) Onreset(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onreset", value)
+	return h
+}
+
+/*
+Onscroll -
+*/
+func (h *H3TagHtml) Onscroll(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onscroll", value)
+	return h
+}
+
+/*
+Onseeked -
+*/
+func (h *H3TagHtml) Onseeked(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onseeked", value)
+	return h
+}
+
+/*
+Onseeking -
+*/
+func (h *H3TagHtml) Onseeking(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onseeking", value)
+	return h
+}
+
+/*
+Onselect -
+*/
+func (h *H3TagHtml) Onselect(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onselect", value)
+	return h
+}
+
+/*
+Onshow -
+*/
+func (h *H3TagHtml) Onshow(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onshow", value)
+	return h
+}
+
+/*
+Onsort -
+*/
+func (h *H3TagHtml) Onsort(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onsort", value)
+	return h
+}
+
+/*
+Onstalled -
+*/
+func (h *H3TagHtml) Onstalled(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onstalled", value)
+	return h
+}
+
+/*
+Onsubmit -
+*/
+func (h *H3TagHtml) Onsubmit(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onsubmit", value)
+	return h
+}
+
+/*
+Onsuspend -
+*/
+func (h *H3TagHtml) Onsuspend(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onsuspend", value)
+	return h
+}
+
+/*
+Ontimeupdate -
+*/
+func (h *H3TagHtml) Ontimeupdate(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ontimeupdate", value)
+	return h
+}
+
+/*
+Ontoggle -
+*/
+func (h *H3TagHtml) Ontoggle(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ontoggle", value)
+	return h
+}
+
+/*
+Onvolumechange -
+*/
+func (h *H3TagHtml) Onvolumechange(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onvolumechange", value)
+	return h
+}
+
+/*
+Onwaiting -
+*/
+func (h *H3TagHtml) Onwaiting(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onwaiting", value)
+	return h
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (h *H3TagHtml) Onafterprint(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onafterprint", value)
+	return h
+}
+
+/*
+Onbeforeprint -
+*/
+func (h *H3TagHtml) Onbeforeprint(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onbeforeprint", value)
+	return h
+}
+
+/*
+Onbeforeunload -
+*/
+func (h *H3TagHtml) Onbeforeunload(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onbeforeunload", value)
+	return h
+}
+
+/*
+Onerror -
+*/
+func (h *H3TagHtml) Onerror(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onerror", value)
+	return h
+}
+
+/*
+Onhashchange -
+*/
+func (h *H3TagHtml) Onhashchange(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onhashchange", value)
+	return h
+}
+
+/*
+Onload -
+*/
+func (h *H3TagHtml) Onload(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onload", value)
+	return h
+}
+
+/*
+Onmessage -
+*/
+func (h *H3TagHtml) Onmessage(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onmessage", value)
+	return h
+}
+
+/*
+Onoffline -
+*/
+func (h *H3TagHtml) Onoffline(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onoffline", value)
+	return h
+}
+
+/*
+Ononline -
+*/
+func (h *H3TagHtml) Ononline(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("ononline", value)
+	return h
+}
+
+/*
+Onpagehide -
+*/
+func (h *H3TagHtml) Onpagehide(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onpagehide", value)
+	return h
+}
+
+/*
+Onpageshow -
+*/
+func (h *H3TagHtml) Onpageshow(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onpageshow", value)
+	return h
+}
+
+/*
+Onpopstate -
+*/
+func (h *H3TagHtml) Onpopstate(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onpopstate", value)
+	return h
+}
+
+/*
+Onresize -
+*/
+func (h *H3TagHtml) Onresize(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onresize", value)
+	return h
+}
+
+/*
+Onstorage -
+*/
+func (h *H3TagHtml) Onstorage(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onstorage", value)
+	return h
+}
+
+/*
+Onunload -
+*/
+func (h *H3TagHtml) Onunload(value string) *H3TagHtml {
+	if h.attributes == nil {
+		h.attributes = []*Attribute{}
+	}
+	h.registerAttribute("onunload", value)
+	return h
+}

@@ -72,3 +72,1451 @@ func (v *VarTagHtml) supportedChildrenCheck(tags []any) *VarTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (v *VarTagHtml) Onafterprint(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onafterprint", value)
+	return v
+}
+
+/*
+Onbeforeprint -
+*/
+func (v *VarTagHtml) Onbeforeprint(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onbeforeprint", value)
+	return v
+}
+
+/*
+Onbeforeunload -
+*/
+func (v *VarTagHtml) Onbeforeunload(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onbeforeunload", value)
+	return v
+}
+
+/*
+Onerror -
+*/
+func (v *VarTagHtml) Onerror(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onerror", value)
+	return v
+}
+
+/*
+Onhashchange -
+*/
+func (v *VarTagHtml) Onhashchange(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onhashchange", value)
+	return v
+}
+
+/*
+Onload -
+*/
+func (v *VarTagHtml) Onload(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onload", value)
+	return v
+}
+
+/*
+Onmessage -
+*/
+func (v *VarTagHtml) Onmessage(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmessage", value)
+	return v
+}
+
+/*
+Onoffline -
+*/
+func (v *VarTagHtml) Onoffline(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onoffline", value)
+	return v
+}
+
+/*
+Ononline -
+*/
+func (v *VarTagHtml) Ononline(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ononline", value)
+	return v
+}
+
+/*
+Onpagehide -
+*/
+func (v *VarTagHtml) Onpagehide(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onpagehide", value)
+	return v
+}
+
+/*
+Onpageshow -
+*/
+func (v *VarTagHtml) Onpageshow(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onpageshow", value)
+	return v
+}
+
+/*
+Onpopstate -
+*/
+func (v *VarTagHtml) Onpopstate(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onpopstate", value)
+	return v
+}
+
+/*
+Onresize -
+*/
+func (v *VarTagHtml) Onresize(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onresize", value)
+	return v
+}
+
+/*
+Onstorage -
+*/
+func (v *VarTagHtml) Onstorage(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onstorage", value)
+	return v
+}
+
+/*
+Onunload -
+*/
+func (v *VarTagHtml) Onunload(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onunload", value)
+	return v
+}
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (v *VarTagHtml) AccessKey(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("accessKey", value)
+	return v
+}
+
+/*
+Aria -
+*/
+func (v *VarTagHtml) Aria(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria", value)
+	return v
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (v *VarTagHtml) Autocapitalize(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("autocapitalize", value)
+	return v
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (v *VarTagHtml) Autofocus(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("autofocus", value)
+	return v
+}
+
+/*
+Class -
+*/
+func (v *VarTagHtml) Class(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("class", value)
+	return v
+}
+
+/*
+Contenteditable -
+*/
+func (v *VarTagHtml) Contenteditable(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("contenteditable", value)
+	return v
+}
+
+/*
+Data -
+*/
+func (v *VarTagHtml) Data(name, value string) *VarTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	v.registerAttribute(dataName, value)
+	return v
+}
+
+/*
+Dir -
+*/
+func (v *VarTagHtml) Dir(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("dir", value)
+	return v
+}
+
+/*
+Draggable -
+*/
+func (v *VarTagHtml) Draggable(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("draggable", value)
+	return v
+}
+
+/*
+EnterKeyHint -
+*/
+func (v *VarTagHtml) EnterKeyHint(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("enterKeyHint", value)
+	return v
+}
+
+/*
+ExportParts -
+*/
+func (v *VarTagHtml) ExportParts(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("exportParts", value)
+	return v
+}
+
+/*
+Hidden -
+*/
+func (v *VarTagHtml) Hidden(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("hidden", value)
+	return v
+}
+
+/*
+Id -
+*/
+func (v *VarTagHtml) Id(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("id", value)
+	return v
+}
+
+/*
+Inert -
+*/
+func (v *VarTagHtml) Inert(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("inert", value)
+	return v
+}
+
+/*
+InputMode -
+*/
+func (v *VarTagHtml) InputMode(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("inputMode", value)
+	return v
+}
+
+/*
+Is -
+*/
+func (v *VarTagHtml) Is(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("is", value)
+	return v
+}
+
+/*
+ItemId -
+*/
+func (v *VarTagHtml) ItemId(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("itemId", value)
+	return v
+}
+
+/*
+ItemProp -
+*/
+func (v *VarTagHtml) ItemProp(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("itemProp", value)
+	return v
+}
+
+/*
+ItemRef -
+*/
+func (v *VarTagHtml) ItemRef(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("itemRef", value)
+	return v
+}
+
+/*
+ItemScope -
+*/
+func (v *VarTagHtml) ItemScope(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("itemScope", value)
+	return v
+}
+
+/*
+ItemType -
+*/
+func (v *VarTagHtml) ItemType(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("itemType", value)
+	return v
+}
+
+/*
+Lang -
+*/
+func (v *VarTagHtml) Lang(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("lang", value)
+	return v
+}
+
+/*
+Nonce -
+*/
+func (v *VarTagHtml) Nonce(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("nonce", value)
+	return v
+}
+
+/*
+Part -
+*/
+func (v *VarTagHtml) Part(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("part", value)
+	return v
+}
+
+/*
+Popover -
+*/
+func (v *VarTagHtml) Popover() *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("popover", "")
+	return v
+}
+
+/*
+Role -
+*/
+func (v *VarTagHtml) Role(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("role", value)
+	return v
+}
+
+/*
+Slot -
+*/
+func (v *VarTagHtml) Slot(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("slot", value)
+	return v
+}
+
+/*
+Spellcheck -
+*/
+func (v *VarTagHtml) Spellcheck(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("spellcheck", value)
+	return v
+}
+
+/*
+Style -
+*/
+func (v *VarTagHtml) Style(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("style", value)
+	return v
+}
+
+/*
+Tabindex -
+*/
+func (v *VarTagHtml) Tabindex(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("tabindex", value)
+	return v
+}
+
+/*
+Title -
+*/
+func (v *VarTagHtml) Title(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("title", value)
+	return v
+}
+
+/*
+Translate -
+*/
+func (v *VarTagHtml) Translate(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("translate", value)
+	return v
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (v *VarTagHtml) VirtualKeyBoardPolicy(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("virtualKeyBoardPolicy", value)
+	return v
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (v *VarTagHtml) AriaAtomic(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-atomic", value)
+	return v
+}
+
+/*
+AriaBusy -
+*/
+func (v *VarTagHtml) AriaBusy(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-busy", value)
+	return v
+}
+
+/*
+AriaControls -
+*/
+func (v *VarTagHtml) AriaControls(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-controls", value)
+	return v
+}
+
+/*
+AriaCurrent -
+*/
+func (v *VarTagHtml) AriaCurrent(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-current", value)
+	return v
+}
+
+/*
+AriaDescribedby -
+*/
+func (v *VarTagHtml) AriaDescribedby(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-describedby", value)
+	return v
+}
+
+/*
+AriaDescription -
+*/
+func (v *VarTagHtml) AriaDescription(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-description", value)
+	return v
+}
+
+/*
+AriaDetails -
+*/
+func (v *VarTagHtml) AriaDetails(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-details", value)
+	return v
+}
+
+/*
+AriaDisabled -
+*/
+func (v *VarTagHtml) AriaDisabled(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-disabled", value)
+	return v
+}
+
+/*
+AriaDropeffect -
+*/
+func (v *VarTagHtml) AriaDropeffect(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-dropeffect", value)
+	return v
+}
+
+/*
+AriaErrormessage -
+*/
+func (v *VarTagHtml) AriaErrormessage(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-errormessage", value)
+	return v
+}
+
+/*
+AriaFlowto -
+*/
+func (v *VarTagHtml) AriaFlowto(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-flowto", value)
+	return v
+}
+
+/*
+AriaGrabbed -
+*/
+func (v *VarTagHtml) AriaGrabbed(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-grabbed", value)
+	return v
+}
+
+/*
+AriaHaspopup -
+*/
+func (v *VarTagHtml) AriaHaspopup(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-haspopup", value)
+	return v
+}
+
+/*
+AriaHidden -
+*/
+func (v *VarTagHtml) AriaHidden(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-hidden", value)
+	return v
+}
+
+/*
+AriaInvalid -
+*/
+func (v *VarTagHtml) AriaInvalid(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-invalid", value)
+	return v
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (v *VarTagHtml) AriaKeyshortcuts(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-keyshortcuts", value)
+	return v
+}
+
+/*
+AriaLabel -
+*/
+func (v *VarTagHtml) AriaLabel(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-label", value)
+	return v
+}
+
+/*
+AriaLabelledby -
+*/
+func (v *VarTagHtml) AriaLabelledby(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-labelledby", value)
+	return v
+}
+
+/*
+AriaLive -
+*/
+func (v *VarTagHtml) AriaLive(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-live", value)
+	return v
+}
+
+/*
+AriaOwns -
+*/
+func (v *VarTagHtml) AriaOwns(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-owns", value)
+	return v
+}
+
+/*
+AriaRelevant -
+*/
+func (v *VarTagHtml) AriaRelevant(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-relevant", value)
+	return v
+}
+
+/*
+AriaRoledescription -
+*/
+func (v *VarTagHtml) AriaRoledescription(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("aria-roledescription", value)
+	return v
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (v *VarTagHtml) Onabort(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onabort", value)
+	return v
+}
+
+/*
+Onautocomplete -
+*/
+func (v *VarTagHtml) Onautocomplete(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onautocomplete", value)
+	return v
+}
+
+/*
+Onautocompleteerror -
+*/
+func (v *VarTagHtml) Onautocompleteerror(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onautocompleteerror", value)
+	return v
+}
+
+/*
+Onblur -
+*/
+func (v *VarTagHtml) Onblur(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onblur", value)
+	return v
+}
+
+/*
+Oncancel -
+*/
+func (v *VarTagHtml) Oncancel(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("oncancel", value)
+	return v
+}
+
+/*
+Oncanplay -
+*/
+func (v *VarTagHtml) Oncanplay(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("oncanplay", value)
+	return v
+}
+
+/*
+Oncanplaythrough -
+*/
+func (v *VarTagHtml) Oncanplaythrough(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("oncanplaythrough", value)
+	return v
+}
+
+/*
+Onchange -
+*/
+func (v *VarTagHtml) Onchange(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onchange", value)
+	return v
+}
+
+/*
+Onclick -
+*/
+func (v *VarTagHtml) Onclick(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onclick", value)
+	return v
+}
+
+/*
+Onclose -
+*/
+func (v *VarTagHtml) Onclose(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onclose", value)
+	return v
+}
+
+/*
+Oncontextmenu -
+*/
+func (v *VarTagHtml) Oncontextmenu(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("oncontextmenu", value)
+	return v
+}
+
+/*
+Oncuechange -
+*/
+func (v *VarTagHtml) Oncuechange(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("oncuechange", value)
+	return v
+}
+
+/*
+Ondblclick -
+*/
+func (v *VarTagHtml) Ondblclick(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondblclick", value)
+	return v
+}
+
+/*
+Ondrag -
+*/
+func (v *VarTagHtml) Ondrag(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondrag", value)
+	return v
+}
+
+/*
+Ondragend -
+*/
+func (v *VarTagHtml) Ondragend(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondragend", value)
+	return v
+}
+
+/*
+Ondragenter -
+*/
+func (v *VarTagHtml) Ondragenter(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondragenter", value)
+	return v
+}
+
+/*
+Ondragleave -
+*/
+func (v *VarTagHtml) Ondragleave(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondragleave", value)
+	return v
+}
+
+/*
+Ondragover -
+*/
+func (v *VarTagHtml) Ondragover(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondragover", value)
+	return v
+}
+
+/*
+Ondragstart -
+*/
+func (v *VarTagHtml) Ondragstart(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondragstart", value)
+	return v
+}
+
+/*
+Ondrop -
+*/
+func (v *VarTagHtml) Ondrop(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondrop", value)
+	return v
+}
+
+/*
+Ondurationchange -
+*/
+func (v *VarTagHtml) Ondurationchange(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ondurationchange", value)
+	return v
+}
+
+/*
+Onemptied -
+*/
+func (v *VarTagHtml) Onemptied(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onemptied", value)
+	return v
+}
+
+/*
+Onended -
+*/
+func (v *VarTagHtml) Onended(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onended", value)
+	return v
+}
+
+/*
+Onfocus -
+*/
+func (v *VarTagHtml) Onfocus(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onfocus", value)
+	return v
+}
+
+/*
+Oninput -
+*/
+func (v *VarTagHtml) Oninput(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("oninput", value)
+	return v
+}
+
+/*
+Oninvalid -
+*/
+func (v *VarTagHtml) Oninvalid(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("oninvalid", value)
+	return v
+}
+
+/*
+Onkeydown -
+*/
+func (v *VarTagHtml) Onkeydown(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onkeydown", value)
+	return v
+}
+
+/*
+Onkeypress -
+*/
+func (v *VarTagHtml) Onkeypress(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onkeypress", value)
+	return v
+}
+
+/*
+Onkeyup -
+*/
+func (v *VarTagHtml) Onkeyup(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onkeyup", value)
+	return v
+}
+
+/*
+Onloadeddata -
+*/
+func (v *VarTagHtml) Onloadeddata(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onloadeddata", value)
+	return v
+}
+
+/*
+Onloadedmetadata -
+*/
+func (v *VarTagHtml) Onloadedmetadata(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onloadedmetadata", value)
+	return v
+}
+
+/*
+Onloadstart -
+*/
+func (v *VarTagHtml) Onloadstart(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onloadstart", value)
+	return v
+}
+
+/*
+Onmousedown -
+*/
+func (v *VarTagHtml) Onmousedown(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmousedown", value)
+	return v
+}
+
+/*
+Onmouseenter -
+*/
+func (v *VarTagHtml) Onmouseenter(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmouseenter", value)
+	return v
+}
+
+/*
+Onmouseleave -
+*/
+func (v *VarTagHtml) Onmouseleave(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmouseleave", value)
+	return v
+}
+
+/*
+Onmousemove -
+*/
+func (v *VarTagHtml) Onmousemove(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmousemove", value)
+	return v
+}
+
+/*
+Onmouseout -
+*/
+func (v *VarTagHtml) Onmouseout(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmouseout", value)
+	return v
+}
+
+/*
+Onmouseover -
+*/
+func (v *VarTagHtml) Onmouseover(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmouseover", value)
+	return v
+}
+
+/*
+Onmouseup -
+*/
+func (v *VarTagHtml) Onmouseup(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmouseup", value)
+	return v
+}
+
+/*
+Onmousewheel -
+*/
+func (v *VarTagHtml) Onmousewheel(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onmousewheel", value)
+	return v
+}
+
+/*
+Onpause -
+*/
+func (v *VarTagHtml) Onpause(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onpause", value)
+	return v
+}
+
+/*
+Onplay -
+*/
+func (v *VarTagHtml) Onplay(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onplay", value)
+	return v
+}
+
+/*
+Onplaying -
+*/
+func (v *VarTagHtml) Onplaying(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onplaying", value)
+	return v
+}
+
+/*
+Onprogress -
+*/
+func (v *VarTagHtml) Onprogress(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onprogress", value)
+	return v
+}
+
+/*
+Onratechange -
+*/
+func (v *VarTagHtml) Onratechange(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onratechange", value)
+	return v
+}
+
+/*
+Onreset -
+*/
+func (v *VarTagHtml) Onreset(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onreset", value)
+	return v
+}
+
+/*
+Onscroll -
+*/
+func (v *VarTagHtml) Onscroll(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onscroll", value)
+	return v
+}
+
+/*
+Onseeked -
+*/
+func (v *VarTagHtml) Onseeked(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onseeked", value)
+	return v
+}
+
+/*
+Onseeking -
+*/
+func (v *VarTagHtml) Onseeking(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onseeking", value)
+	return v
+}
+
+/*
+Onselect -
+*/
+func (v *VarTagHtml) Onselect(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onselect", value)
+	return v
+}
+
+/*
+Onshow -
+*/
+func (v *VarTagHtml) Onshow(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onshow", value)
+	return v
+}
+
+/*
+Onsort -
+*/
+func (v *VarTagHtml) Onsort(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onsort", value)
+	return v
+}
+
+/*
+Onstalled -
+*/
+func (v *VarTagHtml) Onstalled(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onstalled", value)
+	return v
+}
+
+/*
+Onsubmit -
+*/
+func (v *VarTagHtml) Onsubmit(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onsubmit", value)
+	return v
+}
+
+/*
+Onsuspend -
+*/
+func (v *VarTagHtml) Onsuspend(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onsuspend", value)
+	return v
+}
+
+/*
+Ontimeupdate -
+*/
+func (v *VarTagHtml) Ontimeupdate(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ontimeupdate", value)
+	return v
+}
+
+/*
+Ontoggle -
+*/
+func (v *VarTagHtml) Ontoggle(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("ontoggle", value)
+	return v
+}
+
+/*
+Onvolumechange -
+*/
+func (v *VarTagHtml) Onvolumechange(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onvolumechange", value)
+	return v
+}
+
+/*
+Onwaiting -
+*/
+func (v *VarTagHtml) Onwaiting(value string) *VarTagHtml {
+	if v.attributes == nil {
+		v.attributes = []*Attribute{}
+	}
+	v.registerAttribute("onwaiting", value)
+	return v
+}

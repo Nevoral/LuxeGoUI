@@ -72,3 +72,1451 @@ func (s *StrongTagHtml) supportedChildrenCheck(tags []any) *StrongTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (s *StrongTagHtml) AriaAtomic(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-atomic", value)
+	return s
+}
+
+/*
+AriaBusy -
+*/
+func (s *StrongTagHtml) AriaBusy(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-busy", value)
+	return s
+}
+
+/*
+AriaControls -
+*/
+func (s *StrongTagHtml) AriaControls(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-controls", value)
+	return s
+}
+
+/*
+AriaCurrent -
+*/
+func (s *StrongTagHtml) AriaCurrent(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-current", value)
+	return s
+}
+
+/*
+AriaDescribedby -
+*/
+func (s *StrongTagHtml) AriaDescribedby(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-describedby", value)
+	return s
+}
+
+/*
+AriaDescription -
+*/
+func (s *StrongTagHtml) AriaDescription(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-description", value)
+	return s
+}
+
+/*
+AriaDetails -
+*/
+func (s *StrongTagHtml) AriaDetails(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-details", value)
+	return s
+}
+
+/*
+AriaDisabled -
+*/
+func (s *StrongTagHtml) AriaDisabled(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-disabled", value)
+	return s
+}
+
+/*
+AriaDropeffect -
+*/
+func (s *StrongTagHtml) AriaDropeffect(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-dropeffect", value)
+	return s
+}
+
+/*
+AriaErrormessage -
+*/
+func (s *StrongTagHtml) AriaErrormessage(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-errormessage", value)
+	return s
+}
+
+/*
+AriaFlowto -
+*/
+func (s *StrongTagHtml) AriaFlowto(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-flowto", value)
+	return s
+}
+
+/*
+AriaGrabbed -
+*/
+func (s *StrongTagHtml) AriaGrabbed(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-grabbed", value)
+	return s
+}
+
+/*
+AriaHaspopup -
+*/
+func (s *StrongTagHtml) AriaHaspopup(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-haspopup", value)
+	return s
+}
+
+/*
+AriaHidden -
+*/
+func (s *StrongTagHtml) AriaHidden(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-hidden", value)
+	return s
+}
+
+/*
+AriaInvalid -
+*/
+func (s *StrongTagHtml) AriaInvalid(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-invalid", value)
+	return s
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (s *StrongTagHtml) AriaKeyshortcuts(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-keyshortcuts", value)
+	return s
+}
+
+/*
+AriaLabel -
+*/
+func (s *StrongTagHtml) AriaLabel(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-label", value)
+	return s
+}
+
+/*
+AriaLabelledby -
+*/
+func (s *StrongTagHtml) AriaLabelledby(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-labelledby", value)
+	return s
+}
+
+/*
+AriaLive -
+*/
+func (s *StrongTagHtml) AriaLive(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-live", value)
+	return s
+}
+
+/*
+AriaOwns -
+*/
+func (s *StrongTagHtml) AriaOwns(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-owns", value)
+	return s
+}
+
+/*
+AriaRelevant -
+*/
+func (s *StrongTagHtml) AriaRelevant(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-relevant", value)
+	return s
+}
+
+/*
+AriaRoledescription -
+*/
+func (s *StrongTagHtml) AriaRoledescription(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria-roledescription", value)
+	return s
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (s *StrongTagHtml) Onabort(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onabort", value)
+	return s
+}
+
+/*
+Onautocomplete -
+*/
+func (s *StrongTagHtml) Onautocomplete(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onautocomplete", value)
+	return s
+}
+
+/*
+Onautocompleteerror -
+*/
+func (s *StrongTagHtml) Onautocompleteerror(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onautocompleteerror", value)
+	return s
+}
+
+/*
+Onblur -
+*/
+func (s *StrongTagHtml) Onblur(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onblur", value)
+	return s
+}
+
+/*
+Oncancel -
+*/
+func (s *StrongTagHtml) Oncancel(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("oncancel", value)
+	return s
+}
+
+/*
+Oncanplay -
+*/
+func (s *StrongTagHtml) Oncanplay(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("oncanplay", value)
+	return s
+}
+
+/*
+Oncanplaythrough -
+*/
+func (s *StrongTagHtml) Oncanplaythrough(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("oncanplaythrough", value)
+	return s
+}
+
+/*
+Onchange -
+*/
+func (s *StrongTagHtml) Onchange(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onchange", value)
+	return s
+}
+
+/*
+Onclick -
+*/
+func (s *StrongTagHtml) Onclick(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onclick", value)
+	return s
+}
+
+/*
+Onclose -
+*/
+func (s *StrongTagHtml) Onclose(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onclose", value)
+	return s
+}
+
+/*
+Oncontextmenu -
+*/
+func (s *StrongTagHtml) Oncontextmenu(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("oncontextmenu", value)
+	return s
+}
+
+/*
+Oncuechange -
+*/
+func (s *StrongTagHtml) Oncuechange(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("oncuechange", value)
+	return s
+}
+
+/*
+Ondblclick -
+*/
+func (s *StrongTagHtml) Ondblclick(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondblclick", value)
+	return s
+}
+
+/*
+Ondrag -
+*/
+func (s *StrongTagHtml) Ondrag(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondrag", value)
+	return s
+}
+
+/*
+Ondragend -
+*/
+func (s *StrongTagHtml) Ondragend(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondragend", value)
+	return s
+}
+
+/*
+Ondragenter -
+*/
+func (s *StrongTagHtml) Ondragenter(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondragenter", value)
+	return s
+}
+
+/*
+Ondragleave -
+*/
+func (s *StrongTagHtml) Ondragleave(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondragleave", value)
+	return s
+}
+
+/*
+Ondragover -
+*/
+func (s *StrongTagHtml) Ondragover(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondragover", value)
+	return s
+}
+
+/*
+Ondragstart -
+*/
+func (s *StrongTagHtml) Ondragstart(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondragstart", value)
+	return s
+}
+
+/*
+Ondrop -
+*/
+func (s *StrongTagHtml) Ondrop(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondrop", value)
+	return s
+}
+
+/*
+Ondurationchange -
+*/
+func (s *StrongTagHtml) Ondurationchange(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ondurationchange", value)
+	return s
+}
+
+/*
+Onemptied -
+*/
+func (s *StrongTagHtml) Onemptied(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onemptied", value)
+	return s
+}
+
+/*
+Onended -
+*/
+func (s *StrongTagHtml) Onended(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onended", value)
+	return s
+}
+
+/*
+Onfocus -
+*/
+func (s *StrongTagHtml) Onfocus(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onfocus", value)
+	return s
+}
+
+/*
+Oninput -
+*/
+func (s *StrongTagHtml) Oninput(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("oninput", value)
+	return s
+}
+
+/*
+Oninvalid -
+*/
+func (s *StrongTagHtml) Oninvalid(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("oninvalid", value)
+	return s
+}
+
+/*
+Onkeydown -
+*/
+func (s *StrongTagHtml) Onkeydown(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onkeydown", value)
+	return s
+}
+
+/*
+Onkeypress -
+*/
+func (s *StrongTagHtml) Onkeypress(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onkeypress", value)
+	return s
+}
+
+/*
+Onkeyup -
+*/
+func (s *StrongTagHtml) Onkeyup(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onkeyup", value)
+	return s
+}
+
+/*
+Onloadeddata -
+*/
+func (s *StrongTagHtml) Onloadeddata(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onloadeddata", value)
+	return s
+}
+
+/*
+Onloadedmetadata -
+*/
+func (s *StrongTagHtml) Onloadedmetadata(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onloadedmetadata", value)
+	return s
+}
+
+/*
+Onloadstart -
+*/
+func (s *StrongTagHtml) Onloadstart(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onloadstart", value)
+	return s
+}
+
+/*
+Onmousedown -
+*/
+func (s *StrongTagHtml) Onmousedown(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmousedown", value)
+	return s
+}
+
+/*
+Onmouseenter -
+*/
+func (s *StrongTagHtml) Onmouseenter(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmouseenter", value)
+	return s
+}
+
+/*
+Onmouseleave -
+*/
+func (s *StrongTagHtml) Onmouseleave(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmouseleave", value)
+	return s
+}
+
+/*
+Onmousemove -
+*/
+func (s *StrongTagHtml) Onmousemove(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmousemove", value)
+	return s
+}
+
+/*
+Onmouseout -
+*/
+func (s *StrongTagHtml) Onmouseout(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmouseout", value)
+	return s
+}
+
+/*
+Onmouseover -
+*/
+func (s *StrongTagHtml) Onmouseover(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmouseover", value)
+	return s
+}
+
+/*
+Onmouseup -
+*/
+func (s *StrongTagHtml) Onmouseup(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmouseup", value)
+	return s
+}
+
+/*
+Onmousewheel -
+*/
+func (s *StrongTagHtml) Onmousewheel(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmousewheel", value)
+	return s
+}
+
+/*
+Onpause -
+*/
+func (s *StrongTagHtml) Onpause(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onpause", value)
+	return s
+}
+
+/*
+Onplay -
+*/
+func (s *StrongTagHtml) Onplay(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onplay", value)
+	return s
+}
+
+/*
+Onplaying -
+*/
+func (s *StrongTagHtml) Onplaying(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onplaying", value)
+	return s
+}
+
+/*
+Onprogress -
+*/
+func (s *StrongTagHtml) Onprogress(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onprogress", value)
+	return s
+}
+
+/*
+Onratechange -
+*/
+func (s *StrongTagHtml) Onratechange(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onratechange", value)
+	return s
+}
+
+/*
+Onreset -
+*/
+func (s *StrongTagHtml) Onreset(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onreset", value)
+	return s
+}
+
+/*
+Onscroll -
+*/
+func (s *StrongTagHtml) Onscroll(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onscroll", value)
+	return s
+}
+
+/*
+Onseeked -
+*/
+func (s *StrongTagHtml) Onseeked(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onseeked", value)
+	return s
+}
+
+/*
+Onseeking -
+*/
+func (s *StrongTagHtml) Onseeking(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onseeking", value)
+	return s
+}
+
+/*
+Onselect -
+*/
+func (s *StrongTagHtml) Onselect(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onselect", value)
+	return s
+}
+
+/*
+Onshow -
+*/
+func (s *StrongTagHtml) Onshow(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onshow", value)
+	return s
+}
+
+/*
+Onsort -
+*/
+func (s *StrongTagHtml) Onsort(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onsort", value)
+	return s
+}
+
+/*
+Onstalled -
+*/
+func (s *StrongTagHtml) Onstalled(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onstalled", value)
+	return s
+}
+
+/*
+Onsubmit -
+*/
+func (s *StrongTagHtml) Onsubmit(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onsubmit", value)
+	return s
+}
+
+/*
+Onsuspend -
+*/
+func (s *StrongTagHtml) Onsuspend(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onsuspend", value)
+	return s
+}
+
+/*
+Ontimeupdate -
+*/
+func (s *StrongTagHtml) Ontimeupdate(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ontimeupdate", value)
+	return s
+}
+
+/*
+Ontoggle -
+*/
+func (s *StrongTagHtml) Ontoggle(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ontoggle", value)
+	return s
+}
+
+/*
+Onvolumechange -
+*/
+func (s *StrongTagHtml) Onvolumechange(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onvolumechange", value)
+	return s
+}
+
+/*
+Onwaiting -
+*/
+func (s *StrongTagHtml) Onwaiting(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onwaiting", value)
+	return s
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (s *StrongTagHtml) Onafterprint(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onafterprint", value)
+	return s
+}
+
+/*
+Onbeforeprint -
+*/
+func (s *StrongTagHtml) Onbeforeprint(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onbeforeprint", value)
+	return s
+}
+
+/*
+Onbeforeunload -
+*/
+func (s *StrongTagHtml) Onbeforeunload(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onbeforeunload", value)
+	return s
+}
+
+/*
+Onerror -
+*/
+func (s *StrongTagHtml) Onerror(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onerror", value)
+	return s
+}
+
+/*
+Onhashchange -
+*/
+func (s *StrongTagHtml) Onhashchange(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onhashchange", value)
+	return s
+}
+
+/*
+Onload -
+*/
+func (s *StrongTagHtml) Onload(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onload", value)
+	return s
+}
+
+/*
+Onmessage -
+*/
+func (s *StrongTagHtml) Onmessage(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onmessage", value)
+	return s
+}
+
+/*
+Onoffline -
+*/
+func (s *StrongTagHtml) Onoffline(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onoffline", value)
+	return s
+}
+
+/*
+Ononline -
+*/
+func (s *StrongTagHtml) Ononline(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("ononline", value)
+	return s
+}
+
+/*
+Onpagehide -
+*/
+func (s *StrongTagHtml) Onpagehide(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onpagehide", value)
+	return s
+}
+
+/*
+Onpageshow -
+*/
+func (s *StrongTagHtml) Onpageshow(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onpageshow", value)
+	return s
+}
+
+/*
+Onpopstate -
+*/
+func (s *StrongTagHtml) Onpopstate(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onpopstate", value)
+	return s
+}
+
+/*
+Onresize -
+*/
+func (s *StrongTagHtml) Onresize(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onresize", value)
+	return s
+}
+
+/*
+Onstorage -
+*/
+func (s *StrongTagHtml) Onstorage(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onstorage", value)
+	return s
+}
+
+/*
+Onunload -
+*/
+func (s *StrongTagHtml) Onunload(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("onunload", value)
+	return s
+}
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (s *StrongTagHtml) AccessKey(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("accessKey", value)
+	return s
+}
+
+/*
+Aria -
+*/
+func (s *StrongTagHtml) Aria(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("aria", value)
+	return s
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (s *StrongTagHtml) Autocapitalize(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("autocapitalize", value)
+	return s
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (s *StrongTagHtml) Autofocus(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("autofocus", value)
+	return s
+}
+
+/*
+Class -
+*/
+func (s *StrongTagHtml) Class(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("class", value)
+	return s
+}
+
+/*
+Contenteditable -
+*/
+func (s *StrongTagHtml) Contenteditable(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("contenteditable", value)
+	return s
+}
+
+/*
+Data -
+*/
+func (s *StrongTagHtml) Data(name, value string) *StrongTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	s.registerAttribute(dataName, value)
+	return s
+}
+
+/*
+Dir -
+*/
+func (s *StrongTagHtml) Dir(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("dir", value)
+	return s
+}
+
+/*
+Draggable -
+*/
+func (s *StrongTagHtml) Draggable(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("draggable", value)
+	return s
+}
+
+/*
+EnterKeyHint -
+*/
+func (s *StrongTagHtml) EnterKeyHint(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("enterKeyHint", value)
+	return s
+}
+
+/*
+ExportParts -
+*/
+func (s *StrongTagHtml) ExportParts(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("exportParts", value)
+	return s
+}
+
+/*
+Hidden -
+*/
+func (s *StrongTagHtml) Hidden(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("hidden", value)
+	return s
+}
+
+/*
+Id -
+*/
+func (s *StrongTagHtml) Id(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("id", value)
+	return s
+}
+
+/*
+Inert -
+*/
+func (s *StrongTagHtml) Inert(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("inert", value)
+	return s
+}
+
+/*
+InputMode -
+*/
+func (s *StrongTagHtml) InputMode(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("inputMode", value)
+	return s
+}
+
+/*
+Is -
+*/
+func (s *StrongTagHtml) Is(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("is", value)
+	return s
+}
+
+/*
+ItemId -
+*/
+func (s *StrongTagHtml) ItemId(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("itemId", value)
+	return s
+}
+
+/*
+ItemProp -
+*/
+func (s *StrongTagHtml) ItemProp(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("itemProp", value)
+	return s
+}
+
+/*
+ItemRef -
+*/
+func (s *StrongTagHtml) ItemRef(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("itemRef", value)
+	return s
+}
+
+/*
+ItemScope -
+*/
+func (s *StrongTagHtml) ItemScope(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("itemScope", value)
+	return s
+}
+
+/*
+ItemType -
+*/
+func (s *StrongTagHtml) ItemType(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("itemType", value)
+	return s
+}
+
+/*
+Lang -
+*/
+func (s *StrongTagHtml) Lang(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("lang", value)
+	return s
+}
+
+/*
+Nonce -
+*/
+func (s *StrongTagHtml) Nonce(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("nonce", value)
+	return s
+}
+
+/*
+Part -
+*/
+func (s *StrongTagHtml) Part(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("part", value)
+	return s
+}
+
+/*
+Popover -
+*/
+func (s *StrongTagHtml) Popover() *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("popover", "")
+	return s
+}
+
+/*
+Role -
+*/
+func (s *StrongTagHtml) Role(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("role", value)
+	return s
+}
+
+/*
+Slot -
+*/
+func (s *StrongTagHtml) Slot(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("slot", value)
+	return s
+}
+
+/*
+Spellcheck -
+*/
+func (s *StrongTagHtml) Spellcheck(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("spellcheck", value)
+	return s
+}
+
+/*
+Style -
+*/
+func (s *StrongTagHtml) Style(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("style", value)
+	return s
+}
+
+/*
+Tabindex -
+*/
+func (s *StrongTagHtml) Tabindex(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("tabindex", value)
+	return s
+}
+
+/*
+Title -
+*/
+func (s *StrongTagHtml) Title(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("title", value)
+	return s
+}
+
+/*
+Translate -
+*/
+func (s *StrongTagHtml) Translate(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("translate", value)
+	return s
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (s *StrongTagHtml) VirtualKeyBoardPolicy(value string) *StrongTagHtml {
+	if s.attributes == nil {
+		s.attributes = []*Attribute{}
+	}
+	s.registerAttribute("virtualKeyBoardPolicy", value)
+	return s
+}

@@ -182,3 +182,1451 @@ func (f *FormTagHtml) Target(value string) *FormTagHtml {
 	f.registerAttribute("target", value)
 	return f
 }
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (f *FormTagHtml) AccessKey(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("accessKey", value)
+	return f
+}
+
+/*
+Aria -
+*/
+func (f *FormTagHtml) Aria(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria", value)
+	return f
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (f *FormTagHtml) Autocapitalize(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("autocapitalize", value)
+	return f
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (f *FormTagHtml) Autofocus(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("autofocus", value)
+	return f
+}
+
+/*
+Class -
+*/
+func (f *FormTagHtml) Class(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("class", value)
+	return f
+}
+
+/*
+Contenteditable -
+*/
+func (f *FormTagHtml) Contenteditable(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("contenteditable", value)
+	return f
+}
+
+/*
+Data -
+*/
+func (f *FormTagHtml) Data(name, value string) *FormTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	f.registerAttribute(dataName, value)
+	return f
+}
+
+/*
+Dir -
+*/
+func (f *FormTagHtml) Dir(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("dir", value)
+	return f
+}
+
+/*
+Draggable -
+*/
+func (f *FormTagHtml) Draggable(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("draggable", value)
+	return f
+}
+
+/*
+EnterKeyHint -
+*/
+func (f *FormTagHtml) EnterKeyHint(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("enterKeyHint", value)
+	return f
+}
+
+/*
+ExportParts -
+*/
+func (f *FormTagHtml) ExportParts(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("exportParts", value)
+	return f
+}
+
+/*
+Hidden -
+*/
+func (f *FormTagHtml) Hidden(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("hidden", value)
+	return f
+}
+
+/*
+Id -
+*/
+func (f *FormTagHtml) Id(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("id", value)
+	return f
+}
+
+/*
+Inert -
+*/
+func (f *FormTagHtml) Inert(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("inert", value)
+	return f
+}
+
+/*
+InputMode -
+*/
+func (f *FormTagHtml) InputMode(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("inputMode", value)
+	return f
+}
+
+/*
+Is -
+*/
+func (f *FormTagHtml) Is(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("is", value)
+	return f
+}
+
+/*
+ItemId -
+*/
+func (f *FormTagHtml) ItemId(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("itemId", value)
+	return f
+}
+
+/*
+ItemProp -
+*/
+func (f *FormTagHtml) ItemProp(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("itemProp", value)
+	return f
+}
+
+/*
+ItemRef -
+*/
+func (f *FormTagHtml) ItemRef(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("itemRef", value)
+	return f
+}
+
+/*
+ItemScope -
+*/
+func (f *FormTagHtml) ItemScope(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("itemScope", value)
+	return f
+}
+
+/*
+ItemType -
+*/
+func (f *FormTagHtml) ItemType(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("itemType", value)
+	return f
+}
+
+/*
+Lang -
+*/
+func (f *FormTagHtml) Lang(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("lang", value)
+	return f
+}
+
+/*
+Nonce -
+*/
+func (f *FormTagHtml) Nonce(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("nonce", value)
+	return f
+}
+
+/*
+Part -
+*/
+func (f *FormTagHtml) Part(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("part", value)
+	return f
+}
+
+/*
+Popover -
+*/
+func (f *FormTagHtml) Popover() *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("popover", "")
+	return f
+}
+
+/*
+Role -
+*/
+func (f *FormTagHtml) Role(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("role", value)
+	return f
+}
+
+/*
+Slot -
+*/
+func (f *FormTagHtml) Slot(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("slot", value)
+	return f
+}
+
+/*
+Spellcheck -
+*/
+func (f *FormTagHtml) Spellcheck(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("spellcheck", value)
+	return f
+}
+
+/*
+Style -
+*/
+func (f *FormTagHtml) Style(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("style", value)
+	return f
+}
+
+/*
+Tabindex -
+*/
+func (f *FormTagHtml) Tabindex(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("tabindex", value)
+	return f
+}
+
+/*
+Title -
+*/
+func (f *FormTagHtml) Title(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("title", value)
+	return f
+}
+
+/*
+Translate -
+*/
+func (f *FormTagHtml) Translate(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("translate", value)
+	return f
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (f *FormTagHtml) VirtualKeyBoardPolicy(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("virtualKeyBoardPolicy", value)
+	return f
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (f *FormTagHtml) AriaAtomic(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-atomic", value)
+	return f
+}
+
+/*
+AriaBusy -
+*/
+func (f *FormTagHtml) AriaBusy(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-busy", value)
+	return f
+}
+
+/*
+AriaControls -
+*/
+func (f *FormTagHtml) AriaControls(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-controls", value)
+	return f
+}
+
+/*
+AriaCurrent -
+*/
+func (f *FormTagHtml) AriaCurrent(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-current", value)
+	return f
+}
+
+/*
+AriaDescribedby -
+*/
+func (f *FormTagHtml) AriaDescribedby(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-describedby", value)
+	return f
+}
+
+/*
+AriaDescription -
+*/
+func (f *FormTagHtml) AriaDescription(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-description", value)
+	return f
+}
+
+/*
+AriaDetails -
+*/
+func (f *FormTagHtml) AriaDetails(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-details", value)
+	return f
+}
+
+/*
+AriaDisabled -
+*/
+func (f *FormTagHtml) AriaDisabled(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-disabled", value)
+	return f
+}
+
+/*
+AriaDropeffect -
+*/
+func (f *FormTagHtml) AriaDropeffect(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-dropeffect", value)
+	return f
+}
+
+/*
+AriaErrormessage -
+*/
+func (f *FormTagHtml) AriaErrormessage(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-errormessage", value)
+	return f
+}
+
+/*
+AriaFlowto -
+*/
+func (f *FormTagHtml) AriaFlowto(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-flowto", value)
+	return f
+}
+
+/*
+AriaGrabbed -
+*/
+func (f *FormTagHtml) AriaGrabbed(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-grabbed", value)
+	return f
+}
+
+/*
+AriaHaspopup -
+*/
+func (f *FormTagHtml) AriaHaspopup(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-haspopup", value)
+	return f
+}
+
+/*
+AriaHidden -
+*/
+func (f *FormTagHtml) AriaHidden(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-hidden", value)
+	return f
+}
+
+/*
+AriaInvalid -
+*/
+func (f *FormTagHtml) AriaInvalid(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-invalid", value)
+	return f
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (f *FormTagHtml) AriaKeyshortcuts(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-keyshortcuts", value)
+	return f
+}
+
+/*
+AriaLabel -
+*/
+func (f *FormTagHtml) AriaLabel(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-label", value)
+	return f
+}
+
+/*
+AriaLabelledby -
+*/
+func (f *FormTagHtml) AriaLabelledby(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-labelledby", value)
+	return f
+}
+
+/*
+AriaLive -
+*/
+func (f *FormTagHtml) AriaLive(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-live", value)
+	return f
+}
+
+/*
+AriaOwns -
+*/
+func (f *FormTagHtml) AriaOwns(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-owns", value)
+	return f
+}
+
+/*
+AriaRelevant -
+*/
+func (f *FormTagHtml) AriaRelevant(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-relevant", value)
+	return f
+}
+
+/*
+AriaRoledescription -
+*/
+func (f *FormTagHtml) AriaRoledescription(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-roledescription", value)
+	return f
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (f *FormTagHtml) Onabort(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onabort", value)
+	return f
+}
+
+/*
+Onautocomplete -
+*/
+func (f *FormTagHtml) Onautocomplete(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onautocomplete", value)
+	return f
+}
+
+/*
+Onautocompleteerror -
+*/
+func (f *FormTagHtml) Onautocompleteerror(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onautocompleteerror", value)
+	return f
+}
+
+/*
+Onblur -
+*/
+func (f *FormTagHtml) Onblur(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onblur", value)
+	return f
+}
+
+/*
+Oncancel -
+*/
+func (f *FormTagHtml) Oncancel(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oncancel", value)
+	return f
+}
+
+/*
+Oncanplay -
+*/
+func (f *FormTagHtml) Oncanplay(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oncanplay", value)
+	return f
+}
+
+/*
+Oncanplaythrough -
+*/
+func (f *FormTagHtml) Oncanplaythrough(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oncanplaythrough", value)
+	return f
+}
+
+/*
+Onchange -
+*/
+func (f *FormTagHtml) Onchange(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onchange", value)
+	return f
+}
+
+/*
+Onclick -
+*/
+func (f *FormTagHtml) Onclick(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onclick", value)
+	return f
+}
+
+/*
+Onclose -
+*/
+func (f *FormTagHtml) Onclose(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onclose", value)
+	return f
+}
+
+/*
+Oncontextmenu -
+*/
+func (f *FormTagHtml) Oncontextmenu(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oncontextmenu", value)
+	return f
+}
+
+/*
+Oncuechange -
+*/
+func (f *FormTagHtml) Oncuechange(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oncuechange", value)
+	return f
+}
+
+/*
+Ondblclick -
+*/
+func (f *FormTagHtml) Ondblclick(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondblclick", value)
+	return f
+}
+
+/*
+Ondrag -
+*/
+func (f *FormTagHtml) Ondrag(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondrag", value)
+	return f
+}
+
+/*
+Ondragend -
+*/
+func (f *FormTagHtml) Ondragend(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondragend", value)
+	return f
+}
+
+/*
+Ondragenter -
+*/
+func (f *FormTagHtml) Ondragenter(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondragenter", value)
+	return f
+}
+
+/*
+Ondragleave -
+*/
+func (f *FormTagHtml) Ondragleave(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondragleave", value)
+	return f
+}
+
+/*
+Ondragover -
+*/
+func (f *FormTagHtml) Ondragover(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondragover", value)
+	return f
+}
+
+/*
+Ondragstart -
+*/
+func (f *FormTagHtml) Ondragstart(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondragstart", value)
+	return f
+}
+
+/*
+Ondrop -
+*/
+func (f *FormTagHtml) Ondrop(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondrop", value)
+	return f
+}
+
+/*
+Ondurationchange -
+*/
+func (f *FormTagHtml) Ondurationchange(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondurationchange", value)
+	return f
+}
+
+/*
+Onemptied -
+*/
+func (f *FormTagHtml) Onemptied(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onemptied", value)
+	return f
+}
+
+/*
+Onended -
+*/
+func (f *FormTagHtml) Onended(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onended", value)
+	return f
+}
+
+/*
+Onfocus -
+*/
+func (f *FormTagHtml) Onfocus(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onfocus", value)
+	return f
+}
+
+/*
+Oninput -
+*/
+func (f *FormTagHtml) Oninput(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oninput", value)
+	return f
+}
+
+/*
+Oninvalid -
+*/
+func (f *FormTagHtml) Oninvalid(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oninvalid", value)
+	return f
+}
+
+/*
+Onkeydown -
+*/
+func (f *FormTagHtml) Onkeydown(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onkeydown", value)
+	return f
+}
+
+/*
+Onkeypress -
+*/
+func (f *FormTagHtml) Onkeypress(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onkeypress", value)
+	return f
+}
+
+/*
+Onkeyup -
+*/
+func (f *FormTagHtml) Onkeyup(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onkeyup", value)
+	return f
+}
+
+/*
+Onloadeddata -
+*/
+func (f *FormTagHtml) Onloadeddata(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onloadeddata", value)
+	return f
+}
+
+/*
+Onloadedmetadata -
+*/
+func (f *FormTagHtml) Onloadedmetadata(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onloadedmetadata", value)
+	return f
+}
+
+/*
+Onloadstart -
+*/
+func (f *FormTagHtml) Onloadstart(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onloadstart", value)
+	return f
+}
+
+/*
+Onmousedown -
+*/
+func (f *FormTagHtml) Onmousedown(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmousedown", value)
+	return f
+}
+
+/*
+Onmouseenter -
+*/
+func (f *FormTagHtml) Onmouseenter(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmouseenter", value)
+	return f
+}
+
+/*
+Onmouseleave -
+*/
+func (f *FormTagHtml) Onmouseleave(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmouseleave", value)
+	return f
+}
+
+/*
+Onmousemove -
+*/
+func (f *FormTagHtml) Onmousemove(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmousemove", value)
+	return f
+}
+
+/*
+Onmouseout -
+*/
+func (f *FormTagHtml) Onmouseout(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmouseout", value)
+	return f
+}
+
+/*
+Onmouseover -
+*/
+func (f *FormTagHtml) Onmouseover(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmouseover", value)
+	return f
+}
+
+/*
+Onmouseup -
+*/
+func (f *FormTagHtml) Onmouseup(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmouseup", value)
+	return f
+}
+
+/*
+Onmousewheel -
+*/
+func (f *FormTagHtml) Onmousewheel(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmousewheel", value)
+	return f
+}
+
+/*
+Onpause -
+*/
+func (f *FormTagHtml) Onpause(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onpause", value)
+	return f
+}
+
+/*
+Onplay -
+*/
+func (f *FormTagHtml) Onplay(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onplay", value)
+	return f
+}
+
+/*
+Onplaying -
+*/
+func (f *FormTagHtml) Onplaying(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onplaying", value)
+	return f
+}
+
+/*
+Onprogress -
+*/
+func (f *FormTagHtml) Onprogress(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onprogress", value)
+	return f
+}
+
+/*
+Onratechange -
+*/
+func (f *FormTagHtml) Onratechange(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onratechange", value)
+	return f
+}
+
+/*
+Onreset -
+*/
+func (f *FormTagHtml) Onreset(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onreset", value)
+	return f
+}
+
+/*
+Onscroll -
+*/
+func (f *FormTagHtml) Onscroll(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onscroll", value)
+	return f
+}
+
+/*
+Onseeked -
+*/
+func (f *FormTagHtml) Onseeked(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onseeked", value)
+	return f
+}
+
+/*
+Onseeking -
+*/
+func (f *FormTagHtml) Onseeking(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onseeking", value)
+	return f
+}
+
+/*
+Onselect -
+*/
+func (f *FormTagHtml) Onselect(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onselect", value)
+	return f
+}
+
+/*
+Onshow -
+*/
+func (f *FormTagHtml) Onshow(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onshow", value)
+	return f
+}
+
+/*
+Onsort -
+*/
+func (f *FormTagHtml) Onsort(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onsort", value)
+	return f
+}
+
+/*
+Onstalled -
+*/
+func (f *FormTagHtml) Onstalled(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onstalled", value)
+	return f
+}
+
+/*
+Onsubmit -
+*/
+func (f *FormTagHtml) Onsubmit(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onsubmit", value)
+	return f
+}
+
+/*
+Onsuspend -
+*/
+func (f *FormTagHtml) Onsuspend(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onsuspend", value)
+	return f
+}
+
+/*
+Ontimeupdate -
+*/
+func (f *FormTagHtml) Ontimeupdate(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ontimeupdate", value)
+	return f
+}
+
+/*
+Ontoggle -
+*/
+func (f *FormTagHtml) Ontoggle(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ontoggle", value)
+	return f
+}
+
+/*
+Onvolumechange -
+*/
+func (f *FormTagHtml) Onvolumechange(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onvolumechange", value)
+	return f
+}
+
+/*
+Onwaiting -
+*/
+func (f *FormTagHtml) Onwaiting(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onwaiting", value)
+	return f
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (f *FormTagHtml) Onafterprint(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onafterprint", value)
+	return f
+}
+
+/*
+Onbeforeprint -
+*/
+func (f *FormTagHtml) Onbeforeprint(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onbeforeprint", value)
+	return f
+}
+
+/*
+Onbeforeunload -
+*/
+func (f *FormTagHtml) Onbeforeunload(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onbeforeunload", value)
+	return f
+}
+
+/*
+Onerror -
+*/
+func (f *FormTagHtml) Onerror(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onerror", value)
+	return f
+}
+
+/*
+Onhashchange -
+*/
+func (f *FormTagHtml) Onhashchange(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onhashchange", value)
+	return f
+}
+
+/*
+Onload -
+*/
+func (f *FormTagHtml) Onload(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onload", value)
+	return f
+}
+
+/*
+Onmessage -
+*/
+func (f *FormTagHtml) Onmessage(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmessage", value)
+	return f
+}
+
+/*
+Onoffline -
+*/
+func (f *FormTagHtml) Onoffline(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onoffline", value)
+	return f
+}
+
+/*
+Ononline -
+*/
+func (f *FormTagHtml) Ononline(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ononline", value)
+	return f
+}
+
+/*
+Onpagehide -
+*/
+func (f *FormTagHtml) Onpagehide(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onpagehide", value)
+	return f
+}
+
+/*
+Onpageshow -
+*/
+func (f *FormTagHtml) Onpageshow(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onpageshow", value)
+	return f
+}
+
+/*
+Onpopstate -
+*/
+func (f *FormTagHtml) Onpopstate(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onpopstate", value)
+	return f
+}
+
+/*
+Onresize -
+*/
+func (f *FormTagHtml) Onresize(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onresize", value)
+	return f
+}
+
+/*
+Onstorage -
+*/
+func (f *FormTagHtml) Onstorage(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onstorage", value)
+	return f
+}
+
+/*
+Onunload -
+*/
+func (f *FormTagHtml) Onunload(value string) *FormTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onunload", value)
+	return f
+}

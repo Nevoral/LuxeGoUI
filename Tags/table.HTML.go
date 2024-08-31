@@ -72,3 +72,1451 @@ func (t *TableTagHtml) supportedChildrenCheck(tags []any) *TableTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (t *TableTagHtml) AccessKey(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("accessKey", value)
+	return t
+}
+
+/*
+Aria -
+*/
+func (t *TableTagHtml) Aria(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria", value)
+	return t
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (t *TableTagHtml) Autocapitalize(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("autocapitalize", value)
+	return t
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (t *TableTagHtml) Autofocus(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("autofocus", value)
+	return t
+}
+
+/*
+Class -
+*/
+func (t *TableTagHtml) Class(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("class", value)
+	return t
+}
+
+/*
+Contenteditable -
+*/
+func (t *TableTagHtml) Contenteditable(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("contenteditable", value)
+	return t
+}
+
+/*
+Data -
+*/
+func (t *TableTagHtml) Data(name, value string) *TableTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	t.registerAttribute(dataName, value)
+	return t
+}
+
+/*
+Dir -
+*/
+func (t *TableTagHtml) Dir(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("dir", value)
+	return t
+}
+
+/*
+Draggable -
+*/
+func (t *TableTagHtml) Draggable(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("draggable", value)
+	return t
+}
+
+/*
+EnterKeyHint -
+*/
+func (t *TableTagHtml) EnterKeyHint(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("enterKeyHint", value)
+	return t
+}
+
+/*
+ExportParts -
+*/
+func (t *TableTagHtml) ExportParts(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("exportParts", value)
+	return t
+}
+
+/*
+Hidden -
+*/
+func (t *TableTagHtml) Hidden(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("hidden", value)
+	return t
+}
+
+/*
+Id -
+*/
+func (t *TableTagHtml) Id(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("id", value)
+	return t
+}
+
+/*
+Inert -
+*/
+func (t *TableTagHtml) Inert(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("inert", value)
+	return t
+}
+
+/*
+InputMode -
+*/
+func (t *TableTagHtml) InputMode(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("inputMode", value)
+	return t
+}
+
+/*
+Is -
+*/
+func (t *TableTagHtml) Is(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("is", value)
+	return t
+}
+
+/*
+ItemId -
+*/
+func (t *TableTagHtml) ItemId(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("itemId", value)
+	return t
+}
+
+/*
+ItemProp -
+*/
+func (t *TableTagHtml) ItemProp(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("itemProp", value)
+	return t
+}
+
+/*
+ItemRef -
+*/
+func (t *TableTagHtml) ItemRef(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("itemRef", value)
+	return t
+}
+
+/*
+ItemScope -
+*/
+func (t *TableTagHtml) ItemScope(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("itemScope", value)
+	return t
+}
+
+/*
+ItemType -
+*/
+func (t *TableTagHtml) ItemType(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("itemType", value)
+	return t
+}
+
+/*
+Lang -
+*/
+func (t *TableTagHtml) Lang(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("lang", value)
+	return t
+}
+
+/*
+Nonce -
+*/
+func (t *TableTagHtml) Nonce(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("nonce", value)
+	return t
+}
+
+/*
+Part -
+*/
+func (t *TableTagHtml) Part(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("part", value)
+	return t
+}
+
+/*
+Popover -
+*/
+func (t *TableTagHtml) Popover() *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("popover", "")
+	return t
+}
+
+/*
+Role -
+*/
+func (t *TableTagHtml) Role(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("role", value)
+	return t
+}
+
+/*
+Slot -
+*/
+func (t *TableTagHtml) Slot(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("slot", value)
+	return t
+}
+
+/*
+Spellcheck -
+*/
+func (t *TableTagHtml) Spellcheck(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("spellcheck", value)
+	return t
+}
+
+/*
+Style -
+*/
+func (t *TableTagHtml) Style(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("style", value)
+	return t
+}
+
+/*
+Tabindex -
+*/
+func (t *TableTagHtml) Tabindex(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("tabindex", value)
+	return t
+}
+
+/*
+Title -
+*/
+func (t *TableTagHtml) Title(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("title", value)
+	return t
+}
+
+/*
+Translate -
+*/
+func (t *TableTagHtml) Translate(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("translate", value)
+	return t
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (t *TableTagHtml) VirtualKeyBoardPolicy(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("virtualKeyBoardPolicy", value)
+	return t
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (t *TableTagHtml) AriaAtomic(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-atomic", value)
+	return t
+}
+
+/*
+AriaBusy -
+*/
+func (t *TableTagHtml) AriaBusy(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-busy", value)
+	return t
+}
+
+/*
+AriaControls -
+*/
+func (t *TableTagHtml) AriaControls(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-controls", value)
+	return t
+}
+
+/*
+AriaCurrent -
+*/
+func (t *TableTagHtml) AriaCurrent(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-current", value)
+	return t
+}
+
+/*
+AriaDescribedby -
+*/
+func (t *TableTagHtml) AriaDescribedby(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-describedby", value)
+	return t
+}
+
+/*
+AriaDescription -
+*/
+func (t *TableTagHtml) AriaDescription(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-description", value)
+	return t
+}
+
+/*
+AriaDetails -
+*/
+func (t *TableTagHtml) AriaDetails(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-details", value)
+	return t
+}
+
+/*
+AriaDisabled -
+*/
+func (t *TableTagHtml) AriaDisabled(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-disabled", value)
+	return t
+}
+
+/*
+AriaDropeffect -
+*/
+func (t *TableTagHtml) AriaDropeffect(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-dropeffect", value)
+	return t
+}
+
+/*
+AriaErrormessage -
+*/
+func (t *TableTagHtml) AriaErrormessage(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-errormessage", value)
+	return t
+}
+
+/*
+AriaFlowto -
+*/
+func (t *TableTagHtml) AriaFlowto(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-flowto", value)
+	return t
+}
+
+/*
+AriaGrabbed -
+*/
+func (t *TableTagHtml) AriaGrabbed(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-grabbed", value)
+	return t
+}
+
+/*
+AriaHaspopup -
+*/
+func (t *TableTagHtml) AriaHaspopup(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-haspopup", value)
+	return t
+}
+
+/*
+AriaHidden -
+*/
+func (t *TableTagHtml) AriaHidden(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-hidden", value)
+	return t
+}
+
+/*
+AriaInvalid -
+*/
+func (t *TableTagHtml) AriaInvalid(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-invalid", value)
+	return t
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (t *TableTagHtml) AriaKeyshortcuts(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-keyshortcuts", value)
+	return t
+}
+
+/*
+AriaLabel -
+*/
+func (t *TableTagHtml) AriaLabel(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-label", value)
+	return t
+}
+
+/*
+AriaLabelledby -
+*/
+func (t *TableTagHtml) AriaLabelledby(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-labelledby", value)
+	return t
+}
+
+/*
+AriaLive -
+*/
+func (t *TableTagHtml) AriaLive(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-live", value)
+	return t
+}
+
+/*
+AriaOwns -
+*/
+func (t *TableTagHtml) AriaOwns(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-owns", value)
+	return t
+}
+
+/*
+AriaRelevant -
+*/
+func (t *TableTagHtml) AriaRelevant(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-relevant", value)
+	return t
+}
+
+/*
+AriaRoledescription -
+*/
+func (t *TableTagHtml) AriaRoledescription(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("aria-roledescription", value)
+	return t
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (t *TableTagHtml) Onabort(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onabort", value)
+	return t
+}
+
+/*
+Onautocomplete -
+*/
+func (t *TableTagHtml) Onautocomplete(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onautocomplete", value)
+	return t
+}
+
+/*
+Onautocompleteerror -
+*/
+func (t *TableTagHtml) Onautocompleteerror(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onautocompleteerror", value)
+	return t
+}
+
+/*
+Onblur -
+*/
+func (t *TableTagHtml) Onblur(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onblur", value)
+	return t
+}
+
+/*
+Oncancel -
+*/
+func (t *TableTagHtml) Oncancel(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oncancel", value)
+	return t
+}
+
+/*
+Oncanplay -
+*/
+func (t *TableTagHtml) Oncanplay(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oncanplay", value)
+	return t
+}
+
+/*
+Oncanplaythrough -
+*/
+func (t *TableTagHtml) Oncanplaythrough(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oncanplaythrough", value)
+	return t
+}
+
+/*
+Onchange -
+*/
+func (t *TableTagHtml) Onchange(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onchange", value)
+	return t
+}
+
+/*
+Onclick -
+*/
+func (t *TableTagHtml) Onclick(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onclick", value)
+	return t
+}
+
+/*
+Onclose -
+*/
+func (t *TableTagHtml) Onclose(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onclose", value)
+	return t
+}
+
+/*
+Oncontextmenu -
+*/
+func (t *TableTagHtml) Oncontextmenu(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oncontextmenu", value)
+	return t
+}
+
+/*
+Oncuechange -
+*/
+func (t *TableTagHtml) Oncuechange(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oncuechange", value)
+	return t
+}
+
+/*
+Ondblclick -
+*/
+func (t *TableTagHtml) Ondblclick(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondblclick", value)
+	return t
+}
+
+/*
+Ondrag -
+*/
+func (t *TableTagHtml) Ondrag(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondrag", value)
+	return t
+}
+
+/*
+Ondragend -
+*/
+func (t *TableTagHtml) Ondragend(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondragend", value)
+	return t
+}
+
+/*
+Ondragenter -
+*/
+func (t *TableTagHtml) Ondragenter(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondragenter", value)
+	return t
+}
+
+/*
+Ondragleave -
+*/
+func (t *TableTagHtml) Ondragleave(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondragleave", value)
+	return t
+}
+
+/*
+Ondragover -
+*/
+func (t *TableTagHtml) Ondragover(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondragover", value)
+	return t
+}
+
+/*
+Ondragstart -
+*/
+func (t *TableTagHtml) Ondragstart(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondragstart", value)
+	return t
+}
+
+/*
+Ondrop -
+*/
+func (t *TableTagHtml) Ondrop(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondrop", value)
+	return t
+}
+
+/*
+Ondurationchange -
+*/
+func (t *TableTagHtml) Ondurationchange(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ondurationchange", value)
+	return t
+}
+
+/*
+Onemptied -
+*/
+func (t *TableTagHtml) Onemptied(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onemptied", value)
+	return t
+}
+
+/*
+Onended -
+*/
+func (t *TableTagHtml) Onended(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onended", value)
+	return t
+}
+
+/*
+Onfocus -
+*/
+func (t *TableTagHtml) Onfocus(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onfocus", value)
+	return t
+}
+
+/*
+Oninput -
+*/
+func (t *TableTagHtml) Oninput(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oninput", value)
+	return t
+}
+
+/*
+Oninvalid -
+*/
+func (t *TableTagHtml) Oninvalid(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("oninvalid", value)
+	return t
+}
+
+/*
+Onkeydown -
+*/
+func (t *TableTagHtml) Onkeydown(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onkeydown", value)
+	return t
+}
+
+/*
+Onkeypress -
+*/
+func (t *TableTagHtml) Onkeypress(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onkeypress", value)
+	return t
+}
+
+/*
+Onkeyup -
+*/
+func (t *TableTagHtml) Onkeyup(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onkeyup", value)
+	return t
+}
+
+/*
+Onloadeddata -
+*/
+func (t *TableTagHtml) Onloadeddata(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onloadeddata", value)
+	return t
+}
+
+/*
+Onloadedmetadata -
+*/
+func (t *TableTagHtml) Onloadedmetadata(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onloadedmetadata", value)
+	return t
+}
+
+/*
+Onloadstart -
+*/
+func (t *TableTagHtml) Onloadstart(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onloadstart", value)
+	return t
+}
+
+/*
+Onmousedown -
+*/
+func (t *TableTagHtml) Onmousedown(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmousedown", value)
+	return t
+}
+
+/*
+Onmouseenter -
+*/
+func (t *TableTagHtml) Onmouseenter(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmouseenter", value)
+	return t
+}
+
+/*
+Onmouseleave -
+*/
+func (t *TableTagHtml) Onmouseleave(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmouseleave", value)
+	return t
+}
+
+/*
+Onmousemove -
+*/
+func (t *TableTagHtml) Onmousemove(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmousemove", value)
+	return t
+}
+
+/*
+Onmouseout -
+*/
+func (t *TableTagHtml) Onmouseout(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmouseout", value)
+	return t
+}
+
+/*
+Onmouseover -
+*/
+func (t *TableTagHtml) Onmouseover(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmouseover", value)
+	return t
+}
+
+/*
+Onmouseup -
+*/
+func (t *TableTagHtml) Onmouseup(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmouseup", value)
+	return t
+}
+
+/*
+Onmousewheel -
+*/
+func (t *TableTagHtml) Onmousewheel(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmousewheel", value)
+	return t
+}
+
+/*
+Onpause -
+*/
+func (t *TableTagHtml) Onpause(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onpause", value)
+	return t
+}
+
+/*
+Onplay -
+*/
+func (t *TableTagHtml) Onplay(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onplay", value)
+	return t
+}
+
+/*
+Onplaying -
+*/
+func (t *TableTagHtml) Onplaying(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onplaying", value)
+	return t
+}
+
+/*
+Onprogress -
+*/
+func (t *TableTagHtml) Onprogress(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onprogress", value)
+	return t
+}
+
+/*
+Onratechange -
+*/
+func (t *TableTagHtml) Onratechange(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onratechange", value)
+	return t
+}
+
+/*
+Onreset -
+*/
+func (t *TableTagHtml) Onreset(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onreset", value)
+	return t
+}
+
+/*
+Onscroll -
+*/
+func (t *TableTagHtml) Onscroll(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onscroll", value)
+	return t
+}
+
+/*
+Onseeked -
+*/
+func (t *TableTagHtml) Onseeked(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onseeked", value)
+	return t
+}
+
+/*
+Onseeking -
+*/
+func (t *TableTagHtml) Onseeking(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onseeking", value)
+	return t
+}
+
+/*
+Onselect -
+*/
+func (t *TableTagHtml) Onselect(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onselect", value)
+	return t
+}
+
+/*
+Onshow -
+*/
+func (t *TableTagHtml) Onshow(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onshow", value)
+	return t
+}
+
+/*
+Onsort -
+*/
+func (t *TableTagHtml) Onsort(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onsort", value)
+	return t
+}
+
+/*
+Onstalled -
+*/
+func (t *TableTagHtml) Onstalled(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onstalled", value)
+	return t
+}
+
+/*
+Onsubmit -
+*/
+func (t *TableTagHtml) Onsubmit(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onsubmit", value)
+	return t
+}
+
+/*
+Onsuspend -
+*/
+func (t *TableTagHtml) Onsuspend(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onsuspend", value)
+	return t
+}
+
+/*
+Ontimeupdate -
+*/
+func (t *TableTagHtml) Ontimeupdate(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ontimeupdate", value)
+	return t
+}
+
+/*
+Ontoggle -
+*/
+func (t *TableTagHtml) Ontoggle(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ontoggle", value)
+	return t
+}
+
+/*
+Onvolumechange -
+*/
+func (t *TableTagHtml) Onvolumechange(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onvolumechange", value)
+	return t
+}
+
+/*
+Onwaiting -
+*/
+func (t *TableTagHtml) Onwaiting(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onwaiting", value)
+	return t
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (t *TableTagHtml) Onafterprint(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onafterprint", value)
+	return t
+}
+
+/*
+Onbeforeprint -
+*/
+func (t *TableTagHtml) Onbeforeprint(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onbeforeprint", value)
+	return t
+}
+
+/*
+Onbeforeunload -
+*/
+func (t *TableTagHtml) Onbeforeunload(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onbeforeunload", value)
+	return t
+}
+
+/*
+Onerror -
+*/
+func (t *TableTagHtml) Onerror(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onerror", value)
+	return t
+}
+
+/*
+Onhashchange -
+*/
+func (t *TableTagHtml) Onhashchange(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onhashchange", value)
+	return t
+}
+
+/*
+Onload -
+*/
+func (t *TableTagHtml) Onload(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onload", value)
+	return t
+}
+
+/*
+Onmessage -
+*/
+func (t *TableTagHtml) Onmessage(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onmessage", value)
+	return t
+}
+
+/*
+Onoffline -
+*/
+func (t *TableTagHtml) Onoffline(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onoffline", value)
+	return t
+}
+
+/*
+Ononline -
+*/
+func (t *TableTagHtml) Ononline(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("ononline", value)
+	return t
+}
+
+/*
+Onpagehide -
+*/
+func (t *TableTagHtml) Onpagehide(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onpagehide", value)
+	return t
+}
+
+/*
+Onpageshow -
+*/
+func (t *TableTagHtml) Onpageshow(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onpageshow", value)
+	return t
+}
+
+/*
+Onpopstate -
+*/
+func (t *TableTagHtml) Onpopstate(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onpopstate", value)
+	return t
+}
+
+/*
+Onresize -
+*/
+func (t *TableTagHtml) Onresize(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onresize", value)
+	return t
+}
+
+/*
+Onstorage -
+*/
+func (t *TableTagHtml) Onstorage(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onstorage", value)
+	return t
+}
+
+/*
+Onunload -
+*/
+func (t *TableTagHtml) Onunload(value string) *TableTagHtml {
+	if t.attributes == nil {
+		t.attributes = []*Attribute{}
+	}
+	t.registerAttribute("onunload", value)
+	return t
+}

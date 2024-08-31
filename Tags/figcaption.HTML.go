@@ -72,3 +72,1451 @@ func (f *FigcaptionTagHtml) supportedChildrenCheck(tags []any) *FigcaptionTagHtm
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (f *FigcaptionTagHtml) Onafterprint(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onafterprint", value)
+	return f
+}
+
+/*
+Onbeforeprint -
+*/
+func (f *FigcaptionTagHtml) Onbeforeprint(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onbeforeprint", value)
+	return f
+}
+
+/*
+Onbeforeunload -
+*/
+func (f *FigcaptionTagHtml) Onbeforeunload(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onbeforeunload", value)
+	return f
+}
+
+/*
+Onerror -
+*/
+func (f *FigcaptionTagHtml) Onerror(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onerror", value)
+	return f
+}
+
+/*
+Onhashchange -
+*/
+func (f *FigcaptionTagHtml) Onhashchange(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onhashchange", value)
+	return f
+}
+
+/*
+Onload -
+*/
+func (f *FigcaptionTagHtml) Onload(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onload", value)
+	return f
+}
+
+/*
+Onmessage -
+*/
+func (f *FigcaptionTagHtml) Onmessage(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmessage", value)
+	return f
+}
+
+/*
+Onoffline -
+*/
+func (f *FigcaptionTagHtml) Onoffline(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onoffline", value)
+	return f
+}
+
+/*
+Ononline -
+*/
+func (f *FigcaptionTagHtml) Ononline(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ononline", value)
+	return f
+}
+
+/*
+Onpagehide -
+*/
+func (f *FigcaptionTagHtml) Onpagehide(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onpagehide", value)
+	return f
+}
+
+/*
+Onpageshow -
+*/
+func (f *FigcaptionTagHtml) Onpageshow(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onpageshow", value)
+	return f
+}
+
+/*
+Onpopstate -
+*/
+func (f *FigcaptionTagHtml) Onpopstate(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onpopstate", value)
+	return f
+}
+
+/*
+Onresize -
+*/
+func (f *FigcaptionTagHtml) Onresize(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onresize", value)
+	return f
+}
+
+/*
+Onstorage -
+*/
+func (f *FigcaptionTagHtml) Onstorage(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onstorage", value)
+	return f
+}
+
+/*
+Onunload -
+*/
+func (f *FigcaptionTagHtml) Onunload(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onunload", value)
+	return f
+}
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (f *FigcaptionTagHtml) AccessKey(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("accessKey", value)
+	return f
+}
+
+/*
+Aria -
+*/
+func (f *FigcaptionTagHtml) Aria(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria", value)
+	return f
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (f *FigcaptionTagHtml) Autocapitalize(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("autocapitalize", value)
+	return f
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (f *FigcaptionTagHtml) Autofocus(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("autofocus", value)
+	return f
+}
+
+/*
+Class -
+*/
+func (f *FigcaptionTagHtml) Class(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("class", value)
+	return f
+}
+
+/*
+Contenteditable -
+*/
+func (f *FigcaptionTagHtml) Contenteditable(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("contenteditable", value)
+	return f
+}
+
+/*
+Data -
+*/
+func (f *FigcaptionTagHtml) Data(name, value string) *FigcaptionTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	f.registerAttribute(dataName, value)
+	return f
+}
+
+/*
+Dir -
+*/
+func (f *FigcaptionTagHtml) Dir(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("dir", value)
+	return f
+}
+
+/*
+Draggable -
+*/
+func (f *FigcaptionTagHtml) Draggable(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("draggable", value)
+	return f
+}
+
+/*
+EnterKeyHint -
+*/
+func (f *FigcaptionTagHtml) EnterKeyHint(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("enterKeyHint", value)
+	return f
+}
+
+/*
+ExportParts -
+*/
+func (f *FigcaptionTagHtml) ExportParts(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("exportParts", value)
+	return f
+}
+
+/*
+Hidden -
+*/
+func (f *FigcaptionTagHtml) Hidden(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("hidden", value)
+	return f
+}
+
+/*
+Id -
+*/
+func (f *FigcaptionTagHtml) Id(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("id", value)
+	return f
+}
+
+/*
+Inert -
+*/
+func (f *FigcaptionTagHtml) Inert(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("inert", value)
+	return f
+}
+
+/*
+InputMode -
+*/
+func (f *FigcaptionTagHtml) InputMode(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("inputMode", value)
+	return f
+}
+
+/*
+Is -
+*/
+func (f *FigcaptionTagHtml) Is(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("is", value)
+	return f
+}
+
+/*
+ItemId -
+*/
+func (f *FigcaptionTagHtml) ItemId(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("itemId", value)
+	return f
+}
+
+/*
+ItemProp -
+*/
+func (f *FigcaptionTagHtml) ItemProp(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("itemProp", value)
+	return f
+}
+
+/*
+ItemRef -
+*/
+func (f *FigcaptionTagHtml) ItemRef(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("itemRef", value)
+	return f
+}
+
+/*
+ItemScope -
+*/
+func (f *FigcaptionTagHtml) ItemScope(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("itemScope", value)
+	return f
+}
+
+/*
+ItemType -
+*/
+func (f *FigcaptionTagHtml) ItemType(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("itemType", value)
+	return f
+}
+
+/*
+Lang -
+*/
+func (f *FigcaptionTagHtml) Lang(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("lang", value)
+	return f
+}
+
+/*
+Nonce -
+*/
+func (f *FigcaptionTagHtml) Nonce(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("nonce", value)
+	return f
+}
+
+/*
+Part -
+*/
+func (f *FigcaptionTagHtml) Part(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("part", value)
+	return f
+}
+
+/*
+Popover -
+*/
+func (f *FigcaptionTagHtml) Popover() *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("popover", "")
+	return f
+}
+
+/*
+Role -
+*/
+func (f *FigcaptionTagHtml) Role(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("role", value)
+	return f
+}
+
+/*
+Slot -
+*/
+func (f *FigcaptionTagHtml) Slot(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("slot", value)
+	return f
+}
+
+/*
+Spellcheck -
+*/
+func (f *FigcaptionTagHtml) Spellcheck(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("spellcheck", value)
+	return f
+}
+
+/*
+Style -
+*/
+func (f *FigcaptionTagHtml) Style(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("style", value)
+	return f
+}
+
+/*
+Tabindex -
+*/
+func (f *FigcaptionTagHtml) Tabindex(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("tabindex", value)
+	return f
+}
+
+/*
+Title -
+*/
+func (f *FigcaptionTagHtml) Title(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("title", value)
+	return f
+}
+
+/*
+Translate -
+*/
+func (f *FigcaptionTagHtml) Translate(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("translate", value)
+	return f
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (f *FigcaptionTagHtml) VirtualKeyBoardPolicy(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("virtualKeyBoardPolicy", value)
+	return f
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (f *FigcaptionTagHtml) AriaAtomic(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-atomic", value)
+	return f
+}
+
+/*
+AriaBusy -
+*/
+func (f *FigcaptionTagHtml) AriaBusy(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-busy", value)
+	return f
+}
+
+/*
+AriaControls -
+*/
+func (f *FigcaptionTagHtml) AriaControls(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-controls", value)
+	return f
+}
+
+/*
+AriaCurrent -
+*/
+func (f *FigcaptionTagHtml) AriaCurrent(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-current", value)
+	return f
+}
+
+/*
+AriaDescribedby -
+*/
+func (f *FigcaptionTagHtml) AriaDescribedby(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-describedby", value)
+	return f
+}
+
+/*
+AriaDescription -
+*/
+func (f *FigcaptionTagHtml) AriaDescription(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-description", value)
+	return f
+}
+
+/*
+AriaDetails -
+*/
+func (f *FigcaptionTagHtml) AriaDetails(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-details", value)
+	return f
+}
+
+/*
+AriaDisabled -
+*/
+func (f *FigcaptionTagHtml) AriaDisabled(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-disabled", value)
+	return f
+}
+
+/*
+AriaDropeffect -
+*/
+func (f *FigcaptionTagHtml) AriaDropeffect(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-dropeffect", value)
+	return f
+}
+
+/*
+AriaErrormessage -
+*/
+func (f *FigcaptionTagHtml) AriaErrormessage(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-errormessage", value)
+	return f
+}
+
+/*
+AriaFlowto -
+*/
+func (f *FigcaptionTagHtml) AriaFlowto(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-flowto", value)
+	return f
+}
+
+/*
+AriaGrabbed -
+*/
+func (f *FigcaptionTagHtml) AriaGrabbed(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-grabbed", value)
+	return f
+}
+
+/*
+AriaHaspopup -
+*/
+func (f *FigcaptionTagHtml) AriaHaspopup(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-haspopup", value)
+	return f
+}
+
+/*
+AriaHidden -
+*/
+func (f *FigcaptionTagHtml) AriaHidden(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-hidden", value)
+	return f
+}
+
+/*
+AriaInvalid -
+*/
+func (f *FigcaptionTagHtml) AriaInvalid(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-invalid", value)
+	return f
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (f *FigcaptionTagHtml) AriaKeyshortcuts(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-keyshortcuts", value)
+	return f
+}
+
+/*
+AriaLabel -
+*/
+func (f *FigcaptionTagHtml) AriaLabel(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-label", value)
+	return f
+}
+
+/*
+AriaLabelledby -
+*/
+func (f *FigcaptionTagHtml) AriaLabelledby(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-labelledby", value)
+	return f
+}
+
+/*
+AriaLive -
+*/
+func (f *FigcaptionTagHtml) AriaLive(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-live", value)
+	return f
+}
+
+/*
+AriaOwns -
+*/
+func (f *FigcaptionTagHtml) AriaOwns(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-owns", value)
+	return f
+}
+
+/*
+AriaRelevant -
+*/
+func (f *FigcaptionTagHtml) AriaRelevant(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-relevant", value)
+	return f
+}
+
+/*
+AriaRoledescription -
+*/
+func (f *FigcaptionTagHtml) AriaRoledescription(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("aria-roledescription", value)
+	return f
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (f *FigcaptionTagHtml) Onabort(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onabort", value)
+	return f
+}
+
+/*
+Onautocomplete -
+*/
+func (f *FigcaptionTagHtml) Onautocomplete(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onautocomplete", value)
+	return f
+}
+
+/*
+Onautocompleteerror -
+*/
+func (f *FigcaptionTagHtml) Onautocompleteerror(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onautocompleteerror", value)
+	return f
+}
+
+/*
+Onblur -
+*/
+func (f *FigcaptionTagHtml) Onblur(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onblur", value)
+	return f
+}
+
+/*
+Oncancel -
+*/
+func (f *FigcaptionTagHtml) Oncancel(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oncancel", value)
+	return f
+}
+
+/*
+Oncanplay -
+*/
+func (f *FigcaptionTagHtml) Oncanplay(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oncanplay", value)
+	return f
+}
+
+/*
+Oncanplaythrough -
+*/
+func (f *FigcaptionTagHtml) Oncanplaythrough(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oncanplaythrough", value)
+	return f
+}
+
+/*
+Onchange -
+*/
+func (f *FigcaptionTagHtml) Onchange(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onchange", value)
+	return f
+}
+
+/*
+Onclick -
+*/
+func (f *FigcaptionTagHtml) Onclick(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onclick", value)
+	return f
+}
+
+/*
+Onclose -
+*/
+func (f *FigcaptionTagHtml) Onclose(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onclose", value)
+	return f
+}
+
+/*
+Oncontextmenu -
+*/
+func (f *FigcaptionTagHtml) Oncontextmenu(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oncontextmenu", value)
+	return f
+}
+
+/*
+Oncuechange -
+*/
+func (f *FigcaptionTagHtml) Oncuechange(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oncuechange", value)
+	return f
+}
+
+/*
+Ondblclick -
+*/
+func (f *FigcaptionTagHtml) Ondblclick(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondblclick", value)
+	return f
+}
+
+/*
+Ondrag -
+*/
+func (f *FigcaptionTagHtml) Ondrag(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondrag", value)
+	return f
+}
+
+/*
+Ondragend -
+*/
+func (f *FigcaptionTagHtml) Ondragend(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondragend", value)
+	return f
+}
+
+/*
+Ondragenter -
+*/
+func (f *FigcaptionTagHtml) Ondragenter(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondragenter", value)
+	return f
+}
+
+/*
+Ondragleave -
+*/
+func (f *FigcaptionTagHtml) Ondragleave(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondragleave", value)
+	return f
+}
+
+/*
+Ondragover -
+*/
+func (f *FigcaptionTagHtml) Ondragover(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondragover", value)
+	return f
+}
+
+/*
+Ondragstart -
+*/
+func (f *FigcaptionTagHtml) Ondragstart(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondragstart", value)
+	return f
+}
+
+/*
+Ondrop -
+*/
+func (f *FigcaptionTagHtml) Ondrop(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondrop", value)
+	return f
+}
+
+/*
+Ondurationchange -
+*/
+func (f *FigcaptionTagHtml) Ondurationchange(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ondurationchange", value)
+	return f
+}
+
+/*
+Onemptied -
+*/
+func (f *FigcaptionTagHtml) Onemptied(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onemptied", value)
+	return f
+}
+
+/*
+Onended -
+*/
+func (f *FigcaptionTagHtml) Onended(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onended", value)
+	return f
+}
+
+/*
+Onfocus -
+*/
+func (f *FigcaptionTagHtml) Onfocus(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onfocus", value)
+	return f
+}
+
+/*
+Oninput -
+*/
+func (f *FigcaptionTagHtml) Oninput(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oninput", value)
+	return f
+}
+
+/*
+Oninvalid -
+*/
+func (f *FigcaptionTagHtml) Oninvalid(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("oninvalid", value)
+	return f
+}
+
+/*
+Onkeydown -
+*/
+func (f *FigcaptionTagHtml) Onkeydown(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onkeydown", value)
+	return f
+}
+
+/*
+Onkeypress -
+*/
+func (f *FigcaptionTagHtml) Onkeypress(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onkeypress", value)
+	return f
+}
+
+/*
+Onkeyup -
+*/
+func (f *FigcaptionTagHtml) Onkeyup(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onkeyup", value)
+	return f
+}
+
+/*
+Onloadeddata -
+*/
+func (f *FigcaptionTagHtml) Onloadeddata(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onloadeddata", value)
+	return f
+}
+
+/*
+Onloadedmetadata -
+*/
+func (f *FigcaptionTagHtml) Onloadedmetadata(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onloadedmetadata", value)
+	return f
+}
+
+/*
+Onloadstart -
+*/
+func (f *FigcaptionTagHtml) Onloadstart(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onloadstart", value)
+	return f
+}
+
+/*
+Onmousedown -
+*/
+func (f *FigcaptionTagHtml) Onmousedown(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmousedown", value)
+	return f
+}
+
+/*
+Onmouseenter -
+*/
+func (f *FigcaptionTagHtml) Onmouseenter(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmouseenter", value)
+	return f
+}
+
+/*
+Onmouseleave -
+*/
+func (f *FigcaptionTagHtml) Onmouseleave(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmouseleave", value)
+	return f
+}
+
+/*
+Onmousemove -
+*/
+func (f *FigcaptionTagHtml) Onmousemove(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmousemove", value)
+	return f
+}
+
+/*
+Onmouseout -
+*/
+func (f *FigcaptionTagHtml) Onmouseout(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmouseout", value)
+	return f
+}
+
+/*
+Onmouseover -
+*/
+func (f *FigcaptionTagHtml) Onmouseover(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmouseover", value)
+	return f
+}
+
+/*
+Onmouseup -
+*/
+func (f *FigcaptionTagHtml) Onmouseup(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmouseup", value)
+	return f
+}
+
+/*
+Onmousewheel -
+*/
+func (f *FigcaptionTagHtml) Onmousewheel(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onmousewheel", value)
+	return f
+}
+
+/*
+Onpause -
+*/
+func (f *FigcaptionTagHtml) Onpause(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onpause", value)
+	return f
+}
+
+/*
+Onplay -
+*/
+func (f *FigcaptionTagHtml) Onplay(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onplay", value)
+	return f
+}
+
+/*
+Onplaying -
+*/
+func (f *FigcaptionTagHtml) Onplaying(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onplaying", value)
+	return f
+}
+
+/*
+Onprogress -
+*/
+func (f *FigcaptionTagHtml) Onprogress(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onprogress", value)
+	return f
+}
+
+/*
+Onratechange -
+*/
+func (f *FigcaptionTagHtml) Onratechange(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onratechange", value)
+	return f
+}
+
+/*
+Onreset -
+*/
+func (f *FigcaptionTagHtml) Onreset(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onreset", value)
+	return f
+}
+
+/*
+Onscroll -
+*/
+func (f *FigcaptionTagHtml) Onscroll(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onscroll", value)
+	return f
+}
+
+/*
+Onseeked -
+*/
+func (f *FigcaptionTagHtml) Onseeked(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onseeked", value)
+	return f
+}
+
+/*
+Onseeking -
+*/
+func (f *FigcaptionTagHtml) Onseeking(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onseeking", value)
+	return f
+}
+
+/*
+Onselect -
+*/
+func (f *FigcaptionTagHtml) Onselect(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onselect", value)
+	return f
+}
+
+/*
+Onshow -
+*/
+func (f *FigcaptionTagHtml) Onshow(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onshow", value)
+	return f
+}
+
+/*
+Onsort -
+*/
+func (f *FigcaptionTagHtml) Onsort(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onsort", value)
+	return f
+}
+
+/*
+Onstalled -
+*/
+func (f *FigcaptionTagHtml) Onstalled(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onstalled", value)
+	return f
+}
+
+/*
+Onsubmit -
+*/
+func (f *FigcaptionTagHtml) Onsubmit(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onsubmit", value)
+	return f
+}
+
+/*
+Onsuspend -
+*/
+func (f *FigcaptionTagHtml) Onsuspend(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onsuspend", value)
+	return f
+}
+
+/*
+Ontimeupdate -
+*/
+func (f *FigcaptionTagHtml) Ontimeupdate(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ontimeupdate", value)
+	return f
+}
+
+/*
+Ontoggle -
+*/
+func (f *FigcaptionTagHtml) Ontoggle(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("ontoggle", value)
+	return f
+}
+
+/*
+Onvolumechange -
+*/
+func (f *FigcaptionTagHtml) Onvolumechange(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onvolumechange", value)
+	return f
+}
+
+/*
+Onwaiting -
+*/
+func (f *FigcaptionTagHtml) Onwaiting(value string) *FigcaptionTagHtml {
+	if f.attributes == nil {
+		f.attributes = []*Attribute{}
+	}
+	f.registerAttribute("onwaiting", value)
+	return f
+}

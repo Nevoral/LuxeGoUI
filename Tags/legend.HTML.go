@@ -72,3 +72,1451 @@ func (l *LegendTagHtml) supportedChildrenCheck(tags []any) *LegendTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (l *LegendTagHtml) AccessKey(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("accessKey", value)
+	return l
+}
+
+/*
+Aria -
+*/
+func (l *LegendTagHtml) Aria(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria", value)
+	return l
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (l *LegendTagHtml) Autocapitalize(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("autocapitalize", value)
+	return l
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (l *LegendTagHtml) Autofocus(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("autofocus", value)
+	return l
+}
+
+/*
+Class -
+*/
+func (l *LegendTagHtml) Class(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("class", value)
+	return l
+}
+
+/*
+Contenteditable -
+*/
+func (l *LegendTagHtml) Contenteditable(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("contenteditable", value)
+	return l
+}
+
+/*
+Data -
+*/
+func (l *LegendTagHtml) Data(name, value string) *LegendTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	l.registerAttribute(dataName, value)
+	return l
+}
+
+/*
+Dir -
+*/
+func (l *LegendTagHtml) Dir(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("dir", value)
+	return l
+}
+
+/*
+Draggable -
+*/
+func (l *LegendTagHtml) Draggable(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("draggable", value)
+	return l
+}
+
+/*
+EnterKeyHint -
+*/
+func (l *LegendTagHtml) EnterKeyHint(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("enterKeyHint", value)
+	return l
+}
+
+/*
+ExportParts -
+*/
+func (l *LegendTagHtml) ExportParts(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("exportParts", value)
+	return l
+}
+
+/*
+Hidden -
+*/
+func (l *LegendTagHtml) Hidden(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("hidden", value)
+	return l
+}
+
+/*
+Id -
+*/
+func (l *LegendTagHtml) Id(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("id", value)
+	return l
+}
+
+/*
+Inert -
+*/
+func (l *LegendTagHtml) Inert(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("inert", value)
+	return l
+}
+
+/*
+InputMode -
+*/
+func (l *LegendTagHtml) InputMode(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("inputMode", value)
+	return l
+}
+
+/*
+Is -
+*/
+func (l *LegendTagHtml) Is(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("is", value)
+	return l
+}
+
+/*
+ItemId -
+*/
+func (l *LegendTagHtml) ItemId(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("itemId", value)
+	return l
+}
+
+/*
+ItemProp -
+*/
+func (l *LegendTagHtml) ItemProp(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("itemProp", value)
+	return l
+}
+
+/*
+ItemRef -
+*/
+func (l *LegendTagHtml) ItemRef(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("itemRef", value)
+	return l
+}
+
+/*
+ItemScope -
+*/
+func (l *LegendTagHtml) ItemScope(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("itemScope", value)
+	return l
+}
+
+/*
+ItemType -
+*/
+func (l *LegendTagHtml) ItemType(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("itemType", value)
+	return l
+}
+
+/*
+Lang -
+*/
+func (l *LegendTagHtml) Lang(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("lang", value)
+	return l
+}
+
+/*
+Nonce -
+*/
+func (l *LegendTagHtml) Nonce(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("nonce", value)
+	return l
+}
+
+/*
+Part -
+*/
+func (l *LegendTagHtml) Part(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("part", value)
+	return l
+}
+
+/*
+Popover -
+*/
+func (l *LegendTagHtml) Popover() *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("popover", "")
+	return l
+}
+
+/*
+Role -
+*/
+func (l *LegendTagHtml) Role(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("role", value)
+	return l
+}
+
+/*
+Slot -
+*/
+func (l *LegendTagHtml) Slot(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("slot", value)
+	return l
+}
+
+/*
+Spellcheck -
+*/
+func (l *LegendTagHtml) Spellcheck(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("spellcheck", value)
+	return l
+}
+
+/*
+Style -
+*/
+func (l *LegendTagHtml) Style(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("style", value)
+	return l
+}
+
+/*
+Tabindex -
+*/
+func (l *LegendTagHtml) Tabindex(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("tabindex", value)
+	return l
+}
+
+/*
+Title -
+*/
+func (l *LegendTagHtml) Title(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("title", value)
+	return l
+}
+
+/*
+Translate -
+*/
+func (l *LegendTagHtml) Translate(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("translate", value)
+	return l
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (l *LegendTagHtml) VirtualKeyBoardPolicy(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("virtualKeyBoardPolicy", value)
+	return l
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (l *LegendTagHtml) AriaAtomic(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-atomic", value)
+	return l
+}
+
+/*
+AriaBusy -
+*/
+func (l *LegendTagHtml) AriaBusy(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-busy", value)
+	return l
+}
+
+/*
+AriaControls -
+*/
+func (l *LegendTagHtml) AriaControls(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-controls", value)
+	return l
+}
+
+/*
+AriaCurrent -
+*/
+func (l *LegendTagHtml) AriaCurrent(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-current", value)
+	return l
+}
+
+/*
+AriaDescribedby -
+*/
+func (l *LegendTagHtml) AriaDescribedby(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-describedby", value)
+	return l
+}
+
+/*
+AriaDescription -
+*/
+func (l *LegendTagHtml) AriaDescription(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-description", value)
+	return l
+}
+
+/*
+AriaDetails -
+*/
+func (l *LegendTagHtml) AriaDetails(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-details", value)
+	return l
+}
+
+/*
+AriaDisabled -
+*/
+func (l *LegendTagHtml) AriaDisabled(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-disabled", value)
+	return l
+}
+
+/*
+AriaDropeffect -
+*/
+func (l *LegendTagHtml) AriaDropeffect(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-dropeffect", value)
+	return l
+}
+
+/*
+AriaErrormessage -
+*/
+func (l *LegendTagHtml) AriaErrormessage(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-errormessage", value)
+	return l
+}
+
+/*
+AriaFlowto -
+*/
+func (l *LegendTagHtml) AriaFlowto(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-flowto", value)
+	return l
+}
+
+/*
+AriaGrabbed -
+*/
+func (l *LegendTagHtml) AriaGrabbed(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-grabbed", value)
+	return l
+}
+
+/*
+AriaHaspopup -
+*/
+func (l *LegendTagHtml) AriaHaspopup(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-haspopup", value)
+	return l
+}
+
+/*
+AriaHidden -
+*/
+func (l *LegendTagHtml) AriaHidden(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-hidden", value)
+	return l
+}
+
+/*
+AriaInvalid -
+*/
+func (l *LegendTagHtml) AriaInvalid(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-invalid", value)
+	return l
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (l *LegendTagHtml) AriaKeyshortcuts(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-keyshortcuts", value)
+	return l
+}
+
+/*
+AriaLabel -
+*/
+func (l *LegendTagHtml) AriaLabel(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-label", value)
+	return l
+}
+
+/*
+AriaLabelledby -
+*/
+func (l *LegendTagHtml) AriaLabelledby(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-labelledby", value)
+	return l
+}
+
+/*
+AriaLive -
+*/
+func (l *LegendTagHtml) AriaLive(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-live", value)
+	return l
+}
+
+/*
+AriaOwns -
+*/
+func (l *LegendTagHtml) AriaOwns(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-owns", value)
+	return l
+}
+
+/*
+AriaRelevant -
+*/
+func (l *LegendTagHtml) AriaRelevant(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-relevant", value)
+	return l
+}
+
+/*
+AriaRoledescription -
+*/
+func (l *LegendTagHtml) AriaRoledescription(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("aria-roledescription", value)
+	return l
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (l *LegendTagHtml) Onabort(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onabort", value)
+	return l
+}
+
+/*
+Onautocomplete -
+*/
+func (l *LegendTagHtml) Onautocomplete(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onautocomplete", value)
+	return l
+}
+
+/*
+Onautocompleteerror -
+*/
+func (l *LegendTagHtml) Onautocompleteerror(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onautocompleteerror", value)
+	return l
+}
+
+/*
+Onblur -
+*/
+func (l *LegendTagHtml) Onblur(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onblur", value)
+	return l
+}
+
+/*
+Oncancel -
+*/
+func (l *LegendTagHtml) Oncancel(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("oncancel", value)
+	return l
+}
+
+/*
+Oncanplay -
+*/
+func (l *LegendTagHtml) Oncanplay(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("oncanplay", value)
+	return l
+}
+
+/*
+Oncanplaythrough -
+*/
+func (l *LegendTagHtml) Oncanplaythrough(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("oncanplaythrough", value)
+	return l
+}
+
+/*
+Onchange -
+*/
+func (l *LegendTagHtml) Onchange(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onchange", value)
+	return l
+}
+
+/*
+Onclick -
+*/
+func (l *LegendTagHtml) Onclick(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onclick", value)
+	return l
+}
+
+/*
+Onclose -
+*/
+func (l *LegendTagHtml) Onclose(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onclose", value)
+	return l
+}
+
+/*
+Oncontextmenu -
+*/
+func (l *LegendTagHtml) Oncontextmenu(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("oncontextmenu", value)
+	return l
+}
+
+/*
+Oncuechange -
+*/
+func (l *LegendTagHtml) Oncuechange(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("oncuechange", value)
+	return l
+}
+
+/*
+Ondblclick -
+*/
+func (l *LegendTagHtml) Ondblclick(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("ondblclick", value)
+	return l
+}
+
+/*
+Ondrag -
+*/
+func (l *LegendTagHtml) Ondrag(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("ondrag", value)
+	return l
+}
+
+/*
+Ondragend -
+*/
+func (l *LegendTagHtml) Ondragend(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("ondragend", value)
+	return l
+}
+
+/*
+Ondragenter -
+*/
+func (l *LegendTagHtml) Ondragenter(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("ondragenter", value)
+	return l
+}
+
+/*
+Ondragleave -
+*/
+func (l *LegendTagHtml) Ondragleave(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("ondragleave", value)
+	return l
+}
+
+/*
+Ondragover -
+*/
+func (l *LegendTagHtml) Ondragover(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("ondragover", value)
+	return l
+}
+
+/*
+Ondragstart -
+*/
+func (l *LegendTagHtml) Ondragstart(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("ondragstart", value)
+	return l
+}
+
+/*
+Ondrop -
+*/
+func (l *LegendTagHtml) Ondrop(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("ondrop", value)
+	return l
+}
+
+/*
+Ondurationchange -
+*/
+func (l *LegendTagHtml) Ondurationchange(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("ondurationchange", value)
+	return l
+}
+
+/*
+Onemptied -
+*/
+func (l *LegendTagHtml) Onemptied(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onemptied", value)
+	return l
+}
+
+/*
+Onended -
+*/
+func (l *LegendTagHtml) Onended(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onended", value)
+	return l
+}
+
+/*
+Onfocus -
+*/
+func (l *LegendTagHtml) Onfocus(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onfocus", value)
+	return l
+}
+
+/*
+Oninput -
+*/
+func (l *LegendTagHtml) Oninput(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("oninput", value)
+	return l
+}
+
+/*
+Oninvalid -
+*/
+func (l *LegendTagHtml) Oninvalid(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("oninvalid", value)
+	return l
+}
+
+/*
+Onkeydown -
+*/
+func (l *LegendTagHtml) Onkeydown(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onkeydown", value)
+	return l
+}
+
+/*
+Onkeypress -
+*/
+func (l *LegendTagHtml) Onkeypress(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onkeypress", value)
+	return l
+}
+
+/*
+Onkeyup -
+*/
+func (l *LegendTagHtml) Onkeyup(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onkeyup", value)
+	return l
+}
+
+/*
+Onloadeddata -
+*/
+func (l *LegendTagHtml) Onloadeddata(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onloadeddata", value)
+	return l
+}
+
+/*
+Onloadedmetadata -
+*/
+func (l *LegendTagHtml) Onloadedmetadata(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onloadedmetadata", value)
+	return l
+}
+
+/*
+Onloadstart -
+*/
+func (l *LegendTagHtml) Onloadstart(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onloadstart", value)
+	return l
+}
+
+/*
+Onmousedown -
+*/
+func (l *LegendTagHtml) Onmousedown(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onmousedown", value)
+	return l
+}
+
+/*
+Onmouseenter -
+*/
+func (l *LegendTagHtml) Onmouseenter(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onmouseenter", value)
+	return l
+}
+
+/*
+Onmouseleave -
+*/
+func (l *LegendTagHtml) Onmouseleave(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onmouseleave", value)
+	return l
+}
+
+/*
+Onmousemove -
+*/
+func (l *LegendTagHtml) Onmousemove(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onmousemove", value)
+	return l
+}
+
+/*
+Onmouseout -
+*/
+func (l *LegendTagHtml) Onmouseout(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onmouseout", value)
+	return l
+}
+
+/*
+Onmouseover -
+*/
+func (l *LegendTagHtml) Onmouseover(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onmouseover", value)
+	return l
+}
+
+/*
+Onmouseup -
+*/
+func (l *LegendTagHtml) Onmouseup(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onmouseup", value)
+	return l
+}
+
+/*
+Onmousewheel -
+*/
+func (l *LegendTagHtml) Onmousewheel(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onmousewheel", value)
+	return l
+}
+
+/*
+Onpause -
+*/
+func (l *LegendTagHtml) Onpause(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onpause", value)
+	return l
+}
+
+/*
+Onplay -
+*/
+func (l *LegendTagHtml) Onplay(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onplay", value)
+	return l
+}
+
+/*
+Onplaying -
+*/
+func (l *LegendTagHtml) Onplaying(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onplaying", value)
+	return l
+}
+
+/*
+Onprogress -
+*/
+func (l *LegendTagHtml) Onprogress(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onprogress", value)
+	return l
+}
+
+/*
+Onratechange -
+*/
+func (l *LegendTagHtml) Onratechange(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onratechange", value)
+	return l
+}
+
+/*
+Onreset -
+*/
+func (l *LegendTagHtml) Onreset(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onreset", value)
+	return l
+}
+
+/*
+Onscroll -
+*/
+func (l *LegendTagHtml) Onscroll(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onscroll", value)
+	return l
+}
+
+/*
+Onseeked -
+*/
+func (l *LegendTagHtml) Onseeked(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onseeked", value)
+	return l
+}
+
+/*
+Onseeking -
+*/
+func (l *LegendTagHtml) Onseeking(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onseeking", value)
+	return l
+}
+
+/*
+Onselect -
+*/
+func (l *LegendTagHtml) Onselect(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onselect", value)
+	return l
+}
+
+/*
+Onshow -
+*/
+func (l *LegendTagHtml) Onshow(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onshow", value)
+	return l
+}
+
+/*
+Onsort -
+*/
+func (l *LegendTagHtml) Onsort(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onsort", value)
+	return l
+}
+
+/*
+Onstalled -
+*/
+func (l *LegendTagHtml) Onstalled(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onstalled", value)
+	return l
+}
+
+/*
+Onsubmit -
+*/
+func (l *LegendTagHtml) Onsubmit(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onsubmit", value)
+	return l
+}
+
+/*
+Onsuspend -
+*/
+func (l *LegendTagHtml) Onsuspend(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onsuspend", value)
+	return l
+}
+
+/*
+Ontimeupdate -
+*/
+func (l *LegendTagHtml) Ontimeupdate(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("ontimeupdate", value)
+	return l
+}
+
+/*
+Ontoggle -
+*/
+func (l *LegendTagHtml) Ontoggle(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("ontoggle", value)
+	return l
+}
+
+/*
+Onvolumechange -
+*/
+func (l *LegendTagHtml) Onvolumechange(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onvolumechange", value)
+	return l
+}
+
+/*
+Onwaiting -
+*/
+func (l *LegendTagHtml) Onwaiting(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onwaiting", value)
+	return l
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (l *LegendTagHtml) Onafterprint(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onafterprint", value)
+	return l
+}
+
+/*
+Onbeforeprint -
+*/
+func (l *LegendTagHtml) Onbeforeprint(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onbeforeprint", value)
+	return l
+}
+
+/*
+Onbeforeunload -
+*/
+func (l *LegendTagHtml) Onbeforeunload(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onbeforeunload", value)
+	return l
+}
+
+/*
+Onerror -
+*/
+func (l *LegendTagHtml) Onerror(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onerror", value)
+	return l
+}
+
+/*
+Onhashchange -
+*/
+func (l *LegendTagHtml) Onhashchange(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onhashchange", value)
+	return l
+}
+
+/*
+Onload -
+*/
+func (l *LegendTagHtml) Onload(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onload", value)
+	return l
+}
+
+/*
+Onmessage -
+*/
+func (l *LegendTagHtml) Onmessage(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onmessage", value)
+	return l
+}
+
+/*
+Onoffline -
+*/
+func (l *LegendTagHtml) Onoffline(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onoffline", value)
+	return l
+}
+
+/*
+Ononline -
+*/
+func (l *LegendTagHtml) Ononline(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("ononline", value)
+	return l
+}
+
+/*
+Onpagehide -
+*/
+func (l *LegendTagHtml) Onpagehide(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onpagehide", value)
+	return l
+}
+
+/*
+Onpageshow -
+*/
+func (l *LegendTagHtml) Onpageshow(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onpageshow", value)
+	return l
+}
+
+/*
+Onpopstate -
+*/
+func (l *LegendTagHtml) Onpopstate(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onpopstate", value)
+	return l
+}
+
+/*
+Onresize -
+*/
+func (l *LegendTagHtml) Onresize(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onresize", value)
+	return l
+}
+
+/*
+Onstorage -
+*/
+func (l *LegendTagHtml) Onstorage(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onstorage", value)
+	return l
+}
+
+/*
+Onunload -
+*/
+func (l *LegendTagHtml) Onunload(value string) *LegendTagHtml {
+	if l.attributes == nil {
+		l.attributes = []*Attribute{}
+	}
+	l.registerAttribute("onunload", value)
+	return l
+}

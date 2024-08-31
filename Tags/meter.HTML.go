@@ -150,3 +150,1451 @@ func (m *MeterTagHtml) Value(value string) *MeterTagHtml {
 	m.registerAttribute("value", value)
 	return m
 }
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (m *MeterTagHtml) Onabort(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onabort", value)
+	return m
+}
+
+/*
+Onautocomplete -
+*/
+func (m *MeterTagHtml) Onautocomplete(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onautocomplete", value)
+	return m
+}
+
+/*
+Onautocompleteerror -
+*/
+func (m *MeterTagHtml) Onautocompleteerror(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onautocompleteerror", value)
+	return m
+}
+
+/*
+Onblur -
+*/
+func (m *MeterTagHtml) Onblur(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onblur", value)
+	return m
+}
+
+/*
+Oncancel -
+*/
+func (m *MeterTagHtml) Oncancel(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oncancel", value)
+	return m
+}
+
+/*
+Oncanplay -
+*/
+func (m *MeterTagHtml) Oncanplay(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oncanplay", value)
+	return m
+}
+
+/*
+Oncanplaythrough -
+*/
+func (m *MeterTagHtml) Oncanplaythrough(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oncanplaythrough", value)
+	return m
+}
+
+/*
+Onchange -
+*/
+func (m *MeterTagHtml) Onchange(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onchange", value)
+	return m
+}
+
+/*
+Onclick -
+*/
+func (m *MeterTagHtml) Onclick(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onclick", value)
+	return m
+}
+
+/*
+Onclose -
+*/
+func (m *MeterTagHtml) Onclose(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onclose", value)
+	return m
+}
+
+/*
+Oncontextmenu -
+*/
+func (m *MeterTagHtml) Oncontextmenu(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oncontextmenu", value)
+	return m
+}
+
+/*
+Oncuechange -
+*/
+func (m *MeterTagHtml) Oncuechange(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oncuechange", value)
+	return m
+}
+
+/*
+Ondblclick -
+*/
+func (m *MeterTagHtml) Ondblclick(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondblclick", value)
+	return m
+}
+
+/*
+Ondrag -
+*/
+func (m *MeterTagHtml) Ondrag(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondrag", value)
+	return m
+}
+
+/*
+Ondragend -
+*/
+func (m *MeterTagHtml) Ondragend(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondragend", value)
+	return m
+}
+
+/*
+Ondragenter -
+*/
+func (m *MeterTagHtml) Ondragenter(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondragenter", value)
+	return m
+}
+
+/*
+Ondragleave -
+*/
+func (m *MeterTagHtml) Ondragleave(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondragleave", value)
+	return m
+}
+
+/*
+Ondragover -
+*/
+func (m *MeterTagHtml) Ondragover(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondragover", value)
+	return m
+}
+
+/*
+Ondragstart -
+*/
+func (m *MeterTagHtml) Ondragstart(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondragstart", value)
+	return m
+}
+
+/*
+Ondrop -
+*/
+func (m *MeterTagHtml) Ondrop(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondrop", value)
+	return m
+}
+
+/*
+Ondurationchange -
+*/
+func (m *MeterTagHtml) Ondurationchange(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondurationchange", value)
+	return m
+}
+
+/*
+Onemptied -
+*/
+func (m *MeterTagHtml) Onemptied(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onemptied", value)
+	return m
+}
+
+/*
+Onended -
+*/
+func (m *MeterTagHtml) Onended(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onended", value)
+	return m
+}
+
+/*
+Onfocus -
+*/
+func (m *MeterTagHtml) Onfocus(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onfocus", value)
+	return m
+}
+
+/*
+Oninput -
+*/
+func (m *MeterTagHtml) Oninput(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oninput", value)
+	return m
+}
+
+/*
+Oninvalid -
+*/
+func (m *MeterTagHtml) Oninvalid(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oninvalid", value)
+	return m
+}
+
+/*
+Onkeydown -
+*/
+func (m *MeterTagHtml) Onkeydown(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onkeydown", value)
+	return m
+}
+
+/*
+Onkeypress -
+*/
+func (m *MeterTagHtml) Onkeypress(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onkeypress", value)
+	return m
+}
+
+/*
+Onkeyup -
+*/
+func (m *MeterTagHtml) Onkeyup(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onkeyup", value)
+	return m
+}
+
+/*
+Onloadeddata -
+*/
+func (m *MeterTagHtml) Onloadeddata(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onloadeddata", value)
+	return m
+}
+
+/*
+Onloadedmetadata -
+*/
+func (m *MeterTagHtml) Onloadedmetadata(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onloadedmetadata", value)
+	return m
+}
+
+/*
+Onloadstart -
+*/
+func (m *MeterTagHtml) Onloadstart(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onloadstart", value)
+	return m
+}
+
+/*
+Onmousedown -
+*/
+func (m *MeterTagHtml) Onmousedown(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmousedown", value)
+	return m
+}
+
+/*
+Onmouseenter -
+*/
+func (m *MeterTagHtml) Onmouseenter(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmouseenter", value)
+	return m
+}
+
+/*
+Onmouseleave -
+*/
+func (m *MeterTagHtml) Onmouseleave(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmouseleave", value)
+	return m
+}
+
+/*
+Onmousemove -
+*/
+func (m *MeterTagHtml) Onmousemove(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmousemove", value)
+	return m
+}
+
+/*
+Onmouseout -
+*/
+func (m *MeterTagHtml) Onmouseout(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmouseout", value)
+	return m
+}
+
+/*
+Onmouseover -
+*/
+func (m *MeterTagHtml) Onmouseover(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmouseover", value)
+	return m
+}
+
+/*
+Onmouseup -
+*/
+func (m *MeterTagHtml) Onmouseup(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmouseup", value)
+	return m
+}
+
+/*
+Onmousewheel -
+*/
+func (m *MeterTagHtml) Onmousewheel(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmousewheel", value)
+	return m
+}
+
+/*
+Onpause -
+*/
+func (m *MeterTagHtml) Onpause(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onpause", value)
+	return m
+}
+
+/*
+Onplay -
+*/
+func (m *MeterTagHtml) Onplay(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onplay", value)
+	return m
+}
+
+/*
+Onplaying -
+*/
+func (m *MeterTagHtml) Onplaying(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onplaying", value)
+	return m
+}
+
+/*
+Onprogress -
+*/
+func (m *MeterTagHtml) Onprogress(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onprogress", value)
+	return m
+}
+
+/*
+Onratechange -
+*/
+func (m *MeterTagHtml) Onratechange(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onratechange", value)
+	return m
+}
+
+/*
+Onreset -
+*/
+func (m *MeterTagHtml) Onreset(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onreset", value)
+	return m
+}
+
+/*
+Onscroll -
+*/
+func (m *MeterTagHtml) Onscroll(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onscroll", value)
+	return m
+}
+
+/*
+Onseeked -
+*/
+func (m *MeterTagHtml) Onseeked(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onseeked", value)
+	return m
+}
+
+/*
+Onseeking -
+*/
+func (m *MeterTagHtml) Onseeking(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onseeking", value)
+	return m
+}
+
+/*
+Onselect -
+*/
+func (m *MeterTagHtml) Onselect(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onselect", value)
+	return m
+}
+
+/*
+Onshow -
+*/
+func (m *MeterTagHtml) Onshow(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onshow", value)
+	return m
+}
+
+/*
+Onsort -
+*/
+func (m *MeterTagHtml) Onsort(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onsort", value)
+	return m
+}
+
+/*
+Onstalled -
+*/
+func (m *MeterTagHtml) Onstalled(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onstalled", value)
+	return m
+}
+
+/*
+Onsubmit -
+*/
+func (m *MeterTagHtml) Onsubmit(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onsubmit", value)
+	return m
+}
+
+/*
+Onsuspend -
+*/
+func (m *MeterTagHtml) Onsuspend(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onsuspend", value)
+	return m
+}
+
+/*
+Ontimeupdate -
+*/
+func (m *MeterTagHtml) Ontimeupdate(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ontimeupdate", value)
+	return m
+}
+
+/*
+Ontoggle -
+*/
+func (m *MeterTagHtml) Ontoggle(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ontoggle", value)
+	return m
+}
+
+/*
+Onvolumechange -
+*/
+func (m *MeterTagHtml) Onvolumechange(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onvolumechange", value)
+	return m
+}
+
+/*
+Onwaiting -
+*/
+func (m *MeterTagHtml) Onwaiting(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onwaiting", value)
+	return m
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (m *MeterTagHtml) Onafterprint(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onafterprint", value)
+	return m
+}
+
+/*
+Onbeforeprint -
+*/
+func (m *MeterTagHtml) Onbeforeprint(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onbeforeprint", value)
+	return m
+}
+
+/*
+Onbeforeunload -
+*/
+func (m *MeterTagHtml) Onbeforeunload(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onbeforeunload", value)
+	return m
+}
+
+/*
+Onerror -
+*/
+func (m *MeterTagHtml) Onerror(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onerror", value)
+	return m
+}
+
+/*
+Onhashchange -
+*/
+func (m *MeterTagHtml) Onhashchange(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onhashchange", value)
+	return m
+}
+
+/*
+Onload -
+*/
+func (m *MeterTagHtml) Onload(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onload", value)
+	return m
+}
+
+/*
+Onmessage -
+*/
+func (m *MeterTagHtml) Onmessage(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmessage", value)
+	return m
+}
+
+/*
+Onoffline -
+*/
+func (m *MeterTagHtml) Onoffline(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onoffline", value)
+	return m
+}
+
+/*
+Ononline -
+*/
+func (m *MeterTagHtml) Ononline(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ononline", value)
+	return m
+}
+
+/*
+Onpagehide -
+*/
+func (m *MeterTagHtml) Onpagehide(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onpagehide", value)
+	return m
+}
+
+/*
+Onpageshow -
+*/
+func (m *MeterTagHtml) Onpageshow(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onpageshow", value)
+	return m
+}
+
+/*
+Onpopstate -
+*/
+func (m *MeterTagHtml) Onpopstate(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onpopstate", value)
+	return m
+}
+
+/*
+Onresize -
+*/
+func (m *MeterTagHtml) Onresize(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onresize", value)
+	return m
+}
+
+/*
+Onstorage -
+*/
+func (m *MeterTagHtml) Onstorage(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onstorage", value)
+	return m
+}
+
+/*
+Onunload -
+*/
+func (m *MeterTagHtml) Onunload(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onunload", value)
+	return m
+}
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (m *MeterTagHtml) AccessKey(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("accessKey", value)
+	return m
+}
+
+/*
+Aria -
+*/
+func (m *MeterTagHtml) Aria(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria", value)
+	return m
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (m *MeterTagHtml) Autocapitalize(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("autocapitalize", value)
+	return m
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (m *MeterTagHtml) Autofocus(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("autofocus", value)
+	return m
+}
+
+/*
+Class -
+*/
+func (m *MeterTagHtml) Class(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("class", value)
+	return m
+}
+
+/*
+Contenteditable -
+*/
+func (m *MeterTagHtml) Contenteditable(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("contenteditable", value)
+	return m
+}
+
+/*
+Data -
+*/
+func (m *MeterTagHtml) Data(name, value string) *MeterTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	m.registerAttribute(dataName, value)
+	return m
+}
+
+/*
+Dir -
+*/
+func (m *MeterTagHtml) Dir(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("dir", value)
+	return m
+}
+
+/*
+Draggable -
+*/
+func (m *MeterTagHtml) Draggable(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("draggable", value)
+	return m
+}
+
+/*
+EnterKeyHint -
+*/
+func (m *MeterTagHtml) EnterKeyHint(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("enterKeyHint", value)
+	return m
+}
+
+/*
+ExportParts -
+*/
+func (m *MeterTagHtml) ExportParts(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("exportParts", value)
+	return m
+}
+
+/*
+Hidden -
+*/
+func (m *MeterTagHtml) Hidden(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("hidden", value)
+	return m
+}
+
+/*
+Id -
+*/
+func (m *MeterTagHtml) Id(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("id", value)
+	return m
+}
+
+/*
+Inert -
+*/
+func (m *MeterTagHtml) Inert(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("inert", value)
+	return m
+}
+
+/*
+InputMode -
+*/
+func (m *MeterTagHtml) InputMode(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("inputMode", value)
+	return m
+}
+
+/*
+Is -
+*/
+func (m *MeterTagHtml) Is(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("is", value)
+	return m
+}
+
+/*
+ItemId -
+*/
+func (m *MeterTagHtml) ItemId(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("itemId", value)
+	return m
+}
+
+/*
+ItemProp -
+*/
+func (m *MeterTagHtml) ItemProp(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("itemProp", value)
+	return m
+}
+
+/*
+ItemRef -
+*/
+func (m *MeterTagHtml) ItemRef(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("itemRef", value)
+	return m
+}
+
+/*
+ItemScope -
+*/
+func (m *MeterTagHtml) ItemScope(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("itemScope", value)
+	return m
+}
+
+/*
+ItemType -
+*/
+func (m *MeterTagHtml) ItemType(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("itemType", value)
+	return m
+}
+
+/*
+Lang -
+*/
+func (m *MeterTagHtml) Lang(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("lang", value)
+	return m
+}
+
+/*
+Nonce -
+*/
+func (m *MeterTagHtml) Nonce(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("nonce", value)
+	return m
+}
+
+/*
+Part -
+*/
+func (m *MeterTagHtml) Part(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("part", value)
+	return m
+}
+
+/*
+Popover -
+*/
+func (m *MeterTagHtml) Popover() *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("popover", "")
+	return m
+}
+
+/*
+Role -
+*/
+func (m *MeterTagHtml) Role(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("role", value)
+	return m
+}
+
+/*
+Slot -
+*/
+func (m *MeterTagHtml) Slot(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("slot", value)
+	return m
+}
+
+/*
+Spellcheck -
+*/
+func (m *MeterTagHtml) Spellcheck(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("spellcheck", value)
+	return m
+}
+
+/*
+Style -
+*/
+func (m *MeterTagHtml) Style(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("style", value)
+	return m
+}
+
+/*
+Tabindex -
+*/
+func (m *MeterTagHtml) Tabindex(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("tabindex", value)
+	return m
+}
+
+/*
+Title -
+*/
+func (m *MeterTagHtml) Title(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("title", value)
+	return m
+}
+
+/*
+Translate -
+*/
+func (m *MeterTagHtml) Translate(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("translate", value)
+	return m
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (m *MeterTagHtml) VirtualKeyBoardPolicy(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("virtualKeyBoardPolicy", value)
+	return m
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (m *MeterTagHtml) AriaAtomic(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-atomic", value)
+	return m
+}
+
+/*
+AriaBusy -
+*/
+func (m *MeterTagHtml) AriaBusy(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-busy", value)
+	return m
+}
+
+/*
+AriaControls -
+*/
+func (m *MeterTagHtml) AriaControls(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-controls", value)
+	return m
+}
+
+/*
+AriaCurrent -
+*/
+func (m *MeterTagHtml) AriaCurrent(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-current", value)
+	return m
+}
+
+/*
+AriaDescribedby -
+*/
+func (m *MeterTagHtml) AriaDescribedby(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-describedby", value)
+	return m
+}
+
+/*
+AriaDescription -
+*/
+func (m *MeterTagHtml) AriaDescription(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-description", value)
+	return m
+}
+
+/*
+AriaDetails -
+*/
+func (m *MeterTagHtml) AriaDetails(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-details", value)
+	return m
+}
+
+/*
+AriaDisabled -
+*/
+func (m *MeterTagHtml) AriaDisabled(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-disabled", value)
+	return m
+}
+
+/*
+AriaDropeffect -
+*/
+func (m *MeterTagHtml) AriaDropeffect(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-dropeffect", value)
+	return m
+}
+
+/*
+AriaErrormessage -
+*/
+func (m *MeterTagHtml) AriaErrormessage(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-errormessage", value)
+	return m
+}
+
+/*
+AriaFlowto -
+*/
+func (m *MeterTagHtml) AriaFlowto(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-flowto", value)
+	return m
+}
+
+/*
+AriaGrabbed -
+*/
+func (m *MeterTagHtml) AriaGrabbed(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-grabbed", value)
+	return m
+}
+
+/*
+AriaHaspopup -
+*/
+func (m *MeterTagHtml) AriaHaspopup(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-haspopup", value)
+	return m
+}
+
+/*
+AriaHidden -
+*/
+func (m *MeterTagHtml) AriaHidden(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-hidden", value)
+	return m
+}
+
+/*
+AriaInvalid -
+*/
+func (m *MeterTagHtml) AriaInvalid(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-invalid", value)
+	return m
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (m *MeterTagHtml) AriaKeyshortcuts(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-keyshortcuts", value)
+	return m
+}
+
+/*
+AriaLabel -
+*/
+func (m *MeterTagHtml) AriaLabel(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-label", value)
+	return m
+}
+
+/*
+AriaLabelledby -
+*/
+func (m *MeterTagHtml) AriaLabelledby(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-labelledby", value)
+	return m
+}
+
+/*
+AriaLive -
+*/
+func (m *MeterTagHtml) AriaLive(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-live", value)
+	return m
+}
+
+/*
+AriaOwns -
+*/
+func (m *MeterTagHtml) AriaOwns(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-owns", value)
+	return m
+}
+
+/*
+AriaRelevant -
+*/
+func (m *MeterTagHtml) AriaRelevant(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-relevant", value)
+	return m
+}
+
+/*
+AriaRoledescription -
+*/
+func (m *MeterTagHtml) AriaRoledescription(value string) *MeterTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-roledescription", value)
+	return m
+}

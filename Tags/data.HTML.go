@@ -84,3 +84,1451 @@ func (d *DataTagHtml) Value(value string) *DataTagHtml {
 	d.registerAttribute("value", value)
 	return d
 }
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (d *DataTagHtml) AccessKey(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("accessKey", value)
+	return d
+}
+
+/*
+Aria -
+*/
+func (d *DataTagHtml) Aria(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria", value)
+	return d
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (d *DataTagHtml) Autocapitalize(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("autocapitalize", value)
+	return d
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (d *DataTagHtml) Autofocus(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("autofocus", value)
+	return d
+}
+
+/*
+Class -
+*/
+func (d *DataTagHtml) Class(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("class", value)
+	return d
+}
+
+/*
+Contenteditable -
+*/
+func (d *DataTagHtml) Contenteditable(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("contenteditable", value)
+	return d
+}
+
+/*
+Data -
+*/
+func (d *DataTagHtml) Data(name, value string) *DataTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	d.registerAttribute(dataName, value)
+	return d
+}
+
+/*
+Dir -
+*/
+func (d *DataTagHtml) Dir(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("dir", value)
+	return d
+}
+
+/*
+Draggable -
+*/
+func (d *DataTagHtml) Draggable(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("draggable", value)
+	return d
+}
+
+/*
+EnterKeyHint -
+*/
+func (d *DataTagHtml) EnterKeyHint(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("enterKeyHint", value)
+	return d
+}
+
+/*
+ExportParts -
+*/
+func (d *DataTagHtml) ExportParts(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("exportParts", value)
+	return d
+}
+
+/*
+Hidden -
+*/
+func (d *DataTagHtml) Hidden(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("hidden", value)
+	return d
+}
+
+/*
+Id -
+*/
+func (d *DataTagHtml) Id(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("id", value)
+	return d
+}
+
+/*
+Inert -
+*/
+func (d *DataTagHtml) Inert(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("inert", value)
+	return d
+}
+
+/*
+InputMode -
+*/
+func (d *DataTagHtml) InputMode(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("inputMode", value)
+	return d
+}
+
+/*
+Is -
+*/
+func (d *DataTagHtml) Is(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("is", value)
+	return d
+}
+
+/*
+ItemId -
+*/
+func (d *DataTagHtml) ItemId(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("itemId", value)
+	return d
+}
+
+/*
+ItemProp -
+*/
+func (d *DataTagHtml) ItemProp(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("itemProp", value)
+	return d
+}
+
+/*
+ItemRef -
+*/
+func (d *DataTagHtml) ItemRef(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("itemRef", value)
+	return d
+}
+
+/*
+ItemScope -
+*/
+func (d *DataTagHtml) ItemScope(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("itemScope", value)
+	return d
+}
+
+/*
+ItemType -
+*/
+func (d *DataTagHtml) ItemType(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("itemType", value)
+	return d
+}
+
+/*
+Lang -
+*/
+func (d *DataTagHtml) Lang(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("lang", value)
+	return d
+}
+
+/*
+Nonce -
+*/
+func (d *DataTagHtml) Nonce(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("nonce", value)
+	return d
+}
+
+/*
+Part -
+*/
+func (d *DataTagHtml) Part(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("part", value)
+	return d
+}
+
+/*
+Popover -
+*/
+func (d *DataTagHtml) Popover() *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("popover", "")
+	return d
+}
+
+/*
+Role -
+*/
+func (d *DataTagHtml) Role(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("role", value)
+	return d
+}
+
+/*
+Slot -
+*/
+func (d *DataTagHtml) Slot(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("slot", value)
+	return d
+}
+
+/*
+Spellcheck -
+*/
+func (d *DataTagHtml) Spellcheck(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("spellcheck", value)
+	return d
+}
+
+/*
+Style -
+*/
+func (d *DataTagHtml) Style(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("style", value)
+	return d
+}
+
+/*
+Tabindex -
+*/
+func (d *DataTagHtml) Tabindex(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("tabindex", value)
+	return d
+}
+
+/*
+Title -
+*/
+func (d *DataTagHtml) Title(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("title", value)
+	return d
+}
+
+/*
+Translate -
+*/
+func (d *DataTagHtml) Translate(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("translate", value)
+	return d
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (d *DataTagHtml) VirtualKeyBoardPolicy(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("virtualKeyBoardPolicy", value)
+	return d
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (d *DataTagHtml) AriaAtomic(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-atomic", value)
+	return d
+}
+
+/*
+AriaBusy -
+*/
+func (d *DataTagHtml) AriaBusy(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-busy", value)
+	return d
+}
+
+/*
+AriaControls -
+*/
+func (d *DataTagHtml) AriaControls(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-controls", value)
+	return d
+}
+
+/*
+AriaCurrent -
+*/
+func (d *DataTagHtml) AriaCurrent(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-current", value)
+	return d
+}
+
+/*
+AriaDescribedby -
+*/
+func (d *DataTagHtml) AriaDescribedby(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-describedby", value)
+	return d
+}
+
+/*
+AriaDescription -
+*/
+func (d *DataTagHtml) AriaDescription(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-description", value)
+	return d
+}
+
+/*
+AriaDetails -
+*/
+func (d *DataTagHtml) AriaDetails(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-details", value)
+	return d
+}
+
+/*
+AriaDisabled -
+*/
+func (d *DataTagHtml) AriaDisabled(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-disabled", value)
+	return d
+}
+
+/*
+AriaDropeffect -
+*/
+func (d *DataTagHtml) AriaDropeffect(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-dropeffect", value)
+	return d
+}
+
+/*
+AriaErrormessage -
+*/
+func (d *DataTagHtml) AriaErrormessage(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-errormessage", value)
+	return d
+}
+
+/*
+AriaFlowto -
+*/
+func (d *DataTagHtml) AriaFlowto(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-flowto", value)
+	return d
+}
+
+/*
+AriaGrabbed -
+*/
+func (d *DataTagHtml) AriaGrabbed(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-grabbed", value)
+	return d
+}
+
+/*
+AriaHaspopup -
+*/
+func (d *DataTagHtml) AriaHaspopup(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-haspopup", value)
+	return d
+}
+
+/*
+AriaHidden -
+*/
+func (d *DataTagHtml) AriaHidden(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-hidden", value)
+	return d
+}
+
+/*
+AriaInvalid -
+*/
+func (d *DataTagHtml) AriaInvalid(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-invalid", value)
+	return d
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (d *DataTagHtml) AriaKeyshortcuts(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-keyshortcuts", value)
+	return d
+}
+
+/*
+AriaLabel -
+*/
+func (d *DataTagHtml) AriaLabel(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-label", value)
+	return d
+}
+
+/*
+AriaLabelledby -
+*/
+func (d *DataTagHtml) AriaLabelledby(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-labelledby", value)
+	return d
+}
+
+/*
+AriaLive -
+*/
+func (d *DataTagHtml) AriaLive(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-live", value)
+	return d
+}
+
+/*
+AriaOwns -
+*/
+func (d *DataTagHtml) AriaOwns(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-owns", value)
+	return d
+}
+
+/*
+AriaRelevant -
+*/
+func (d *DataTagHtml) AriaRelevant(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-relevant", value)
+	return d
+}
+
+/*
+AriaRoledescription -
+*/
+func (d *DataTagHtml) AriaRoledescription(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("aria-roledescription", value)
+	return d
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (d *DataTagHtml) Onabort(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onabort", value)
+	return d
+}
+
+/*
+Onautocomplete -
+*/
+func (d *DataTagHtml) Onautocomplete(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onautocomplete", value)
+	return d
+}
+
+/*
+Onautocompleteerror -
+*/
+func (d *DataTagHtml) Onautocompleteerror(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onautocompleteerror", value)
+	return d
+}
+
+/*
+Onblur -
+*/
+func (d *DataTagHtml) Onblur(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onblur", value)
+	return d
+}
+
+/*
+Oncancel -
+*/
+func (d *DataTagHtml) Oncancel(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("oncancel", value)
+	return d
+}
+
+/*
+Oncanplay -
+*/
+func (d *DataTagHtml) Oncanplay(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("oncanplay", value)
+	return d
+}
+
+/*
+Oncanplaythrough -
+*/
+func (d *DataTagHtml) Oncanplaythrough(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("oncanplaythrough", value)
+	return d
+}
+
+/*
+Onchange -
+*/
+func (d *DataTagHtml) Onchange(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onchange", value)
+	return d
+}
+
+/*
+Onclick -
+*/
+func (d *DataTagHtml) Onclick(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onclick", value)
+	return d
+}
+
+/*
+Onclose -
+*/
+func (d *DataTagHtml) Onclose(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onclose", value)
+	return d
+}
+
+/*
+Oncontextmenu -
+*/
+func (d *DataTagHtml) Oncontextmenu(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("oncontextmenu", value)
+	return d
+}
+
+/*
+Oncuechange -
+*/
+func (d *DataTagHtml) Oncuechange(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("oncuechange", value)
+	return d
+}
+
+/*
+Ondblclick -
+*/
+func (d *DataTagHtml) Ondblclick(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("ondblclick", value)
+	return d
+}
+
+/*
+Ondrag -
+*/
+func (d *DataTagHtml) Ondrag(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("ondrag", value)
+	return d
+}
+
+/*
+Ondragend -
+*/
+func (d *DataTagHtml) Ondragend(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("ondragend", value)
+	return d
+}
+
+/*
+Ondragenter -
+*/
+func (d *DataTagHtml) Ondragenter(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("ondragenter", value)
+	return d
+}
+
+/*
+Ondragleave -
+*/
+func (d *DataTagHtml) Ondragleave(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("ondragleave", value)
+	return d
+}
+
+/*
+Ondragover -
+*/
+func (d *DataTagHtml) Ondragover(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("ondragover", value)
+	return d
+}
+
+/*
+Ondragstart -
+*/
+func (d *DataTagHtml) Ondragstart(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("ondragstart", value)
+	return d
+}
+
+/*
+Ondrop -
+*/
+func (d *DataTagHtml) Ondrop(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("ondrop", value)
+	return d
+}
+
+/*
+Ondurationchange -
+*/
+func (d *DataTagHtml) Ondurationchange(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("ondurationchange", value)
+	return d
+}
+
+/*
+Onemptied -
+*/
+func (d *DataTagHtml) Onemptied(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onemptied", value)
+	return d
+}
+
+/*
+Onended -
+*/
+func (d *DataTagHtml) Onended(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onended", value)
+	return d
+}
+
+/*
+Onfocus -
+*/
+func (d *DataTagHtml) Onfocus(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onfocus", value)
+	return d
+}
+
+/*
+Oninput -
+*/
+func (d *DataTagHtml) Oninput(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("oninput", value)
+	return d
+}
+
+/*
+Oninvalid -
+*/
+func (d *DataTagHtml) Oninvalid(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("oninvalid", value)
+	return d
+}
+
+/*
+Onkeydown -
+*/
+func (d *DataTagHtml) Onkeydown(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onkeydown", value)
+	return d
+}
+
+/*
+Onkeypress -
+*/
+func (d *DataTagHtml) Onkeypress(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onkeypress", value)
+	return d
+}
+
+/*
+Onkeyup -
+*/
+func (d *DataTagHtml) Onkeyup(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onkeyup", value)
+	return d
+}
+
+/*
+Onloadeddata -
+*/
+func (d *DataTagHtml) Onloadeddata(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onloadeddata", value)
+	return d
+}
+
+/*
+Onloadedmetadata -
+*/
+func (d *DataTagHtml) Onloadedmetadata(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onloadedmetadata", value)
+	return d
+}
+
+/*
+Onloadstart -
+*/
+func (d *DataTagHtml) Onloadstart(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onloadstart", value)
+	return d
+}
+
+/*
+Onmousedown -
+*/
+func (d *DataTagHtml) Onmousedown(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onmousedown", value)
+	return d
+}
+
+/*
+Onmouseenter -
+*/
+func (d *DataTagHtml) Onmouseenter(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onmouseenter", value)
+	return d
+}
+
+/*
+Onmouseleave -
+*/
+func (d *DataTagHtml) Onmouseleave(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onmouseleave", value)
+	return d
+}
+
+/*
+Onmousemove -
+*/
+func (d *DataTagHtml) Onmousemove(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onmousemove", value)
+	return d
+}
+
+/*
+Onmouseout -
+*/
+func (d *DataTagHtml) Onmouseout(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onmouseout", value)
+	return d
+}
+
+/*
+Onmouseover -
+*/
+func (d *DataTagHtml) Onmouseover(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onmouseover", value)
+	return d
+}
+
+/*
+Onmouseup -
+*/
+func (d *DataTagHtml) Onmouseup(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onmouseup", value)
+	return d
+}
+
+/*
+Onmousewheel -
+*/
+func (d *DataTagHtml) Onmousewheel(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onmousewheel", value)
+	return d
+}
+
+/*
+Onpause -
+*/
+func (d *DataTagHtml) Onpause(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onpause", value)
+	return d
+}
+
+/*
+Onplay -
+*/
+func (d *DataTagHtml) Onplay(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onplay", value)
+	return d
+}
+
+/*
+Onplaying -
+*/
+func (d *DataTagHtml) Onplaying(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onplaying", value)
+	return d
+}
+
+/*
+Onprogress -
+*/
+func (d *DataTagHtml) Onprogress(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onprogress", value)
+	return d
+}
+
+/*
+Onratechange -
+*/
+func (d *DataTagHtml) Onratechange(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onratechange", value)
+	return d
+}
+
+/*
+Onreset -
+*/
+func (d *DataTagHtml) Onreset(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onreset", value)
+	return d
+}
+
+/*
+Onscroll -
+*/
+func (d *DataTagHtml) Onscroll(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onscroll", value)
+	return d
+}
+
+/*
+Onseeked -
+*/
+func (d *DataTagHtml) Onseeked(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onseeked", value)
+	return d
+}
+
+/*
+Onseeking -
+*/
+func (d *DataTagHtml) Onseeking(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onseeking", value)
+	return d
+}
+
+/*
+Onselect -
+*/
+func (d *DataTagHtml) Onselect(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onselect", value)
+	return d
+}
+
+/*
+Onshow -
+*/
+func (d *DataTagHtml) Onshow(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onshow", value)
+	return d
+}
+
+/*
+Onsort -
+*/
+func (d *DataTagHtml) Onsort(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onsort", value)
+	return d
+}
+
+/*
+Onstalled -
+*/
+func (d *DataTagHtml) Onstalled(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onstalled", value)
+	return d
+}
+
+/*
+Onsubmit -
+*/
+func (d *DataTagHtml) Onsubmit(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onsubmit", value)
+	return d
+}
+
+/*
+Onsuspend -
+*/
+func (d *DataTagHtml) Onsuspend(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onsuspend", value)
+	return d
+}
+
+/*
+Ontimeupdate -
+*/
+func (d *DataTagHtml) Ontimeupdate(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("ontimeupdate", value)
+	return d
+}
+
+/*
+Ontoggle -
+*/
+func (d *DataTagHtml) Ontoggle(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("ontoggle", value)
+	return d
+}
+
+/*
+Onvolumechange -
+*/
+func (d *DataTagHtml) Onvolumechange(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onvolumechange", value)
+	return d
+}
+
+/*
+Onwaiting -
+*/
+func (d *DataTagHtml) Onwaiting(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onwaiting", value)
+	return d
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (d *DataTagHtml) Onafterprint(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onafterprint", value)
+	return d
+}
+
+/*
+Onbeforeprint -
+*/
+func (d *DataTagHtml) Onbeforeprint(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onbeforeprint", value)
+	return d
+}
+
+/*
+Onbeforeunload -
+*/
+func (d *DataTagHtml) Onbeforeunload(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onbeforeunload", value)
+	return d
+}
+
+/*
+Onerror -
+*/
+func (d *DataTagHtml) Onerror(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onerror", value)
+	return d
+}
+
+/*
+Onhashchange -
+*/
+func (d *DataTagHtml) Onhashchange(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onhashchange", value)
+	return d
+}
+
+/*
+Onload -
+*/
+func (d *DataTagHtml) Onload(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onload", value)
+	return d
+}
+
+/*
+Onmessage -
+*/
+func (d *DataTagHtml) Onmessage(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onmessage", value)
+	return d
+}
+
+/*
+Onoffline -
+*/
+func (d *DataTagHtml) Onoffline(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onoffline", value)
+	return d
+}
+
+/*
+Ononline -
+*/
+func (d *DataTagHtml) Ononline(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("ononline", value)
+	return d
+}
+
+/*
+Onpagehide -
+*/
+func (d *DataTagHtml) Onpagehide(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onpagehide", value)
+	return d
+}
+
+/*
+Onpageshow -
+*/
+func (d *DataTagHtml) Onpageshow(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onpageshow", value)
+	return d
+}
+
+/*
+Onpopstate -
+*/
+func (d *DataTagHtml) Onpopstate(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onpopstate", value)
+	return d
+}
+
+/*
+Onresize -
+*/
+func (d *DataTagHtml) Onresize(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onresize", value)
+	return d
+}
+
+/*
+Onstorage -
+*/
+func (d *DataTagHtml) Onstorage(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onstorage", value)
+	return d
+}
+
+/*
+Onunload -
+*/
+func (d *DataTagHtml) Onunload(value string) *DataTagHtml {
+	if d.attributes == nil {
+		d.attributes = []*Attribute{}
+	}
+	d.registerAttribute("onunload", value)
+	return d
+}

@@ -83,3 +83,1451 @@ func (m *MapTagHtml) Name(value string) *MapTagHtml {
 	m.registerAttribute("name", value)
 	return m
 }
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (m *MapTagHtml) AccessKey(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("accessKey", value)
+	return m
+}
+
+/*
+Aria -
+*/
+func (m *MapTagHtml) Aria(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria", value)
+	return m
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (m *MapTagHtml) Autocapitalize(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("autocapitalize", value)
+	return m
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (m *MapTagHtml) Autofocus(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("autofocus", value)
+	return m
+}
+
+/*
+Class -
+*/
+func (m *MapTagHtml) Class(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("class", value)
+	return m
+}
+
+/*
+Contenteditable -
+*/
+func (m *MapTagHtml) Contenteditable(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("contenteditable", value)
+	return m
+}
+
+/*
+Data -
+*/
+func (m *MapTagHtml) Data(name, value string) *MapTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	m.registerAttribute(dataName, value)
+	return m
+}
+
+/*
+Dir -
+*/
+func (m *MapTagHtml) Dir(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("dir", value)
+	return m
+}
+
+/*
+Draggable -
+*/
+func (m *MapTagHtml) Draggable(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("draggable", value)
+	return m
+}
+
+/*
+EnterKeyHint -
+*/
+func (m *MapTagHtml) EnterKeyHint(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("enterKeyHint", value)
+	return m
+}
+
+/*
+ExportParts -
+*/
+func (m *MapTagHtml) ExportParts(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("exportParts", value)
+	return m
+}
+
+/*
+Hidden -
+*/
+func (m *MapTagHtml) Hidden(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("hidden", value)
+	return m
+}
+
+/*
+Id -
+*/
+func (m *MapTagHtml) Id(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("id", value)
+	return m
+}
+
+/*
+Inert -
+*/
+func (m *MapTagHtml) Inert(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("inert", value)
+	return m
+}
+
+/*
+InputMode -
+*/
+func (m *MapTagHtml) InputMode(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("inputMode", value)
+	return m
+}
+
+/*
+Is -
+*/
+func (m *MapTagHtml) Is(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("is", value)
+	return m
+}
+
+/*
+ItemId -
+*/
+func (m *MapTagHtml) ItemId(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("itemId", value)
+	return m
+}
+
+/*
+ItemProp -
+*/
+func (m *MapTagHtml) ItemProp(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("itemProp", value)
+	return m
+}
+
+/*
+ItemRef -
+*/
+func (m *MapTagHtml) ItemRef(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("itemRef", value)
+	return m
+}
+
+/*
+ItemScope -
+*/
+func (m *MapTagHtml) ItemScope(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("itemScope", value)
+	return m
+}
+
+/*
+ItemType -
+*/
+func (m *MapTagHtml) ItemType(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("itemType", value)
+	return m
+}
+
+/*
+Lang -
+*/
+func (m *MapTagHtml) Lang(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("lang", value)
+	return m
+}
+
+/*
+Nonce -
+*/
+func (m *MapTagHtml) Nonce(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("nonce", value)
+	return m
+}
+
+/*
+Part -
+*/
+func (m *MapTagHtml) Part(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("part", value)
+	return m
+}
+
+/*
+Popover -
+*/
+func (m *MapTagHtml) Popover() *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("popover", "")
+	return m
+}
+
+/*
+Role -
+*/
+func (m *MapTagHtml) Role(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("role", value)
+	return m
+}
+
+/*
+Slot -
+*/
+func (m *MapTagHtml) Slot(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("slot", value)
+	return m
+}
+
+/*
+Spellcheck -
+*/
+func (m *MapTagHtml) Spellcheck(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("spellcheck", value)
+	return m
+}
+
+/*
+Style -
+*/
+func (m *MapTagHtml) Style(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("style", value)
+	return m
+}
+
+/*
+Tabindex -
+*/
+func (m *MapTagHtml) Tabindex(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("tabindex", value)
+	return m
+}
+
+/*
+Title -
+*/
+func (m *MapTagHtml) Title(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("title", value)
+	return m
+}
+
+/*
+Translate -
+*/
+func (m *MapTagHtml) Translate(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("translate", value)
+	return m
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (m *MapTagHtml) VirtualKeyBoardPolicy(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("virtualKeyBoardPolicy", value)
+	return m
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (m *MapTagHtml) AriaAtomic(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-atomic", value)
+	return m
+}
+
+/*
+AriaBusy -
+*/
+func (m *MapTagHtml) AriaBusy(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-busy", value)
+	return m
+}
+
+/*
+AriaControls -
+*/
+func (m *MapTagHtml) AriaControls(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-controls", value)
+	return m
+}
+
+/*
+AriaCurrent -
+*/
+func (m *MapTagHtml) AriaCurrent(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-current", value)
+	return m
+}
+
+/*
+AriaDescribedby -
+*/
+func (m *MapTagHtml) AriaDescribedby(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-describedby", value)
+	return m
+}
+
+/*
+AriaDescription -
+*/
+func (m *MapTagHtml) AriaDescription(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-description", value)
+	return m
+}
+
+/*
+AriaDetails -
+*/
+func (m *MapTagHtml) AriaDetails(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-details", value)
+	return m
+}
+
+/*
+AriaDisabled -
+*/
+func (m *MapTagHtml) AriaDisabled(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-disabled", value)
+	return m
+}
+
+/*
+AriaDropeffect -
+*/
+func (m *MapTagHtml) AriaDropeffect(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-dropeffect", value)
+	return m
+}
+
+/*
+AriaErrormessage -
+*/
+func (m *MapTagHtml) AriaErrormessage(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-errormessage", value)
+	return m
+}
+
+/*
+AriaFlowto -
+*/
+func (m *MapTagHtml) AriaFlowto(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-flowto", value)
+	return m
+}
+
+/*
+AriaGrabbed -
+*/
+func (m *MapTagHtml) AriaGrabbed(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-grabbed", value)
+	return m
+}
+
+/*
+AriaHaspopup -
+*/
+func (m *MapTagHtml) AriaHaspopup(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-haspopup", value)
+	return m
+}
+
+/*
+AriaHidden -
+*/
+func (m *MapTagHtml) AriaHidden(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-hidden", value)
+	return m
+}
+
+/*
+AriaInvalid -
+*/
+func (m *MapTagHtml) AriaInvalid(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-invalid", value)
+	return m
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (m *MapTagHtml) AriaKeyshortcuts(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-keyshortcuts", value)
+	return m
+}
+
+/*
+AriaLabel -
+*/
+func (m *MapTagHtml) AriaLabel(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-label", value)
+	return m
+}
+
+/*
+AriaLabelledby -
+*/
+func (m *MapTagHtml) AriaLabelledby(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-labelledby", value)
+	return m
+}
+
+/*
+AriaLive -
+*/
+func (m *MapTagHtml) AriaLive(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-live", value)
+	return m
+}
+
+/*
+AriaOwns -
+*/
+func (m *MapTagHtml) AriaOwns(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-owns", value)
+	return m
+}
+
+/*
+AriaRelevant -
+*/
+func (m *MapTagHtml) AriaRelevant(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-relevant", value)
+	return m
+}
+
+/*
+AriaRoledescription -
+*/
+func (m *MapTagHtml) AriaRoledescription(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("aria-roledescription", value)
+	return m
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (m *MapTagHtml) Onabort(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onabort", value)
+	return m
+}
+
+/*
+Onautocomplete -
+*/
+func (m *MapTagHtml) Onautocomplete(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onautocomplete", value)
+	return m
+}
+
+/*
+Onautocompleteerror -
+*/
+func (m *MapTagHtml) Onautocompleteerror(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onautocompleteerror", value)
+	return m
+}
+
+/*
+Onblur -
+*/
+func (m *MapTagHtml) Onblur(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onblur", value)
+	return m
+}
+
+/*
+Oncancel -
+*/
+func (m *MapTagHtml) Oncancel(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oncancel", value)
+	return m
+}
+
+/*
+Oncanplay -
+*/
+func (m *MapTagHtml) Oncanplay(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oncanplay", value)
+	return m
+}
+
+/*
+Oncanplaythrough -
+*/
+func (m *MapTagHtml) Oncanplaythrough(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oncanplaythrough", value)
+	return m
+}
+
+/*
+Onchange -
+*/
+func (m *MapTagHtml) Onchange(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onchange", value)
+	return m
+}
+
+/*
+Onclick -
+*/
+func (m *MapTagHtml) Onclick(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onclick", value)
+	return m
+}
+
+/*
+Onclose -
+*/
+func (m *MapTagHtml) Onclose(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onclose", value)
+	return m
+}
+
+/*
+Oncontextmenu -
+*/
+func (m *MapTagHtml) Oncontextmenu(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oncontextmenu", value)
+	return m
+}
+
+/*
+Oncuechange -
+*/
+func (m *MapTagHtml) Oncuechange(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oncuechange", value)
+	return m
+}
+
+/*
+Ondblclick -
+*/
+func (m *MapTagHtml) Ondblclick(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondblclick", value)
+	return m
+}
+
+/*
+Ondrag -
+*/
+func (m *MapTagHtml) Ondrag(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondrag", value)
+	return m
+}
+
+/*
+Ondragend -
+*/
+func (m *MapTagHtml) Ondragend(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondragend", value)
+	return m
+}
+
+/*
+Ondragenter -
+*/
+func (m *MapTagHtml) Ondragenter(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondragenter", value)
+	return m
+}
+
+/*
+Ondragleave -
+*/
+func (m *MapTagHtml) Ondragleave(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondragleave", value)
+	return m
+}
+
+/*
+Ondragover -
+*/
+func (m *MapTagHtml) Ondragover(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondragover", value)
+	return m
+}
+
+/*
+Ondragstart -
+*/
+func (m *MapTagHtml) Ondragstart(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondragstart", value)
+	return m
+}
+
+/*
+Ondrop -
+*/
+func (m *MapTagHtml) Ondrop(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondrop", value)
+	return m
+}
+
+/*
+Ondurationchange -
+*/
+func (m *MapTagHtml) Ondurationchange(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ondurationchange", value)
+	return m
+}
+
+/*
+Onemptied -
+*/
+func (m *MapTagHtml) Onemptied(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onemptied", value)
+	return m
+}
+
+/*
+Onended -
+*/
+func (m *MapTagHtml) Onended(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onended", value)
+	return m
+}
+
+/*
+Onfocus -
+*/
+func (m *MapTagHtml) Onfocus(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onfocus", value)
+	return m
+}
+
+/*
+Oninput -
+*/
+func (m *MapTagHtml) Oninput(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oninput", value)
+	return m
+}
+
+/*
+Oninvalid -
+*/
+func (m *MapTagHtml) Oninvalid(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("oninvalid", value)
+	return m
+}
+
+/*
+Onkeydown -
+*/
+func (m *MapTagHtml) Onkeydown(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onkeydown", value)
+	return m
+}
+
+/*
+Onkeypress -
+*/
+func (m *MapTagHtml) Onkeypress(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onkeypress", value)
+	return m
+}
+
+/*
+Onkeyup -
+*/
+func (m *MapTagHtml) Onkeyup(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onkeyup", value)
+	return m
+}
+
+/*
+Onloadeddata -
+*/
+func (m *MapTagHtml) Onloadeddata(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onloadeddata", value)
+	return m
+}
+
+/*
+Onloadedmetadata -
+*/
+func (m *MapTagHtml) Onloadedmetadata(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onloadedmetadata", value)
+	return m
+}
+
+/*
+Onloadstart -
+*/
+func (m *MapTagHtml) Onloadstart(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onloadstart", value)
+	return m
+}
+
+/*
+Onmousedown -
+*/
+func (m *MapTagHtml) Onmousedown(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmousedown", value)
+	return m
+}
+
+/*
+Onmouseenter -
+*/
+func (m *MapTagHtml) Onmouseenter(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmouseenter", value)
+	return m
+}
+
+/*
+Onmouseleave -
+*/
+func (m *MapTagHtml) Onmouseleave(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmouseleave", value)
+	return m
+}
+
+/*
+Onmousemove -
+*/
+func (m *MapTagHtml) Onmousemove(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmousemove", value)
+	return m
+}
+
+/*
+Onmouseout -
+*/
+func (m *MapTagHtml) Onmouseout(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmouseout", value)
+	return m
+}
+
+/*
+Onmouseover -
+*/
+func (m *MapTagHtml) Onmouseover(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmouseover", value)
+	return m
+}
+
+/*
+Onmouseup -
+*/
+func (m *MapTagHtml) Onmouseup(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmouseup", value)
+	return m
+}
+
+/*
+Onmousewheel -
+*/
+func (m *MapTagHtml) Onmousewheel(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmousewheel", value)
+	return m
+}
+
+/*
+Onpause -
+*/
+func (m *MapTagHtml) Onpause(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onpause", value)
+	return m
+}
+
+/*
+Onplay -
+*/
+func (m *MapTagHtml) Onplay(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onplay", value)
+	return m
+}
+
+/*
+Onplaying -
+*/
+func (m *MapTagHtml) Onplaying(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onplaying", value)
+	return m
+}
+
+/*
+Onprogress -
+*/
+func (m *MapTagHtml) Onprogress(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onprogress", value)
+	return m
+}
+
+/*
+Onratechange -
+*/
+func (m *MapTagHtml) Onratechange(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onratechange", value)
+	return m
+}
+
+/*
+Onreset -
+*/
+func (m *MapTagHtml) Onreset(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onreset", value)
+	return m
+}
+
+/*
+Onscroll -
+*/
+func (m *MapTagHtml) Onscroll(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onscroll", value)
+	return m
+}
+
+/*
+Onseeked -
+*/
+func (m *MapTagHtml) Onseeked(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onseeked", value)
+	return m
+}
+
+/*
+Onseeking -
+*/
+func (m *MapTagHtml) Onseeking(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onseeking", value)
+	return m
+}
+
+/*
+Onselect -
+*/
+func (m *MapTagHtml) Onselect(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onselect", value)
+	return m
+}
+
+/*
+Onshow -
+*/
+func (m *MapTagHtml) Onshow(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onshow", value)
+	return m
+}
+
+/*
+Onsort -
+*/
+func (m *MapTagHtml) Onsort(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onsort", value)
+	return m
+}
+
+/*
+Onstalled -
+*/
+func (m *MapTagHtml) Onstalled(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onstalled", value)
+	return m
+}
+
+/*
+Onsubmit -
+*/
+func (m *MapTagHtml) Onsubmit(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onsubmit", value)
+	return m
+}
+
+/*
+Onsuspend -
+*/
+func (m *MapTagHtml) Onsuspend(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onsuspend", value)
+	return m
+}
+
+/*
+Ontimeupdate -
+*/
+func (m *MapTagHtml) Ontimeupdate(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ontimeupdate", value)
+	return m
+}
+
+/*
+Ontoggle -
+*/
+func (m *MapTagHtml) Ontoggle(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ontoggle", value)
+	return m
+}
+
+/*
+Onvolumechange -
+*/
+func (m *MapTagHtml) Onvolumechange(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onvolumechange", value)
+	return m
+}
+
+/*
+Onwaiting -
+*/
+func (m *MapTagHtml) Onwaiting(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onwaiting", value)
+	return m
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (m *MapTagHtml) Onafterprint(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onafterprint", value)
+	return m
+}
+
+/*
+Onbeforeprint -
+*/
+func (m *MapTagHtml) Onbeforeprint(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onbeforeprint", value)
+	return m
+}
+
+/*
+Onbeforeunload -
+*/
+func (m *MapTagHtml) Onbeforeunload(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onbeforeunload", value)
+	return m
+}
+
+/*
+Onerror -
+*/
+func (m *MapTagHtml) Onerror(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onerror", value)
+	return m
+}
+
+/*
+Onhashchange -
+*/
+func (m *MapTagHtml) Onhashchange(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onhashchange", value)
+	return m
+}
+
+/*
+Onload -
+*/
+func (m *MapTagHtml) Onload(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onload", value)
+	return m
+}
+
+/*
+Onmessage -
+*/
+func (m *MapTagHtml) Onmessage(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onmessage", value)
+	return m
+}
+
+/*
+Onoffline -
+*/
+func (m *MapTagHtml) Onoffline(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onoffline", value)
+	return m
+}
+
+/*
+Ononline -
+*/
+func (m *MapTagHtml) Ononline(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("ononline", value)
+	return m
+}
+
+/*
+Onpagehide -
+*/
+func (m *MapTagHtml) Onpagehide(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onpagehide", value)
+	return m
+}
+
+/*
+Onpageshow -
+*/
+func (m *MapTagHtml) Onpageshow(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onpageshow", value)
+	return m
+}
+
+/*
+Onpopstate -
+*/
+func (m *MapTagHtml) Onpopstate(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onpopstate", value)
+	return m
+}
+
+/*
+Onresize -
+*/
+func (m *MapTagHtml) Onresize(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onresize", value)
+	return m
+}
+
+/*
+Onstorage -
+*/
+func (m *MapTagHtml) Onstorage(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onstorage", value)
+	return m
+}
+
+/*
+Onunload -
+*/
+func (m *MapTagHtml) Onunload(value string) *MapTagHtml {
+	if m.attributes == nil {
+		m.attributes = []*Attribute{}
+	}
+	m.registerAttribute("onunload", value)
+	return m
+}

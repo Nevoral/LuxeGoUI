@@ -72,3 +72,1451 @@ func (a *AbbrTagHtml) supportedChildrenCheck(tags []any) *AbbrTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (a *AbbrTagHtml) AccessKey(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("accessKey", value)
+	return a
+}
+
+/*
+Aria -
+*/
+func (a *AbbrTagHtml) Aria(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria", value)
+	return a
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (a *AbbrTagHtml) Autocapitalize(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("autocapitalize", value)
+	return a
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (a *AbbrTagHtml) Autofocus(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("autofocus", value)
+	return a
+}
+
+/*
+Class -
+*/
+func (a *AbbrTagHtml) Class(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("class", value)
+	return a
+}
+
+/*
+Contenteditable -
+*/
+func (a *AbbrTagHtml) Contenteditable(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("contenteditable", value)
+	return a
+}
+
+/*
+Data -
+*/
+func (a *AbbrTagHtml) Data(name, value string) *AbbrTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	a.registerAttribute(dataName, value)
+	return a
+}
+
+/*
+Dir -
+*/
+func (a *AbbrTagHtml) Dir(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("dir", value)
+	return a
+}
+
+/*
+Draggable -
+*/
+func (a *AbbrTagHtml) Draggable(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("draggable", value)
+	return a
+}
+
+/*
+EnterKeyHint -
+*/
+func (a *AbbrTagHtml) EnterKeyHint(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("enterKeyHint", value)
+	return a
+}
+
+/*
+ExportParts -
+*/
+func (a *AbbrTagHtml) ExportParts(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("exportParts", value)
+	return a
+}
+
+/*
+Hidden -
+*/
+func (a *AbbrTagHtml) Hidden(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("hidden", value)
+	return a
+}
+
+/*
+Id -
+*/
+func (a *AbbrTagHtml) Id(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("id", value)
+	return a
+}
+
+/*
+Inert -
+*/
+func (a *AbbrTagHtml) Inert(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("inert", value)
+	return a
+}
+
+/*
+InputMode -
+*/
+func (a *AbbrTagHtml) InputMode(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("inputMode", value)
+	return a
+}
+
+/*
+Is -
+*/
+func (a *AbbrTagHtml) Is(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("is", value)
+	return a
+}
+
+/*
+ItemId -
+*/
+func (a *AbbrTagHtml) ItemId(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("itemId", value)
+	return a
+}
+
+/*
+ItemProp -
+*/
+func (a *AbbrTagHtml) ItemProp(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("itemProp", value)
+	return a
+}
+
+/*
+ItemRef -
+*/
+func (a *AbbrTagHtml) ItemRef(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("itemRef", value)
+	return a
+}
+
+/*
+ItemScope -
+*/
+func (a *AbbrTagHtml) ItemScope(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("itemScope", value)
+	return a
+}
+
+/*
+ItemType -
+*/
+func (a *AbbrTagHtml) ItemType(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("itemType", value)
+	return a
+}
+
+/*
+Lang -
+*/
+func (a *AbbrTagHtml) Lang(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("lang", value)
+	return a
+}
+
+/*
+Nonce -
+*/
+func (a *AbbrTagHtml) Nonce(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("nonce", value)
+	return a
+}
+
+/*
+Part -
+*/
+func (a *AbbrTagHtml) Part(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("part", value)
+	return a
+}
+
+/*
+Popover -
+*/
+func (a *AbbrTagHtml) Popover() *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("popover", "")
+	return a
+}
+
+/*
+Role -
+*/
+func (a *AbbrTagHtml) Role(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("role", value)
+	return a
+}
+
+/*
+Slot -
+*/
+func (a *AbbrTagHtml) Slot(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("slot", value)
+	return a
+}
+
+/*
+Spellcheck -
+*/
+func (a *AbbrTagHtml) Spellcheck(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("spellcheck", value)
+	return a
+}
+
+/*
+Style -
+*/
+func (a *AbbrTagHtml) Style(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("style", value)
+	return a
+}
+
+/*
+Tabindex -
+*/
+func (a *AbbrTagHtml) Tabindex(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("tabindex", value)
+	return a
+}
+
+/*
+Title -
+*/
+func (a *AbbrTagHtml) Title(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("title", value)
+	return a
+}
+
+/*
+Translate -
+*/
+func (a *AbbrTagHtml) Translate(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("translate", value)
+	return a
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (a *AbbrTagHtml) VirtualKeyBoardPolicy(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("virtualKeyBoardPolicy", value)
+	return a
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (a *AbbrTagHtml) AriaAtomic(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-atomic", value)
+	return a
+}
+
+/*
+AriaBusy -
+*/
+func (a *AbbrTagHtml) AriaBusy(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-busy", value)
+	return a
+}
+
+/*
+AriaControls -
+*/
+func (a *AbbrTagHtml) AriaControls(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-controls", value)
+	return a
+}
+
+/*
+AriaCurrent -
+*/
+func (a *AbbrTagHtml) AriaCurrent(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-current", value)
+	return a
+}
+
+/*
+AriaDescribedby -
+*/
+func (a *AbbrTagHtml) AriaDescribedby(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-describedby", value)
+	return a
+}
+
+/*
+AriaDescription -
+*/
+func (a *AbbrTagHtml) AriaDescription(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-description", value)
+	return a
+}
+
+/*
+AriaDetails -
+*/
+func (a *AbbrTagHtml) AriaDetails(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-details", value)
+	return a
+}
+
+/*
+AriaDisabled -
+*/
+func (a *AbbrTagHtml) AriaDisabled(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-disabled", value)
+	return a
+}
+
+/*
+AriaDropeffect -
+*/
+func (a *AbbrTagHtml) AriaDropeffect(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-dropeffect", value)
+	return a
+}
+
+/*
+AriaErrormessage -
+*/
+func (a *AbbrTagHtml) AriaErrormessage(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-errormessage", value)
+	return a
+}
+
+/*
+AriaFlowto -
+*/
+func (a *AbbrTagHtml) AriaFlowto(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-flowto", value)
+	return a
+}
+
+/*
+AriaGrabbed -
+*/
+func (a *AbbrTagHtml) AriaGrabbed(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-grabbed", value)
+	return a
+}
+
+/*
+AriaHaspopup -
+*/
+func (a *AbbrTagHtml) AriaHaspopup(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-haspopup", value)
+	return a
+}
+
+/*
+AriaHidden -
+*/
+func (a *AbbrTagHtml) AriaHidden(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-hidden", value)
+	return a
+}
+
+/*
+AriaInvalid -
+*/
+func (a *AbbrTagHtml) AriaInvalid(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-invalid", value)
+	return a
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (a *AbbrTagHtml) AriaKeyshortcuts(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-keyshortcuts", value)
+	return a
+}
+
+/*
+AriaLabel -
+*/
+func (a *AbbrTagHtml) AriaLabel(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-label", value)
+	return a
+}
+
+/*
+AriaLabelledby -
+*/
+func (a *AbbrTagHtml) AriaLabelledby(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-labelledby", value)
+	return a
+}
+
+/*
+AriaLive -
+*/
+func (a *AbbrTagHtml) AriaLive(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-live", value)
+	return a
+}
+
+/*
+AriaOwns -
+*/
+func (a *AbbrTagHtml) AriaOwns(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-owns", value)
+	return a
+}
+
+/*
+AriaRelevant -
+*/
+func (a *AbbrTagHtml) AriaRelevant(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-relevant", value)
+	return a
+}
+
+/*
+AriaRoledescription -
+*/
+func (a *AbbrTagHtml) AriaRoledescription(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-roledescription", value)
+	return a
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (a *AbbrTagHtml) Onabort(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onabort", value)
+	return a
+}
+
+/*
+Onautocomplete -
+*/
+func (a *AbbrTagHtml) Onautocomplete(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onautocomplete", value)
+	return a
+}
+
+/*
+Onautocompleteerror -
+*/
+func (a *AbbrTagHtml) Onautocompleteerror(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onautocompleteerror", value)
+	return a
+}
+
+/*
+Onblur -
+*/
+func (a *AbbrTagHtml) Onblur(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onblur", value)
+	return a
+}
+
+/*
+Oncancel -
+*/
+func (a *AbbrTagHtml) Oncancel(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oncancel", value)
+	return a
+}
+
+/*
+Oncanplay -
+*/
+func (a *AbbrTagHtml) Oncanplay(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oncanplay", value)
+	return a
+}
+
+/*
+Oncanplaythrough -
+*/
+func (a *AbbrTagHtml) Oncanplaythrough(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oncanplaythrough", value)
+	return a
+}
+
+/*
+Onchange -
+*/
+func (a *AbbrTagHtml) Onchange(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onchange", value)
+	return a
+}
+
+/*
+Onclick -
+*/
+func (a *AbbrTagHtml) Onclick(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onclick", value)
+	return a
+}
+
+/*
+Onclose -
+*/
+func (a *AbbrTagHtml) Onclose(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onclose", value)
+	return a
+}
+
+/*
+Oncontextmenu -
+*/
+func (a *AbbrTagHtml) Oncontextmenu(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oncontextmenu", value)
+	return a
+}
+
+/*
+Oncuechange -
+*/
+func (a *AbbrTagHtml) Oncuechange(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oncuechange", value)
+	return a
+}
+
+/*
+Ondblclick -
+*/
+func (a *AbbrTagHtml) Ondblclick(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondblclick", value)
+	return a
+}
+
+/*
+Ondrag -
+*/
+func (a *AbbrTagHtml) Ondrag(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondrag", value)
+	return a
+}
+
+/*
+Ondragend -
+*/
+func (a *AbbrTagHtml) Ondragend(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondragend", value)
+	return a
+}
+
+/*
+Ondragenter -
+*/
+func (a *AbbrTagHtml) Ondragenter(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondragenter", value)
+	return a
+}
+
+/*
+Ondragleave -
+*/
+func (a *AbbrTagHtml) Ondragleave(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondragleave", value)
+	return a
+}
+
+/*
+Ondragover -
+*/
+func (a *AbbrTagHtml) Ondragover(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondragover", value)
+	return a
+}
+
+/*
+Ondragstart -
+*/
+func (a *AbbrTagHtml) Ondragstart(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondragstart", value)
+	return a
+}
+
+/*
+Ondrop -
+*/
+func (a *AbbrTagHtml) Ondrop(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondrop", value)
+	return a
+}
+
+/*
+Ondurationchange -
+*/
+func (a *AbbrTagHtml) Ondurationchange(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondurationchange", value)
+	return a
+}
+
+/*
+Onemptied -
+*/
+func (a *AbbrTagHtml) Onemptied(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onemptied", value)
+	return a
+}
+
+/*
+Onended -
+*/
+func (a *AbbrTagHtml) Onended(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onended", value)
+	return a
+}
+
+/*
+Onfocus -
+*/
+func (a *AbbrTagHtml) Onfocus(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onfocus", value)
+	return a
+}
+
+/*
+Oninput -
+*/
+func (a *AbbrTagHtml) Oninput(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oninput", value)
+	return a
+}
+
+/*
+Oninvalid -
+*/
+func (a *AbbrTagHtml) Oninvalid(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oninvalid", value)
+	return a
+}
+
+/*
+Onkeydown -
+*/
+func (a *AbbrTagHtml) Onkeydown(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onkeydown", value)
+	return a
+}
+
+/*
+Onkeypress -
+*/
+func (a *AbbrTagHtml) Onkeypress(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onkeypress", value)
+	return a
+}
+
+/*
+Onkeyup -
+*/
+func (a *AbbrTagHtml) Onkeyup(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onkeyup", value)
+	return a
+}
+
+/*
+Onloadeddata -
+*/
+func (a *AbbrTagHtml) Onloadeddata(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onloadeddata", value)
+	return a
+}
+
+/*
+Onloadedmetadata -
+*/
+func (a *AbbrTagHtml) Onloadedmetadata(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onloadedmetadata", value)
+	return a
+}
+
+/*
+Onloadstart -
+*/
+func (a *AbbrTagHtml) Onloadstart(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onloadstart", value)
+	return a
+}
+
+/*
+Onmousedown -
+*/
+func (a *AbbrTagHtml) Onmousedown(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmousedown", value)
+	return a
+}
+
+/*
+Onmouseenter -
+*/
+func (a *AbbrTagHtml) Onmouseenter(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmouseenter", value)
+	return a
+}
+
+/*
+Onmouseleave -
+*/
+func (a *AbbrTagHtml) Onmouseleave(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmouseleave", value)
+	return a
+}
+
+/*
+Onmousemove -
+*/
+func (a *AbbrTagHtml) Onmousemove(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmousemove", value)
+	return a
+}
+
+/*
+Onmouseout -
+*/
+func (a *AbbrTagHtml) Onmouseout(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmouseout", value)
+	return a
+}
+
+/*
+Onmouseover -
+*/
+func (a *AbbrTagHtml) Onmouseover(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmouseover", value)
+	return a
+}
+
+/*
+Onmouseup -
+*/
+func (a *AbbrTagHtml) Onmouseup(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmouseup", value)
+	return a
+}
+
+/*
+Onmousewheel -
+*/
+func (a *AbbrTagHtml) Onmousewheel(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmousewheel", value)
+	return a
+}
+
+/*
+Onpause -
+*/
+func (a *AbbrTagHtml) Onpause(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onpause", value)
+	return a
+}
+
+/*
+Onplay -
+*/
+func (a *AbbrTagHtml) Onplay(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onplay", value)
+	return a
+}
+
+/*
+Onplaying -
+*/
+func (a *AbbrTagHtml) Onplaying(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onplaying", value)
+	return a
+}
+
+/*
+Onprogress -
+*/
+func (a *AbbrTagHtml) Onprogress(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onprogress", value)
+	return a
+}
+
+/*
+Onratechange -
+*/
+func (a *AbbrTagHtml) Onratechange(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onratechange", value)
+	return a
+}
+
+/*
+Onreset -
+*/
+func (a *AbbrTagHtml) Onreset(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onreset", value)
+	return a
+}
+
+/*
+Onscroll -
+*/
+func (a *AbbrTagHtml) Onscroll(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onscroll", value)
+	return a
+}
+
+/*
+Onseeked -
+*/
+func (a *AbbrTagHtml) Onseeked(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onseeked", value)
+	return a
+}
+
+/*
+Onseeking -
+*/
+func (a *AbbrTagHtml) Onseeking(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onseeking", value)
+	return a
+}
+
+/*
+Onselect -
+*/
+func (a *AbbrTagHtml) Onselect(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onselect", value)
+	return a
+}
+
+/*
+Onshow -
+*/
+func (a *AbbrTagHtml) Onshow(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onshow", value)
+	return a
+}
+
+/*
+Onsort -
+*/
+func (a *AbbrTagHtml) Onsort(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onsort", value)
+	return a
+}
+
+/*
+Onstalled -
+*/
+func (a *AbbrTagHtml) Onstalled(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onstalled", value)
+	return a
+}
+
+/*
+Onsubmit -
+*/
+func (a *AbbrTagHtml) Onsubmit(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onsubmit", value)
+	return a
+}
+
+/*
+Onsuspend -
+*/
+func (a *AbbrTagHtml) Onsuspend(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onsuspend", value)
+	return a
+}
+
+/*
+Ontimeupdate -
+*/
+func (a *AbbrTagHtml) Ontimeupdate(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ontimeupdate", value)
+	return a
+}
+
+/*
+Ontoggle -
+*/
+func (a *AbbrTagHtml) Ontoggle(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ontoggle", value)
+	return a
+}
+
+/*
+Onvolumechange -
+*/
+func (a *AbbrTagHtml) Onvolumechange(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onvolumechange", value)
+	return a
+}
+
+/*
+Onwaiting -
+*/
+func (a *AbbrTagHtml) Onwaiting(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onwaiting", value)
+	return a
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (a *AbbrTagHtml) Onafterprint(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onafterprint", value)
+	return a
+}
+
+/*
+Onbeforeprint -
+*/
+func (a *AbbrTagHtml) Onbeforeprint(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onbeforeprint", value)
+	return a
+}
+
+/*
+Onbeforeunload -
+*/
+func (a *AbbrTagHtml) Onbeforeunload(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onbeforeunload", value)
+	return a
+}
+
+/*
+Onerror -
+*/
+func (a *AbbrTagHtml) Onerror(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onerror", value)
+	return a
+}
+
+/*
+Onhashchange -
+*/
+func (a *AbbrTagHtml) Onhashchange(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onhashchange", value)
+	return a
+}
+
+/*
+Onload -
+*/
+func (a *AbbrTagHtml) Onload(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onload", value)
+	return a
+}
+
+/*
+Onmessage -
+*/
+func (a *AbbrTagHtml) Onmessage(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmessage", value)
+	return a
+}
+
+/*
+Onoffline -
+*/
+func (a *AbbrTagHtml) Onoffline(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onoffline", value)
+	return a
+}
+
+/*
+Ononline -
+*/
+func (a *AbbrTagHtml) Ononline(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ononline", value)
+	return a
+}
+
+/*
+Onpagehide -
+*/
+func (a *AbbrTagHtml) Onpagehide(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onpagehide", value)
+	return a
+}
+
+/*
+Onpageshow -
+*/
+func (a *AbbrTagHtml) Onpageshow(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onpageshow", value)
+	return a
+}
+
+/*
+Onpopstate -
+*/
+func (a *AbbrTagHtml) Onpopstate(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onpopstate", value)
+	return a
+}
+
+/*
+Onresize -
+*/
+func (a *AbbrTagHtml) Onresize(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onresize", value)
+	return a
+}
+
+/*
+Onstorage -
+*/
+func (a *AbbrTagHtml) Onstorage(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onstorage", value)
+	return a
+}
+
+/*
+Onunload -
+*/
+func (a *AbbrTagHtml) Onunload(value string) *AbbrTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onunload", value)
+	return a
+}

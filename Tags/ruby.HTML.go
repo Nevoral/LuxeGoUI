@@ -72,3 +72,1451 @@ func (r *RubyTagHtml) supportedChildrenCheck(tags []any) *RubyTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (r *RubyTagHtml) AccessKey(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("accessKey", value)
+	return r
+}
+
+/*
+Aria -
+*/
+func (r *RubyTagHtml) Aria(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria", value)
+	return r
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (r *RubyTagHtml) Autocapitalize(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("autocapitalize", value)
+	return r
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (r *RubyTagHtml) Autofocus(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("autofocus", value)
+	return r
+}
+
+/*
+Class -
+*/
+func (r *RubyTagHtml) Class(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("class", value)
+	return r
+}
+
+/*
+Contenteditable -
+*/
+func (r *RubyTagHtml) Contenteditable(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("contenteditable", value)
+	return r
+}
+
+/*
+Data -
+*/
+func (r *RubyTagHtml) Data(name, value string) *RubyTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	r.registerAttribute(dataName, value)
+	return r
+}
+
+/*
+Dir -
+*/
+func (r *RubyTagHtml) Dir(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("dir", value)
+	return r
+}
+
+/*
+Draggable -
+*/
+func (r *RubyTagHtml) Draggable(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("draggable", value)
+	return r
+}
+
+/*
+EnterKeyHint -
+*/
+func (r *RubyTagHtml) EnterKeyHint(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("enterKeyHint", value)
+	return r
+}
+
+/*
+ExportParts -
+*/
+func (r *RubyTagHtml) ExportParts(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("exportParts", value)
+	return r
+}
+
+/*
+Hidden -
+*/
+func (r *RubyTagHtml) Hidden(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("hidden", value)
+	return r
+}
+
+/*
+Id -
+*/
+func (r *RubyTagHtml) Id(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("id", value)
+	return r
+}
+
+/*
+Inert -
+*/
+func (r *RubyTagHtml) Inert(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("inert", value)
+	return r
+}
+
+/*
+InputMode -
+*/
+func (r *RubyTagHtml) InputMode(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("inputMode", value)
+	return r
+}
+
+/*
+Is -
+*/
+func (r *RubyTagHtml) Is(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("is", value)
+	return r
+}
+
+/*
+ItemId -
+*/
+func (r *RubyTagHtml) ItemId(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("itemId", value)
+	return r
+}
+
+/*
+ItemProp -
+*/
+func (r *RubyTagHtml) ItemProp(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("itemProp", value)
+	return r
+}
+
+/*
+ItemRef -
+*/
+func (r *RubyTagHtml) ItemRef(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("itemRef", value)
+	return r
+}
+
+/*
+ItemScope -
+*/
+func (r *RubyTagHtml) ItemScope(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("itemScope", value)
+	return r
+}
+
+/*
+ItemType -
+*/
+func (r *RubyTagHtml) ItemType(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("itemType", value)
+	return r
+}
+
+/*
+Lang -
+*/
+func (r *RubyTagHtml) Lang(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("lang", value)
+	return r
+}
+
+/*
+Nonce -
+*/
+func (r *RubyTagHtml) Nonce(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("nonce", value)
+	return r
+}
+
+/*
+Part -
+*/
+func (r *RubyTagHtml) Part(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("part", value)
+	return r
+}
+
+/*
+Popover -
+*/
+func (r *RubyTagHtml) Popover() *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("popover", "")
+	return r
+}
+
+/*
+Role -
+*/
+func (r *RubyTagHtml) Role(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("role", value)
+	return r
+}
+
+/*
+Slot -
+*/
+func (r *RubyTagHtml) Slot(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("slot", value)
+	return r
+}
+
+/*
+Spellcheck -
+*/
+func (r *RubyTagHtml) Spellcheck(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("spellcheck", value)
+	return r
+}
+
+/*
+Style -
+*/
+func (r *RubyTagHtml) Style(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("style", value)
+	return r
+}
+
+/*
+Tabindex -
+*/
+func (r *RubyTagHtml) Tabindex(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("tabindex", value)
+	return r
+}
+
+/*
+Title -
+*/
+func (r *RubyTagHtml) Title(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("title", value)
+	return r
+}
+
+/*
+Translate -
+*/
+func (r *RubyTagHtml) Translate(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("translate", value)
+	return r
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (r *RubyTagHtml) VirtualKeyBoardPolicy(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("virtualKeyBoardPolicy", value)
+	return r
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (r *RubyTagHtml) AriaAtomic(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-atomic", value)
+	return r
+}
+
+/*
+AriaBusy -
+*/
+func (r *RubyTagHtml) AriaBusy(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-busy", value)
+	return r
+}
+
+/*
+AriaControls -
+*/
+func (r *RubyTagHtml) AriaControls(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-controls", value)
+	return r
+}
+
+/*
+AriaCurrent -
+*/
+func (r *RubyTagHtml) AriaCurrent(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-current", value)
+	return r
+}
+
+/*
+AriaDescribedby -
+*/
+func (r *RubyTagHtml) AriaDescribedby(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-describedby", value)
+	return r
+}
+
+/*
+AriaDescription -
+*/
+func (r *RubyTagHtml) AriaDescription(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-description", value)
+	return r
+}
+
+/*
+AriaDetails -
+*/
+func (r *RubyTagHtml) AriaDetails(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-details", value)
+	return r
+}
+
+/*
+AriaDisabled -
+*/
+func (r *RubyTagHtml) AriaDisabled(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-disabled", value)
+	return r
+}
+
+/*
+AriaDropeffect -
+*/
+func (r *RubyTagHtml) AriaDropeffect(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-dropeffect", value)
+	return r
+}
+
+/*
+AriaErrormessage -
+*/
+func (r *RubyTagHtml) AriaErrormessage(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-errormessage", value)
+	return r
+}
+
+/*
+AriaFlowto -
+*/
+func (r *RubyTagHtml) AriaFlowto(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-flowto", value)
+	return r
+}
+
+/*
+AriaGrabbed -
+*/
+func (r *RubyTagHtml) AriaGrabbed(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-grabbed", value)
+	return r
+}
+
+/*
+AriaHaspopup -
+*/
+func (r *RubyTagHtml) AriaHaspopup(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-haspopup", value)
+	return r
+}
+
+/*
+AriaHidden -
+*/
+func (r *RubyTagHtml) AriaHidden(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-hidden", value)
+	return r
+}
+
+/*
+AriaInvalid -
+*/
+func (r *RubyTagHtml) AriaInvalid(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-invalid", value)
+	return r
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (r *RubyTagHtml) AriaKeyshortcuts(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-keyshortcuts", value)
+	return r
+}
+
+/*
+AriaLabel -
+*/
+func (r *RubyTagHtml) AriaLabel(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-label", value)
+	return r
+}
+
+/*
+AriaLabelledby -
+*/
+func (r *RubyTagHtml) AriaLabelledby(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-labelledby", value)
+	return r
+}
+
+/*
+AriaLive -
+*/
+func (r *RubyTagHtml) AriaLive(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-live", value)
+	return r
+}
+
+/*
+AriaOwns -
+*/
+func (r *RubyTagHtml) AriaOwns(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-owns", value)
+	return r
+}
+
+/*
+AriaRelevant -
+*/
+func (r *RubyTagHtml) AriaRelevant(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-relevant", value)
+	return r
+}
+
+/*
+AriaRoledescription -
+*/
+func (r *RubyTagHtml) AriaRoledescription(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("aria-roledescription", value)
+	return r
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (r *RubyTagHtml) Onabort(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onabort", value)
+	return r
+}
+
+/*
+Onautocomplete -
+*/
+func (r *RubyTagHtml) Onautocomplete(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onautocomplete", value)
+	return r
+}
+
+/*
+Onautocompleteerror -
+*/
+func (r *RubyTagHtml) Onautocompleteerror(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onautocompleteerror", value)
+	return r
+}
+
+/*
+Onblur -
+*/
+func (r *RubyTagHtml) Onblur(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onblur", value)
+	return r
+}
+
+/*
+Oncancel -
+*/
+func (r *RubyTagHtml) Oncancel(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("oncancel", value)
+	return r
+}
+
+/*
+Oncanplay -
+*/
+func (r *RubyTagHtml) Oncanplay(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("oncanplay", value)
+	return r
+}
+
+/*
+Oncanplaythrough -
+*/
+func (r *RubyTagHtml) Oncanplaythrough(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("oncanplaythrough", value)
+	return r
+}
+
+/*
+Onchange -
+*/
+func (r *RubyTagHtml) Onchange(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onchange", value)
+	return r
+}
+
+/*
+Onclick -
+*/
+func (r *RubyTagHtml) Onclick(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onclick", value)
+	return r
+}
+
+/*
+Onclose -
+*/
+func (r *RubyTagHtml) Onclose(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onclose", value)
+	return r
+}
+
+/*
+Oncontextmenu -
+*/
+func (r *RubyTagHtml) Oncontextmenu(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("oncontextmenu", value)
+	return r
+}
+
+/*
+Oncuechange -
+*/
+func (r *RubyTagHtml) Oncuechange(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("oncuechange", value)
+	return r
+}
+
+/*
+Ondblclick -
+*/
+func (r *RubyTagHtml) Ondblclick(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("ondblclick", value)
+	return r
+}
+
+/*
+Ondrag -
+*/
+func (r *RubyTagHtml) Ondrag(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("ondrag", value)
+	return r
+}
+
+/*
+Ondragend -
+*/
+func (r *RubyTagHtml) Ondragend(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("ondragend", value)
+	return r
+}
+
+/*
+Ondragenter -
+*/
+func (r *RubyTagHtml) Ondragenter(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("ondragenter", value)
+	return r
+}
+
+/*
+Ondragleave -
+*/
+func (r *RubyTagHtml) Ondragleave(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("ondragleave", value)
+	return r
+}
+
+/*
+Ondragover -
+*/
+func (r *RubyTagHtml) Ondragover(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("ondragover", value)
+	return r
+}
+
+/*
+Ondragstart -
+*/
+func (r *RubyTagHtml) Ondragstart(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("ondragstart", value)
+	return r
+}
+
+/*
+Ondrop -
+*/
+func (r *RubyTagHtml) Ondrop(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("ondrop", value)
+	return r
+}
+
+/*
+Ondurationchange -
+*/
+func (r *RubyTagHtml) Ondurationchange(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("ondurationchange", value)
+	return r
+}
+
+/*
+Onemptied -
+*/
+func (r *RubyTagHtml) Onemptied(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onemptied", value)
+	return r
+}
+
+/*
+Onended -
+*/
+func (r *RubyTagHtml) Onended(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onended", value)
+	return r
+}
+
+/*
+Onfocus -
+*/
+func (r *RubyTagHtml) Onfocus(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onfocus", value)
+	return r
+}
+
+/*
+Oninput -
+*/
+func (r *RubyTagHtml) Oninput(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("oninput", value)
+	return r
+}
+
+/*
+Oninvalid -
+*/
+func (r *RubyTagHtml) Oninvalid(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("oninvalid", value)
+	return r
+}
+
+/*
+Onkeydown -
+*/
+func (r *RubyTagHtml) Onkeydown(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onkeydown", value)
+	return r
+}
+
+/*
+Onkeypress -
+*/
+func (r *RubyTagHtml) Onkeypress(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onkeypress", value)
+	return r
+}
+
+/*
+Onkeyup -
+*/
+func (r *RubyTagHtml) Onkeyup(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onkeyup", value)
+	return r
+}
+
+/*
+Onloadeddata -
+*/
+func (r *RubyTagHtml) Onloadeddata(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onloadeddata", value)
+	return r
+}
+
+/*
+Onloadedmetadata -
+*/
+func (r *RubyTagHtml) Onloadedmetadata(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onloadedmetadata", value)
+	return r
+}
+
+/*
+Onloadstart -
+*/
+func (r *RubyTagHtml) Onloadstart(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onloadstart", value)
+	return r
+}
+
+/*
+Onmousedown -
+*/
+func (r *RubyTagHtml) Onmousedown(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onmousedown", value)
+	return r
+}
+
+/*
+Onmouseenter -
+*/
+func (r *RubyTagHtml) Onmouseenter(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onmouseenter", value)
+	return r
+}
+
+/*
+Onmouseleave -
+*/
+func (r *RubyTagHtml) Onmouseleave(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onmouseleave", value)
+	return r
+}
+
+/*
+Onmousemove -
+*/
+func (r *RubyTagHtml) Onmousemove(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onmousemove", value)
+	return r
+}
+
+/*
+Onmouseout -
+*/
+func (r *RubyTagHtml) Onmouseout(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onmouseout", value)
+	return r
+}
+
+/*
+Onmouseover -
+*/
+func (r *RubyTagHtml) Onmouseover(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onmouseover", value)
+	return r
+}
+
+/*
+Onmouseup -
+*/
+func (r *RubyTagHtml) Onmouseup(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onmouseup", value)
+	return r
+}
+
+/*
+Onmousewheel -
+*/
+func (r *RubyTagHtml) Onmousewheel(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onmousewheel", value)
+	return r
+}
+
+/*
+Onpause -
+*/
+func (r *RubyTagHtml) Onpause(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onpause", value)
+	return r
+}
+
+/*
+Onplay -
+*/
+func (r *RubyTagHtml) Onplay(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onplay", value)
+	return r
+}
+
+/*
+Onplaying -
+*/
+func (r *RubyTagHtml) Onplaying(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onplaying", value)
+	return r
+}
+
+/*
+Onprogress -
+*/
+func (r *RubyTagHtml) Onprogress(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onprogress", value)
+	return r
+}
+
+/*
+Onratechange -
+*/
+func (r *RubyTagHtml) Onratechange(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onratechange", value)
+	return r
+}
+
+/*
+Onreset -
+*/
+func (r *RubyTagHtml) Onreset(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onreset", value)
+	return r
+}
+
+/*
+Onscroll -
+*/
+func (r *RubyTagHtml) Onscroll(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onscroll", value)
+	return r
+}
+
+/*
+Onseeked -
+*/
+func (r *RubyTagHtml) Onseeked(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onseeked", value)
+	return r
+}
+
+/*
+Onseeking -
+*/
+func (r *RubyTagHtml) Onseeking(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onseeking", value)
+	return r
+}
+
+/*
+Onselect -
+*/
+func (r *RubyTagHtml) Onselect(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onselect", value)
+	return r
+}
+
+/*
+Onshow -
+*/
+func (r *RubyTagHtml) Onshow(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onshow", value)
+	return r
+}
+
+/*
+Onsort -
+*/
+func (r *RubyTagHtml) Onsort(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onsort", value)
+	return r
+}
+
+/*
+Onstalled -
+*/
+func (r *RubyTagHtml) Onstalled(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onstalled", value)
+	return r
+}
+
+/*
+Onsubmit -
+*/
+func (r *RubyTagHtml) Onsubmit(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onsubmit", value)
+	return r
+}
+
+/*
+Onsuspend -
+*/
+func (r *RubyTagHtml) Onsuspend(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onsuspend", value)
+	return r
+}
+
+/*
+Ontimeupdate -
+*/
+func (r *RubyTagHtml) Ontimeupdate(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("ontimeupdate", value)
+	return r
+}
+
+/*
+Ontoggle -
+*/
+func (r *RubyTagHtml) Ontoggle(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("ontoggle", value)
+	return r
+}
+
+/*
+Onvolumechange -
+*/
+func (r *RubyTagHtml) Onvolumechange(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onvolumechange", value)
+	return r
+}
+
+/*
+Onwaiting -
+*/
+func (r *RubyTagHtml) Onwaiting(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onwaiting", value)
+	return r
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (r *RubyTagHtml) Onafterprint(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onafterprint", value)
+	return r
+}
+
+/*
+Onbeforeprint -
+*/
+func (r *RubyTagHtml) Onbeforeprint(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onbeforeprint", value)
+	return r
+}
+
+/*
+Onbeforeunload -
+*/
+func (r *RubyTagHtml) Onbeforeunload(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onbeforeunload", value)
+	return r
+}
+
+/*
+Onerror -
+*/
+func (r *RubyTagHtml) Onerror(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onerror", value)
+	return r
+}
+
+/*
+Onhashchange -
+*/
+func (r *RubyTagHtml) Onhashchange(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onhashchange", value)
+	return r
+}
+
+/*
+Onload -
+*/
+func (r *RubyTagHtml) Onload(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onload", value)
+	return r
+}
+
+/*
+Onmessage -
+*/
+func (r *RubyTagHtml) Onmessage(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onmessage", value)
+	return r
+}
+
+/*
+Onoffline -
+*/
+func (r *RubyTagHtml) Onoffline(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onoffline", value)
+	return r
+}
+
+/*
+Ononline -
+*/
+func (r *RubyTagHtml) Ononline(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("ononline", value)
+	return r
+}
+
+/*
+Onpagehide -
+*/
+func (r *RubyTagHtml) Onpagehide(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onpagehide", value)
+	return r
+}
+
+/*
+Onpageshow -
+*/
+func (r *RubyTagHtml) Onpageshow(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onpageshow", value)
+	return r
+}
+
+/*
+Onpopstate -
+*/
+func (r *RubyTagHtml) Onpopstate(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onpopstate", value)
+	return r
+}
+
+/*
+Onresize -
+*/
+func (r *RubyTagHtml) Onresize(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onresize", value)
+	return r
+}
+
+/*
+Onstorage -
+*/
+func (r *RubyTagHtml) Onstorage(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onstorage", value)
+	return r
+}
+
+/*
+Onunload -
+*/
+func (r *RubyTagHtml) Onunload(value string) *RubyTagHtml {
+	if r.attributes == nil {
+		r.attributes = []*Attribute{}
+	}
+	r.registerAttribute("onunload", value)
+	return r
+}

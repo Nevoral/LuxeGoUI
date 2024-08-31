@@ -72,3 +72,1451 @@ func (a *ArticleTagHtml) supportedChildrenCheck(tags []any) *ArticleTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (a *ArticleTagHtml) AccessKey(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("accessKey", value)
+	return a
+}
+
+/*
+Aria -
+*/
+func (a *ArticleTagHtml) Aria(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria", value)
+	return a
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (a *ArticleTagHtml) Autocapitalize(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("autocapitalize", value)
+	return a
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (a *ArticleTagHtml) Autofocus(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("autofocus", value)
+	return a
+}
+
+/*
+Class -
+*/
+func (a *ArticleTagHtml) Class(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("class", value)
+	return a
+}
+
+/*
+Contenteditable -
+*/
+func (a *ArticleTagHtml) Contenteditable(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("contenteditable", value)
+	return a
+}
+
+/*
+Data -
+*/
+func (a *ArticleTagHtml) Data(name, value string) *ArticleTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	a.registerAttribute(dataName, value)
+	return a
+}
+
+/*
+Dir -
+*/
+func (a *ArticleTagHtml) Dir(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("dir", value)
+	return a
+}
+
+/*
+Draggable -
+*/
+func (a *ArticleTagHtml) Draggable(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("draggable", value)
+	return a
+}
+
+/*
+EnterKeyHint -
+*/
+func (a *ArticleTagHtml) EnterKeyHint(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("enterKeyHint", value)
+	return a
+}
+
+/*
+ExportParts -
+*/
+func (a *ArticleTagHtml) ExportParts(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("exportParts", value)
+	return a
+}
+
+/*
+Hidden -
+*/
+func (a *ArticleTagHtml) Hidden(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("hidden", value)
+	return a
+}
+
+/*
+Id -
+*/
+func (a *ArticleTagHtml) Id(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("id", value)
+	return a
+}
+
+/*
+Inert -
+*/
+func (a *ArticleTagHtml) Inert(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("inert", value)
+	return a
+}
+
+/*
+InputMode -
+*/
+func (a *ArticleTagHtml) InputMode(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("inputMode", value)
+	return a
+}
+
+/*
+Is -
+*/
+func (a *ArticleTagHtml) Is(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("is", value)
+	return a
+}
+
+/*
+ItemId -
+*/
+func (a *ArticleTagHtml) ItemId(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("itemId", value)
+	return a
+}
+
+/*
+ItemProp -
+*/
+func (a *ArticleTagHtml) ItemProp(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("itemProp", value)
+	return a
+}
+
+/*
+ItemRef -
+*/
+func (a *ArticleTagHtml) ItemRef(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("itemRef", value)
+	return a
+}
+
+/*
+ItemScope -
+*/
+func (a *ArticleTagHtml) ItemScope(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("itemScope", value)
+	return a
+}
+
+/*
+ItemType -
+*/
+func (a *ArticleTagHtml) ItemType(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("itemType", value)
+	return a
+}
+
+/*
+Lang -
+*/
+func (a *ArticleTagHtml) Lang(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("lang", value)
+	return a
+}
+
+/*
+Nonce -
+*/
+func (a *ArticleTagHtml) Nonce(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("nonce", value)
+	return a
+}
+
+/*
+Part -
+*/
+func (a *ArticleTagHtml) Part(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("part", value)
+	return a
+}
+
+/*
+Popover -
+*/
+func (a *ArticleTagHtml) Popover() *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("popover", "")
+	return a
+}
+
+/*
+Role -
+*/
+func (a *ArticleTagHtml) Role(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("role", value)
+	return a
+}
+
+/*
+Slot -
+*/
+func (a *ArticleTagHtml) Slot(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("slot", value)
+	return a
+}
+
+/*
+Spellcheck -
+*/
+func (a *ArticleTagHtml) Spellcheck(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("spellcheck", value)
+	return a
+}
+
+/*
+Style -
+*/
+func (a *ArticleTagHtml) Style(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("style", value)
+	return a
+}
+
+/*
+Tabindex -
+*/
+func (a *ArticleTagHtml) Tabindex(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("tabindex", value)
+	return a
+}
+
+/*
+Title -
+*/
+func (a *ArticleTagHtml) Title(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("title", value)
+	return a
+}
+
+/*
+Translate -
+*/
+func (a *ArticleTagHtml) Translate(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("translate", value)
+	return a
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (a *ArticleTagHtml) VirtualKeyBoardPolicy(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("virtualKeyBoardPolicy", value)
+	return a
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (a *ArticleTagHtml) AriaAtomic(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-atomic", value)
+	return a
+}
+
+/*
+AriaBusy -
+*/
+func (a *ArticleTagHtml) AriaBusy(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-busy", value)
+	return a
+}
+
+/*
+AriaControls -
+*/
+func (a *ArticleTagHtml) AriaControls(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-controls", value)
+	return a
+}
+
+/*
+AriaCurrent -
+*/
+func (a *ArticleTagHtml) AriaCurrent(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-current", value)
+	return a
+}
+
+/*
+AriaDescribedby -
+*/
+func (a *ArticleTagHtml) AriaDescribedby(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-describedby", value)
+	return a
+}
+
+/*
+AriaDescription -
+*/
+func (a *ArticleTagHtml) AriaDescription(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-description", value)
+	return a
+}
+
+/*
+AriaDetails -
+*/
+func (a *ArticleTagHtml) AriaDetails(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-details", value)
+	return a
+}
+
+/*
+AriaDisabled -
+*/
+func (a *ArticleTagHtml) AriaDisabled(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-disabled", value)
+	return a
+}
+
+/*
+AriaDropeffect -
+*/
+func (a *ArticleTagHtml) AriaDropeffect(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-dropeffect", value)
+	return a
+}
+
+/*
+AriaErrormessage -
+*/
+func (a *ArticleTagHtml) AriaErrormessage(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-errormessage", value)
+	return a
+}
+
+/*
+AriaFlowto -
+*/
+func (a *ArticleTagHtml) AriaFlowto(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-flowto", value)
+	return a
+}
+
+/*
+AriaGrabbed -
+*/
+func (a *ArticleTagHtml) AriaGrabbed(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-grabbed", value)
+	return a
+}
+
+/*
+AriaHaspopup -
+*/
+func (a *ArticleTagHtml) AriaHaspopup(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-haspopup", value)
+	return a
+}
+
+/*
+AriaHidden -
+*/
+func (a *ArticleTagHtml) AriaHidden(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-hidden", value)
+	return a
+}
+
+/*
+AriaInvalid -
+*/
+func (a *ArticleTagHtml) AriaInvalid(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-invalid", value)
+	return a
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (a *ArticleTagHtml) AriaKeyshortcuts(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-keyshortcuts", value)
+	return a
+}
+
+/*
+AriaLabel -
+*/
+func (a *ArticleTagHtml) AriaLabel(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-label", value)
+	return a
+}
+
+/*
+AriaLabelledby -
+*/
+func (a *ArticleTagHtml) AriaLabelledby(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-labelledby", value)
+	return a
+}
+
+/*
+AriaLive -
+*/
+func (a *ArticleTagHtml) AriaLive(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-live", value)
+	return a
+}
+
+/*
+AriaOwns -
+*/
+func (a *ArticleTagHtml) AriaOwns(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-owns", value)
+	return a
+}
+
+/*
+AriaRelevant -
+*/
+func (a *ArticleTagHtml) AriaRelevant(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-relevant", value)
+	return a
+}
+
+/*
+AriaRoledescription -
+*/
+func (a *ArticleTagHtml) AriaRoledescription(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("aria-roledescription", value)
+	return a
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (a *ArticleTagHtml) Onabort(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onabort", value)
+	return a
+}
+
+/*
+Onautocomplete -
+*/
+func (a *ArticleTagHtml) Onautocomplete(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onautocomplete", value)
+	return a
+}
+
+/*
+Onautocompleteerror -
+*/
+func (a *ArticleTagHtml) Onautocompleteerror(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onautocompleteerror", value)
+	return a
+}
+
+/*
+Onblur -
+*/
+func (a *ArticleTagHtml) Onblur(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onblur", value)
+	return a
+}
+
+/*
+Oncancel -
+*/
+func (a *ArticleTagHtml) Oncancel(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oncancel", value)
+	return a
+}
+
+/*
+Oncanplay -
+*/
+func (a *ArticleTagHtml) Oncanplay(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oncanplay", value)
+	return a
+}
+
+/*
+Oncanplaythrough -
+*/
+func (a *ArticleTagHtml) Oncanplaythrough(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oncanplaythrough", value)
+	return a
+}
+
+/*
+Onchange -
+*/
+func (a *ArticleTagHtml) Onchange(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onchange", value)
+	return a
+}
+
+/*
+Onclick -
+*/
+func (a *ArticleTagHtml) Onclick(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onclick", value)
+	return a
+}
+
+/*
+Onclose -
+*/
+func (a *ArticleTagHtml) Onclose(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onclose", value)
+	return a
+}
+
+/*
+Oncontextmenu -
+*/
+func (a *ArticleTagHtml) Oncontextmenu(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oncontextmenu", value)
+	return a
+}
+
+/*
+Oncuechange -
+*/
+func (a *ArticleTagHtml) Oncuechange(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oncuechange", value)
+	return a
+}
+
+/*
+Ondblclick -
+*/
+func (a *ArticleTagHtml) Ondblclick(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondblclick", value)
+	return a
+}
+
+/*
+Ondrag -
+*/
+func (a *ArticleTagHtml) Ondrag(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondrag", value)
+	return a
+}
+
+/*
+Ondragend -
+*/
+func (a *ArticleTagHtml) Ondragend(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondragend", value)
+	return a
+}
+
+/*
+Ondragenter -
+*/
+func (a *ArticleTagHtml) Ondragenter(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondragenter", value)
+	return a
+}
+
+/*
+Ondragleave -
+*/
+func (a *ArticleTagHtml) Ondragleave(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondragleave", value)
+	return a
+}
+
+/*
+Ondragover -
+*/
+func (a *ArticleTagHtml) Ondragover(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondragover", value)
+	return a
+}
+
+/*
+Ondragstart -
+*/
+func (a *ArticleTagHtml) Ondragstart(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondragstart", value)
+	return a
+}
+
+/*
+Ondrop -
+*/
+func (a *ArticleTagHtml) Ondrop(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondrop", value)
+	return a
+}
+
+/*
+Ondurationchange -
+*/
+func (a *ArticleTagHtml) Ondurationchange(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ondurationchange", value)
+	return a
+}
+
+/*
+Onemptied -
+*/
+func (a *ArticleTagHtml) Onemptied(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onemptied", value)
+	return a
+}
+
+/*
+Onended -
+*/
+func (a *ArticleTagHtml) Onended(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onended", value)
+	return a
+}
+
+/*
+Onfocus -
+*/
+func (a *ArticleTagHtml) Onfocus(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onfocus", value)
+	return a
+}
+
+/*
+Oninput -
+*/
+func (a *ArticleTagHtml) Oninput(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oninput", value)
+	return a
+}
+
+/*
+Oninvalid -
+*/
+func (a *ArticleTagHtml) Oninvalid(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("oninvalid", value)
+	return a
+}
+
+/*
+Onkeydown -
+*/
+func (a *ArticleTagHtml) Onkeydown(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onkeydown", value)
+	return a
+}
+
+/*
+Onkeypress -
+*/
+func (a *ArticleTagHtml) Onkeypress(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onkeypress", value)
+	return a
+}
+
+/*
+Onkeyup -
+*/
+func (a *ArticleTagHtml) Onkeyup(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onkeyup", value)
+	return a
+}
+
+/*
+Onloadeddata -
+*/
+func (a *ArticleTagHtml) Onloadeddata(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onloadeddata", value)
+	return a
+}
+
+/*
+Onloadedmetadata -
+*/
+func (a *ArticleTagHtml) Onloadedmetadata(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onloadedmetadata", value)
+	return a
+}
+
+/*
+Onloadstart -
+*/
+func (a *ArticleTagHtml) Onloadstart(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onloadstart", value)
+	return a
+}
+
+/*
+Onmousedown -
+*/
+func (a *ArticleTagHtml) Onmousedown(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmousedown", value)
+	return a
+}
+
+/*
+Onmouseenter -
+*/
+func (a *ArticleTagHtml) Onmouseenter(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmouseenter", value)
+	return a
+}
+
+/*
+Onmouseleave -
+*/
+func (a *ArticleTagHtml) Onmouseleave(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmouseleave", value)
+	return a
+}
+
+/*
+Onmousemove -
+*/
+func (a *ArticleTagHtml) Onmousemove(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmousemove", value)
+	return a
+}
+
+/*
+Onmouseout -
+*/
+func (a *ArticleTagHtml) Onmouseout(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmouseout", value)
+	return a
+}
+
+/*
+Onmouseover -
+*/
+func (a *ArticleTagHtml) Onmouseover(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmouseover", value)
+	return a
+}
+
+/*
+Onmouseup -
+*/
+func (a *ArticleTagHtml) Onmouseup(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmouseup", value)
+	return a
+}
+
+/*
+Onmousewheel -
+*/
+func (a *ArticleTagHtml) Onmousewheel(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmousewheel", value)
+	return a
+}
+
+/*
+Onpause -
+*/
+func (a *ArticleTagHtml) Onpause(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onpause", value)
+	return a
+}
+
+/*
+Onplay -
+*/
+func (a *ArticleTagHtml) Onplay(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onplay", value)
+	return a
+}
+
+/*
+Onplaying -
+*/
+func (a *ArticleTagHtml) Onplaying(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onplaying", value)
+	return a
+}
+
+/*
+Onprogress -
+*/
+func (a *ArticleTagHtml) Onprogress(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onprogress", value)
+	return a
+}
+
+/*
+Onratechange -
+*/
+func (a *ArticleTagHtml) Onratechange(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onratechange", value)
+	return a
+}
+
+/*
+Onreset -
+*/
+func (a *ArticleTagHtml) Onreset(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onreset", value)
+	return a
+}
+
+/*
+Onscroll -
+*/
+func (a *ArticleTagHtml) Onscroll(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onscroll", value)
+	return a
+}
+
+/*
+Onseeked -
+*/
+func (a *ArticleTagHtml) Onseeked(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onseeked", value)
+	return a
+}
+
+/*
+Onseeking -
+*/
+func (a *ArticleTagHtml) Onseeking(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onseeking", value)
+	return a
+}
+
+/*
+Onselect -
+*/
+func (a *ArticleTagHtml) Onselect(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onselect", value)
+	return a
+}
+
+/*
+Onshow -
+*/
+func (a *ArticleTagHtml) Onshow(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onshow", value)
+	return a
+}
+
+/*
+Onsort -
+*/
+func (a *ArticleTagHtml) Onsort(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onsort", value)
+	return a
+}
+
+/*
+Onstalled -
+*/
+func (a *ArticleTagHtml) Onstalled(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onstalled", value)
+	return a
+}
+
+/*
+Onsubmit -
+*/
+func (a *ArticleTagHtml) Onsubmit(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onsubmit", value)
+	return a
+}
+
+/*
+Onsuspend -
+*/
+func (a *ArticleTagHtml) Onsuspend(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onsuspend", value)
+	return a
+}
+
+/*
+Ontimeupdate -
+*/
+func (a *ArticleTagHtml) Ontimeupdate(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ontimeupdate", value)
+	return a
+}
+
+/*
+Ontoggle -
+*/
+func (a *ArticleTagHtml) Ontoggle(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ontoggle", value)
+	return a
+}
+
+/*
+Onvolumechange -
+*/
+func (a *ArticleTagHtml) Onvolumechange(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onvolumechange", value)
+	return a
+}
+
+/*
+Onwaiting -
+*/
+func (a *ArticleTagHtml) Onwaiting(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onwaiting", value)
+	return a
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (a *ArticleTagHtml) Onafterprint(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onafterprint", value)
+	return a
+}
+
+/*
+Onbeforeprint -
+*/
+func (a *ArticleTagHtml) Onbeforeprint(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onbeforeprint", value)
+	return a
+}
+
+/*
+Onbeforeunload -
+*/
+func (a *ArticleTagHtml) Onbeforeunload(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onbeforeunload", value)
+	return a
+}
+
+/*
+Onerror -
+*/
+func (a *ArticleTagHtml) Onerror(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onerror", value)
+	return a
+}
+
+/*
+Onhashchange -
+*/
+func (a *ArticleTagHtml) Onhashchange(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onhashchange", value)
+	return a
+}
+
+/*
+Onload -
+*/
+func (a *ArticleTagHtml) Onload(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onload", value)
+	return a
+}
+
+/*
+Onmessage -
+*/
+func (a *ArticleTagHtml) Onmessage(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onmessage", value)
+	return a
+}
+
+/*
+Onoffline -
+*/
+func (a *ArticleTagHtml) Onoffline(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onoffline", value)
+	return a
+}
+
+/*
+Ononline -
+*/
+func (a *ArticleTagHtml) Ononline(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("ononline", value)
+	return a
+}
+
+/*
+Onpagehide -
+*/
+func (a *ArticleTagHtml) Onpagehide(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onpagehide", value)
+	return a
+}
+
+/*
+Onpageshow -
+*/
+func (a *ArticleTagHtml) Onpageshow(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onpageshow", value)
+	return a
+}
+
+/*
+Onpopstate -
+*/
+func (a *ArticleTagHtml) Onpopstate(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onpopstate", value)
+	return a
+}
+
+/*
+Onresize -
+*/
+func (a *ArticleTagHtml) Onresize(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onresize", value)
+	return a
+}
+
+/*
+Onstorage -
+*/
+func (a *ArticleTagHtml) Onstorage(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onstorage", value)
+	return a
+}
+
+/*
+Onunload -
+*/
+func (a *ArticleTagHtml) Onunload(value string) *ArticleTagHtml {
+	if a.attributes == nil {
+		a.attributes = []*Attribute{}
+	}
+	a.registerAttribute("onunload", value)
+	return a
+}

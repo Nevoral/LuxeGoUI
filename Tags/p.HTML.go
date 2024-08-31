@@ -72,3 +72,1451 @@ func (p *PTagHtml) supportedChildrenCheck(tags []any) *PTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (p *PTagHtml) Onabort(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onabort", value)
+	return p
+}
+
+/*
+Onautocomplete -
+*/
+func (p *PTagHtml) Onautocomplete(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onautocomplete", value)
+	return p
+}
+
+/*
+Onautocompleteerror -
+*/
+func (p *PTagHtml) Onautocompleteerror(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onautocompleteerror", value)
+	return p
+}
+
+/*
+Onblur -
+*/
+func (p *PTagHtml) Onblur(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onblur", value)
+	return p
+}
+
+/*
+Oncancel -
+*/
+func (p *PTagHtml) Oncancel(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oncancel", value)
+	return p
+}
+
+/*
+Oncanplay -
+*/
+func (p *PTagHtml) Oncanplay(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oncanplay", value)
+	return p
+}
+
+/*
+Oncanplaythrough -
+*/
+func (p *PTagHtml) Oncanplaythrough(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oncanplaythrough", value)
+	return p
+}
+
+/*
+Onchange -
+*/
+func (p *PTagHtml) Onchange(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onchange", value)
+	return p
+}
+
+/*
+Onclick -
+*/
+func (p *PTagHtml) Onclick(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onclick", value)
+	return p
+}
+
+/*
+Onclose -
+*/
+func (p *PTagHtml) Onclose(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onclose", value)
+	return p
+}
+
+/*
+Oncontextmenu -
+*/
+func (p *PTagHtml) Oncontextmenu(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oncontextmenu", value)
+	return p
+}
+
+/*
+Oncuechange -
+*/
+func (p *PTagHtml) Oncuechange(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oncuechange", value)
+	return p
+}
+
+/*
+Ondblclick -
+*/
+func (p *PTagHtml) Ondblclick(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondblclick", value)
+	return p
+}
+
+/*
+Ondrag -
+*/
+func (p *PTagHtml) Ondrag(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondrag", value)
+	return p
+}
+
+/*
+Ondragend -
+*/
+func (p *PTagHtml) Ondragend(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondragend", value)
+	return p
+}
+
+/*
+Ondragenter -
+*/
+func (p *PTagHtml) Ondragenter(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondragenter", value)
+	return p
+}
+
+/*
+Ondragleave -
+*/
+func (p *PTagHtml) Ondragleave(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondragleave", value)
+	return p
+}
+
+/*
+Ondragover -
+*/
+func (p *PTagHtml) Ondragover(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondragover", value)
+	return p
+}
+
+/*
+Ondragstart -
+*/
+func (p *PTagHtml) Ondragstart(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondragstart", value)
+	return p
+}
+
+/*
+Ondrop -
+*/
+func (p *PTagHtml) Ondrop(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondrop", value)
+	return p
+}
+
+/*
+Ondurationchange -
+*/
+func (p *PTagHtml) Ondurationchange(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ondurationchange", value)
+	return p
+}
+
+/*
+Onemptied -
+*/
+func (p *PTagHtml) Onemptied(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onemptied", value)
+	return p
+}
+
+/*
+Onended -
+*/
+func (p *PTagHtml) Onended(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onended", value)
+	return p
+}
+
+/*
+Onfocus -
+*/
+func (p *PTagHtml) Onfocus(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onfocus", value)
+	return p
+}
+
+/*
+Oninput -
+*/
+func (p *PTagHtml) Oninput(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oninput", value)
+	return p
+}
+
+/*
+Oninvalid -
+*/
+func (p *PTagHtml) Oninvalid(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("oninvalid", value)
+	return p
+}
+
+/*
+Onkeydown -
+*/
+func (p *PTagHtml) Onkeydown(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onkeydown", value)
+	return p
+}
+
+/*
+Onkeypress -
+*/
+func (p *PTagHtml) Onkeypress(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onkeypress", value)
+	return p
+}
+
+/*
+Onkeyup -
+*/
+func (p *PTagHtml) Onkeyup(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onkeyup", value)
+	return p
+}
+
+/*
+Onloadeddata -
+*/
+func (p *PTagHtml) Onloadeddata(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onloadeddata", value)
+	return p
+}
+
+/*
+Onloadedmetadata -
+*/
+func (p *PTagHtml) Onloadedmetadata(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onloadedmetadata", value)
+	return p
+}
+
+/*
+Onloadstart -
+*/
+func (p *PTagHtml) Onloadstart(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onloadstart", value)
+	return p
+}
+
+/*
+Onmousedown -
+*/
+func (p *PTagHtml) Onmousedown(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmousedown", value)
+	return p
+}
+
+/*
+Onmouseenter -
+*/
+func (p *PTagHtml) Onmouseenter(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmouseenter", value)
+	return p
+}
+
+/*
+Onmouseleave -
+*/
+func (p *PTagHtml) Onmouseleave(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmouseleave", value)
+	return p
+}
+
+/*
+Onmousemove -
+*/
+func (p *PTagHtml) Onmousemove(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmousemove", value)
+	return p
+}
+
+/*
+Onmouseout -
+*/
+func (p *PTagHtml) Onmouseout(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmouseout", value)
+	return p
+}
+
+/*
+Onmouseover -
+*/
+func (p *PTagHtml) Onmouseover(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmouseover", value)
+	return p
+}
+
+/*
+Onmouseup -
+*/
+func (p *PTagHtml) Onmouseup(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmouseup", value)
+	return p
+}
+
+/*
+Onmousewheel -
+*/
+func (p *PTagHtml) Onmousewheel(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmousewheel", value)
+	return p
+}
+
+/*
+Onpause -
+*/
+func (p *PTagHtml) Onpause(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onpause", value)
+	return p
+}
+
+/*
+Onplay -
+*/
+func (p *PTagHtml) Onplay(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onplay", value)
+	return p
+}
+
+/*
+Onplaying -
+*/
+func (p *PTagHtml) Onplaying(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onplaying", value)
+	return p
+}
+
+/*
+Onprogress -
+*/
+func (p *PTagHtml) Onprogress(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onprogress", value)
+	return p
+}
+
+/*
+Onratechange -
+*/
+func (p *PTagHtml) Onratechange(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onratechange", value)
+	return p
+}
+
+/*
+Onreset -
+*/
+func (p *PTagHtml) Onreset(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onreset", value)
+	return p
+}
+
+/*
+Onscroll -
+*/
+func (p *PTagHtml) Onscroll(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onscroll", value)
+	return p
+}
+
+/*
+Onseeked -
+*/
+func (p *PTagHtml) Onseeked(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onseeked", value)
+	return p
+}
+
+/*
+Onseeking -
+*/
+func (p *PTagHtml) Onseeking(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onseeking", value)
+	return p
+}
+
+/*
+Onselect -
+*/
+func (p *PTagHtml) Onselect(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onselect", value)
+	return p
+}
+
+/*
+Onshow -
+*/
+func (p *PTagHtml) Onshow(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onshow", value)
+	return p
+}
+
+/*
+Onsort -
+*/
+func (p *PTagHtml) Onsort(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onsort", value)
+	return p
+}
+
+/*
+Onstalled -
+*/
+func (p *PTagHtml) Onstalled(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onstalled", value)
+	return p
+}
+
+/*
+Onsubmit -
+*/
+func (p *PTagHtml) Onsubmit(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onsubmit", value)
+	return p
+}
+
+/*
+Onsuspend -
+*/
+func (p *PTagHtml) Onsuspend(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onsuspend", value)
+	return p
+}
+
+/*
+Ontimeupdate -
+*/
+func (p *PTagHtml) Ontimeupdate(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ontimeupdate", value)
+	return p
+}
+
+/*
+Ontoggle -
+*/
+func (p *PTagHtml) Ontoggle(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ontoggle", value)
+	return p
+}
+
+/*
+Onvolumechange -
+*/
+func (p *PTagHtml) Onvolumechange(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onvolumechange", value)
+	return p
+}
+
+/*
+Onwaiting -
+*/
+func (p *PTagHtml) Onwaiting(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onwaiting", value)
+	return p
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (p *PTagHtml) Onafterprint(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onafterprint", value)
+	return p
+}
+
+/*
+Onbeforeprint -
+*/
+func (p *PTagHtml) Onbeforeprint(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onbeforeprint", value)
+	return p
+}
+
+/*
+Onbeforeunload -
+*/
+func (p *PTagHtml) Onbeforeunload(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onbeforeunload", value)
+	return p
+}
+
+/*
+Onerror -
+*/
+func (p *PTagHtml) Onerror(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onerror", value)
+	return p
+}
+
+/*
+Onhashchange -
+*/
+func (p *PTagHtml) Onhashchange(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onhashchange", value)
+	return p
+}
+
+/*
+Onload -
+*/
+func (p *PTagHtml) Onload(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onload", value)
+	return p
+}
+
+/*
+Onmessage -
+*/
+func (p *PTagHtml) Onmessage(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onmessage", value)
+	return p
+}
+
+/*
+Onoffline -
+*/
+func (p *PTagHtml) Onoffline(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onoffline", value)
+	return p
+}
+
+/*
+Ononline -
+*/
+func (p *PTagHtml) Ononline(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("ononline", value)
+	return p
+}
+
+/*
+Onpagehide -
+*/
+func (p *PTagHtml) Onpagehide(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onpagehide", value)
+	return p
+}
+
+/*
+Onpageshow -
+*/
+func (p *PTagHtml) Onpageshow(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onpageshow", value)
+	return p
+}
+
+/*
+Onpopstate -
+*/
+func (p *PTagHtml) Onpopstate(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onpopstate", value)
+	return p
+}
+
+/*
+Onresize -
+*/
+func (p *PTagHtml) Onresize(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onresize", value)
+	return p
+}
+
+/*
+Onstorage -
+*/
+func (p *PTagHtml) Onstorage(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onstorage", value)
+	return p
+}
+
+/*
+Onunload -
+*/
+func (p *PTagHtml) Onunload(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("onunload", value)
+	return p
+}
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (p *PTagHtml) AccessKey(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("accessKey", value)
+	return p
+}
+
+/*
+Aria -
+*/
+func (p *PTagHtml) Aria(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria", value)
+	return p
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (p *PTagHtml) Autocapitalize(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("autocapitalize", value)
+	return p
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (p *PTagHtml) Autofocus(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("autofocus", value)
+	return p
+}
+
+/*
+Class -
+*/
+func (p *PTagHtml) Class(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("class", value)
+	return p
+}
+
+/*
+Contenteditable -
+*/
+func (p *PTagHtml) Contenteditable(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("contenteditable", value)
+	return p
+}
+
+/*
+Data -
+*/
+func (p *PTagHtml) Data(name, value string) *PTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	p.registerAttribute(dataName, value)
+	return p
+}
+
+/*
+Dir -
+*/
+func (p *PTagHtml) Dir(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("dir", value)
+	return p
+}
+
+/*
+Draggable -
+*/
+func (p *PTagHtml) Draggable(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("draggable", value)
+	return p
+}
+
+/*
+EnterKeyHint -
+*/
+func (p *PTagHtml) EnterKeyHint(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("enterKeyHint", value)
+	return p
+}
+
+/*
+ExportParts -
+*/
+func (p *PTagHtml) ExportParts(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("exportParts", value)
+	return p
+}
+
+/*
+Hidden -
+*/
+func (p *PTagHtml) Hidden(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("hidden", value)
+	return p
+}
+
+/*
+Id -
+*/
+func (p *PTagHtml) Id(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("id", value)
+	return p
+}
+
+/*
+Inert -
+*/
+func (p *PTagHtml) Inert(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("inert", value)
+	return p
+}
+
+/*
+InputMode -
+*/
+func (p *PTagHtml) InputMode(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("inputMode", value)
+	return p
+}
+
+/*
+Is -
+*/
+func (p *PTagHtml) Is(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("is", value)
+	return p
+}
+
+/*
+ItemId -
+*/
+func (p *PTagHtml) ItemId(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("itemId", value)
+	return p
+}
+
+/*
+ItemProp -
+*/
+func (p *PTagHtml) ItemProp(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("itemProp", value)
+	return p
+}
+
+/*
+ItemRef -
+*/
+func (p *PTagHtml) ItemRef(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("itemRef", value)
+	return p
+}
+
+/*
+ItemScope -
+*/
+func (p *PTagHtml) ItemScope(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("itemScope", value)
+	return p
+}
+
+/*
+ItemType -
+*/
+func (p *PTagHtml) ItemType(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("itemType", value)
+	return p
+}
+
+/*
+Lang -
+*/
+func (p *PTagHtml) Lang(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("lang", value)
+	return p
+}
+
+/*
+Nonce -
+*/
+func (p *PTagHtml) Nonce(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("nonce", value)
+	return p
+}
+
+/*
+Part -
+*/
+func (p *PTagHtml) Part(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("part", value)
+	return p
+}
+
+/*
+Popover -
+*/
+func (p *PTagHtml) Popover() *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("popover", "")
+	return p
+}
+
+/*
+Role -
+*/
+func (p *PTagHtml) Role(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("role", value)
+	return p
+}
+
+/*
+Slot -
+*/
+func (p *PTagHtml) Slot(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("slot", value)
+	return p
+}
+
+/*
+Spellcheck -
+*/
+func (p *PTagHtml) Spellcheck(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("spellcheck", value)
+	return p
+}
+
+/*
+Style -
+*/
+func (p *PTagHtml) Style(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("style", value)
+	return p
+}
+
+/*
+Tabindex -
+*/
+func (p *PTagHtml) Tabindex(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("tabindex", value)
+	return p
+}
+
+/*
+Title -
+*/
+func (p *PTagHtml) Title(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("title", value)
+	return p
+}
+
+/*
+Translate -
+*/
+func (p *PTagHtml) Translate(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("translate", value)
+	return p
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (p *PTagHtml) VirtualKeyBoardPolicy(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("virtualKeyBoardPolicy", value)
+	return p
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (p *PTagHtml) AriaAtomic(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-atomic", value)
+	return p
+}
+
+/*
+AriaBusy -
+*/
+func (p *PTagHtml) AriaBusy(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-busy", value)
+	return p
+}
+
+/*
+AriaControls -
+*/
+func (p *PTagHtml) AriaControls(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-controls", value)
+	return p
+}
+
+/*
+AriaCurrent -
+*/
+func (p *PTagHtml) AriaCurrent(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-current", value)
+	return p
+}
+
+/*
+AriaDescribedby -
+*/
+func (p *PTagHtml) AriaDescribedby(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-describedby", value)
+	return p
+}
+
+/*
+AriaDescription -
+*/
+func (p *PTagHtml) AriaDescription(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-description", value)
+	return p
+}
+
+/*
+AriaDetails -
+*/
+func (p *PTagHtml) AriaDetails(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-details", value)
+	return p
+}
+
+/*
+AriaDisabled -
+*/
+func (p *PTagHtml) AriaDisabled(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-disabled", value)
+	return p
+}
+
+/*
+AriaDropeffect -
+*/
+func (p *PTagHtml) AriaDropeffect(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-dropeffect", value)
+	return p
+}
+
+/*
+AriaErrormessage -
+*/
+func (p *PTagHtml) AriaErrormessage(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-errormessage", value)
+	return p
+}
+
+/*
+AriaFlowto -
+*/
+func (p *PTagHtml) AriaFlowto(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-flowto", value)
+	return p
+}
+
+/*
+AriaGrabbed -
+*/
+func (p *PTagHtml) AriaGrabbed(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-grabbed", value)
+	return p
+}
+
+/*
+AriaHaspopup -
+*/
+func (p *PTagHtml) AriaHaspopup(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-haspopup", value)
+	return p
+}
+
+/*
+AriaHidden -
+*/
+func (p *PTagHtml) AriaHidden(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-hidden", value)
+	return p
+}
+
+/*
+AriaInvalid -
+*/
+func (p *PTagHtml) AriaInvalid(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-invalid", value)
+	return p
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (p *PTagHtml) AriaKeyshortcuts(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-keyshortcuts", value)
+	return p
+}
+
+/*
+AriaLabel -
+*/
+func (p *PTagHtml) AriaLabel(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-label", value)
+	return p
+}
+
+/*
+AriaLabelledby -
+*/
+func (p *PTagHtml) AriaLabelledby(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-labelledby", value)
+	return p
+}
+
+/*
+AriaLive -
+*/
+func (p *PTagHtml) AriaLive(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-live", value)
+	return p
+}
+
+/*
+AriaOwns -
+*/
+func (p *PTagHtml) AriaOwns(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-owns", value)
+	return p
+}
+
+/*
+AriaRelevant -
+*/
+func (p *PTagHtml) AriaRelevant(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-relevant", value)
+	return p
+}
+
+/*
+AriaRoledescription -
+*/
+func (p *PTagHtml) AriaRoledescription(value string) *PTagHtml {
+	if p.attributes == nil {
+		p.attributes = []*Attribute{}
+	}
+	p.registerAttribute("aria-roledescription", value)
+	return p
+}

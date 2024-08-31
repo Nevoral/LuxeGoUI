@@ -72,3 +72,1451 @@ func (b *BdoTagHtml) supportedChildrenCheck(tags []any) *BdoTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (b *BdoTagHtml) AccessKey(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("accessKey", value)
+	return b
+}
+
+/*
+Aria -
+*/
+func (b *BdoTagHtml) Aria(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria", value)
+	return b
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (b *BdoTagHtml) Autocapitalize(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("autocapitalize", value)
+	return b
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (b *BdoTagHtml) Autofocus(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("autofocus", value)
+	return b
+}
+
+/*
+Class -
+*/
+func (b *BdoTagHtml) Class(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("class", value)
+	return b
+}
+
+/*
+Contenteditable -
+*/
+func (b *BdoTagHtml) Contenteditable(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("contenteditable", value)
+	return b
+}
+
+/*
+Data -
+*/
+func (b *BdoTagHtml) Data(name, value string) *BdoTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	b.registerAttribute(dataName, value)
+	return b
+}
+
+/*
+Dir -
+*/
+func (b *BdoTagHtml) Dir(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("dir", value)
+	return b
+}
+
+/*
+Draggable -
+*/
+func (b *BdoTagHtml) Draggable(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("draggable", value)
+	return b
+}
+
+/*
+EnterKeyHint -
+*/
+func (b *BdoTagHtml) EnterKeyHint(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("enterKeyHint", value)
+	return b
+}
+
+/*
+ExportParts -
+*/
+func (b *BdoTagHtml) ExportParts(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("exportParts", value)
+	return b
+}
+
+/*
+Hidden -
+*/
+func (b *BdoTagHtml) Hidden(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("hidden", value)
+	return b
+}
+
+/*
+Id -
+*/
+func (b *BdoTagHtml) Id(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("id", value)
+	return b
+}
+
+/*
+Inert -
+*/
+func (b *BdoTagHtml) Inert(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("inert", value)
+	return b
+}
+
+/*
+InputMode -
+*/
+func (b *BdoTagHtml) InputMode(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("inputMode", value)
+	return b
+}
+
+/*
+Is -
+*/
+func (b *BdoTagHtml) Is(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("is", value)
+	return b
+}
+
+/*
+ItemId -
+*/
+func (b *BdoTagHtml) ItemId(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemId", value)
+	return b
+}
+
+/*
+ItemProp -
+*/
+func (b *BdoTagHtml) ItemProp(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemProp", value)
+	return b
+}
+
+/*
+ItemRef -
+*/
+func (b *BdoTagHtml) ItemRef(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemRef", value)
+	return b
+}
+
+/*
+ItemScope -
+*/
+func (b *BdoTagHtml) ItemScope(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemScope", value)
+	return b
+}
+
+/*
+ItemType -
+*/
+func (b *BdoTagHtml) ItemType(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("itemType", value)
+	return b
+}
+
+/*
+Lang -
+*/
+func (b *BdoTagHtml) Lang(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("lang", value)
+	return b
+}
+
+/*
+Nonce -
+*/
+func (b *BdoTagHtml) Nonce(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("nonce", value)
+	return b
+}
+
+/*
+Part -
+*/
+func (b *BdoTagHtml) Part(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("part", value)
+	return b
+}
+
+/*
+Popover -
+*/
+func (b *BdoTagHtml) Popover() *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("popover", "")
+	return b
+}
+
+/*
+Role -
+*/
+func (b *BdoTagHtml) Role(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("role", value)
+	return b
+}
+
+/*
+Slot -
+*/
+func (b *BdoTagHtml) Slot(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("slot", value)
+	return b
+}
+
+/*
+Spellcheck -
+*/
+func (b *BdoTagHtml) Spellcheck(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("spellcheck", value)
+	return b
+}
+
+/*
+Style -
+*/
+func (b *BdoTagHtml) Style(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("style", value)
+	return b
+}
+
+/*
+Tabindex -
+*/
+func (b *BdoTagHtml) Tabindex(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("tabindex", value)
+	return b
+}
+
+/*
+Title -
+*/
+func (b *BdoTagHtml) Title(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("title", value)
+	return b
+}
+
+/*
+Translate -
+*/
+func (b *BdoTagHtml) Translate(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("translate", value)
+	return b
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (b *BdoTagHtml) VirtualKeyBoardPolicy(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("virtualKeyBoardPolicy", value)
+	return b
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (b *BdoTagHtml) AriaAtomic(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-atomic", value)
+	return b
+}
+
+/*
+AriaBusy -
+*/
+func (b *BdoTagHtml) AriaBusy(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-busy", value)
+	return b
+}
+
+/*
+AriaControls -
+*/
+func (b *BdoTagHtml) AriaControls(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-controls", value)
+	return b
+}
+
+/*
+AriaCurrent -
+*/
+func (b *BdoTagHtml) AriaCurrent(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-current", value)
+	return b
+}
+
+/*
+AriaDescribedby -
+*/
+func (b *BdoTagHtml) AriaDescribedby(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-describedby", value)
+	return b
+}
+
+/*
+AriaDescription -
+*/
+func (b *BdoTagHtml) AriaDescription(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-description", value)
+	return b
+}
+
+/*
+AriaDetails -
+*/
+func (b *BdoTagHtml) AriaDetails(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-details", value)
+	return b
+}
+
+/*
+AriaDisabled -
+*/
+func (b *BdoTagHtml) AriaDisabled(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-disabled", value)
+	return b
+}
+
+/*
+AriaDropeffect -
+*/
+func (b *BdoTagHtml) AriaDropeffect(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-dropeffect", value)
+	return b
+}
+
+/*
+AriaErrormessage -
+*/
+func (b *BdoTagHtml) AriaErrormessage(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-errormessage", value)
+	return b
+}
+
+/*
+AriaFlowto -
+*/
+func (b *BdoTagHtml) AriaFlowto(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-flowto", value)
+	return b
+}
+
+/*
+AriaGrabbed -
+*/
+func (b *BdoTagHtml) AriaGrabbed(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-grabbed", value)
+	return b
+}
+
+/*
+AriaHaspopup -
+*/
+func (b *BdoTagHtml) AriaHaspopup(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-haspopup", value)
+	return b
+}
+
+/*
+AriaHidden -
+*/
+func (b *BdoTagHtml) AriaHidden(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-hidden", value)
+	return b
+}
+
+/*
+AriaInvalid -
+*/
+func (b *BdoTagHtml) AriaInvalid(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-invalid", value)
+	return b
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (b *BdoTagHtml) AriaKeyshortcuts(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-keyshortcuts", value)
+	return b
+}
+
+/*
+AriaLabel -
+*/
+func (b *BdoTagHtml) AriaLabel(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-label", value)
+	return b
+}
+
+/*
+AriaLabelledby -
+*/
+func (b *BdoTagHtml) AriaLabelledby(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-labelledby", value)
+	return b
+}
+
+/*
+AriaLive -
+*/
+func (b *BdoTagHtml) AriaLive(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-live", value)
+	return b
+}
+
+/*
+AriaOwns -
+*/
+func (b *BdoTagHtml) AriaOwns(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-owns", value)
+	return b
+}
+
+/*
+AriaRelevant -
+*/
+func (b *BdoTagHtml) AriaRelevant(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-relevant", value)
+	return b
+}
+
+/*
+AriaRoledescription -
+*/
+func (b *BdoTagHtml) AriaRoledescription(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("aria-roledescription", value)
+	return b
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (b *BdoTagHtml) Onabort(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onabort", value)
+	return b
+}
+
+/*
+Onautocomplete -
+*/
+func (b *BdoTagHtml) Onautocomplete(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onautocomplete", value)
+	return b
+}
+
+/*
+Onautocompleteerror -
+*/
+func (b *BdoTagHtml) Onautocompleteerror(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onautocompleteerror", value)
+	return b
+}
+
+/*
+Onblur -
+*/
+func (b *BdoTagHtml) Onblur(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onblur", value)
+	return b
+}
+
+/*
+Oncancel -
+*/
+func (b *BdoTagHtml) Oncancel(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncancel", value)
+	return b
+}
+
+/*
+Oncanplay -
+*/
+func (b *BdoTagHtml) Oncanplay(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncanplay", value)
+	return b
+}
+
+/*
+Oncanplaythrough -
+*/
+func (b *BdoTagHtml) Oncanplaythrough(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncanplaythrough", value)
+	return b
+}
+
+/*
+Onchange -
+*/
+func (b *BdoTagHtml) Onchange(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onchange", value)
+	return b
+}
+
+/*
+Onclick -
+*/
+func (b *BdoTagHtml) Onclick(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onclick", value)
+	return b
+}
+
+/*
+Onclose -
+*/
+func (b *BdoTagHtml) Onclose(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onclose", value)
+	return b
+}
+
+/*
+Oncontextmenu -
+*/
+func (b *BdoTagHtml) Oncontextmenu(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncontextmenu", value)
+	return b
+}
+
+/*
+Oncuechange -
+*/
+func (b *BdoTagHtml) Oncuechange(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oncuechange", value)
+	return b
+}
+
+/*
+Ondblclick -
+*/
+func (b *BdoTagHtml) Ondblclick(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondblclick", value)
+	return b
+}
+
+/*
+Ondrag -
+*/
+func (b *BdoTagHtml) Ondrag(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondrag", value)
+	return b
+}
+
+/*
+Ondragend -
+*/
+func (b *BdoTagHtml) Ondragend(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragend", value)
+	return b
+}
+
+/*
+Ondragenter -
+*/
+func (b *BdoTagHtml) Ondragenter(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragenter", value)
+	return b
+}
+
+/*
+Ondragleave -
+*/
+func (b *BdoTagHtml) Ondragleave(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragleave", value)
+	return b
+}
+
+/*
+Ondragover -
+*/
+func (b *BdoTagHtml) Ondragover(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragover", value)
+	return b
+}
+
+/*
+Ondragstart -
+*/
+func (b *BdoTagHtml) Ondragstart(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondragstart", value)
+	return b
+}
+
+/*
+Ondrop -
+*/
+func (b *BdoTagHtml) Ondrop(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondrop", value)
+	return b
+}
+
+/*
+Ondurationchange -
+*/
+func (b *BdoTagHtml) Ondurationchange(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ondurationchange", value)
+	return b
+}
+
+/*
+Onemptied -
+*/
+func (b *BdoTagHtml) Onemptied(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onemptied", value)
+	return b
+}
+
+/*
+Onended -
+*/
+func (b *BdoTagHtml) Onended(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onended", value)
+	return b
+}
+
+/*
+Onfocus -
+*/
+func (b *BdoTagHtml) Onfocus(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onfocus", value)
+	return b
+}
+
+/*
+Oninput -
+*/
+func (b *BdoTagHtml) Oninput(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oninput", value)
+	return b
+}
+
+/*
+Oninvalid -
+*/
+func (b *BdoTagHtml) Oninvalid(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("oninvalid", value)
+	return b
+}
+
+/*
+Onkeydown -
+*/
+func (b *BdoTagHtml) Onkeydown(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onkeydown", value)
+	return b
+}
+
+/*
+Onkeypress -
+*/
+func (b *BdoTagHtml) Onkeypress(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onkeypress", value)
+	return b
+}
+
+/*
+Onkeyup -
+*/
+func (b *BdoTagHtml) Onkeyup(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onkeyup", value)
+	return b
+}
+
+/*
+Onloadeddata -
+*/
+func (b *BdoTagHtml) Onloadeddata(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onloadeddata", value)
+	return b
+}
+
+/*
+Onloadedmetadata -
+*/
+func (b *BdoTagHtml) Onloadedmetadata(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onloadedmetadata", value)
+	return b
+}
+
+/*
+Onloadstart -
+*/
+func (b *BdoTagHtml) Onloadstart(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onloadstart", value)
+	return b
+}
+
+/*
+Onmousedown -
+*/
+func (b *BdoTagHtml) Onmousedown(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmousedown", value)
+	return b
+}
+
+/*
+Onmouseenter -
+*/
+func (b *BdoTagHtml) Onmouseenter(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseenter", value)
+	return b
+}
+
+/*
+Onmouseleave -
+*/
+func (b *BdoTagHtml) Onmouseleave(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseleave", value)
+	return b
+}
+
+/*
+Onmousemove -
+*/
+func (b *BdoTagHtml) Onmousemove(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmousemove", value)
+	return b
+}
+
+/*
+Onmouseout -
+*/
+func (b *BdoTagHtml) Onmouseout(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseout", value)
+	return b
+}
+
+/*
+Onmouseover -
+*/
+func (b *BdoTagHtml) Onmouseover(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseover", value)
+	return b
+}
+
+/*
+Onmouseup -
+*/
+func (b *BdoTagHtml) Onmouseup(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmouseup", value)
+	return b
+}
+
+/*
+Onmousewheel -
+*/
+func (b *BdoTagHtml) Onmousewheel(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmousewheel", value)
+	return b
+}
+
+/*
+Onpause -
+*/
+func (b *BdoTagHtml) Onpause(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onpause", value)
+	return b
+}
+
+/*
+Onplay -
+*/
+func (b *BdoTagHtml) Onplay(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onplay", value)
+	return b
+}
+
+/*
+Onplaying -
+*/
+func (b *BdoTagHtml) Onplaying(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onplaying", value)
+	return b
+}
+
+/*
+Onprogress -
+*/
+func (b *BdoTagHtml) Onprogress(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onprogress", value)
+	return b
+}
+
+/*
+Onratechange -
+*/
+func (b *BdoTagHtml) Onratechange(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onratechange", value)
+	return b
+}
+
+/*
+Onreset -
+*/
+func (b *BdoTagHtml) Onreset(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onreset", value)
+	return b
+}
+
+/*
+Onscroll -
+*/
+func (b *BdoTagHtml) Onscroll(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onscroll", value)
+	return b
+}
+
+/*
+Onseeked -
+*/
+func (b *BdoTagHtml) Onseeked(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onseeked", value)
+	return b
+}
+
+/*
+Onseeking -
+*/
+func (b *BdoTagHtml) Onseeking(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onseeking", value)
+	return b
+}
+
+/*
+Onselect -
+*/
+func (b *BdoTagHtml) Onselect(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onselect", value)
+	return b
+}
+
+/*
+Onshow -
+*/
+func (b *BdoTagHtml) Onshow(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onshow", value)
+	return b
+}
+
+/*
+Onsort -
+*/
+func (b *BdoTagHtml) Onsort(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onsort", value)
+	return b
+}
+
+/*
+Onstalled -
+*/
+func (b *BdoTagHtml) Onstalled(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onstalled", value)
+	return b
+}
+
+/*
+Onsubmit -
+*/
+func (b *BdoTagHtml) Onsubmit(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onsubmit", value)
+	return b
+}
+
+/*
+Onsuspend -
+*/
+func (b *BdoTagHtml) Onsuspend(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onsuspend", value)
+	return b
+}
+
+/*
+Ontimeupdate -
+*/
+func (b *BdoTagHtml) Ontimeupdate(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ontimeupdate", value)
+	return b
+}
+
+/*
+Ontoggle -
+*/
+func (b *BdoTagHtml) Ontoggle(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ontoggle", value)
+	return b
+}
+
+/*
+Onvolumechange -
+*/
+func (b *BdoTagHtml) Onvolumechange(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onvolumechange", value)
+	return b
+}
+
+/*
+Onwaiting -
+*/
+func (b *BdoTagHtml) Onwaiting(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onwaiting", value)
+	return b
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (b *BdoTagHtml) Onafterprint(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onafterprint", value)
+	return b
+}
+
+/*
+Onbeforeprint -
+*/
+func (b *BdoTagHtml) Onbeforeprint(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onbeforeprint", value)
+	return b
+}
+
+/*
+Onbeforeunload -
+*/
+func (b *BdoTagHtml) Onbeforeunload(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onbeforeunload", value)
+	return b
+}
+
+/*
+Onerror -
+*/
+func (b *BdoTagHtml) Onerror(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onerror", value)
+	return b
+}
+
+/*
+Onhashchange -
+*/
+func (b *BdoTagHtml) Onhashchange(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onhashchange", value)
+	return b
+}
+
+/*
+Onload -
+*/
+func (b *BdoTagHtml) Onload(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onload", value)
+	return b
+}
+
+/*
+Onmessage -
+*/
+func (b *BdoTagHtml) Onmessage(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onmessage", value)
+	return b
+}
+
+/*
+Onoffline -
+*/
+func (b *BdoTagHtml) Onoffline(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onoffline", value)
+	return b
+}
+
+/*
+Ononline -
+*/
+func (b *BdoTagHtml) Ononline(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("ononline", value)
+	return b
+}
+
+/*
+Onpagehide -
+*/
+func (b *BdoTagHtml) Onpagehide(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onpagehide", value)
+	return b
+}
+
+/*
+Onpageshow -
+*/
+func (b *BdoTagHtml) Onpageshow(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onpageshow", value)
+	return b
+}
+
+/*
+Onpopstate -
+*/
+func (b *BdoTagHtml) Onpopstate(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onpopstate", value)
+	return b
+}
+
+/*
+Onresize -
+*/
+func (b *BdoTagHtml) Onresize(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onresize", value)
+	return b
+}
+
+/*
+Onstorage -
+*/
+func (b *BdoTagHtml) Onstorage(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onstorage", value)
+	return b
+}
+
+/*
+Onunload -
+*/
+func (b *BdoTagHtml) Onunload(value string) *BdoTagHtml {
+	if b.attributes == nil {
+		b.attributes = []*Attribute{}
+	}
+	b.registerAttribute("onunload", value)
+	return b
+}

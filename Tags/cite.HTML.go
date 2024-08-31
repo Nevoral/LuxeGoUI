@@ -72,3 +72,1451 @@ func (c *CiteTagHtml) supportedChildrenCheck(tags []any) *CiteTagHtml {
 *------------------------------------------------ Specific Attributes -------------------------------------------------*
 ************************************************************************************************************************
  */
+
+/*
+************************************************************************************************************************
+*-------------------------------------------------- Aria Attributes ---------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AriaAtomic -
+*/
+func (c *CiteTagHtml) AriaAtomic(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-atomic", value)
+	return c
+}
+
+/*
+AriaBusy -
+*/
+func (c *CiteTagHtml) AriaBusy(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-busy", value)
+	return c
+}
+
+/*
+AriaControls -
+*/
+func (c *CiteTagHtml) AriaControls(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-controls", value)
+	return c
+}
+
+/*
+AriaCurrent -
+*/
+func (c *CiteTagHtml) AriaCurrent(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-current", value)
+	return c
+}
+
+/*
+AriaDescribedby -
+*/
+func (c *CiteTagHtml) AriaDescribedby(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-describedby", value)
+	return c
+}
+
+/*
+AriaDescription -
+*/
+func (c *CiteTagHtml) AriaDescription(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-description", value)
+	return c
+}
+
+/*
+AriaDetails -
+*/
+func (c *CiteTagHtml) AriaDetails(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-details", value)
+	return c
+}
+
+/*
+AriaDisabled -
+*/
+func (c *CiteTagHtml) AriaDisabled(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-disabled", value)
+	return c
+}
+
+/*
+AriaDropeffect -
+*/
+func (c *CiteTagHtml) AriaDropeffect(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-dropeffect", value)
+	return c
+}
+
+/*
+AriaErrormessage -
+*/
+func (c *CiteTagHtml) AriaErrormessage(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-errormessage", value)
+	return c
+}
+
+/*
+AriaFlowto -
+*/
+func (c *CiteTagHtml) AriaFlowto(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-flowto", value)
+	return c
+}
+
+/*
+AriaGrabbed -
+*/
+func (c *CiteTagHtml) AriaGrabbed(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-grabbed", value)
+	return c
+}
+
+/*
+AriaHaspopup -
+*/
+func (c *CiteTagHtml) AriaHaspopup(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-haspopup", value)
+	return c
+}
+
+/*
+AriaHidden -
+*/
+func (c *CiteTagHtml) AriaHidden(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-hidden", value)
+	return c
+}
+
+/*
+AriaInvalid -
+*/
+func (c *CiteTagHtml) AriaInvalid(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-invalid", value)
+	return c
+}
+
+/*
+AriaKeyshortcuts -
+*/
+func (c *CiteTagHtml) AriaKeyshortcuts(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-keyshortcuts", value)
+	return c
+}
+
+/*
+AriaLabel -
+*/
+func (c *CiteTagHtml) AriaLabel(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-label", value)
+	return c
+}
+
+/*
+AriaLabelledby -
+*/
+func (c *CiteTagHtml) AriaLabelledby(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-labelledby", value)
+	return c
+}
+
+/*
+AriaLive -
+*/
+func (c *CiteTagHtml) AriaLive(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-live", value)
+	return c
+}
+
+/*
+AriaOwns -
+*/
+func (c *CiteTagHtml) AriaOwns(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-owns", value)
+	return c
+}
+
+/*
+AriaRelevant -
+*/
+func (c *CiteTagHtml) AriaRelevant(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-relevant", value)
+	return c
+}
+
+/*
+AriaRoledescription -
+*/
+func (c *CiteTagHtml) AriaRoledescription(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria-roledescription", value)
+	return c
+}
+
+/*
+************************************************************************************************************************
+*-------------------------------------------- Document Action Attributes ----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onabort -
+*/
+func (c *CiteTagHtml) Onabort(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onabort", value)
+	return c
+}
+
+/*
+Onautocomplete -
+*/
+func (c *CiteTagHtml) Onautocomplete(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onautocomplete", value)
+	return c
+}
+
+/*
+Onautocompleteerror -
+*/
+func (c *CiteTagHtml) Onautocompleteerror(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onautocompleteerror", value)
+	return c
+}
+
+/*
+Onblur -
+*/
+func (c *CiteTagHtml) Onblur(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onblur", value)
+	return c
+}
+
+/*
+Oncancel -
+*/
+func (c *CiteTagHtml) Oncancel(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("oncancel", value)
+	return c
+}
+
+/*
+Oncanplay -
+*/
+func (c *CiteTagHtml) Oncanplay(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("oncanplay", value)
+	return c
+}
+
+/*
+Oncanplaythrough -
+*/
+func (c *CiteTagHtml) Oncanplaythrough(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("oncanplaythrough", value)
+	return c
+}
+
+/*
+Onchange -
+*/
+func (c *CiteTagHtml) Onchange(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onchange", value)
+	return c
+}
+
+/*
+Onclick -
+*/
+func (c *CiteTagHtml) Onclick(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onclick", value)
+	return c
+}
+
+/*
+Onclose -
+*/
+func (c *CiteTagHtml) Onclose(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onclose", value)
+	return c
+}
+
+/*
+Oncontextmenu -
+*/
+func (c *CiteTagHtml) Oncontextmenu(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("oncontextmenu", value)
+	return c
+}
+
+/*
+Oncuechange -
+*/
+func (c *CiteTagHtml) Oncuechange(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("oncuechange", value)
+	return c
+}
+
+/*
+Ondblclick -
+*/
+func (c *CiteTagHtml) Ondblclick(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondblclick", value)
+	return c
+}
+
+/*
+Ondrag -
+*/
+func (c *CiteTagHtml) Ondrag(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondrag", value)
+	return c
+}
+
+/*
+Ondragend -
+*/
+func (c *CiteTagHtml) Ondragend(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondragend", value)
+	return c
+}
+
+/*
+Ondragenter -
+*/
+func (c *CiteTagHtml) Ondragenter(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondragenter", value)
+	return c
+}
+
+/*
+Ondragleave -
+*/
+func (c *CiteTagHtml) Ondragleave(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondragleave", value)
+	return c
+}
+
+/*
+Ondragover -
+*/
+func (c *CiteTagHtml) Ondragover(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondragover", value)
+	return c
+}
+
+/*
+Ondragstart -
+*/
+func (c *CiteTagHtml) Ondragstart(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondragstart", value)
+	return c
+}
+
+/*
+Ondrop -
+*/
+func (c *CiteTagHtml) Ondrop(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondrop", value)
+	return c
+}
+
+/*
+Ondurationchange -
+*/
+func (c *CiteTagHtml) Ondurationchange(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ondurationchange", value)
+	return c
+}
+
+/*
+Onemptied -
+*/
+func (c *CiteTagHtml) Onemptied(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onemptied", value)
+	return c
+}
+
+/*
+Onended -
+*/
+func (c *CiteTagHtml) Onended(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onended", value)
+	return c
+}
+
+/*
+Onfocus -
+*/
+func (c *CiteTagHtml) Onfocus(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onfocus", value)
+	return c
+}
+
+/*
+Oninput -
+*/
+func (c *CiteTagHtml) Oninput(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("oninput", value)
+	return c
+}
+
+/*
+Oninvalid -
+*/
+func (c *CiteTagHtml) Oninvalid(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("oninvalid", value)
+	return c
+}
+
+/*
+Onkeydown -
+*/
+func (c *CiteTagHtml) Onkeydown(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onkeydown", value)
+	return c
+}
+
+/*
+Onkeypress -
+*/
+func (c *CiteTagHtml) Onkeypress(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onkeypress", value)
+	return c
+}
+
+/*
+Onkeyup -
+*/
+func (c *CiteTagHtml) Onkeyup(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onkeyup", value)
+	return c
+}
+
+/*
+Onloadeddata -
+*/
+func (c *CiteTagHtml) Onloadeddata(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onloadeddata", value)
+	return c
+}
+
+/*
+Onloadedmetadata -
+*/
+func (c *CiteTagHtml) Onloadedmetadata(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onloadedmetadata", value)
+	return c
+}
+
+/*
+Onloadstart -
+*/
+func (c *CiteTagHtml) Onloadstart(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onloadstart", value)
+	return c
+}
+
+/*
+Onmousedown -
+*/
+func (c *CiteTagHtml) Onmousedown(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmousedown", value)
+	return c
+}
+
+/*
+Onmouseenter -
+*/
+func (c *CiteTagHtml) Onmouseenter(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmouseenter", value)
+	return c
+}
+
+/*
+Onmouseleave -
+*/
+func (c *CiteTagHtml) Onmouseleave(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmouseleave", value)
+	return c
+}
+
+/*
+Onmousemove -
+*/
+func (c *CiteTagHtml) Onmousemove(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmousemove", value)
+	return c
+}
+
+/*
+Onmouseout -
+*/
+func (c *CiteTagHtml) Onmouseout(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmouseout", value)
+	return c
+}
+
+/*
+Onmouseover -
+*/
+func (c *CiteTagHtml) Onmouseover(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmouseover", value)
+	return c
+}
+
+/*
+Onmouseup -
+*/
+func (c *CiteTagHtml) Onmouseup(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmouseup", value)
+	return c
+}
+
+/*
+Onmousewheel -
+*/
+func (c *CiteTagHtml) Onmousewheel(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmousewheel", value)
+	return c
+}
+
+/*
+Onpause -
+*/
+func (c *CiteTagHtml) Onpause(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onpause", value)
+	return c
+}
+
+/*
+Onplay -
+*/
+func (c *CiteTagHtml) Onplay(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onplay", value)
+	return c
+}
+
+/*
+Onplaying -
+*/
+func (c *CiteTagHtml) Onplaying(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onplaying", value)
+	return c
+}
+
+/*
+Onprogress -
+*/
+func (c *CiteTagHtml) Onprogress(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onprogress", value)
+	return c
+}
+
+/*
+Onratechange -
+*/
+func (c *CiteTagHtml) Onratechange(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onratechange", value)
+	return c
+}
+
+/*
+Onreset -
+*/
+func (c *CiteTagHtml) Onreset(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onreset", value)
+	return c
+}
+
+/*
+Onscroll -
+*/
+func (c *CiteTagHtml) Onscroll(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onscroll", value)
+	return c
+}
+
+/*
+Onseeked -
+*/
+func (c *CiteTagHtml) Onseeked(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onseeked", value)
+	return c
+}
+
+/*
+Onseeking -
+*/
+func (c *CiteTagHtml) Onseeking(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onseeking", value)
+	return c
+}
+
+/*
+Onselect -
+*/
+func (c *CiteTagHtml) Onselect(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onselect", value)
+	return c
+}
+
+/*
+Onshow -
+*/
+func (c *CiteTagHtml) Onshow(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onshow", value)
+	return c
+}
+
+/*
+Onsort -
+*/
+func (c *CiteTagHtml) Onsort(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onsort", value)
+	return c
+}
+
+/*
+Onstalled -
+*/
+func (c *CiteTagHtml) Onstalled(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onstalled", value)
+	return c
+}
+
+/*
+Onsubmit -
+*/
+func (c *CiteTagHtml) Onsubmit(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onsubmit", value)
+	return c
+}
+
+/*
+Onsuspend -
+*/
+func (c *CiteTagHtml) Onsuspend(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onsuspend", value)
+	return c
+}
+
+/*
+Ontimeupdate -
+*/
+func (c *CiteTagHtml) Ontimeupdate(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ontimeupdate", value)
+	return c
+}
+
+/*
+Ontoggle -
+*/
+func (c *CiteTagHtml) Ontoggle(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ontoggle", value)
+	return c
+}
+
+/*
+Onvolumechange -
+*/
+func (c *CiteTagHtml) Onvolumechange(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onvolumechange", value)
+	return c
+}
+
+/*
+Onwaiting -
+*/
+func (c *CiteTagHtml) Onwaiting(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onwaiting", value)
+	return c
+}
+
+/*
+************************************************************************************************************************
+*--------------------------------------------- Window Action Attributes -----------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+Onafterprint -
+*/
+func (c *CiteTagHtml) Onafterprint(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onafterprint", value)
+	return c
+}
+
+/*
+Onbeforeprint -
+*/
+func (c *CiteTagHtml) Onbeforeprint(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onbeforeprint", value)
+	return c
+}
+
+/*
+Onbeforeunload -
+*/
+func (c *CiteTagHtml) Onbeforeunload(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onbeforeunload", value)
+	return c
+}
+
+/*
+Onerror -
+*/
+func (c *CiteTagHtml) Onerror(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onerror", value)
+	return c
+}
+
+/*
+Onhashchange -
+*/
+func (c *CiteTagHtml) Onhashchange(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onhashchange", value)
+	return c
+}
+
+/*
+Onload -
+*/
+func (c *CiteTagHtml) Onload(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onload", value)
+	return c
+}
+
+/*
+Onmessage -
+*/
+func (c *CiteTagHtml) Onmessage(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onmessage", value)
+	return c
+}
+
+/*
+Onoffline -
+*/
+func (c *CiteTagHtml) Onoffline(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onoffline", value)
+	return c
+}
+
+/*
+Ononline -
+*/
+func (c *CiteTagHtml) Ononline(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("ononline", value)
+	return c
+}
+
+/*
+Onpagehide -
+*/
+func (c *CiteTagHtml) Onpagehide(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onpagehide", value)
+	return c
+}
+
+/*
+Onpageshow -
+*/
+func (c *CiteTagHtml) Onpageshow(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onpageshow", value)
+	return c
+}
+
+/*
+Onpopstate -
+*/
+func (c *CiteTagHtml) Onpopstate(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onpopstate", value)
+	return c
+}
+
+/*
+Onresize -
+*/
+func (c *CiteTagHtml) Onresize(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onresize", value)
+	return c
+}
+
+/*
+Onstorage -
+*/
+func (c *CiteTagHtml) Onstorage(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onstorage", value)
+	return c
+}
+
+/*
+Onunload -
+*/
+func (c *CiteTagHtml) Onunload(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("onunload", value)
+	return c
+}
+
+/*
+************************************************************************************************************************
+*------------------------------------------------- Global Attributes --------------------------------------------------*
+************************************************************************************************************************
+ */
+
+/*
+AccessKey -
+*/
+func (c *CiteTagHtml) AccessKey(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("accessKey", value)
+	return c
+}
+
+/*
+Aria -
+*/
+func (c *CiteTagHtml) Aria(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("aria", value)
+	return c
+}
+
+/*
+Autocapitalize - Controls whether and how text input is automatically capitalized.
+Controls whether and how text input is automatically capitalized.
+*/
+func (c *CiteTagHtml) Autocapitalize(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("autocapitalize", value)
+	return c
+}
+
+/*
+Autofocus - Specifies that an element should automatically get focus when the page loads.
+Specifies that an element should automatically get focus when the page loads.
+*/
+func (c *CiteTagHtml) Autofocus(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("autofocus", value)
+	return c
+}
+
+/*
+Class -
+*/
+func (c *CiteTagHtml) Class(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("class", value)
+	return c
+}
+
+/*
+Contenteditable -
+*/
+func (c *CiteTagHtml) Contenteditable(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("contenteditable", value)
+	return c
+}
+
+/*
+Data -
+*/
+func (c *CiteTagHtml) Data(name, value string) *CiteTagHtml {
+	var dataName string
+	if name == "" {
+		dataName = "data"
+	} else {
+		dataName = fmt.Sprintf("data-%s", name)
+	}
+	c.registerAttribute(dataName, value)
+	return c
+}
+
+/*
+Dir -
+*/
+func (c *CiteTagHtml) Dir(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("dir", value)
+	return c
+}
+
+/*
+Draggable -
+*/
+func (c *CiteTagHtml) Draggable(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("draggable", value)
+	return c
+}
+
+/*
+EnterKeyHint -
+*/
+func (c *CiteTagHtml) EnterKeyHint(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("enterKeyHint", value)
+	return c
+}
+
+/*
+ExportParts -
+*/
+func (c *CiteTagHtml) ExportParts(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("exportParts", value)
+	return c
+}
+
+/*
+Hidden -
+*/
+func (c *CiteTagHtml) Hidden(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("hidden", value)
+	return c
+}
+
+/*
+Id -
+*/
+func (c *CiteTagHtml) Id(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("id", value)
+	return c
+}
+
+/*
+Inert -
+*/
+func (c *CiteTagHtml) Inert(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("inert", value)
+	return c
+}
+
+/*
+InputMode -
+*/
+func (c *CiteTagHtml) InputMode(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("inputMode", value)
+	return c
+}
+
+/*
+Is -
+*/
+func (c *CiteTagHtml) Is(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("is", value)
+	return c
+}
+
+/*
+ItemId -
+*/
+func (c *CiteTagHtml) ItemId(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("itemId", value)
+	return c
+}
+
+/*
+ItemProp -
+*/
+func (c *CiteTagHtml) ItemProp(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("itemProp", value)
+	return c
+}
+
+/*
+ItemRef -
+*/
+func (c *CiteTagHtml) ItemRef(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("itemRef", value)
+	return c
+}
+
+/*
+ItemScope -
+*/
+func (c *CiteTagHtml) ItemScope(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("itemScope", value)
+	return c
+}
+
+/*
+ItemType -
+*/
+func (c *CiteTagHtml) ItemType(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("itemType", value)
+	return c
+}
+
+/*
+Lang -
+*/
+func (c *CiteTagHtml) Lang(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("lang", value)
+	return c
+}
+
+/*
+Nonce -
+*/
+func (c *CiteTagHtml) Nonce(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("nonce", value)
+	return c
+}
+
+/*
+Part -
+*/
+func (c *CiteTagHtml) Part(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("part", value)
+	return c
+}
+
+/*
+Popover -
+*/
+func (c *CiteTagHtml) Popover() *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("popover", "")
+	return c
+}
+
+/*
+Role -
+*/
+func (c *CiteTagHtml) Role(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("role", value)
+	return c
+}
+
+/*
+Slot -
+*/
+func (c *CiteTagHtml) Slot(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("slot", value)
+	return c
+}
+
+/*
+Spellcheck -
+*/
+func (c *CiteTagHtml) Spellcheck(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("spellcheck", value)
+	return c
+}
+
+/*
+Style -
+*/
+func (c *CiteTagHtml) Style(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("style", value)
+	return c
+}
+
+/*
+Tabindex -
+*/
+func (c *CiteTagHtml) Tabindex(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("tabindex", value)
+	return c
+}
+
+/*
+Title -
+*/
+func (c *CiteTagHtml) Title(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("title", value)
+	return c
+}
+
+/*
+Translate -
+*/
+func (c *CiteTagHtml) Translate(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("translate", value)
+	return c
+}
+
+/*
+VirtualKeyBoardPolicy -
+*/
+func (c *CiteTagHtml) VirtualKeyBoardPolicy(value string) *CiteTagHtml {
+	if c.attributes == nil {
+		c.attributes = []*Attribute{}
+	}
+	c.registerAttribute("virtualKeyBoardPolicy", value)
+	return c
+}
